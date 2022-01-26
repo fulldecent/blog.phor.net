@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+{%- for post in site.posts -%}
+{%- assign page_basename = post.path | remove: ".md" | remove: ".html" | remove: "_posts/" -%}
+{%- assign related_heros = site.static_files | where: "basename", page_basename -%}
+{%- for static_file in related_heros -%}
+<p class="margin-note">
+  <img src="{{ static_file.path }}" style="max-width:25%">
+</p>
+{%- endfor -%}
+<div>
+  <h2 class="col fw-bold fs-3 fs-sm-2">
+    <a class="text-decoration-none" href="{{ post.url }}">{{ post.title | escape }}</a>
+  </h2>
+  <p>
+    {{ post.excerpt | strip_html | escape }}&hellip;
+  </p>
+  <p>
+    <!--<i class="bi-calendar"></i>--> <span class="me-2">{{ post.date | date: "%Y-%m-%d"  }}
+  {%- for tag in post.tags -%}
+    <a class="mx-2" href="/posts-by-tag#{{ tag | slugify }}">#{{ tag | downcase | escape }}</a>
+  {%- endfor -%}
+</p>
+</div>
+{%- endfor -%}
+
+<p><a href="posts-by-date">All posts</a></p>

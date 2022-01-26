@@ -1,0 +1,18 @@
+---
+layout: page
+title: Mission
+---
+
+Did you ever sing in the shower just get a few extra bars out while you're alone?
+
+That's basically what happening with this blog. I write essays to myself to help collect and organize my thoughts.
+
+Writing it out is also a really nice way to put an end to a project... or maybe just a chapter in a project?
+
+So that's why I'm writing this. And you are welcome to connect on any of these thoughts if we've struck a chord.
+
+Here's where I get some of my inspiration for writing:
+
+- https://xkcd.com — There's a lot that goes into these. If I could be more succinct, this is what most of my essays and Tweets would become. But in general I see a profound sense of wonder, analysis and humanity in these comics. These are also my guides, so when I'm writing about things I'm studying then they are my guides for writing.
+- https://theoatmeal.com/comics/reaching_people — This is a great warning of why the creators of the world need to continue being the publishers of the world.
+- https://edwardtufte.github.io/tufte-css/ — This is an inspiration for how this page is laid out.

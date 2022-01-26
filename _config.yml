@@ -1,0 +1,15 @@
+title: William Entriken Blog
+subtitle: Analysis of all
+description: Essays by William Entriken
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: "William Entriken"
+      title: ~
+      description: ~
+      updates: ~ # Array of date/changes objects
+
+# exclude: [CONTRIBUTING.md]

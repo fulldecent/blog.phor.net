@@ -1,4 +1,4 @@
-# blog.phor.net
+# Contributing
 
 How to maintain this site and add posts.
 
