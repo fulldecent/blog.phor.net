@@ -5,7 +5,7 @@ title: Ethics Statement
 
 This blog is basically essays I write to myself to reminisce and organize thoughts.
 
-But since somebody else *might* read these pages, I strive to publish in a way that I'd like others to write. Please hold me accountable to these rules and I commit to fix anything that falls afoul of them.
+But since somebody else *might* read these pages, I strive to publish in a way that I'd like others to write to me. Please hold me accountable to these rules and I commit to fix anything that falls afoul of them.
 
 ## Editorial independence
 
