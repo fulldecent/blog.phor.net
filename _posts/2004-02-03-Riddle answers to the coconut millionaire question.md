@@ -7,10 +7,6 @@ The last profile riddle:
 
 > *My friend told me the other day that he had found coconuts on sale for \$5 a dozen. Because there is a large demand for coconuts, he decided to sell them—for \$3 dollars a dozen. Since then, using this scheme, he has become a millionaire. How is this possible?*
 
-![2004-02-03-Riddle Answers to the coconut millionaire question](/assets/images/2004-02-03-Riddle Answers to the coconut millionaire question.jpg)
-
-Photo by [Sri Lanka](https://unsplash.com/@srilanka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-
 Generated too many funny responses to fit in the profile some are here:
 
 **Flyingelmo2004** 
