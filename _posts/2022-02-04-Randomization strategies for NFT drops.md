@@ -1,6 +1,10 @@
 ---
 title: "Randomization strategies for NFT drops"
 tags: blockchain
+comments:
+  - link: https://twitter.com/fulldecent/status/1490829369748897795
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 *ℹ️ This article assumes a basic/intermediate understanding of game theory, blockchain transaction settlement, entropy (mathematics) and Solidity. However the conclusions and reasoning are usable to anybody evaluating risks with different NFT drop approaches.*

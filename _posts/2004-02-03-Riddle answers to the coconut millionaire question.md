@@ -1,6 +1,10 @@
 ---
 title: "Riddle: answers to the coconut millionaire question"
 tags: riddles
+comments:
+  - link: https://twitter.com/fulldecent/status/1490829383338184704
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 The last profile riddle: 
