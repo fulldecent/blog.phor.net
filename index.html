@@ -7,7 +7,7 @@ layout: page
 {%- assign related_heros = site.static_files | where: "basename", page_basename -%}
 {%- for static_file in related_heros -%}
 <p class="margin-note">
-  <img src="{{ static_file.path }}" style="max-width:25%">
+  <img src="{{ static_file.path }}" style="max-height: 8rem">
 </p>
 {%- endfor -%}
 <div>
