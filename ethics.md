@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ethics Statement
+title: Ethics statement
 ---
 
 This blog is basically essays I write to myself to reminisce and organize thoughts.
