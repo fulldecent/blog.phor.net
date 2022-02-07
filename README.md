@@ -36,12 +36,16 @@ This syntax is explained at https://kramdown.gettalong.org/quickref.html
 
 ## Article images
 
-1. Make a featured image with the same basename as the post and put it in `/assets/images`.
-
-2. For other images, put in folder like `/assets/images/2021-12-03-a-post/xxxyyy.png` and link like `...markdown image link code...`.
+1. Make a featured image with the same basename as the post and put it in `/assets/images`. Include it like:
 
    ```markdown
-   ![image-title-here](/path/to/image.jpg){:class="img-responsive"}
+   ![Fair random immediate decentralized](/assets/images/2022-02-04-Randomization strategies for NFT drops.svg)
+   ```
+
+2. For other images, put in folder like `/assets/images/2021-12-03-a-post/xxxyyy.png` and link like this:
+
+   ```markdown
+   ![Fair random immediate decentralized](/assets/images/2022-02-04-Randomization strategies for NFT drops/Fair random immediate decentralized.svg)
    ```
 
 

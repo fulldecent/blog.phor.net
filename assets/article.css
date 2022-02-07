@@ -79,13 +79,13 @@ p.margin-note::before {
 @media (min-width: 768px) { /* This condition is same as Bootstrap's "md-" breakpoint */
   article > * { /* Contents are same as Bootstrap's col-md-8 class */
     flex: 0 0 auto; /* col-*-8 */
-    width: 66.66666667%; /* col-*-8 */
+    width: 66.66666667% !important; /* col-*-8 */ /* Upgraded to !important so that .table will get this width */
     padding-right: 0.5rem !important; /* pe-2 */
   }
 
   .margin-note {
     flex: 0 0 auto; /* col-*-4 */
-    width: 33.33333333%; /* col-*-4 */
+    width: 33.33333333% !important; /* col-*-4 */ /* Upgraded because I upgraded 66.66... above */
     border-left: 1px solid #dee2e6 !important; /* border-start */
     border-width: 5px !important; /* border-5 */
     float: right !important; /* float-end */
@@ -97,7 +97,7 @@ p.margin-note::before {
   }
 }
 
-ul, ol, p, .serif {
+ul, ol, p, .serif, table {
   font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
