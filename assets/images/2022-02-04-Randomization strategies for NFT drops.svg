@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="63.087788mm"
+   height="50.341465mm"
+   viewBox="0 0 63.087788 50.341465"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="NFT drop fair random immediate.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path881" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="151.44693"
+     inkscape:cy="95.520061"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.516915,-109.85347)">
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="18.067249"
+       y="112.37231"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="18.067249"
+         y="112.37231"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Asset sales on decentralized ledgers</tspan></text>
+    <circle
+       style="fill:#3d45cc;fill-opacity:0.435484;stroke:#3d45cc;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
+       id="path852"
+       cx="38.648067"
+       cy="129.17337"
+       r="14.079613" />
+    <circle
+       style="fill:#cc893d;fill-opacity:0.435484;stroke:#cc893d;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
+       id="circle854"
+       cx="59.247768"
+       cy="128.98438"
+       r="14.079613" />
+    <circle
+       style="fill:#3dcca6;fill-opacity:0.435484;stroke:#3dcca6;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;stop-color:#000000"
+       id="circle856"
+       cx="50.554317"
+       cy="145.61533"
+       r="14.079613" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="32.543747"
+       y="127.26457"
+       id="text860"><tspan
+         sodipodi:role="line"
+         id="tspan858"
+         x="32.543747"
+         y="127.26457"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Fair</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="42.597916"
+       y="150.39671"
+       id="text864"><tspan
+         sodipodi:role="line"
+         id="tspan862"
+         x="42.597916"
+         y="150.39671"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Immediate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="55.486904"
+       y="127.1134"
+       id="text868"><tspan
+         sodipodi:role="line"
+         id="tspan866"
+         x="55.486904"
+         y="127.1134"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Random</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="25.702379"
+       y="152.05963"
+       id="text872"><tspan
+         sodipodi:role="line"
+         id="tspan870"
+         x="25.702379"
+         y="152.05963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Not</tspan><tspan
+         sodipodi:role="line"
+         x="25.702379"
+         y="156.47229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583"
+         id="tspan874">possible</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 24.870834,152.89137 c 0,0 -14.741072,-10.01637 23.812499,-18.70982"
+       id="path876" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="25.702379"
+       y="152.05963"
+       id="text1176"><tspan
+         sodipodi:role="line"
+         id="tspan1172"
+         x="25.702379"
+         y="152.05963"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583">Not</tspan><tspan
+         sodipodi:role="line"
+         x="25.702379"
+         y="156.47229"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583"
+         id="tspan1174">possible</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:Graphik;-inkscape-font-specification:Graphik;word-spacing:0px;stroke-width:0.264583"
+       x="61.988094"
+       y="158.06931"
+       id="text1182"><tspan
+         sodipodi:role="line"
+         x="61.988094"
+         y="158.06931"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';stroke-width:0.264583"
+         id="tspan1180">@fulldecent</tspan></text>
+  </g>
+</svg>
