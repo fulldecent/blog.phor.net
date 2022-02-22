@@ -1,6 +1,10 @@
 ---
 title: "10 weird things you can do on a couch"
 tags: my-life
+comments:
+  - link: https://twitter.com/fulldecent/status/1495979686278668288
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 **Ode to a couch**

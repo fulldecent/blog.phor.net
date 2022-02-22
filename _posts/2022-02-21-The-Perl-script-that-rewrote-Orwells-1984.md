@@ -1,6 +1,10 @@
 ---
 title: "The Perl script that rewrote Orwell's Nineteen Eighty-Four"
 tags: programming predictions
+comments:
+  - link: https://twitter.com/fulldecent/status/1495979686278668288
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 *I always dreamed of publishing my first book, a specific project, but it meant waiting for the 70th anniversary of George Orwell's death.*
