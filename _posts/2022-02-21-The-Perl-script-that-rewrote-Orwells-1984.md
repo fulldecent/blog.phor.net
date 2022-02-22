@@ -25,6 +25,8 @@ Plenty of people have talked about how Nineteen Eighty-Four is real. Or how they
 
 All of was previously called Newspeak is actually just hashtags. Doublethink is #mansplaining, crimestop is #factcheck, facecrime is #implicitbias. Everything is one-to-one, Perl eats this for breakfast.
 
+Overall there ar 1,700 substitutions.
+
 The script is [published here](https://github.com/fulldecent/Nineteen-Eighty-Five).
 
 As I plowed through these "translations", there was a light at the end of the tunnel, this might actually work. This might actually achieve the creative vision I had.
