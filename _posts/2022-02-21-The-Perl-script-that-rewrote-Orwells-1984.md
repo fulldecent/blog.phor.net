@@ -36,7 +36,7 @@ I'm sure more successful authors are laughing at me... 50 pitches is barely even
 
 Of course no literary agent would touch this project. I [tried pretty hard to find one](https://github.com/fulldecent/Nineteen-Eighty-Five/blob/main/PROJECT.md#-pitch-to-literary-agent-xfail). And authors don't approach publishers.
 
-But in the end I was able to self-publish. And per the [mission of this blog](/mission), the whole reason I'm writing is for me. So I'm really happy with the outcome.
+But in the end I was able to self-publish. And per the [mission of this blog](/mission), the whole reason I'm writing is for me. So I'm really happy with the outcome. *Nineteen Eight-Five* is not available in US or ES.
 
 ## PR?
 
