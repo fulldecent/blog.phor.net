@@ -21,7 +21,7 @@ I may request free samples / special access / demo accounts as part of reviewing
 
 One example of products I reviewed after receiving special access is my [DCentral Miami 2021 review of NFT platforms](https://drive.google.com/drive/u/0/folders/1PASBnEAjBL2igZjfGuzUtDm7QC-m8ngh). You can see here plenty of corrective feedback, in some cases there is barely any confirming feedback. My goal of doing these reviews is to be helpful and respectful, so if something is wrong I hope that my feedback can help the project in the long term whether it is "good" or "bad".
 
-
+See also my specific note about [ethics and NFTs](/2022/03/23/Ethics-statement-on-buying-NFTs.html).
 
 ## Advertising
 

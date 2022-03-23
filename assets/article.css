@@ -23,6 +23,14 @@ body {
 h1 {
   font-weight: bolder !important; /* fw-bolder */
 }
+
+/* Promoted from Bootstrap .blockquote */
+blockquote {
+  border-left: 1px solid #dee2e6 !important; /* border-start */
+  border-width: 10px !important; /* border-5 */
+  padding-left: 1rem !important; /* ps-2 */
+}
+
 .container-fluid {
   max-width: 1399px;
   padding-left: 6%;
