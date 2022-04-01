@@ -1,6 +1,10 @@
 ---
 title: "Monthly updates"
 tags: my-life
+comments:
+  - link: https://twitter.com/fulldecent/status/1509948824520990725
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 ## ⭐️ Mission
