@@ -7,8 +7,6 @@ comments:
     text: The official Twitter thread
 ---
 
-## Travel goals
-
 I would love to be on the road all the time meeting the designers and builders that craft the future we all see coming. This future is accountable, transparent, respectful of customers and increasingly built on concepts brought up by blockchain and NFTs.
 
 But I love spending time with my family more, so I won't go to all those great events.

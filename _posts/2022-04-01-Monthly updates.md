@@ -7,8 +7,6 @@ comments:
     text: The official Twitter thread
 ---
 
-## ⭐️ Mission
-
 Part of my own new year's plan was to set a professional mission (inspired by Musk's "Die on Mars") and organize my time to getting towards that. Here's the mission:
 
 {: .margin-note}
