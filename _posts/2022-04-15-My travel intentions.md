@@ -2,7 +2,7 @@
 title: "My travel intentions"
 tags: my-life blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/1509948824520990725
+  - link: https://twitter.com/fulldecent/status/1515068046360125442
     name: '@fulldecent'
     text: The official Twitter thread
 ---
@@ -32,4 +32,4 @@ If you buy [Su Squares](https://tenthousandsu.com) directly from me in a negotia
 
 These are the best ways to have me as a part of your event, which can include speeches, workshops, panels, builder events/training, one-on-one reviews and more.
 
-##### If this is your first event, great! The first event I personally ran was [Chain 76](https://chain76.org) and I've ran keynotes on the first year for many new NFT events that are now successful recurring sensations. It's been a blessing to be part of these and I'm so glad you are able to keep building these communities and connecting/informing everyone.
+If this is your first event, great! The first event I personally ran was [Chain 76](https://chain76.org) and I've ran keynotes on the first year for many new NFT events that are now successful recurring sensations. It's been a blessing to be part of these and I'm so glad you are able to keep building these communities and connecting/informing everyone.

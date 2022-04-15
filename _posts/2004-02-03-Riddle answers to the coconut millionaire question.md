@@ -2,7 +2,7 @@
 title: "Riddle: answers to the coconut millionaire question"
 tags: riddles my-life funny
 comments:
-  - link: https://twitter.com/fulldecent/status/1490829383338184704
+  - link: https://twitter.com/fulldecent/status/1515068047261904898
     name: '@fulldecent'
     text: The official Twitter thread
 ---
