@@ -2,7 +2,7 @@
 title: "NFTs, good or bad for art?"
 tags: my-life blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/1515068046360125442
+  - link: https://twitter.com/fulldecent/status/1522343230599319552
     name: '@fulldecent'
     text: The official Twitter thread
 ---
@@ -19,7 +19,7 @@ The authors' motivation for working on this NFT standard in 2018 was to make it 
 
 The greatest impact is on newly created art ("digital native"). NFTs give artists new revenue streams, significantly lower gallery fees, and a highly liquid market.
 
-### **New revenue streams**
+### New revenue streams
 
 Nearly all platforms for trading NFTs include a royalty component. This means artists get paid when they originally sell their artwork, and also every time that artwork is resold on one of these markets.
 
@@ -37,7 +37,7 @@ Several NFT platforms specifically require artists to directly enroll themselves
 
 Platform fees for creating and selling new NFT pieces is typically between 2.5% and 10% of revenue, with 2.5% being the most common. This fee amount can compare favorably to galleries for fine art, and agencies for other creative arts. Payment is also immediate. Of course, artists can expect less services for this lower fee and possibly less exposure.
 
-## Highly liquid market
+### Highly liquid market
 
 Marketplaces selling NFTs are exceeding USD 1 billion in sales per week. These auctions, and fixed-price sales, can be started immediately at any time or scheduled. And they can happen individually or as part of a "drop" of several pieces simultaneously.
 
@@ -55,10 +55,11 @@ Quite a few people have spent between thousands and millions of dollars (USD) to
 
 1. **Utility**—During COVID-19, a years-long bad hair day, many people are happy to adopt a fictional visual representation of themself. And as we learn more about the impacts of interactive media on self-image, staring at a younger photo of one's self every day might leave still more people looking for an alternative. Premium profile photos fill this void.
 
-1. **"Flex" (showing off)**—Because of transparent NFT marketplaces, it is well known that many profile photo NFTs are valued over USD 100,000. Anybody claiming to own one is representing liquid assets of at least that much. This can be more effective than most dating profile photos that subtly but very clearly show a premium car brand in the background.
-2. **Patronage**—Nearly all NFT art sales on the primary market are a direct transaction between the artist and the buyer. Buyers can be confident their money is directly supporting the artist.
+2. **"Flex" (showing off)**—Because of transparent NFT marketplaces, it is well known that many profile photo NFTs are valued over USD 100,000. Anybody claiming to own one is representing liquid assets of at least that much. This can be more effective than most dating profile photos that subtly but very clearly show a premium car brand in the background.
 
-## **The good, the bad, and the ugly of NFTs**
+3. **Patronage**—Nearly all NFT art sales on the primary market are a direct transaction between the artist and the buyer. Buyers can be confident their money is directly supporting the artist.
+
+## The good, the bad, and the ugly of NFTs
 
 *The good and the bad are intertwined.*
 
@@ -74,7 +75,7 @@ NFT platforms typically allow any transaction to go through, totally ignoring re
 
 Originally [reported here](https://fulldecent.blogspot.com/2021/03/tesla-announces-new-model-t.html)
 
-Bitcoin, the original Ethereum Mainnet, and other blockchains contribute significantly to carbon emissions. How much emissions? Putting this into perspective, if you purchase a freshly minted Bitcoin and use it to buy a Tesla Model 3, this will contribute more to carbon emissions than if you bought the original Ford Model T in 1908 and drove it on gasoline until today. [phor]
+Bitcoin, the original Ethereum Mainnet, and other blockchains contribute significantly to carbon emissions. How much emissions? Putting this into perspective, if you purchase a freshly minted Bitcoin and use it to buy a Tesla Model 3, this will contribute more to carbon emissions than if you bought the original Ford Model T in 1908 and drove it on gasoline until today.
 
 ## The past 12 months
 
@@ -86,9 +87,9 @@ The NFT art market has doubled in size approximately every 3 months. [kitties]
 
 {: .margin-note}
 
-See [Rarity Tools]https://rarity.tools], scroll down, click ESTIMATED MARKET CAP; the top ten of ten are profile photos.
+See [Rarity Tools](https://rarity.tools), scroll down, click ESTIMATED MARKET CAP; the top ten of ten are profile photos.
 
-So far this past year we have seen success with "profile photos'' for sale. This is the largest category of NFTs and includes anything that could be set as your avatar on Twitter or similar platforms [rarity tools]. Typically that is a still, two-dimensional image with an aspect ratio of one-to-one and which looks good if clipped into a circle.
+So far this past year we have seen success with "profile photos'' for sale. This is the largest category of NFTs and includes anything that could be set as your avatar on Twitter or similar platforms. Typically that is a still, two-dimensional image with an aspect ratio of one-to-one and which looks good if clipped into a circle.
 
 This means that people are anthropomorphizing cats (see above) and mostly other animals as their own online presence. There is much room left to innovate on any graphics including eyes and a mouth.
 

@@ -2,7 +2,7 @@
 title: "C++ STL set functions… and liquids that can write code"
 tags: coding
 comments:
-  - link: https://twitter.com/fulldecent/status/1486181100904980482
+  - link: https://twitter.com/fulldecent/status/1522343235007438848
     name: '@fulldecent'
     text: The official Twitter thread
   - link: https://fulldecent.blogspot.com/2004/06/are-you-badass-with-c-then-fix-this.html?showComment=1087170900000#c108717092705622985
@@ -22,7 +22,7 @@ You needed the () operator after your struct, and you had the last two arguments
 
 Are you badass with C++ STL? Then fix this...
 
-```cpp
+```c++
 #include <iostream>
 #include <map>
 #include <set>
