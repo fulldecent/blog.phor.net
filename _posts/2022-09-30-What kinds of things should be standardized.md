@@ -18,6 +18,8 @@ And in technical circles, we call the specific parts that are standardized as it
 
 As always, to understand the tech world, we should also compare with the rest of the world. Then we'll apply it to blockchain standards processes.
 
+{: .table}
+
 | Standard                                                     | Producers                                                 | Consumers                                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------ |
 | [ERC-721](https://eips.ethereum.org/EIPS/eip-721) (i.e. NFTs) | Smart contracts on Ethereum, TRON, etc.                   | Crypto wallets, marketplaces, real-life parties that confirm ownership to let you in |
@@ -28,6 +30,8 @@ As always, to understand the tech world, we should also compare with the rest of
 | People drive on the left side of the road (in some countries) | Drivers, car manufacturers, traffic signage               | Other drivers on the road, pedestrians                       |
 
 Let's look a little closer at things that are and are not standardized:
+
+{: .table}
 
 | Standard                                  | Origin of standard                                           |
 | ----------------------------------------- | ------------------------------------------------------------ |
@@ -43,6 +47,10 @@ We have looked at a few example of things that have been standardized, different
 Some of these behaviors might be important. Maybe you don't like skipping, you can adopt that behavior. But as a standard these are useless, I hope you understand. But let's articulate why.
 
 <mark>A standard only deserves to be written if multiple people adhere to it and people depend on it's surface area.</mark>
+
+{: .margin-note}
+
+FYI, in the United States, the post office has their own police. Watch out for that.
 
 ✅ If you routinely use postcard stamps to mail letters that are not postcard size you will go to jail. Multiple people mail postcards and depend on not going to jail... this deserves to be standardized.
 
