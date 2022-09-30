@@ -2,7 +2,7 @@
 title: "School is canceled"
 tags: my-life
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxxx
+  - link: https://twitter.com/fulldecent/status/1575908254693359616
     name: '@fulldecent'
     text: The official Twitter thread
   - link: http://pinknblack.blogspot.com/2004/04/villanova.html

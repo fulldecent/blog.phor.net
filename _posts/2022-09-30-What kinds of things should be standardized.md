@@ -2,12 +2,12 @@
 title: "What kinds of things should be standardized?"
 tags: coding
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxxx
+  - link: https://twitter.com/fulldecent/status/1575908251945689091
     name: '@fulldecent'
     text: The official Twitter thread
-  - link: https://ethereum-magicians.org/
-    name: XXX
-    text: XXX
+  - link: https://ethereum-magicians.org/t/which-things-need-ercs-and-which-dont/11128
+    name: '@fulldecent'
+    text: Which things need ERCs and which don’t
 ---
 
 A <dfn>standard</dfn>, in technical settings, is an established specification which allows any compliant thing to work with any compliant user of that thing, also known as cross-connect. It is a set of restrictions, or marketing claims, incumbent upon the standardized product.
