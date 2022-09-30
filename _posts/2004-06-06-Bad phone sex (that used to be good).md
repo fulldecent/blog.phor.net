@@ -7,15 +7,15 @@ Is it possible to ruin sex with a phone call, if the person who called you is th
 
 This is a question I haven't thought of, but that was just answered for me.
 
-Anonymous said…
+Here is the first inquiry...
 
-> <span style="color:blue">Anthony Romano</span>: hey<br>
-> <span style="color:blue">Anthony Romano</span>: explain phone + sex + ruin<br>
-> <span style="color:blue">Anthony Romano</span>: unless its too personal<br>
-> <span style="color:blue">Anthony Romano</span>: but if its comical I do wish to know<br>
-> <span style="color:red">Full Decent</span>: the sex is in the dream<br>
-> <span style="color:red">Full Decent</span>: then that person called to wake me up<br>
-> <span style="color:red">Full Decent</span>: = end sex
+> <span style="color:blue">Anthony Romano:</span> hey<br>
+> <span style="color:blue">Anthony Romano:</span> explain phone + sex + ruin<br>
+> <span style="color:blue">Anthony Romano:</span> unless its too personal<br>
+> <span style="color:blue">Anthony Romano:</span> but if its comical I do wish to know<br>
+> <span style="color:red">Full Decent:</span> the sex is in the dream<br>
+> <span style="color:red">Full Decent:</span> then that person called to wake me up<br>
+> <span style="color:red">Full Decent:</span> = end sex
 
 Anonymous said…
 
