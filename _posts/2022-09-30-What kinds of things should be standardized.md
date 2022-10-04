@@ -46,7 +46,7 @@ We have looked at a few example of things that have been standardized, different
 
 Some of these behaviors might be important. Maybe you don't like skipping, you can adopt that behavior. But as a standard these are useless, I hope you understand. But let's articulate why.
 
-<mark>A standard only deserves to be written if multiple people adhere to it and people depend on it's surface area.</mark>
+<mark>A standard only deserves to be written if multiple people adhere to it and people depend on its surface area.</mark>
 
 {: .margin-note}
 
