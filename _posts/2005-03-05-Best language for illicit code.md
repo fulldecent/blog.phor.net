@@ -2,7 +2,7 @@
 title: "Best language for illicit code"
 tags: my-life
 comments:
-  - link: https://twitter.com/fulldecent/status/XXX
+  - link: https://twitter.com/fulldecent/status/1589652876770836486
     name: '@fulldecent'
     text: The official Twitter thread
 ---
