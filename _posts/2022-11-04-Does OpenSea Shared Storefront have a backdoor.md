@@ -19,7 +19,7 @@ Is this what artists expected when they decided to mint with OpenSea?
 
 ## Background
 
-OpenSea Shared Storefront is the ERC-1155 contract [deployed on Ethereum Mainnet](0x495f947276749ce646f68ac8c248420045cb7b5e). If you try to create an NFT using the OpenSea website and follow all the default options without creating your own smart contract, this is where your NFT will go.
+OpenSea Shared Storefront is the ERC-1155 contract deployed on Ethereum Mainnet. If you try to create an NFT using the OpenSea website and follow all the default options without creating your own smart contract, this is where your NFT will go.
 
 {: .margin-note}
 
