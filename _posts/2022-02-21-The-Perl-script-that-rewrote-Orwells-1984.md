@@ -5,6 +5,9 @@ comments:
   - link: https://twitter.com/fulldecent/status/1495979686278668288
     name: '@fulldecent'
     text: The official Twitter thread
+  - link: https://www.reddit.com/r/2600/comments/t4b6ov/nineteen_eightyfive/
+    name: '@fulldecent'
+    text: Discussion on Reddit
 ---
 
 *I always dreamed of publishing my first book, a specific project, but it meant waiting for the 70th anniversary of George Orwell's death.*
