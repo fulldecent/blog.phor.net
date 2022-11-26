@@ -87,3 +87,16 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
 - Does OpenSea's ability to take tokens count as "ownership" in the same way that the token's buyer is considered an "owner"?
 - Is OpenSea's implementation compliant with [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155#approval)'s transfer and approval specifications?
 - Is it necessary for a large company to publish their smart contract's source code even when many people won't read it?
+
+{%- comment -%}
+- [x] Publish GitHub repo // visibility public
+- [x] Tweet
+- [x] Update 2 BLOG POSTS to link to that tweet
+- [x] Update Tweets to reference this new tweet
+  - [x] https://twitter.com/fulldecent/status/1581004011763007488
+  - [x] https://twitter.com/fulldecent/status/1577066829440503808
+  - [x] https://twitter.com/fulldecent/status/1582140475208699904
+- [x] Post to https://news.ycombinator.com/item?id=33507819
+- [x] Post to https://www.reddit.com/r/opensea/comments/yorv3l/why_does_the_main_opensea_smart_contract_no/
+- [x] Post audit to https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e#comments
+{%- endcomment -%}
