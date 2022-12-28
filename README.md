@@ -48,7 +48,6 @@ This syntax is explained at https://kramdown.gettalong.org/quickref.html
    ![Fair random immediate decentralized](/assets/images/2022-02-04-Randomization strategies for NFT drops/Fair random immediate decentralized.svg)
    ```
 
-
 ## Style guide
 
 * The blog's name is in title case. Everything else, including post titles, is sentence case.
