@@ -2,7 +2,7 @@
 title: "Riddle beakers"
 tags: my-life
 comments:
-  - link: https://twitter.com/fulldecent/status/xxx
+  - link: https://twitter.com/fulldecent/status/1619215276138205185
     name: '@fulldecent'
     text: The official Twitter thread
 ---
