@@ -12,4 +12,11 @@ defaults:
       description: ~
       updates: ~ # Array of date/changes objects
 
-# exclude: [CONTRIBUTING.md]
+# Cause a build to fail if there is a YAML syntax error in a page's front matter.
+strict_front_matter: true
+
+# https://jekyllrb.com/docs/configuration/liquid/
+liquid:
+  error_mode: strict
+  strict_variables: true
+  strict_filters: true

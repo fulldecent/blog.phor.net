@@ -1,13 +1,17 @@
 ---
 layout: base
+# Requires: page.title, page.tags
 ---
 {%- assign time_estimated = content | number_of_words | divided_by: 300 | plus: 1 | append: " minutes" -%}
+{%- if page contains "time" -%}
+  {%- assign time_estimated = page.time -%}
+{%- endif -%}
   <header>
     <section class="container-fluid pt-5">
       <div class="float-start col-md-8 pe-2">
         <h1>{{ page.title | escape }}</h1>
         <p>By {{ page.author }}</p>  <!-- HAVE A SITE DEFAULT  -->      
-        <p>{{ page.time | default: time_estimated }}</p>
+        <p>{{ time_estimated }}</p>
       </div>
       <aside class="margin-note mb-5">
         <p>
@@ -34,7 +38,8 @@ layout: base
     <h2>Comments</h2>
     <p>Discuss and share this topic anywhere. May we recommend:</p>
     <ul>
-{%- for comment in page.comments -%}
+{%- if page contains "comments" -%}      
+{%- for comment in page.comments %}
       <li>
         <a target="_blank" href="{{ comment.link }}">
           <figure>
@@ -42,15 +47,18 @@ layout: base
             <p>{{ comment.text | newline_to_br }}</p>
           </blockquote>
           <figcaption class="blockquote-footer">
-              {{ comment.name }} <cite title="Source Title">{{ comment.date }}</cite>
+              {{ comment.name }}
+{% if comment contains "date" -%}
+              <cite title="Source Title">{{ comment.date }}</cite>
+{% endif -%}
           </figcaption>
         </figure> 
       </a>
     </li>
-{%- endfor -%}
-{%- unless page.comments -%}
+{% endfor -%}
+{%- else %} 
       <li>There is no official Twitter thread yet. Hit me up and I will make one.</li>
-{%- endunless -%}
+{% endif -%}
       <li>Please let me know any other good media coverage I should link here.</li>
       <li>Talk with me live every Tuesday 6pm (New York) at <a target="csh" href="https://phor.net/#speaking">NFT/Web3 Community Service Hour</a>.</li>
     </ul>
