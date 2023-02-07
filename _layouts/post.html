@@ -15,9 +15,9 @@ layout: base
       </div>
       <aside class="margin-note mb-5">
         <p>
-{%- for tag in page.tags -%}
+{%- for tag in page.tags %}
           <a href="/posts-by-tag#{{ tag | slugify }}">#{{ tag }}</a>
-{%- endfor -%}
+{% endfor -%}
         </p>
         <p class="mb-0">
           {{ page.date | date: "%Y-%m-%d" }}: Published

@@ -4,7 +4,9 @@ layout: base
   <header>
     <section class="container-fluid pt-5 pb-3">
       <div class="float-start col-md-8 pe-2">
+{%- if page.path != "index.html" %}        
         <h1>{{ page.title | escape }}</h1>
+{% endif -%}        
       </div>
       <div class="clearfix"></div>
     </section>

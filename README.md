@@ -58,3 +58,17 @@ Jekyll [does not have a good, built-in way of directly associating images to pos
 
 - https://www.miguoliang.com/effective-jekyll-content-management-image-assets-in-posts.html
 - https://billraymond.github.io/jekyll-featured-images/
+
+## Tool
+
+```
+@@@ GOOD FORMAT EXAMPLE @@@
+
+> <span style="color:blue">Steven Shim:</span> ok the riddle ... it's not possible, because 8x + 6y = 5 does not have a solution where you can use integers, so there is no way to get 3 or 1 gallons from the mix.... otherwise you'd be able to get 5 gallons. is this right?<br />
+> <span style="color:red">Full Decent: xml asap!!!</span><br />
+> <span style="color:blue">Steven Shim:</span> because the lowest common denominator is 1
+
+@@@ TEXT TO REFORMAT @@@
+
+@@@ REFORMATTED TEXT @@@
+```
