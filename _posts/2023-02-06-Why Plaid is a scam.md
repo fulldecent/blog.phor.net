@@ -1,4 +1,5 @@
 ---
+title: Why Plaid is a scam
 tags: scams
 comments:
   - link: https://twitter.com/fulldecent/status/xxx
