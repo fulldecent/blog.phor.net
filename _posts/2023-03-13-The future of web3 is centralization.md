@@ -1,7 +1,7 @@
 ---
 tags: blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxx
+  - link: https://twitter.com/fulldecent/status/1635342665515687938
     name: '@fulldecent'
     text: The official Twitter thread
 ---
