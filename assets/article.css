@@ -1,23 +1,13 @@
-/* Color & branding */
-:root {
-  --fd-header: #f7f5fb;
-}
-
 header#site-header {
   background: var(--fd-header);
 }
 
 body > header {
-  background: linear-gradient(to right bottom,var(--fd-header) 50%,rgba(100,100,100,0) 50%);
+  background: linear-gradient(to right bottom,var(--fd-header) 50%,transparent 50%);
 }
 
 body > footer {
   background: var(--fd-header);
-}
-
-body {
-  background-color: #fffff8; /* From Tufte-CSS */
-  color: var(--bs-body-color);
 }
 
 h1 {
@@ -26,7 +16,7 @@ h1 {
 
 /* Promoted from Bootstrap .blockquote */
 blockquote {
-  border-left: 1px solid #dee2e6 !important; /* border-start */
+  border-left: 1px solid var(--bs-body-color) !important; /* border-start */
   border-width: 10px !important; /* border-5 */
   padding-left: 1rem !important; /* ps-2 */
 }
@@ -58,8 +48,6 @@ html:after {
   background-color: var(--fd-header);
 }
 
-
-
 /* Individual fixes */
 div.highlighter-rouge {
   font-size: 0.85rem; /* Rouge makes it a little too big */
@@ -68,15 +56,10 @@ div.highlighter-rouge .highlight {
   border-radius: 0.2rem;
 }
 
-
 /* Dave Liepmann advice: Blue text, while also a widely recognizable clickable-text indicator, is crass and distracting. Luckily, it is also rendered unnecessary by the use of underlining. */
-a:link, a:visited {
-  color: var(--bs-body-color);
+a:link:not(:hover) {
+  --bs-link-color-rgb: var(--bs-body-color);
 }
-a:hover, a:focus {
-  color: #0a58ca;
-}
-
 
 /* Inside the article text, if we are in wide layout, everything that is not an aside we want leave room on the right side */
 p.margin-note::before {
@@ -94,7 +77,7 @@ p.margin-note::before {
   .margin-note {
     flex: 0 0 auto; /* col-*-4 */
     width: 33.33333333% !important; /* col-*-4 */ /* Upgraded because I upgraded 66.66... above */
-    border-left: 1px solid #dee2e6 !important; /* border-start */
+    border-left: 1px solid var(--bs-body-color) !important; /* border-start */
     border-width: 5px !important; /* border-5 */
     float: right !important; /* float-end */
     padding-left: 0.5rem !important; /* ps-2 */
@@ -156,4 +139,18 @@ html {
 
 img {
   max-width: 100%; 
+}
+
+/* Color schemes */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fd-header: #2a2c2e; /* #fffff8 is to #f7f5fb as #adb5bd is to #212529 */
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --fd-header: #f7f5fb;
+    --bs-body-bg: #fffff8; /* From Tufte-CSS, we prefer this to the default white */
+  }
 }
