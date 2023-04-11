@@ -2,7 +2,7 @@
 title: "OpenSea cooperated transaction with SDN sanctioned entity"
 tags: nft
 comments:
-  - link: https://twitter.com/fulldecent/status/xxx
+  - link: https://twitter.com/fulldecent/status/1645766658110238720
     name: '@fulldecent'
     text: The official Twitter thread
 ---

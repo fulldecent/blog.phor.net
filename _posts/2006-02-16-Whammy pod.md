@@ -1,7 +1,7 @@
 ---
 tags: [my-life, humor]
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxx
+  - link: https://twitter.com/fulldecent/status/1645766658110238720
     name: '@fulldecent'
     text: The official Twitter thread
 ---
