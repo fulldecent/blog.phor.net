@@ -27,7 +27,7 @@ In Philadelphia, I'll present on enterprise blockchain 2022-04-19, how to layout
 
 Then New York, I'll be at NFT.nyc 2022-06-20. Always a good time, my speech topic is not selected yet, please share your ideas!
 
-As always, you can see me on Tuesday nights (New York time) at the public NFT/Web3 Community Service Hour https://twitter.com/fulldecent/status/1475851800322453504 and the private Origins NFT Solidity Class https://discord.com/invite/originsNFT ℹ️ For just next week, the class will be 16 hours earlier than the normal time.
+As always, you can see me on Tuesday nights (New York time) at the public Community Service Hour https://twitter.com/fulldecent/status/1475851800322453504 and the private Origins NFT Solidity Class https://discord.com/invite/originsNFT ℹ️ For just next week, the class will be 16 hours earlier than the normal time.
 
 Please lmk other events to check out.
 

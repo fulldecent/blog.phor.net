@@ -256,5 +256,3 @@ Examples:
 - Is the risk of rug pulls/disappearance moot when you buy in a presale?
 - How do auctions and other price-discovery mechanisms offset the "abstract" risk discussed under "no randomization" above?
 - Is there any benefit to using an auction for drops which are designed to be "random"?
-
-You are welcome to discuss these at your reading club, or also raise them during [NFT/Web3 Community Service Hour](https://phor.net/#speaking).
