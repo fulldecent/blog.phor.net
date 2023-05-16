@@ -2,7 +2,7 @@
 title: "What is money, and how is Bitcoin/tokens different?"
 tags: blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxx
+  - link: https://twitter.com/fulldecent/status/1658306446319050752
     name: '@fulldecent'
     text: The official Twitter thread
 ---
