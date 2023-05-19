@@ -36,6 +36,8 @@ This syntax is explained at https://kramdown.gettalong.org/quickref.html
 
 ## Article images
 
+If a raster image is used just for editorial (detail not needed), scale down to 800 px.
+
 1. Make a featured image with the same basename as the post and put it in `/assets/images`. Include it like:
 
    ```markdown
