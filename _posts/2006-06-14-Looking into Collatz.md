@@ -10,7 +10,7 @@ comments:
     text: The official Twitter thread
   - link: https://fulldecent.blogspot.com/2006/06/when-i-was-looking-into-collatz.html
     name: Anonymous
-	text: If n is a power of 2 then f(n) = n, making a nice binary tree pattern. If n mod 4 = 0, then f(n) mod 4 = 0. The number of embedded binary trees increases for each leaf by twofold. Somehow 3^n is involved, powers of three are rampant, more so for the even elements. Because of the Collatz relationship, f(2x), f(2x-1) is probably the layout. Don't leave me hanging, explain math ASAP, ima PTFO after looking at this shit so long.
+    text: If n is a power of 2 then f(n) = n, making a nice binary tree pattern. If n mod 4 = 0, then f(n) mod 4 = 0. The number of embedded binary trees increases for each leaf by twofold. Somehow 3^n is involved, powers of three are rampant, more so for the even elements. Because of the Collatz relationship, f(2x), f(2x-1) is probably the layout. Don't leave me hanging, explain math ASAP, ima PTFO after looking at this shit so long.
 ---
 
 When I was looking into the Collatz conjecture, I ran into this sequence:
