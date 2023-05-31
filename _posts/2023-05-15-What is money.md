@@ -58,7 +58,7 @@ So what about cash. Or "hard money". We are talking about US dollars, federal re
 
 Now we're getting closer.
 
-If you want to use cash to buy lottery tickets, and this is a consentual transaction. Is that really money? Can anybody stop you and the consentual partner from transaction?
+If you want to use cash to buy lottery tickets, and this is a consensual transaction. Is that really money? Can anybody stop you and the consensual partner from transaction?
 
 What if you want to buy a boat? A ship? What if you want to go to Europe (or the US, if you're already in Europe) and you want to buy a ship with cash. Can you do that?
 
