@@ -91,6 +91,8 @@ Here all the NFTs metadata is public. Each buyer has only the choice of buying t
 
 Both of these can be addressed by using a pricing mechanisms, such as by using a time-based auction.
 
+If you would like to mint the NFTs not in ascending order, consider using `y=mx + b (mod supply)` (with `m` coprime to `1` through your total supply). This is a bijective function that will map your supply to a different order.
+
 Examples:
 
 {: .margin-note}
