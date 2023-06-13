@@ -5,7 +5,7 @@ updated: 2008-12-13 00:36:43
 tags: my-life	
 oldlink:	https://fulldecent.blogspot.com/2006/06/heres-some-notes-im-made-about-my.html
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxx
+  - link: https://twitter.com/fulldecent/status/1668633621476028419
     name: '@fulldecent'
     text: The official Twitter thread
 ---

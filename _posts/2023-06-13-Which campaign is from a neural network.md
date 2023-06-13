@@ -2,7 +2,7 @@
 title: "Which campaign is from a neural network?"
 tags: blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/xxxx
+  - link: https://twitter.com/fulldecent/status/1668633621476028419
     name: '@fulldecent'
     text: The official Twitter thread
 ---
