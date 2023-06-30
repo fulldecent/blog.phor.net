@@ -2,7 +2,7 @@
 title: "The case for war against Canada"
 tags: neural-networks
 comments:
-  - link: https://twitter.com/fulldecent/status/XXX
+  - link: https://twitter.com/fulldecent/status/1674631289461264384
     name: '@fulldecent'
     text: The official Twitter thread
 ---
