@@ -5,6 +5,10 @@ updated:	2008-12-13 00:34:45
 tags: 
   - my-life programming
 oldlink:	https://fulldecent.blogspot.com/2006/07/current-notes-patches-diff-rupd-my.html
+comments:
+  - link: https://twitter.com/fulldecent/status/1678890912863141890
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 ## Current notes
