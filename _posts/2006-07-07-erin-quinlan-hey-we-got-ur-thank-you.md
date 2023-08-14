@@ -6,6 +6,10 @@ tags:
   - humor
   - my-life	
 oldlink:	https://fulldecent.blogspot.com/2006/07/erin-quinlan-hey-we-got-ur-thank-you.html
+comments:
+  - link: https://twitter.com/fulldecent/status/1690924467403337728
+    name: '@fulldecent'
+    text: The official Twitter thread
 ---
 
 > <span style="color:blue">Erin Quinlan:</span> hey we got ur thank you card<br>
