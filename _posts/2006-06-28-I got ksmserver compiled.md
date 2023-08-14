@@ -1,7 +1,7 @@
 ---
 title: "I got ksmserver compiled"
-date:		2006-06-28 02:58:00
-updated:	2008-12-13 00:36:43
+date: 2006-06-28 02:58:00
+updated: 2008-12-13 00:36:43
 tags: 
   - my-life programming
 oldlink:	https://fulldecent.blogspot.com/2006/06/i-got-ksmserver-compiled-thanks-to-few.html
