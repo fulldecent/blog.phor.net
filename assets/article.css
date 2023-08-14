@@ -156,8 +156,3 @@ img {
     --bs-body-bg: #fffff8; /* From Tufte-CSS, we prefer this to the default white */
   }
 }
-
-/* Error in Bootstrap 5.3.0a3? */ 
-h1, h2, h3, h4, h5, h6 {
-  --bs-heading-color: var(--bs-emphasis-color);
-}
