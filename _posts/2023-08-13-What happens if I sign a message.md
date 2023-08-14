@@ -74,3 +74,122 @@ You should know that messages are more dangerous than transactions and you shoul
 If you ever signed an errant message in the future, the most secure thing you can do is transfer all tokens/reputation to a new account. Consider the old account dead. Less extreme options may be reasonable, talk to an expert.
 
 Also, demand that your wallet software will include a "signed message" pane detailing all signed messages.
+
+## Appendix
+
+Here is the code using [EIP-712](https://eips.ethereum.org/EIPS/eip-712) with Ethers.js to sign a simple Seaport order.
+
+<details>
+<summary>Click to expand code</summary>
+
+```javascript
+import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js";
+await ethereum.request({ method: "eth_requestAccounts" });
+const provider = new ethers.BrowserProvider(window.ethereum);
+const signer = await provider.getSigner();
+const message = "Hello, MetaMask!";
+
+// Constants https://github.com/ProjectOpenSea/seaport-js/blob/v2.0.6/src/constants.ts
+const itemType = {
+  NATIVE: 0,
+  ERC20: 1,
+  ERC721: 2,
+  ERC1155: 3,
+  ERC721_WITH_CRITERIA: 4,
+  ERC1155_WITH_CRITERIA: 5,
+};
+const orderType = {
+  FULL_OPEN: 0,
+  PARTIAL_OPEN: 1,
+  FULL_RESTRICTED: 2,
+  PARTIAL_RESTRICTED: 3,
+};
+const EIP_712_ORDER_TYPE = {
+  OrderComponents: [
+    { name: "offerer", type: "address" },
+    { name: "zone", type: "address" },
+    { name: "offer", type: "OfferItem[]" },
+    { name: "consideration", type: "ConsiderationItem[]" },
+    { name: "orderType", type: "uint8" },
+    { name: "startTime", type: "uint256" },
+    { name: "endTime", type: "uint256" },
+    { name: "zoneHash", type: "bytes32" },
+    { name: "salt", type: "uint256" },
+    { name: "conduitKey", type: "bytes32" },
+    { name: "counter", type: "uint256" },
+  ],
+  OfferItem: [
+    { name: "itemType", type: "uint8" },
+    { name: "token", type: "address" },
+    { name: "identifierOrCriteria", type: "uint256" },
+    { name: "startAmount", type: "uint256" },
+    { name: "endAmount", type: "uint256" },
+  ],
+  ConsiderationItem: [
+    { name: "itemType", type: "uint8" },
+    { name: "token", type: "address" },
+    { name: "identifierOrCriteria", type: "uint256" },
+    { name: "startAmount", type: "uint256" },
+    { name: "endAmount", type: "uint256" },
+    { name: "recipient", type: "address" },
+  ],
+};
+
+// Parameters
+const wrappedTokenEthereumMainnet = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
+const nftAddress = "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D";
+const nftTokenId = 1234;
+const quantity = 1;
+const price = ethers.parseUnits("0.1", "ether");
+const participant = await signer.getAddress();
+const network = await provider.getNetwork();
+const chainId = network.chainId;
+const dataDomain = {
+  name: "Seaport",
+  version: "1.5",
+  chainId: chainId,
+  verifyingContract: nftAddress,
+}
+
+// This follows the requirements of the "basic" function, fulfillBasicOrder
+const orderComponents = {
+  offerer: participant,
+  zone: ethers.ZeroAddress,
+  offer: [
+    {
+      itemType: itemType.ERC20,
+      token: wrappedTokenEthereumMainnet,
+      identifierOrCriteria: 0,
+      startAmount: price,
+      endAmount: price,
+    },
+  ],
+  consideration: [
+    {
+      itemType: itemType.ERC721,
+      token: ethers.ZeroAddress,
+      identifierOrCriteria: nftTokenId,
+      startAmount: price,
+      endAmount: price,
+      recipient: participant,
+    },
+  ],
+  orderType: orderType.FULL_OPEN,
+  startTime: 0,
+  endTime: 0,
+  zone: ethers.ZeroAddress,
+  zoneHash: ethers.ZeroHash,
+  salt: 0,
+  conduitKey: ethers.ZeroHash,
+  counter: 0,
+};
+
+// Sign the data using EIP-712
+const signature = await signer.signTypedData(
+  dataDomain,
+  EIP_712_ORDER_TYPE,
+  orderComponents
+);
+```
+
+</details>
