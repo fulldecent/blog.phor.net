@@ -5,7 +5,7 @@ updated: 2008-12-13 01:00:39
 tags: government
 oldlink: https://fulldecent.blogspot.com/2006/07/why-fairtax-is-stupid.html
 comments:
-  - link: https://twitter.com/fulldecent/status/xxx
+  - link: https://twitter.com/fulldecent/status/1702160272180277548
     name: '@fulldecent'
     text: The official Twitter thread
 ---

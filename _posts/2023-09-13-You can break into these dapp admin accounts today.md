@@ -2,7 +2,7 @@
 title: You can break into these dApp admin accounts today
 tags: blockchain
 comments:
-  - link: https://twitter.com/fulldecent/status/xxx
+  - link: https://twitter.com/fulldecent/status/1702160272180277548
     name: '@fulldecent'
     text: The official Twitter thread
 ---
