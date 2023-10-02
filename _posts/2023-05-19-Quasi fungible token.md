@@ -11,7 +11,7 @@ This week, Europe passed [legislation regulating markets for crypto tokens](http
 
 1. **Like a parent**—trying to keep your kids safe
 2. **Like a victim**—trying to make somebody else liable for your losses
-3. **Like a truck driver**looking for a hole to drive your big truck through
+3. **Like a truck driver**—looking for a hole to drive your big truck through
 
 Today we've got our truck driving glasses on.
 
