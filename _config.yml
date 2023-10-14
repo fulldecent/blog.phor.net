@@ -18,5 +18,7 @@ strict_front_matter: true
 # https://jekyllrb.com/docs/configuration/liquid/
 liquid:
   error_mode: strict
-  strict_variables: true
+  #strict_variables: true
   strict_filters: true
+
+permalink: /:categories/:year/:month/:day/:title
