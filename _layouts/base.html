@@ -15,18 +15,20 @@
 <body>
   <header id="site-header">
     <section class="container-fluid">
-      <nav class="fs-e4 pt-2 pb-3 pt-md-4">
-        <div class="mb-3">
-          <!-- <a href="/" style="background-size:0"><img alt="logo" src="/assets/Logo.svg" style="width:42px;height:42px;transform:rotate(15deg);"></a> -->
+      <nav class="pt-2 pb-3 pt-md-4 gap-3 d-flex flex-column flex-lg-row align-items-lg-center">
+        <div class="me-auto">
           <a class="text-decoration-none" href="/">{{ site.title | escape }}</a>
           <span class="serif text-muted">&mdash;</span> 
           <span class="serif text-muted">{{ site.subtitle | escape }}</span> 
         </div>
-        <div>
-          <a class="text-decoration-none text-nowrap" href="/feed.xml"><i class="bi-rss"></i> RSS</a>
-          <a target="_blank" class="text-decoration-none text-nowrap ms-3" href="https://eepurl.com/c07Ft1"><i class="bi-envelope"></i> Get emails</a>  
-          <!--<span class="serif text-muted d-none d-md-inline ms-3">(monthlyish updates)</span>-->
-        </div>
+        <form action="https://phor.us9.list-manage.com/subscribe/post?u=8b49e10ddf197497c02ff4eae&amp;id=e3fcfddf94&amp;MERGE1=blog.phor.net" method="post">
+          <div class="input-group">
+            <input type="email" name="EMAIL" class="form-control" placeholder="Email address" required>
+            <button type="submit" class="btn btn-primary ms-2 rounded-pill"><i class="bi bi-bell-fill"></i> Monthly<span class="d-none d-lg-inline"> email</span></button>
+          </div>
+        </form>
+        <div class="vr d-none d-lg-block"></div>
+        <a class="text-decoration-none text-nowrap" href="/feed.xml"><i class="bi-rss"></i> RSS</a>
       </nav>
     </section>
   </header>
