@@ -26,8 +26,6 @@ It can be difficult to see between capable, resourced industry people that are l
 
 Any [advisory client](https://phor.net/advisory) can send me to events. I don't need to think hard about this, we are already a team and I want you to succeed, you respect my time and we are going to change the world.
 
-If you buy [Su Squares](https://tenthousandsu.com) directly from me in a negotiated deal for attendance at an event then I can see you are serious. Plus you can confirm my availability.
-
 These are the best ways to have me as a part of your event, which can include speeches, workshops, panels, builder events/training, one-on-one reviews and more.
 
 If this is your first event, great! The first event I personally ran was [Chain 76](https://chain76.org) and I've ran keynotes on the first year for many new NFT events that are now successful recurring sensations. It's been a blessing to be part of these and I'm so glad you are able to keep building these communities and connecting/informing everyone.
