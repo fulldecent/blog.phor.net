@@ -1,0 +1,141 @@
+---
+title: "Numerology for 1 to 10,000 things"
+tags: how-to
+---
+
+Have you ever been staring at a list of things for sale. And they are serial numbered between 1 and 10,000, inclusive, and you wonder which one to buy?
+
+Here you go, enjoy!
+
+## Automatic mode <span class="text-primary">(pro)</span>
+
+<textarea id="input" rows="2" cols="80" class="form-control" placeholder="Paste your list here... (no commas in the numbers)"></textarea>
+
+## Cool numbers
+
+Here are all the kinds of numbers you might want to pick. These filter for you if you paste in some list of numbers above.
+
+{: #palindromes}
+### Palindromes <span class="count">(count: #)</span>
+
+These read the same forward and backward.
+
+<span class="list"></span>
+
+{: #one-digit}
+### One digit numbers <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #two-digit}
+### Two digit numbers <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #three-digit}
+### Three digit numbers <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #birthdays}
+### Numbers that can be birthdays <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #primes}
+### Prime numbers <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #fibonacci}
+### Fibonacci numbers <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+{: #powers-of-2}
+### Powers of 2 <span class="count">(count: #)</span>
+
+<span class="list"></span>
+
+<script>
+    // All numbers
+    const oneToTenThousand = Array.from(Array(10000).keys()).map(x => x + 1);
+
+    // Precalculate lists
+    const allPalindromes = oneToTenThousand.filter(x => x.toString() === x.toString().split('').reverse().join(''));
+    const allOneDigit = oneToTenThousand.filter(x => x.toString().length === 1);
+    const allTwoDigit = oneToTenThousand.filter(x => x.toString().length === 2);
+    const allThreeDigit = oneToTenThousand.filter(x => x.toString().length === 3);
+    const allBirthdays = oneToTenThousand.filter(x => {
+        const regexMonth = /([1-9]|1[012])/;
+        const regexDay = /(0?[1-9]|[12][0-9]|3[01])/;
+        const regex = new RegExp(`^${regexMonth.source}${regexDay.source}$`);
+        if (regex.test(x.toString())) return true;
+    });
+    const allPrimes = oneToTenThousand.filter(x => {
+        if (x === 1) return false;
+        if (x === 2) return true;
+        if (x % 2 === 0) return false;
+        for (let i = 3; i <= Math.sqrt(x); i += 2) {
+            if (x % i === 0) return false;
+        }
+        return true;
+    });
+    const allFibonacci = oneToTenThousand.filter(x => {
+        if (x === 1) return true;
+        let a = 1;
+        let b = 1;
+        while (b < x) {
+            const temp = b;
+            b = a + b;
+            a = temp;
+        }
+        return b === x;
+    });
+    const allPowersOf2 = oneToTenThousand.filter(x => {
+        let a = 1;
+        while (a < x) {
+            a *= 2;
+        }
+        return a === x;
+    });
+
+    const input = document.getElementById('input');
+    const palindromes = document.getElementById('palindromes');
+    const oneDigit = document.getElementById('one-digit');
+    const twoDigit = document.getElementById('two-digit');
+    const threeDigit = document.getElementById('three-digit');
+    const birthdays = document.getElementById('birthdays');
+    const primes = document.getElementById('primes');
+    const fibonacci = document.getElementById('fibonacci');
+    const powersOf2 = document.getElementById('powers-of-2');
+
+    /// @param {int[]} list
+    function update(list) {
+        palindromes.querySelector('.count').innerHTML = `(count: ${allPalindromes.filter(x => list.includes(x)).length})`;
+        palindromes.nextElementSibling.innerHTML = allPalindromes.filter(x => list.includes(x)).join(', ');
+        oneDigit.querySelector('.count').innerHTML = `(count: ${allOneDigit.filter(x => list.includes(x)).length})`;
+        oneDigit.nextElementSibling.innerHTML = allOneDigit.filter(x => list.includes(x)).join(', ');
+        twoDigit.querySelector('.count').innerHTML = `(count: ${allTwoDigit.filter(x => list.includes(x)).length})`;
+        twoDigit.nextElementSibling.innerHTML = allTwoDigit.filter(x => list.includes(x)).join(', ');
+        threeDigit.querySelector('.count').innerHTML = `(count: ${allThreeDigit.filter(x => list.includes(x)).length})`;
+        threeDigit.nextElementSibling.innerHTML = allThreeDigit.filter(x => list.includes(x)).join(', ');
+        birthdays.querySelector('.count').innerHTML = `(count: ${allBirthdays.filter(x => list.includes(x)).length})`;
+        birthdays.nextElementSibling.innerHTML = allBirthdays.filter(x => list.includes(x)).join(', ');
+        primes.querySelector('.count').innerHTML = `(count: ${allPrimes.filter(x => list.includes(x)).length})`;
+        primes.nextElementSibling.innerHTML = allPrimes.filter(x => list.includes(x)).join(', ');
+        fibonacci.querySelector('.count').innerHTML = `(count: ${allFibonacci.filter(x => list.includes(x)).length})`;
+        fibonacci.nextElementSibling.innerHTML = allFibonacci.filter(x => list.includes(x)).join(', ');
+        powersOf2.querySelector('.count').innerHTML = `(count: ${allPowersOf2.filter(x => list.includes(x)).length})`;
+        powersOf2.nextElementSibling.innerHTML = allPowersOf2.filter(x => list.includes(x)).join(', ');
+    }
+
+    input.addEventListener('input', () => {
+        // split on newlines, commas, any whitespace
+        const list = input.value.split(/[\n, ]+/).map(x => parseInt(x)).filter(x => !isNaN(x));
+
+        update(list);
+    });
+
+    update(oneToTenThousand);
+</script>    
