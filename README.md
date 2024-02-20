@@ -2,9 +2,22 @@
 
 How to maintain this site and add posts.
 
+## URL/slug choice
+
+We take inspiration from The Verge for this policy. Examples: [1](https://www.theverge.com/22727963/roku-streaming-stick-4k-review), [2](https://www.theverge.com/21375098/best-streaming-device), [3](https://www.theverge.com/2023/1/4/23537503/roku-select-plus-tvs-features-price), [4](https://www.theverge.com/2023/11/15/23961754/sharp-aquos-oled-roku-tv-size-price). We need URLs that will be permanent, even with anticipated changes to the article.
+
+* Reporting an external event, and nobody should be interested in it after next week: `/2023/10/16/IRS-proposed-regulation-for-crypto` because this is about a specific regulation announcement. A further announcement will be a new article.
+* If there is some chance people will be interested in this later. And we may update the title/content to reflect that. Use a `page`. URL is like: `/how-to-connect-roku-to-xfinity-wifi`.
+
+If a title is like "Best TVs of 2023", the be careful to choose a URL like `/best-tvs` because the list could be updated later and we want to keep the same URL.
+
+For pages, update the `date` when major changes are made to bump it to top of homepage and RSS feed.
+
+Keep everything in `_posts` and set a permalink to make a page, if needed.
+
 ## Comments
 
-Every blog post can link to an official Twitter thread (or a comment thread hosted anywhere) as well as notable comments and media coverage across the web.
+Every blog post can link to an official X thread (or a comment thread hosted anywhere) as well as notable comments and media coverage across the web.
 
 When publishing a post, add comments in the front matter like this:
 
@@ -12,14 +25,14 @@ When publishing a post, add comments in the front matter like this:
 comments:
   - link: https://twitter.com/fulldecent/status/1486181100904980482
     name: '@fulldecent'
-    text: The official Twitter thread
+    text: The official X thread
   - link: https://fulldecent.blogspot.com/2004/06/are-you-badass-with-c-then-fix-this.html?showComment=1087170900000#c108717092705622985
     name: Tyler
     date: 
     text: "You were very close to getting the solution"
 ```
 
-Ideally, you want to link a Twitter post and other good media coverage to each blog post.
+Ideally, you want to link an X post and other good media coverage to each blog post.
 
 ## Asides
 

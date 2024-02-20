@@ -1,6 +1,10 @@
 ---
 title: "Numerology for 1 to 10,000 things"
 tags: how-to
+comments:
+ - link: https://twitter.com/fulldecent/status/1740120842351087868
+   name: '@fulldecent'
+   text: The official X thread
 ---
 
 Have you ever been staring at a list of things for sale. And they are serial numbered between 1 and 10,000, inclusive, and you wonder which one to buy?

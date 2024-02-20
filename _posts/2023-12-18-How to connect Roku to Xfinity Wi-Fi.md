@@ -1,9 +1,8 @@
 ---
 title: "How to connect Roku to Xfinity Wi-Fi"
 tags: how-to
+affiliate-link: true
 ---
-
-*This page includes an affiliate link. And hopefully I'll get paid if you click it. This does not increase the price you pay, you would get the same price with or without my link.*
 
 When you login to Xfinity Wi-Fi with a computer you need to login with a browser.
 

@@ -20,7 +20,7 @@ layout: base
 {% endfor -%}
         </p>
         <p class="mb-0">
-          {{ page.date | date: "%Y-%m-%d" }}: Published
+          {{ page.date | date: "%Y-%m-%d" }}
 {%- for update in page.updates -%}
           <br>{{ update.date | date: "%Y-%m-%d" }}: {{ update.changes | escape }}
 {%- endfor -%}
@@ -33,6 +33,12 @@ layout: base
   </header>
   <article class="container-fluid">
     <div class="clearfix"></div><!-- This helps if the first item in the article is a margin note -->
+{% if page.affiliate-link %}
+    <p>
+      <em>This page includes an affiliate link. And hopefully I'll get paid if you click it. This does not increase the price you pay, you would get the same price with or without my link.</em>
+    </p>
+{% endif %}
+    
 {{ content }}
     <p>&#9639;</p>  
     <h2>Comments</h2>
@@ -57,9 +63,9 @@ layout: base
     </li>
 {% endfor -%}
 {%- else %} 
-      <li>There is no official Twitter thread yet. Hit me up and I will make one.</li>
+      <li>There is no official X thread yet. Hit me up and I will make one.</li>
 {% endif -%}
       <li>Please let me know any other good media coverage I should link here.</li>
-      <li>Talk with me live every Tuesday 6pm (New York) at <a target="csh" href="https://phor.net/#speaking">Community Service Hour</a>.</li>
+      <li>Talk with me live every Tuesday 6pm (New York) at <a target="csh" href="https://hour.gg">Community Service Hour</a>.</li>
     </ul>
   </article>
