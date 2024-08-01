@@ -7,10 +7,28 @@ defaults:
       path: ""
       type: posts
     values:
-      author: "William Entriken"
-      title: ~
-      description: ~
+      # title: ~ # No default, must be explicitly set each time
+      # tags: [] # No default, must be explicitly set each time
       updates: ~ # Array of date/changes objects
+      authors: [William Entriken]
+      old-link: ~
+      comments: ~
+      affiliate-link: false
+      description: ~
+  - scope:
+      path: "_redirects"
+    values:
+      layout: redirect
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts
+
+
+include:
+  - _redirects
 
 # Cause a build to fail if there is a YAML syntax error in a page's front matter.
 strict_front_matter: true
@@ -21,4 +39,4 @@ liquid:
   #strict_variables: true
   strict_filters: true
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
