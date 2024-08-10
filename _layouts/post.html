@@ -10,7 +10,11 @@ layout: base
     <section class="container-fluid pt-5">
       <div class="float-start col-md-8 pe-2">
         <h1>{{ page.title | escape }}</h1>
-        <p>By {{ page.author }}</p>  <!-- HAVE A SITE DEFAULT  -->      
+        <p>By 
+          {%- for author in page.authors %}
+            {{ author }}{%- if not loop.last %}, {% endif -%}
+          {%- endfor -%}
+        </p>
         <p>{{ time_estimated }}</p>
       </div>
       <aside class="margin-note mb-5">

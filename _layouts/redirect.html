@@ -6,7 +6,7 @@ redirect_to: ~ # You must specify this when using this template
 <head>
   <title>Redirecting&hellip;</title>
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
-  <link rel="canonical" href="{{ page.new_url }}">
+  <link rel="canonical" href="{{ page.redirect_to }}">
 </head>
 <body>
   <p>If you are not redirected automatically, follow this <a href="{{ page.redirect_to }}">link</a>.</p>
