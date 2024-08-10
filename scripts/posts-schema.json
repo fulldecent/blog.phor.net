@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title must be sentence case"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "An array of tags for the post"
+    },
+    "updates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+            "description": "Date in YYYY-MM-DD format"
+          },
+          "changes": {
+            "type": "string",
+            "description": "Description of changes made"
+          }
+        },
+        "required": ["date", "changes"],
+        "additionalProperties": false
+      },
+      "description": "An array of updates with date and changes"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "An array of authors for the post"
+    },
+    "old-link": {
+      "type": "string",
+      "description": "URL of the previous publication on an old Blogger page"
+    },
+    "comments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "link": {
+            "type": "string",
+            "pattern": "^https?://[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}(/.*)?$",
+            "description": "URL of the comment"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the commenter"
+          },
+          "text": {
+            "type": "string",
+            "description": "Text of the comment"
+          }
+        },
+        "required": ["link", "name", "text"],
+        "additionalProperties": false
+      },
+      "description": "An array of notable comments and feedback"
+    },
+    "affiliate-link": {
+      "type": "boolean",
+      "description": "Set to true if disclosure is needed for affiliate links"
+    }
+  },
+  "required": ["title", "tags"],
+  "additionalProperties": false
+}

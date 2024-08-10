@@ -1,6 +1,6 @@
 ---
 title: "What kinds of things should be standardized?"
-tags: coding
+tags: ["coding"]
 comments:
   - link: https://twitter.com/fulldecent/status/1575908251945689091
     name: '@fulldecent'

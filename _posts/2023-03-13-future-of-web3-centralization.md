@@ -1,5 +1,6 @@
 ---
-tags: blockchain
+title: The future of Web3 is still custodial
+tags: ["blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1635342665515687938
     name: '@fulldecent'

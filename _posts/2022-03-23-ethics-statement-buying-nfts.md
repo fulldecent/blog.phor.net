@@ -1,6 +1,6 @@
 ---
 title: "Ethics statement on buying NFTs"
-tags: my-life blockchain
+tags: ["my-life", "blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1506745270188625922
     name: '@fulldecent'

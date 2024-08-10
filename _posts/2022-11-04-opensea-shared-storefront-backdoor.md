@@ -1,6 +1,6 @@
 ---
 title: "Does OpenSea Shared Storefront have a backdoor?"
-tags: nft
+tags: ["nft"]
 comments:
   - link: https://twitter.com/fulldecent/status/1589652866041401344
     name: '@fulldecent'

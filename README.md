@@ -68,7 +68,16 @@ If a raster image is used just for editorial (detail not needed), scale down to 
 
 ## Tools
 
-See scripts/ folder for some cool tools
+See scripts/ folder for some cool tools.
+
+Your system needs this yq:
+
+yq --version                                                                                       
+yq (https://github.com/mikefarah/yq/) version v4.35.2 (later versions probably work too)
+
+And you need
+
+npm install -g ajv-cli
 
 ## Tool
 

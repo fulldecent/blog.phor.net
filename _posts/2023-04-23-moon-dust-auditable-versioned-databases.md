@@ -1,6 +1,6 @@
 ---
 title: "Moon dust: auditable, versioned databases"
-tags: blockchain
+tags: ["blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1650313072966348803
     name: '@fulldecent'

@@ -1,6 +1,6 @@
 ---
 title: "Randomization strategies for NFT drops"
-tags: blockchain
+tags: ["blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1490829369748897795
     name: '@fulldecent'

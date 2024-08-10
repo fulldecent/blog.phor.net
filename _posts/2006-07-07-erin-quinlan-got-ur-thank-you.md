@@ -1,11 +1,7 @@
 ---
 title: Hey we got ur thank you
-date: 2006-07-07 16:34:00
-updated: 2008-12-14 22:18:11
-tags: 
-  - humor
-  - my-life	
-oldlink:	https://fulldecent.blogspot.com/2006/07/erin-quinlan-hey-we-got-ur-thank-you.html
+tags: ["humor", "my-life"]
+old-link: https://fulldecent.blogspot.com/2006/07/erin-quinlan-hey-we-got-ur-thank-you.html
 comments:
   - link: https://twitter.com/fulldecent/status/1690924467403337728
     name: '@fulldecent'

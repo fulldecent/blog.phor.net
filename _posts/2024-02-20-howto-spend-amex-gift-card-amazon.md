@@ -1,7 +1,6 @@
 ---
-permalink: /howto-amex-gift-card-on-amazon
 title: How to fully spend AmEx gift cards on Amazon in 2024
-tags: how-to
+tags: ["how-to"]
 affiliate-link: true
 ---
 

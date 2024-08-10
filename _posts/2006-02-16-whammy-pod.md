@@ -1,10 +1,11 @@
 ---
-tags: [my-life, humor]
+title: Whammy pod
+tags: ["my-life", "humor"]
 comments:
   - link: https://twitter.com/fulldecent/status/1645766658110238720
     name: '@fulldecent'
     text: The official X thread
-permalink:	https://fulldecent.blogspot.com/2006/02/whammy.html
+old-link: https://fulldecent.blogspot.com/2006/02/whammy.html
 ---
 
 > <span style="color:blue;">Mom:</span> Are you saying that your friends are staying in that apartment past senior year?<br />

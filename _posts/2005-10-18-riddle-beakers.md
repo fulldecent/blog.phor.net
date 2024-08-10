@@ -1,11 +1,11 @@
 ---
 title: "Riddle beakers"
-tags: my-life
+tags: ["my-life"]
 comments:
   - link: https://twitter.com/fulldecent/status/1619215276138205185
     name: '@fulldecent'
     text: The official X thread
-permalink:	https://fulldecent.blogspot.com/2005/10/after-more-than-2-years-in-hibernation.html
+old-link: https://fulldecent.blogspot.com/2005/10/after-more-than-2-years-in-hibernation.html
 ---
 
 The AIM profile riddles are back! The old rankings are still in effect. The current riddle is:<br />

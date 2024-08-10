@@ -1,6 +1,6 @@
 ---
 title: "The Perl script that rewrote Orwell's Nineteen Eighty-Four"
-tags: programming predictions
+tags: ["programming", "predictions"]
 comments:
   - link: https://twitter.com/fulldecent/status/1495979686278668288
     name: '@fulldecent'

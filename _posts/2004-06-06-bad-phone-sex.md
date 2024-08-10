@@ -1,7 +1,7 @@
 ---
 title: "Bad phone sex (that used to be good)"
-tags: my-life
-permalink:	https://fulldecent.blogspot.com/2004/06/is-it-possible-to-ruin-sex-with-phone.html
+tags: ["my-life"]
+old-link: https://fulldecent.blogspot.com/2004/06/is-it-possible-to-ruin-sex-with-phone.html
 ---
 
 Is it possible to ruin sex with a phone call, if the person who called you is the person you're sleeping with?

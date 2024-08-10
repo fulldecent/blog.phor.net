@@ -1,9 +1,7 @@
 ---
 title: "Collatz research"
-date: 2006-06-14 22:59:00
-updated: 2014-07-14 16:28:53
-tags: math
-oldlink: https://fulldecent.blogspot.com/2006/06/when-i-was-looking-into-collatz.html
+tags: ["math"]
+old-link: https://fulldecent.blogspot.com/2006/06/when-i-was-looking-into-collatz.html
 comments:
   - link: https://twitter.com/fulldecent/status/1663791208907546630
     name: '@fulldecent'

@@ -1,6 +1,6 @@
 ---
 title: "How to connect Roku to Xfinity Wi-Fi"
-tags: how-to
+tags: ["how-to"]
 affiliate-link: true
 ---
 

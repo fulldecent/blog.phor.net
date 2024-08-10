@@ -25,6 +25,8 @@ exclude:
   - Gemfile.lock
   - vendor
   - scripts
+  - README.md
+  - CNAME
 
 
 include:

@@ -1,6 +1,6 @@
 ---
 title: "The European Data Act and regulating calculator.exe"
-tags: blockchain
+tags: ["blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1663791208907546630
     name: '@fulldecent'

@@ -1,6 +1,6 @@
 ---
 title: "School is canceled"
-tags: my-life
+tags: ["my-life"]
 comments:
   - link: https://twitter.com/fulldecent/status/1575908254693359616
     name: '@fulldecent'
@@ -16,7 +16,7 @@ updates:
    changes: Added full text of the second email
  - date: 2013-12-20
    changes: Disclosed everything I know
-permalink:	https://fulldecent.blogspot.com/2004/09/123838-anthony-romano-will-123838-full.html
+old-link: https://fulldecent.blogspot.com/2004/09/123838-anthony-romano-will-123838-full.html
 ---
 
 In the middle of the night, I learned about a mysterious and FAKE message canceling class for all Villanovans:

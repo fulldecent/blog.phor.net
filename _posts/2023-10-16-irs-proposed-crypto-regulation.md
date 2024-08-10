@@ -1,6 +1,6 @@
 ---
 title: "IRS proposed regulation for crypto"
-tags: blockchain
+tags: ["blockchain"]
 ---
 
 The United States Internal Revenue Service (IRS) has [proposed regulations for how taxes and transaction reporting will apply](https://www.regulations.gov/document/IRS-2023-0041-0001) to crypto and other digital assets.

@@ -1,6 +1,6 @@
 ---
 title: "Add your friends to the SDN list with this one weird trick"
-tags: nft zero-day
+tags: ["nft", "zero-day"]
 comments:
   - link: https://twitter.com/fulldecent/status/1619215274263322624
     name: '@fulldecent'

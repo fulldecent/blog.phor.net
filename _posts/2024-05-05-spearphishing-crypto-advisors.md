@@ -1,7 +1,6 @@
 ---
 title: "Hey Are you open to working on projects right now?"
-date: 2024-05-05
-tags: scam
+tags: ["scam"]
 #comments:
 # - link: https://twitter.com/fulldecent/status/1740120842351087868
 #   name: '@fulldecent'

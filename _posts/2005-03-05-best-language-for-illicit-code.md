@@ -1,11 +1,11 @@
 ---
 title: "Best language for illicit code"
-tags: my-life
+tags: ["my-life"]
 comments:
   - link: https://twitter.com/fulldecent/status/1589652876770836486
     name: '@fulldecent'
     text: The official X thread
-permalink:	https://fulldecent.blogspot.com/2005/03/so-public-safety-comes-into-my-room.html
+old-link: https://fulldecent.blogspot.com/2005/03/so-public-safety-comes-into-my-room.html
 ---
 
 So public safety comes into my room last night while I'm sleeping with a fanfare of the head of public safety, head of network security and 10+ other people. One is standing by to turn off the circuit breaker, and they're ready to seize my computer. So I sat with them in the living room to answer some questions. Here is the conversation between the network security guy (herein: NSG) and myself:

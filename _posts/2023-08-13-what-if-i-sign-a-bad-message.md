@@ -1,6 +1,6 @@
 ---
 title: What is the worst thing that could happen if I sign a bad message?
-tags: blockchain security
+tags: ["blockchain", "security"]
 comments:
   - link: https://twitter.com/fulldecent/status/1690924467403337728
     name: '@fulldecent'

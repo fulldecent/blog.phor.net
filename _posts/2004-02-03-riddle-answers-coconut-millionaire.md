@@ -1,11 +1,11 @@
 ---
 title: "Riddle: answers to the coconut millionaire question"
-tags: riddles my-life funny
+tags: ["riddles", "my-life", "funny"]
 comments:
   - link: https://twitter.com/fulldecent/status/1515068047261904898
     name: '@fulldecent'
     text: The official X thread
-permalink:	https://fulldecent.blogspot.com/2004/02/riddle-posted-in-my-profile-my-friend.html
+old-link: https://fulldecent.blogspot.com/2004/02/riddle-posted-in-my-profile-my-friend.html
 ---
 
 The last profile riddle: 
@@ -14,17 +14,17 @@ The last profile riddle:
 
 Generated too many funny responses to fit in the profile some are here:
 
-**Flyingelmo2004** 
+**flyingelmo2004** 
 
 > <span style="color:blue">flyingelmo2004:</span> selling nearly 4 million coconuts
 
 
-**Nacnud1983** 
+**nacnud1983** 
 
 > <span style="color:blue">nacnud1983:</span> another retailer was selling them for the $5, he undercut them and became a millionaire, BIATCH
 
 
-**Gosujohn** 
+**gosujohn** 
 
 > <span style="color:blue">gosujohn:</span> change of currency son
 

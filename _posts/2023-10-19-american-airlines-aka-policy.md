@@ -1,7 +1,7 @@
 ---
 title: "Open letter to American Airlines about also-known-as name policy"
-author: "Su Entriken"
-tags: my-life
+authors: ["Su Entriken"]
+tags: ["my-life"]
 ---
 
 **Here is an open letter to American Airlines about multiple system failures we found on a recent trip. I hope this letter is helpful, fun and… actionable! Please let’s work together to make flying better in the 21st century. I still have a lot of the world left to see!!!**

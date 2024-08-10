@@ -1,6 +1,6 @@
 ---
 title: "Quasi fungible token and MiCA"
-tags: blockchain
+tags: ["blockchain"]
 comments:
   - link: https://twitter.com/fulldecent/status/1659547537647304705
     name: '@fulldecent'
