@@ -12,7 +12,7 @@ layout: base
         <h1>{{ page.title | escape }}</h1>
         <p>By 
           {%- for author in page.authors %}
-            {{ author }}{%- if not loop.last %}, {% endif -%}
+            {{ author }}
           {%- endfor -%}
         </p>
         <p>{{ time_estimated }}</p>
