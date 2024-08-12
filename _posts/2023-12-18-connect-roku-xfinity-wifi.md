@@ -1,6 +1,7 @@
 ---
 title: "How to connect Roku to Xfinity Wi-Fi"
 tags: ["how-to"]
+old-link: https://fulldecent.blogspot.com/2013/12/how-to-connect-your-roku-to-xfinitywifi.html
 affiliate-link: true
 ---
 
