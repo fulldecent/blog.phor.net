@@ -1,10 +1,10 @@
 ---
 title: "Firefox zero-day: You can't leave this page (2)"
 tags: ["zero-day", "security"]
-#comments:
-# - link: https://twitter.com/fulldecent/status/1740120842351087868
-#   name: '@fulldecent'
-#   text: The official X thread
+comments:
+ - link: https://x.com/fulldecent/status/1824510778520526923
+   name: '@fulldecent'
+   text: The official X thread
 ---
 
 This a 0-day announcement showing web pages can prevent visitors from navigating back away from their website.
@@ -17,7 +17,7 @@ Visitors cannot navigate back using the back button, the keyboard short cut for 
 
 Firefox 129.0.1 64-bit on macOS and possibly more.
 
-## Steps requried
+## Steps required
 
 1. Include this minimal snippet on a web page "B":
 
