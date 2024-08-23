@@ -2,12 +2,16 @@
 
 # Usage: rename-post.sh <old-base-name> <new-base-name>
 #
-# This takes a post in _posts and renames it. It also renames corresponding images named like
-# assets/images/<old-base-name>* to assets/images/<new-base-name>* and fixes the references in the post.
+# Rename a post in _posts and associated images/references.
+#
+# 1. Rename post in _posts
+# 2. Rename images (if any) in assets/images
+# 3. Fix references in post to those images (if any)
+# 4. (TODO) find and fix references to the post in other posts and in the redirects collection
 
 # Check if the number of arguments is correct
 if [ "$#" -ne 2 ]; then
-  echo "Usage: rename-post.sh <old-file-name> <new-file-name>"
+  echo "Usage: rename-post.sh <old-base-name> <new-base-name>"
   exit 1
 fi
 
