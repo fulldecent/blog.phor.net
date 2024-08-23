@@ -78,4 +78,4 @@ Recently, Villanova fixed this problem by switching email hosting and SPF to Gma
 
 ⚠️ Yes, although we were the "good guys" here, doing something like this can get you ten years in jail nowadays. For another story on police/security trying to throw the book at you, see how we hacked in and changed our grades at Villanova https://fulldecent.blogspot.com/2005/03/so-public-safety-comes-into-my-room.html
 
-I do not admit to any crimes here and this blog post may be fiction.
+I do not admit to any crimes here and this blog post may be fictional.
