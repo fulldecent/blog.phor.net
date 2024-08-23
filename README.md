@@ -68,27 +68,20 @@ If a raster image is used just for editorial (detail not needed), scale down to 
 
 ## Tools
 
-See scripts/ folder for some cool tools.
+See scripts/ folder for some cool tools. Requerements for the tools are documented in those files.
 
-Your system needs this yq:
+* ```sh
+  scripts/rename-post.sh YYYY-MM-DD-old-title.md YYYY-MM-DD-new-title.md
+  ```
 
-yq --version                                                                                       
-yq (https://github.com/mikefarah/yq/) version v4.35.2 (later versions probably work too)
+* Use `yq` to change title.
 
-And you need
+## How to promote a post
 
-npm install -g ajv-cli
+After publishing a post, you can promote it by:
 
-## Tool
-
-```
-@@@ GOOD FORMAT EXAMPLE @@@
-
-> <span style="color:blue">Steven Shim:</span> ok the riddle ... it's not possible, because 8x + 6y = 5 does not have a solution where you can use integers, so there is no way to get 3 or 1 gallons from the mix.... otherwise you'd be able to get 5 gallons. is this right?<br />
-> <span style="color:red">Full Decent: xml asap!!!</span><br />
-> <span style="color:blue">Steven Shim:</span> because the lowest common denominator is 1
-
-@@@ TEXT TO REFORMAT @@@
-
-@@@ REFORMATTED TEXT @@@
-```
+- Tweet it
+- Post it to Hacker News (https://news.ycombinator.com/)
+- Post it to Reddit (https://www.reddit.com/r/programming/)
+- Post it to Lobsters (https://lobste.rs/)
+- My press contacts 
