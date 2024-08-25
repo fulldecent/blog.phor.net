@@ -46,30 +46,17 @@ layout: base
 {{ content }}
     <p>&#9639;</p>  
     <h2>Comments</h2>
-    <p>Discuss and share this topic anywhere. May we recommend:</p>
-    <ul>
-{%- if page contains "comments" -%}      
-{%- for comment in page.comments %}
-      <li>
-        <a target="_blank" href="{{ comment.link }}">
-          <figure>
-          <blockquote>
-            <p>{{ comment.text | newline_to_br }}</p>
-          </blockquote>
-          <figcaption class="blockquote-footer">
-              {{ comment.name }}
-{% if comment contains "date" -%}
-              <cite title="Source Title">{{ comment.date }}</cite>
-{% endif -%}
-          </figcaption>
-        </figure> 
-      </a>
-    </li>
-{% endfor -%}
-{%- else %} 
-      <li>There is no official X thread yet. Hit me up and I will make one.</li>
-{% endif -%}
-      <li>Please let me know any other good media coverage I should link here.</li>
-      <li>Talk with me live every Tuesday 6pm (New York) at <a target="csh" href="https://hour.gg">Community Service Hour</a>.</li>
-    </ul>
+
+    {%- if page.comments -%}
+    {%- for comment in page.comments %}
+    <blockquote>
+      <p>{{ comment.text | newline_to_br }}</p>
+      <cite class="d-block blockquote-footer"><a href="{{ comment.link | escape }}">{{ comment.name | escape }}</a></cite>
+    </blockquote>
+    {%- endfor -%}
+    {%- else -%}
+    <p>There are no comments yet.</p>
+    {%- endif -%}
+
+    <p>Please discuss this topic anywhere and <a href="https://phor.net/#authentic-accounts">let me know</a> any great comments or media coverage I should link here.</p>
   </article>

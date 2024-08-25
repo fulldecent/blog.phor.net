@@ -3,7 +3,10 @@ layout: page
 title: William Entriken Blog — Analysis of all
 ---
 
-{%- for post in site.posts -%}
+get newest 20 posts
+
+{%- assign all_posts = site.posts | sort: "date" | reverse | slice: 0, 20 -%}
+{%- for post in all_posts -%}
 {%- assign page_basename = post.path | remove: ".md" | remove: ".html" | remove: "_posts/" -%}
 {%- assign related_heros = site.static_files | where: "basename", page_basename -%}
 {%- for static_file in related_heros -%}
