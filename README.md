@@ -53,7 +53,21 @@ If a raster image is used just for editorial (detail not needed), scale down to 
 
 ## Style guide
 
-* The blog's name is in title case. Everything else, including post titles, is sentence case.
+Word case:
+
+* Post titles use sentence case. Headings use sentence case. Prose uses sentence case. DO NOT USE TITLE CASE.
+
+Formatting a chat conversation (Full Decent is always the red one):
+
+* Preserve typos
+
+* Format color like this
+
+  ```md
+  > <span style="color:blue">Steven Shim:</span> ok the riddle ... it's not possible, because 8x + 6y = 5 does not have a solution where you can use integers, so there is no way to get 3 or 1 gallons from the mix.... otherwise you'd be able to get 5 gallons. is this right?<br />
+  > <span style="color:red">Full Decent:</span> xml asap!!!<br />
+  > <span style="color:blue">Steven Shim:</span> because the lowest common denominator is 1
+  ```
 
 ## Discussion of best practices
 
