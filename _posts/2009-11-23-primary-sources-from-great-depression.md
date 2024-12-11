@@ -8,7 +8,7 @@ old-link: https://fulldecent.blogspot.com/2009/11/look-at-primary-sources-from-g
 
 Many people have forgotten about [the Great Depression](https://en.wikipedia.org/wiki/Great_Depression). This is unfortunate because the lost arts of modesty, saving and skepticism have passed with the last generation. A time has gone in America since great strides have been made. Now, since 2001, there is question of when America will again make progress. Please consider the [Tytler Cycle](https://www.google.com/search?client=safari&rls=en&q=tytler&ie=UTF-8&oe=UTF-8):
 
-<https://1.bp.blogspot.com/_rG3Oup-CHJE/SwmDylR5MZI/AAAAAAAAA20/h5BSlCz-O3U/s1600/tytlercycle.jpg>
+![Tytler Cycle](/assets/images/2009-11-23-primary-sources-from-great-depression.jpg)
 
 Some people have started to compare the current recession to the Great Depression ([1](https://www.forbes.com/2009/10/29/depression-recession-gdp-imf-milton-friedman-opinions-columnists-bruce-bartlett.html), [2](https://money.cnn.com/news/storysupplement/economy/recession_depression/), [3](https://krugman.blogs.nytimes.com/2009/03/20/the-great-recession-versus-the-great-depression)). Many of these people are making comparisons based on their own subjective claims, or worse. My research in this article is to present you with a view of primary sources from the depression (page scans from the New York Times at various dates) which show analysis, politicking, and misguided attempts to handle the situation, ultimately leading to failure and World War II. Some commentary is provided, but I strongly encourage the reader to read these, and other, pages of primary text -- and then compare this to what is available in the media today -- so you can make your own opinion. The work here is from myself and [Ms. Wen Yen Chiu](https://www.wretch.cc/blog/miae) (which I recently found out, should really be spelled "Qiu").
 
@@ -20,15 +20,20 @@ October 30th, 1929
 >
 > - New York Times, October 30th, 1929, p. 2
 
+![Oct 30, 1929](/assets/images/2009-11-23-primary-sources-from-great-depression-19291030p1.png)
+
+![alt text](/assets/images/2009-11-23-primary-sources-from-great-depression-19291030p2.png)
+
 > Insurance Heads Urged to Buy Stocks
 >
 > Prompted by the drastic readjustment of securities prices, Albert Conway, State Superintendent of Insurance, recommended yesterday to insurance companies the purchase of leading common stocks. At the same time, he called into conference the heads of the largest life insurance companies in the State to see if there was any way in which, under the laws, they could make such purchases.
 >
 > - *New York Times*, October 30th, 1929, p. 3
 
+19291030p1
 To properly read this quote, a person from the modern days must realize that in the past banks and insurance companies were separate entities. Please read these pages to see other cases of optimism and take in a feel of which parties are saying what, then compare to the DJIA during the period. The date of that article is highlighted. Of course, the [S&P 500 would have been a better index](https://fulldecent.blogspot.com/2008/09/where-do-you-get-your-finance-news-why.html), but it didn't exist back then.
 
-<https://1.bp.blogspot.com/_rG3Oup-CHJE/SwmerJX9ywI/AAAAAAAAA3I/hNFrsemn2gs/s1600/djia19201940s.png>
+![DJIA](/assets/images/2009-11-23-primary-sources-from-great-depression-djia19201940s.png)
 
 June 30th, 1930
 
@@ -40,7 +45,7 @@ June 30th, 1930
 
 Globalization is a much more delicate issue today and "us versus them" taxes would be presented and received in a different light than yesteryear.
 
-<https://4.bp.blogspot.com/_rG3Oup-CHJE/Swmj13R5CfI/AAAAAAAAA3U/pjvlIrcoI_Q/s1600/31jun30p37-1.png>
+![Jun 30, 1930](/assets/images/2009-11-23-primary-sources-from-great-depression-19310630p33.png)
 
 April 6, 1933
 
@@ -62,7 +67,7 @@ The main headline of the day was "Beer Is Legal At Midnight; Brewers To Ban 'Car
 
 Also on page one is a smaller story, which is continued on page seven, titled "President Invokes Gold Hoarder Law". This is also known as [Executive Order 6102](https://en.wikipedia.org/wiki/Executive_Order_6102).
 
-<https://4.bp.blogspot.com/_rG3Oup-CHJE/Swsx2ms5IFI/AAAAAAAAA3c/lOQ3KSUtxNA/s1600/33apr06p1.png>
+![Apr 6, 1933](/assets/images/2009-11-23-primary-sources-from-great-depression-19330406p1.png)
 
 June 17th, 1933
 
@@ -72,7 +77,9 @@ The main headline was "President Starts Recovery Program, Signs Bank, Rail and I
 >
 > - New York Times, June 17th, 1933 p. 1
 
-<https://4.bp.blogspot.com/_rG3Oup-CHJE/SwssRMWxpSI/AAAAAAAAA3Y/hNcBz-U9kyA/s1600/33jun17p122.png>
+![Jun 17, 1933](/assets/images/2009-11-23-primary-sources-from-great-depression-19330617p1.png)
+
+![alt text](/assets/images/2009-11-23-primary-sources-from-great-depression-19330406p2.png)
 
 To put this into context, here is an overview of unemployment by Linda Levine submitted to the US Congress in June 2009, "The Labor Market during the Great Depression and the Current Recession":
 
@@ -109,3 +116,5 @@ To put this into context, here is an overview of unemployment by Linda Levine su
 > To appoint a Tennessee Valley Authority to develop natural resources of Tennessee River basin, including completion of Muscle Shoals project.
 
 Don't expect much in the way of a conclusion here. But feel free to post your own comparison of today and then in the comments section below.
+
+IMAGES TO LINK:

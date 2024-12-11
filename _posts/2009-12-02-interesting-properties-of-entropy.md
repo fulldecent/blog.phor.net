@@ -69,4 +69,4 @@ For completeness, the iterative definition of entropy without bits is:
 
 Entropy visualization
 
-<https://4.bp.blogspot.com/-n-vZrzqzAdU/T4rtjFj6isI/AAAAAAAABRQ/QamWO_Wj8AY/s1600/Screen+Shot+2012-04-15+at+11.46.52+AM.png>
+![Entropy visualization](/assets/images/2009-12-02-interesting-properties-of-entropy.png)

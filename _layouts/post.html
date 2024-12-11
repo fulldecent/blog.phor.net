@@ -4,59 +4,120 @@ layout: base
 ---
 {%- assign time_estimated = content | number_of_words | divided_by: 300 | plus: 1 | append: " minutes" -%}
 {%- if page contains "time" -%}
-  {%- assign time_estimated = page.time -%}
+{%- assign time_estimated = page.time -%}
 {%- endif -%}
-  <header>
-    <section class="container-fluid pt-5">
-      <div class="float-start col-md-8 pe-2">
-        <h1>{{ page.title | escape }}</h1>
-        <p>By 
-          {%- for author in page.authors %}
-            {{ author }}
-          {%- endfor -%}
-        </p>
-        <p>{{ time_estimated }}</p>
+<header>
+  <section class="container-fluid pt-5">
+    <div class="float-start col-md-8 pe-2">
+      <h1>{{ page.title | escape }}</h1>
+      <p>By
+        {%- for author in page.authors %}
+        <!-- link to posts by author -->
+        {{ author }}
+        {%- endfor -%}
+      </p>
+      <p>{{ time_estimated }}</p>
+    </div>
+    <aside class="margin-note mb-5">
+      <p>
+        {%- for tag in page.tags %}
+        <a href="/posts-by-tag#{{ tag | slugify }}">#{{ tag }}</a>
+        {% endfor -%}
+      </p>
+      <p>
+        {{ page.date | date: "%Y-%m-%d" }}
+        {%- for update in page.updates -%}
+        <br>{{ update.date | date: "%Y-%m-%d" }}: {{ update.changes | escape }}
+        {%- endfor -%}
+      </p>
+      <p class="mb-0">
+        <a target="_blank"
+          href="https://github.com/fulldecent/blog.phor.net/commits/main/{{- page.path | escape  -}}">Edit history</a>
+        <br><a target="_blank"
+          href="https://github.com/fulldecent/blog.phor.net/edit/main/{{- page.path | escape  -}}">Edit this page</a>
+      </p>
+    </aside>
+    <div class="clearfix"></div>
+  </section>
+</header>
+<article class="container-fluid">
+  <div class="clearfix"></div><!-- This helps if the first item in the article is a margin note -->
+  {% if page.affiliate-link %}
+  <p>
+    <em>This page includes an affiliate link. And hopefully I'll get paid if you click it. This does not increase the
+      price you pay, you would get the same price with or without my link.</em>
+  </p>
+  {% endif %}
+
+  {{ content }}
+  <p>&#9639;</p>
+  <h2>Comments</h2>
+
+  {%- if page.comments -%}
+  {%- for comment in page.comments %}
+  <blockquote>
+    <p>{{ comment.text | newline_to_br }}</p>
+    <cite class="d-block blockquote-footer"><a href="{{ comment.link | escape }}">{{ comment.name | escape }}</a></cite>
+  </blockquote>
+  {%- endfor -%}
+  {%- else -%}
+  <p>There are no comments yet.</p>
+  {%- endif -%}
+
+  <p>Please discuss this topic anywhere and <a href="https://phor.net/#authentic-accounts">let me know</a> any great
+    comments or media coverage I should link here.</p>
+</article>
+<aside class="container-fluid">
+  <h2>
+    Related articles
+  </h2>
+  <p class="mb-0">
+    <i class="bi bi-clock"></i>
+    In time order:
+  </p>
+  {% assign posts = site.posts | sort: 'date' | sort: 'name' %}
+  {% for post in posts %}
+  {% if post.id == page.id %}
+  {% assign currIndex = forloop.index0 %}
+  {% assign prevIndex = currIndex | minus: 1 %}
+  {% assign nextIndex = currIndex | plus: 1 %}
+  {% assign articleIndexLength = forloop.length | minus: 1 %}
+  <ul>
+    <li>
+      {% if currIndex == 0 %}
+      (This is the first post, no earlier posts)
+      {% else %}
+      &laquo; Older <a href="{{ site.url }}{{ site.baseurl }}{{ site.posts[prevIndex].url }}">
+        {{ site.posts[prevIndex].title | escape
+        }}</a>
+      {% endif %}
+    </li>
+    <li>
+      {% if currIndex == articleIndexLength %}
+      This is the latest post, subscribe and be the first to see the next one:
+
+      <div class="hstack gap-3">
+        <form
+          action="https://phor.us9.list-manage.com/subscribe/post?u=8b49e10ddf197497c02ff4eae&amp;id=e3fcfddf94&amp;MERGE1=blog.phor.net"
+          method="post">
+          <div class="input-group">
+            <input type="email" name="EMAIL" style="max-width:10rem" class="form-control form-control-sm"
+              placeholder="Email address" required>
+            <button type="submit" class="btn btn-primary ms-2 rounded-pill btn-sm"><i class="bi bi-bell-fill"></i>
+              Monthly<span class="d-none d-lg-inline"> email</span></button>
+          </div>
+        </form>
+        <div class="vr d-none d-lg-block"></div>
+        <a class="text-decoration-none text-nowrap" href="/feed.xml"><i class="bi-rss"></i> RSS</a>
       </div>
-      <aside class="margin-note mb-5">
-        <p>
-{%- for tag in page.tags %}
-          <a href="/posts-by-tag#{{ tag | slugify }}">#{{ tag }}</a>
-{% endfor -%}
-        </p>
-        <p class="mb-0">
-          {{ page.date | date: "%Y-%m-%d" }}
-{%- for update in page.updates -%}
-          <br>{{ update.date | date: "%Y-%m-%d" }}: {{ update.changes | escape }}
-{%- endfor -%}
-          <br><a target="_blank" href="https://github.com/fulldecent/blog.phor.net/commits/main/{{- page.path | escape  -}}">Edit history</a>
-          <br><a target="_blank" href="https://github.com/fulldecent/blog.phor.net/edit/main/{{- page.path | escape  -}}">Edit this page</a>
-        </p>
-      </aside>
-      <div class="clearfix"></div>
-    </section>
-  </header>
-  <article class="container-fluid">
-    <div class="clearfix"></div><!-- This helps if the first item in the article is a margin note -->
-{% if page.affiliate-link %}
-    <p>
-      <em>This page includes an affiliate link. And hopefully I'll get paid if you click it. This does not increase the price you pay, you would get the same price with or without my link.</em>
-    </p>
-{% endif %}
-    
-{{ content }}
-    <p>&#9639;</p>  
-    <h2>Comments</h2>
-
-    {%- if page.comments -%}
-    {%- for comment in page.comments %}
-    <blockquote>
-      <p>{{ comment.text | newline_to_br }}</p>
-      <cite class="d-block blockquote-footer"><a href="{{ comment.link | escape }}">{{ comment.name | escape }}</a></cite>
-    </blockquote>
-    {%- endfor -%}
-    {%- else -%}
-    <p>There are no comments yet.</p>
-    {%- endif -%}
-
-    <p>Please discuss this topic anywhere and <a href="https://phor.net/#authentic-accounts">let me know</a> any great comments or media coverage I should link here.</p>
-  </article>
+      {% else %}
+      &raquo; Newer
+      <a href="{{ site.url }}{{ site.baseurl }}{{ site.posts[nextIndex].url }}">{{ site.posts[nextIndex].title | escape
+        }} </a>
+      {% endif %}
+    </li>
+  </ul>
+  {% endif %}
+  {% endfor %}
+  </p>
+</aside>

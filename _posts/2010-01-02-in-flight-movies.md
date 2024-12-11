@@ -18,7 +18,9 @@ You're on an international flight traveling 12000 miles around the world over ab
 
 You could watch the entire Lord of the Rings trilogy (11 hours and 23 minutes) and then some action movies like:
 
-<https://3.bp.blogspot.com/_rG3Oup-CHJE/Sz_Lm7pAj7I/AAAAAAAAA38/Cfy4Kpnufbk/s1600/images-1.jpeg>
+![Movie 1](/assets/images/2010-01-02-in-flight-movies.jpg)
+![Movie 2](/assets/images/2010-01-02-in-flight-movies-2.jpg)
+![Movie 3](/assets/images/2010-01-02-in-flight-movies-3.jpg)
 
 Of course, this will make your eyes bleed, and you will fell jaded and have jet lag when you arrive. Instead, I recommend educational movies. Really intense math and physics on topics like:
 
