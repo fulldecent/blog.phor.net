@@ -44,6 +44,8 @@ From the server's end, they will calculate the public key from these inputs. And
 
 Please note that it is trivial to make *some* login here, but creating the login corresponding to your private key is impractical to do without knowing your private key.
 
+And if you don't want to allow other random websites to man-in-the-middle your customer's login, you will also need to ensure the client knows (i.e. they attest) which server they are logging into.
+
 ## Site survey
 
 I have reviewed several projects to see if they implement this correctly:
