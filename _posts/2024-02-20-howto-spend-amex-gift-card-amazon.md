@@ -1,5 +1,5 @@
 ---
-title: How to fully spend AmEx gift cards on Amazon in 2024
+title: How to fully spend AmEx gift cards on Amazon in 2025
 tags: ["how-to"]
 affiliate-link: true
 ---
@@ -68,14 +68,13 @@ And you need to screenshot that error message on the page with your order detail
 
 ## Step 3: File a complaint with the Consumer Financial Protection Bureau
 
-Visit the [Consumer Financial Protection Bureau](https://portal.consumerfinance.gov/consumer/s/login/SelfRegister). And fill in your basic contact information. This is a US federal government website, which you can verify by seeing `.gov` at the end of the domain name in the URL you land on. 
+Visit the [Consumer Financial Protection Bureau](https://portal.consumerfinance.gov/consumer/s/login/SelfRegister). And fill in your basic contact information. This is a US federal government website, which you can verify by seeing `.gov` at the end of the domain name in the URL you land on.
 
 Don't worry, I will show you every correct answer and copy/paste you need here.
 
 [![Consumer Financial Protection Bureau](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint1.png)](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint1.png)
 [![Consumer Financial Protection Bureau](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint2.png)](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint2.png)
 [![Consumer Financial Protection Bureau](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint3.png)](/assets/images/2024-02-20-howto-spend-amex-gift-card-amazon-complaint3.png)
-
 
 1. What is this complaint about? **Prepaid card**
 
@@ -89,11 +88,11 @@ Don't worry, I will show you every correct answer and copy/paste you need here.
 
    > I received an Amex eGift Card. This includes an email "You have received an
    >
-   > American Express® eGift Card" from Delivery@orders.amexgiftcard.com. And on
+   > American Express® eGift Card" from <Delivery@orders.amexgiftcard.com>. And on
    >
    > there I clicked the link to validate and print the card, which loads on
    >
-   > https://balance.amexgiftcard.com/#/account and shows a balance. I attempt to use
+   > <https://balance.amexgiftcard.com/#/account> and shows a balance. I attempt to use
    >
    > this on Amazon (using $1 less than the face value of the card). And the transaction is
    >
