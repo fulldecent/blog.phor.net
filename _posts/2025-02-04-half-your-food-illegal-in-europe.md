@@ -1,6 +1,10 @@
 ---
 title: Is half the food you eat illegal in Europe?
 tags: ["research","health","food"]
+comments:
+ - link: https://x.com/fulldecent/status/1887001235158417489
+   name: '@fulldecent'
+   text: The official X thread
 ---
 
 I randomly picked up several food products off the shelf in Whole Foods and Trader Joe’s to see if those foods would be banned in Europe. This is way harder than you might think, and you wont believe the results.
