@@ -24,8 +24,9 @@ This book is chock full of advice on exercise, food, and human habits. The inter
 
 ## Snacks on the go
 
--	[Walnuts](https://www.amazon.com/exec/obidos/ASIN/B01FRJ1FZ2/phornetandrel-20)
+- [Walnuts](https://www.amazon.com/exec/obidos/ASIN/B01FRJ1FZ2/phornetandrel-20)
 - [Almonds](https://www.amazon.com/exec/obidos/ASIN/B0046GZM8O/phornetandrel-20)
+- [Brazil nuts](https://www.amazon.com/exec/obidos/ASIN/B07R1L835R/phornetandrel-20)
 - [Pistachios](https://www.amazon.com/exec/obidos/ASIN/B001IZIEGS/phornetandrel-20)
 - [Macadamia nuts](https://www.amazon.com/exec/obidos/ASIN/B07C94C54R/phornetandrel-20)
 - [Almond butter](https://www.amazon.com/exec/obidos/ASIN/B0046GSTUM/phornetandrel-20)
