@@ -7,7 +7,7 @@ authors:
 old-link: https://fulldecent.blogspot.com/2009/11/quote-of-day-2009-11-01.html
 ---
 
-Quote of the day 2009-11-01
+Quote of the week 2009-11-01
 
 > Waitress: what can I get you guys to drink?<br>
 > WenYen: I'll have a Guiness<br>

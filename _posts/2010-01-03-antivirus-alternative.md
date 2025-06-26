@@ -6,6 +6,6 @@ authors:
 old-link: https://fulldecent.blogspot.com/2010/01/quote-of-day-2010-01-03.html
 ---
 
-Quote of the day 2010-01-03
+Quote of the week 2010-01-03
 
 > Su: What antibacterial software do you have for your computer?

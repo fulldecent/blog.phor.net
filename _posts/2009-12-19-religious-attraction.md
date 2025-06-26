@@ -6,7 +6,7 @@ authors:
 old-link: https://fulldecent.blogspot.com/2009/12/quote-of-day-2009-12-19.html
 ---
 
-Quote of the day 2009-12-19
+Quote of the week 2009-12-19
 
 > SW: Why do so many FOBs get attracted to religion when they come here? After someone is twentysomething years how can they still be tricked like that?<br>
 > WE: I think it is because they have weak minds<br>

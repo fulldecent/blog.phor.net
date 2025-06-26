@@ -1,5 +1,5 @@
 ---
-title: "Quote of the day 2010-02-05"
+title: "Quote of the week 2010-02-05"
 tags: ["my-life"]
 authors:
   - Baby Girl

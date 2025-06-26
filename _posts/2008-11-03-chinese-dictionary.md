@@ -2,7 +2,7 @@
 title: "Chinese dictionary"
 tags: 
   - eastwest
-  - rants	
+  - rant	
 old-link: https://fulldecent.blogspot.com/2008/11/chinese-dictionary.html
 ---
 

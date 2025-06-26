@@ -1,6 +1,6 @@
 ---
 title: "Revenues down?"
-tags: ["good-finds"]
+tags: ["good-find"]
 old-link: https://fulldecent.blogspot.com/2010/07/revenues-down.html
 ---
 

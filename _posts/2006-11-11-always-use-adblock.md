@@ -1,7 +1,7 @@
 ---
 title: Always use adblock
 tags: 
-  - scam-alert	
+  - scam
 old-link: https://fulldecent.blogspot.com/2006/11/just-making-sure-you-have-adblock.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Motorola \"Unauthorized Charger\" error"
 tags: 
-  - rants	
+  - rant	
 old-link: https://fulldecent.blogspot.com/2008/02/unauthorized-charger.html
 ---
 

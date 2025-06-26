@@ -1,6 +1,6 @@
 ---
 title: "RainbowMask, use random accounts to login to Web3"
-tags: ["blockchain", "dumb-business-ideas"]
+tags: ["blockchain", "dumb-business-idea"]
 comments:
   - link: https://twitter.com/fulldecent/status/1678890912863141890
     name: '@fulldecent'

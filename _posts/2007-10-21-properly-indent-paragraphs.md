@@ -6,7 +6,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2007/10/quote-of-day-2007-10-21.html
 ---
 
-<u>Quote of the day 2007-10-21</u>
+<u>Quote of the week 2007-10-21</u>
 
 *(Mike is typing a letter)*
 

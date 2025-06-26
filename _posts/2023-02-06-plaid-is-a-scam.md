@@ -1,6 +1,6 @@
 ---
 title: Why Plaid is a scam
-tags: ["scams"]
+tags: ["scam"]
 comments:
   - link: https://twitter.com/fulldecent/status/xxx
     name: '@fulldecent'
@@ -9,11 +9,11 @@ comments:
 
 Plaid.com is a company that collects bank account logins and passwords to "verify" your login to other quasi-banking institutions. They are a service provider to other companies, and here is what it looks like:
 
-[[ plaid.com phishing attempt IMAGE ]] 
+[[ plaid.com phishing attempt IMAGE ]]
 
 Following are some reasons plaid.com is a complete scam, is based entirely on phishing, and should be shut down.
 
-(Cross posted to https://www.reddit.com/r/plaidcompany/comments/dp7yli/why_plaidcom_is_a_scam/)
+(Cross posted to <https://www.reddit.com/r/plaidcompany/comments/dp7yli/why_plaidcom_is_a_scam/>)
 
 This blog post was drafted in 2019 and some parts may outdated by the time I finished publishing in 2022. Unfortunately in the meantime Visa has purchased Plaid for $5.3B, probably because they did not see this blog post.
 
@@ -27,7 +27,7 @@ A company that collects this much actionable login information for this many fin
 
 ## They have no privacy policy
 
-This company collects your bank login password. Which gives them full access to your bank accounts, all transaction history, and all your money. They have a page listed as a "privacy statement" on their website at https://plaid.com/legal/#privacy-statement which includes this sentence:
+This company collects your bank login password. Which gives them full access to your bank accounts, all transaction history, and all your money. They have a page listed as a "privacy statement" on their website at <https://plaid.com/legal/#privacy-statement> which includes this sentence:
 > We retain information we collect about you for as long as necessary to fulfill the purposes for which we collected it, unless a longer retention period is required OR PERMITTED under applicable law. [Emphasis added]
 
 If there is a no privacy policy, then a company is permitted to use your information to the maximum extent permitted under applicable law. So a privacy policy such as Plaid's which says a bunch of words and then "OR PERMITTED UNDER APPLICABLE LAW" is literally the same as not having any privacy policy whatsoever.

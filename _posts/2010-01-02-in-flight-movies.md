@@ -1,6 +1,6 @@
 ---
 title: "All time in-flight best movie choices for international flight"
-tags: ["best-practices"]
+tags: ["best-practice"]
 old-link: https://fulldecent.blogspot.com/2010/01/in-flight-movies.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/01/in-flight-movies.html#comment-1049995926933957460

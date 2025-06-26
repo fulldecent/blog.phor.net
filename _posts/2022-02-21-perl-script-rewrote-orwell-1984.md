@@ -1,6 +1,6 @@
 ---
 title: "The Perl script that rewrote Orwell's Nineteen Eighty-Four"
-tags: ["programming", "predictions"]
+tags: ["programming", "prediction"]
 comments:
   - link: https://twitter.com/fulldecent/status/1495979686278668288
     name: '@fulldecent'
@@ -37,7 +37,7 @@ As I plowed through these "translations", there was a light at the end of the tu
 ## Publishing
 
 {: .margin-note}
-I'm sure more successful authors are laughing at me... 50 pitches is barely even trying! 
+I'm sure more successful authors are laughing at me... 50 pitches is barely even trying!
 
 Of course no literary agent would touch this project. I [tried pretty hard to find one](https://github.com/fulldecent/Nineteen-Eighty-Five/blob/main/PROJECT.md#-pitch-to-literary-agent-xfail). And authors don't approach publishers.
 

@@ -1,6 +1,6 @@
 ---
 title: "DRM: controlling what you buy"
-tags: ["rants"]
+tags: ["rant"]
 old-link: https://fulldecent.blogspot.com/2006/07/there-is-important-issue-affecting.html
 
 ---
@@ -15,6 +15,6 @@ There is an important issue affecting the consumer electronics world. New device
 
    *When I say "the future", I mean now. By the way, the thing we are discussing is called "DRM"
 
-Naturally, consumers would not want to buy these products. However, they don't know they don't want to buy these products. Why? Because all the nerds that understand the issue are terrible at explaining it. Here is an example: https://defectivebydesign.org/ this is supposed to be the number one website for explaining the issue to people.
+Naturally, consumers would not want to buy these products. However, they don't know they don't want to buy these products. Why? Because all the nerds that understand the issue are terrible at explaining it. Here is an example: <https://defectivebydesign.org/> this is supposed to be the number one website for explaining the issue to people.
 
 Now, I want everyone to find a non-technical friend they have and send them to that website, see if they don't buy the next line of TC-DRM shit that Microsoft/Dell puts out.

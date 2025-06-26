@@ -11,7 +11,7 @@ comments:
     text: PK = player kill
 ---
 
-Quote of the day 2009-08-21
+Quote of the week 2009-08-21
 
 > <span style="color:blue">HM:</span> Why do American girls wear so little clothing?<br>
 > <span style="color:red">WE:</span> Sometimes they want to see who looks better<br>

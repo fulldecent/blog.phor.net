@@ -1,7 +1,7 @@
 ---
 title: "The new sobriety test"
 tags: 
-  - life-hacks	
+  - life-hack
 old-link: https://fulldecent.blogspot.com/2009/06/new-sobriety-test.html
 ---
 

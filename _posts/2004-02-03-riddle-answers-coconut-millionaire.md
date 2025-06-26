@@ -1,6 +1,6 @@
 ---
 title: "Riddle: answers to the coconut millionaire question"
-tags: ["riddles", "my-life", "funny"]
+tags: ["riddle", "my-life", "funny"]
 comments:
   - link: https://twitter.com/fulldecent/status/1515068047261904898
     name: '@fulldecent'
@@ -8,26 +8,23 @@ comments:
 old-link: https://fulldecent.blogspot.com/2004/02/riddle-posted-in-my-profile-my-friend.html
 ---
 
-The last profile riddle: 
+The last profile riddle:
 
 > *My friend told me the other day that he had found coconuts on sale for \$5 a dozen. Because there is a large demand for coconuts, he decided to sell them—for \$3 dollars a dozen. Since then, using this scheme, he has become a millionaire. How is this possible?*
 
 Generated too many funny responses to fit in the profile some are here:
 
-**flyingelmo2004** 
+**flyingelmo2004**
 
 > <span style="color:blue">flyingelmo2004:</span> selling nearly 4 million coconuts
 
-
-**nacnud1983** 
+**nacnud1983**
 
 > <span style="color:blue">nacnud1983:</span> another retailer was selling them for the $5, he undercut them and became a millionaire, BIATCH
 
-
-**gosujohn** 
+**gosujohn**
 
 > <span style="color:blue">gosujohn:</span> change of currency son
-
 
 **Pinball 10**
 
@@ -44,7 +41,6 @@ Generated too many funny responses to fit in the profile some are here:
 > <span style="color:blue">pinball10:</span> With net gains of over a million dollars. <br>
 > <span style="color:blue">pinball10:</span> Or maybe *XXX CORRECT ANSWER FILTERED OUT XXX* <br>
 > <span style="color:blue">pinball10:</span> (and maybe I cheated)
-
 
 **Llgirl714**
 
