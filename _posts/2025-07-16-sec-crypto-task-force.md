@@ -17,8 +17,6 @@ I had started by presenting [a half-cooked, very basic crypto project](https://w
 
 From the SEC side, here is who they invited to the meeting:
 
-%%% show task force role first, and then standing role after
-
 - Ileana Ciobanu: [senior special counsel, Office of the Chief Counsel to the CIO](https://www.sec.gov/files/finl-mgmt-ltr-review-sec-controls-over-public-comments-submitted-online-and-actions-taken-response.pdf);
 [senior special counsel, Office of Information Technology](https://www.sec.gov/files/finl-mgmt-ltr-review-sec-controls-over-public-comments-submitted-online-and-actions-taken-response.pdf)
 - Andrew Schoeffler: [senior advisor, Crypto Task Force](https://www.sec.gov/newsroom/press-releases/2025-49); [special counsel](https://www.federalregister.gov/documents/2017/06/13/2017-12140/commission-statement-concerning-a-request-for-an-interpretation-as-to-whether-a-particular-agreement), [Division of Corporation Finance](https://www.sec.gov/newsroom/press-releases/2016-216)
