@@ -4,7 +4,17 @@ tags: ["blockchain"]
 comments: []
 ---
 
-The SEC Cryto Task Force is led by Commissioner Hester M. Peirce, [first announced 2025-01-25](https://www.sec.gov/files/crypto-task-force-designation-letter.pdf). I have just sat down with this team, they are legit. Sharing here my experience, how this went versus my prior experiences trying to engage the US government regarding crypto projects and how you can connect.
+*After years of silence, a game-changing crypto meeting.*
+
+As someone who's presented to regulators &amp; central banks across EMEA, China &amp; beyond, and the lead author of ERC-721—the standard that powers NFTs—and, I've spent years navigating the global crypto regulatory landscape. But in the US, it was always a dead end: ghosted emails, unclear jurisdictions, and outright antagonism that drove innovation offshore. That changed dramatically with the new SEC Crypto Task Force. I just sat down with them, and they are legit—collaborative, knowledgeable and genuinely invested in making American crypto thrive.
+
+Sharing here my experience, how this went versus my prior experiences trying to engage the US government regarding crypto projects and how you can connect.
+
+## The old US crypto nightmare vs. the new hope
+
+US regulators have historically been inaccessible and unhelpful compared to their international counterparts. In Europe, the Middle East, Africa, and even China, I've participated in productive policy roundtables and presentations that led to real progress: reasonable crypto regulations worldwide, NFTs exempted from securities laws in most places, and China's national and Shanghai governments targeting NFTs for investment in their 14th Five-Year Plan.
+
+Then Donald Trump took office as the 47th president, and everything shifted. The SEC Crypto Task Force was announced hours after his inauguration on January 20, 2025, led by Commissioner Hester M. Peirce, [first announced 2025-01-25](https://www.sec.gov/files/crypto-task-force-designation-letter.pdf). My personal experience with them gives me real hope: this could be the inflection point where US policy catches up, fostering collaborative, common-sense regulation that to help the US catch pace.
 
 ## How it went
 
@@ -15,7 +25,19 @@ This is the holy grail crypto project.
 
 I had started by presenting [a half-cooked, very basic crypto project](https://www.sec.gov/files/ctf-memo-tokenco-wm-entriken-design-blockchain-technology-061015.pdf). In the world of US crypto regulation, there is a strong determinant "did your entity facilitate the transaction / or was the transaction processed by disinterested automata?" And basically, I leaned on that classification hard to see if I could legally start a business that holds shares of private companies and creates crypto tokens... all without registering as a broker-dealer.
 
-From the SEC side, here is who they invited to the meeting:
+As we went through the project, I was very open about what we are trying to do--avoiding the broker-dealer registration, doing the minimum necessary tasks to comply with rules. And we went through scenarios in rapid succession. ("What if we added a bunch of stuff so that this is not the primary business operation?" "What if we remove that part, is that germane to this meeting the test?") And the SEC team was super helpful in telling us which parts of which rules we were brushing up against. ("See where the '40 act says…." "That sounds more like a security-based swap if you do it that way.")
+
+**It was like walking into a room of experienced entrepreneurs, and doing back-of-the-napkin planning with them… the best collaboration you can get!**
+
+At the end of the session, we clocked in under 40 minutes. We ended the call early. No need to discuss further once we got through everything. And they did appreciate this. I left with plenty of homework, references and other projects to study.
+
+The task force did not hesitate in answering questions from all directions. They brought their own ideas I was not even thinking about.
+
+I had asked about upcoming regulations (released, but not yet effective), recently passed law and even laws on the hill (i.e. voted but not signed, in committee). The Crypto Task Force had no problem talking about these and being as helpful as possible.
+
+## Special thanks
+
+Shoutout to the task force team who made this possible. Here is who they invited to the meeting:
 
 - Ileana Ciobanu: [senior special counsel, Office of the Chief Counsel to the CIO](https://www.sec.gov/files/finl-mgmt-ltr-review-sec-controls-over-public-comments-submitted-online-and-actions-taken-response.pdf);
 [senior special counsel, Office of Information Technology](https://www.sec.gov/files/finl-mgmt-ltr-review-sec-controls-over-public-comments-submitted-online-and-actions-taken-response.pdf)
@@ -28,20 +50,6 @@ From the SEC side, here is who they invited to the meeting:
 - Michael Selig: [chief counsel, Crypto Task Force](https://www.sec.gov/newsroom/press-releases/2025-49)
 
 Quite a competent contingent!
-
-### Vibes
-
-As we went through the project, I was very open about what we are trying to do--avoiding the broker-dealer registration, doing the minimum necessary tasks to comply with rules. And we went through scenarios in rapid succession. ("What if we added a bunch of stuff so that this is not the primary business operation?" "What if we remove that part, is that germane to this meeting the test?") And the SEC team was super helpful in telling us which parts of which rules we were brushing up against. ("See where the '40 act says…." "That sounds more like a security-based swap if you do it that way.")
-
-**It was like walking into a room of experienced entrepreneurs, and doing back-of-the-napkin planning with them… the best collaboration you can get!**
-
-At the end of the session, we clocked in under 40 minutes. We ended the call early. No need to discuss further once we got through everything. And they did appreciate this. I left with plenty of homework, references and other projects to study.
-
-### Details
-
-The task force did not hesitate in answering questions from all directions. They brought their own ideas I was not even thinking about.
-
-I had asked about upcoming regulations (released, but not yet effective), recently passed law and even laws on the hill (i.e. voted but not signed, in committee). The Crypto Task Force had no problem talking about these and being as helpful as possible.
 
 ## The new crypto government vs. before
 
