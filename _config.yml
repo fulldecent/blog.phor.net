@@ -1,6 +1,7 @@
 title: William Entriken Blog
 subtitle: Analysis of all
 description: Essays by William Entriken
+url: https://blog.phor.net
 
 defaults:
   - scope:
@@ -27,7 +28,6 @@ exclude:
   - scripts
   - README.md
   - CNAME
-
 
 include:
   - _redirects

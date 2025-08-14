@@ -6,3 +6,4 @@ Gemfile.lock # Because GitHub Pages does not consider that file when building
 .gitignore
 /_drafts
 /_ideas
+/.yarn
