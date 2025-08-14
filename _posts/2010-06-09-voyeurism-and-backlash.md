@@ -20,4 +20,4 @@ But the window doesn't stay up. So, I went outside in the rain to find a scrap p
 A bunch of girls singing Britney Spears' *...Baby One More Time* on a loud-ass karaoke machine. And now, I can't close the window.  
 FML.
 
-![Propped open window](/assets/images/2010-06-09-voyeurism-and-backlash.jpg)
+![Propped open window](/assets/images/2010-06-09-voyeurism-and-backlash.webp)

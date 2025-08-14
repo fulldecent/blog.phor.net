@@ -2,7 +2,7 @@
 title: "NFTs, good or bad for art?"
 tags: ["my-life", "blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1522343230599319552
+  - link: https://x.com/fulldecent/status/1522343230599319552
     name: '@fulldecent'
     text: The official X thread
 ---

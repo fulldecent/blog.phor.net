@@ -12,7 +12,7 @@ comments:
     text: (Have my eyes covered.)
 ---
 
-![Stuck mouse](/assets/images/2010-08-02-is-there-crack.jpg)
+![Stuck mouse](/assets/images/2010-08-02-is-there-crack.webp)
 
 Is there a crack in the floor? No? Oh that's just the noise of you getting stuck in glue. Have fun with that.
 

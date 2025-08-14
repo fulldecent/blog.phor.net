@@ -17,4 +17,4 @@ Conductors on the train instructed passengers to exit and all passengers exited 
 
 Trevose Fire Co. arrived on the scene at 17:45 and assessed the situation.
 
-![SEPTA R3 train fire](assets/images/2009-06-11-septa-r3-train-catches-fire.jpg)
+![SEPTA R3 train fire](/assets/images/2009-06-11-septa-r3-train-catches-fire.webp)

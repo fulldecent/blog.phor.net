@@ -53,7 +53,7 @@ This is not a difficult problem:
 
 ---
 
-![Scammer location screenshot](/assets/images/2010-07-14-gun-control.jpg)
+![Scammer location screenshot](/assets/images/2010-07-14-gun-control.webp)
 
 ---
 

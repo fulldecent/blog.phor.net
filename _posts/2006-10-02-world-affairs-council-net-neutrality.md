@@ -1,5 +1,5 @@
 ---
-title: "World Affairs Council - Net Neutrality"
+title: "World Affairs Council—net neutrality"
 tags: 
   - rant	
 old-link: https://fulldecent.blogspot.com/2006/10/world-affairs-council-net-neutrality.html

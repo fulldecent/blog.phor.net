@@ -4,7 +4,7 @@ tags:
   - goodfind
   - politics
   - rant 
-old-link: <https://fulldecent.blogspot.com/2010/07/religious-tolerance.html>
+old-link: https://fulldecent.blogspot.com/2010/07/religious-tolerance.html
 ---
 
 I recently began rereading all the notes that I took during college, to keep the mind fresh while I'm waiting for SunGard to decide when the best time is for them to call me and offer me that job as a financial analyst...

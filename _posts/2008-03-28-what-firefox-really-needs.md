@@ -18,8 +18,8 @@ Firefox has been lying to you. They keep increasing their version numbers... but
 
 Firefox is not worthy of going past the 1.x version until there is innovation. I submit that this is the feature that will mark the beginning of the 2.0 browser era:
 
-![Firefox 3](assets/images/2008-03-28-what-firefox-really-needs.jpg)
+![Firefox 3](/assets/images/2008-03-28-what-firefox-really-needs.webp)
 
 EDIT:
 
-You can vote for this on [https://bugzilla.mozilla.org/show_bug.cgi?id=471370](Bugzilla).
+You can vote for this on [Bugzilla](https://bugzilla.mozilla.org/show_bug.cgi?id=471370).

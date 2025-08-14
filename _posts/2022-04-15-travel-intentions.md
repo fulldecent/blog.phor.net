@@ -2,7 +2,7 @@
 title: "My travel intentions"
 tags: ["my-life", "blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1515068046360125442
+  - link: https://x.com/fulldecent/status/1515068046360125442
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -14,7 +14,7 @@ But I love spending time with my family more, so I won't go to all those great e
 Then how to choose which ones to attend?
 
 {: .margin-note}
-My confirmed travel plans are always posted at [https://phor.net/#speaking](phor.net). Hear about them first with RSS or email updates above.
+My confirmed travel plans are always posted at [phor.net](https://phor.net/#speaking). Hear about them first with RSS or email updates above.
 
 ## Impact
 

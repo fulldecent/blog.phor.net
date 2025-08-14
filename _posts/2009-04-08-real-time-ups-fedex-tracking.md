@@ -43,7 +43,7 @@ me.
 
 And here's why not...
 
-![How to setup real-time UPS/FEDEX tracking with GPS](assets/images/2009-04-08-real-time-ups-fedex-tracking.png)
+![How to setup real-time UPS/FEDEX tracking with GPS](/assets/images/2009-04-08-real-time-ups-fedex-tracking.webp)
 
 > <span style="color: red;">Operator</span>: Hello<br>
 > <span style="color: blue;">Teenager</span>: Hi, I was using your website to track the status of my new XBox delivery. I see the truck has been driving towards my house... but it stopped. It's stopped in the middle of the road and hasn't moved.<br>

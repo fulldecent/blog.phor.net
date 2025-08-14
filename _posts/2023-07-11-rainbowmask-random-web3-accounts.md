@@ -2,14 +2,14 @@
 title: "RainbowMask, use random accounts to login to Web3"
 tags: ["blockchain", "dumb-business-idea"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1678890912863141890
+  - link: https://x.com/fulldecent/status/1678890912863141890
     name: '@fulldecent'
     text: The official X thread
 ---
 
 Introducing RainbowMask, login to any Web3 website without making an account
 
-![RainbowMask mood image](/assets/images/2023-07-11-rainbowmask-random-web3-accounts.jpg)
+![RainbowMask mood image](/assets/images/2023-07-11-rainbowmask-random-web3-accounts.webp)
 
 Some websites require you to login using your MetaMask account. This is a waste if you don't about Ethereum and you just want to see what's on that website.
 
@@ -39,7 +39,7 @@ It's basically like a middle finger to logging in on these websites.
 
 ## Where to get it?
 
-Click here [https://twitter.com/fulldecent](https://twitter.com/fulldecent) to get it.
+Click here [https://x.com/fulldecent](https://x.com/fulldecent) to get it.
 
 This is another post in my serious of dumb product/business ideas. Rather than keeping this as a file in my `Research/Dumb product-business ideas` folder I just jumped right to the product announcement, which you see here.
 

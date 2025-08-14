@@ -2,11 +2,11 @@
 title: Don't steal my Mac
 tags: 
   - bonus 
-old-link: <https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html>
+old-link: https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html
 comments:
-  - link: <https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html#comment-4794529858096537754>
+  - link: https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html#comment-4794529858096537754
     name: William Entriken
-    text: Do this on your iPhone too with information at <https://www.tralfamadore.com/2008/08/location-tracking-using-relocatable.html>
+    text: Do this on your iPhone too with information at https://www.tralfamadore.com/2008/08/location-tracking-using-relocatable.html
 updates:
   - date: 2024-12-10
     changes: Added actual use case

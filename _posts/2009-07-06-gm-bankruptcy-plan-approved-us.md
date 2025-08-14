@@ -1,5 +1,5 @@
 ---
-title: "GM bankruptcy plan approved: U.S. Bankruptcy Judge Robert E. Gerber fails"
+title: "GM bankruptcy plan approved: U.S. bankruptcy judge Robert E. Gerber fails"
 tags: ["government"]
 old-link: https://fulldecent.blogspot.com/2009/07/gm-bankruptcy-plan-approved-us.html
 ---

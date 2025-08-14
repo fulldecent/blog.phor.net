@@ -3,7 +3,7 @@ title: "Current notes patches diff kdesm"
 tags: ["my-life", "programming"]
 old-link: https://fulldecent.blogspot.com/2006/07/current-notes-patches-diff-rupd-my.html
 comments:
-  - link: https://twitter.com/fulldecent/status/1678890912863141890
+  - link: https://x.com/fulldecent/status/1678890912863141890
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -35,16 +35,16 @@ MY HOME: svn+ssh://xxxx@svn.kde.org/home/kde/branches/work/soc_ksm
 
 There is no specific schedule yet for the remaining tasks.
 
-* Early August - think of other application to integrate session support with like:
-  * karm
-  * plasma
-  * workspace switche
-  * task manager
-  * window list
-  * taskbar
-* Mid August—port to KDE4 TRUNK and merge with other change made from 3.5.3 to TRUNK.   
-* 20060820 - Project deadline to finish
-* Late August - more porting, and headaches involved with that. And bonus tasks<br>
+- Early August - think of other application to integrate session support with like:
+  - karm
+  - plasma
+  - workspace switche
+  - task manager
+  - window list
+  - taskbar
+- Mid August—port to KDE4 TRUNK and merge with other change made from 3.5.3 to TRUNK.
+- 20060820 - Project deadline to finish
+- Late August - more porting, and headaches involved with that. And bonus tasks<br>
 
 ## Bonus tasks
 

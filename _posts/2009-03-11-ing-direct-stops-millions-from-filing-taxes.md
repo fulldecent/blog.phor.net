@@ -24,11 +24,12 @@ Here is the letter to The Ombudsman.
 > First, I used the ING and Share Builder websites to collect my 1099 forms, which were properly made available by Jan 31st. However, during my phone call on or about Feb 20 and on the website, I was informed that additional documentation regarding any real estate mutual funds held in 2008 would be available by the end of February 2009. As of today, these forms have not been forthcoming and I did not see them on the website.<br>
 > <br>
 > Additionally, when I had my account with ING, I was able to see a full history of my transactions as well as the original cost for all my mutual funds. Since ING encouraged me to “go paperless,” I have relied on ING to keep electronic records for me. When I transferred to Share Builder, I was not made aware that this information would no longer be available. So now, after phone calls on or about Feb 20, Mar 10, and Mar 11, and continuous website visits, I am unable to get any of the following information:
+>
 > * A complete Quicken file of all my mutual fund transactions<br>
 > * Cost basis or capital gains information<br>
 > * A complete transaction history (so I can manually calculate gains)<br>
 >
-> As such, it is impossible to accurately file my taxes. Based on the number of ING Direct customers with mutual funds (published by ING at https://tinyurl.com/ingreport), I believe that this situation could prevent millions of ING Direct customers from properly filing their taxes.<br>
+> As such, it is impossible to accurately file my taxes. Based on the number of ING Direct customers with mutual funds (published by ING at <https://tinyurl.com/ingreport>), I believe that this situation could prevent millions of ING Direct customers from properly filing their taxes.<br>
 > <br>
 > Sincerely,<br>
 > <br>

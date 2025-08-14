@@ -23,11 +23,11 @@ I had all the correct and proper documents. This includes my passport and my Arg
 
 Photo page (first page of passport)
 
-![Photo page (first page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy.jpg)
+![Photo page (first page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy.webp)
 
 Observations page (second page of passport)
 
-![Observations page (second page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy2.jpg)
+![Observations page (second page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy2.webp)
 
 {: .margin-note}
 In China (and much of the East) it is not customary for a woman to change her name after marriage. Authorities in China and other places understand this custom in the West, and do have the official process of adding the “also known as”.
@@ -76,8 +76,8 @@ Sincerely,
 
 Su Wang Entriken & William Entriken
 
-
 encl.
+
 - Draft proposed webpage/service policy
 - Additional actionable notes
 
@@ -86,7 +86,7 @@ Pull request everything, lol
 
 ## Appendix A—proposed web page
 
-![Appendix A—proposed web page](/assets/images/2023-10-19-american-airlines-aka-policy3.png)
+![Appendix A—proposed web page](/assets/images/2023-10-19-american-airlines-aka-policy3.webp)
 
 Salient required features of this page.
 
@@ -103,7 +103,7 @@ Over the course of my itinerary I encountered several preventable issues that Am
 
 1. At the time our itinerary was changed unilaterally by American from Friday 2023-07-14 to Saturday 2023-07-15 we were already en route to PHL airport with our driver. The American app offered us to cancel this itinerary, or select a later date on the same route. **The American app should have, but did not, provide additional flight options to arrive earlier such as the PHL > DFW > EZE route on the same day.**
 2. When calling the AAAdvantage [sic] Platinum Desk, and inputting/confirming my AAdvantage number with the computer, I did not receive expedited priority in the support queue, and estimated wait times were 1.5 hours, which is longer than the car ride from PHL to my house. **American should, but did not, provide priority queuing for members with higher member status when they call any American support phone number and provide their AAdvantage number. Or, if this is higher priority queuing then lord have mercy on the people that queue without priority.**
-3. **The website https://ssc.aa.com/siebel/aaedocsENU/aae_servicedeskinfo.htm should, but does not, properly spell AAdvantage each time on the page.**
+3. **The website <https://ssc.aa.com/siebel/aaedocsENU/aae_servicedeskinfo.htm> should, but does not, properly spell AAdvantage each time on the page.**
 4. **All phone numbers on the American website should, but do not, use “tel:” hyperlinking so that they are clickable to make a phone call.**
 5. At the PHL American business priority ticketing area, the staff did not demonstrate a level of experience or friendliness that is typical of other American ticketing areas or other airline’s ticketing areas. **Priority ticketing areas should, but did not, utilize staff which are the most preferable of the available staff.**
 6. At the Philadelphia American business priority ticketing area, and several other locations, the staff did not demonstrate an understanding of how to handle passports with an “also known as” observation. **Staff should, but did not, demonstrate an understanding of travel documents from persons with married names legally recognized on passports (applies to staff at ticketing area in PHL & MIA, managers to MIA, and “AA help desk”).**
@@ -123,12 +123,12 @@ Over the course of my itinerary I encountered several preventable issues that Am
 20. After landing in EZE, at the advice of MIA boarding gate staff and “AA help desk”, I needed to call American advantage support to change my ticketed name back to Su Wang Entriken. I needed this resolved right away and I had a busy week ahead in Argentina especially with no luggage and one less day. Upon calling AAdvantage customer support, I was given the option of waiting (“35–45 minutes”) or requesting a call back, I selected option 3 to wait on hold. After about 2 hours on hold with no end in sight, I had other business to attend to. With great <mark>fear</mark>, I pressed 1 (the original option to request a call back) and then star (*) and then pound (#) and then all the other phone buttons. I was <mark>afraid</mark> because pressing a button might cause a call to drop and reset my place in queue. **All American phone systems which require customers to wait on hold should support next available and scheduled call backs (I assume this is already the case). When a customer chooses to hold on the line, these phone systems should, but did not, periodically offer to switch to a next available or scheduled call back. And also they should, but did not, repeat this advice if any button is pressed while waiting on hold.**
 21. I am a passenger with Platinum Pro status, and I am a Citi® / AAdvantage® Platinum Select World EliteTM Mastercard® cardmember (using that card for this reservation), flying on a basic economy fare ticket, purchased with a companion (husband) also with a basic economy fare ticket. The American marketing web pages explain that in this situation my husband (“travel [and life] companion”) is eligible for ticket upgrade:
 
-    1. My basic economy ticket is “Eligible for upgrades”, and I am “exempt from certain restrictions,” including “Upgrade privileges”. This ticket counts as “Main Cabin” fare. Source: https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp
-    2. My eligible upgrade applies “From any eligible purchased, published fare in the Main Cabin or Premium Economy to the next class of service (Business or domestic First)”. Source: https://www.aa.com/i18n/aadvantage-program/miles/redeem/award-travel/complimentary-upgrades.jsp
-    3. My companion’s eligibility for upgrades is specified as “With 1 companion on the same flight”. And this advertisement does not mention any restriction for my companion’s ticket fare (e.g. basic economy) that would limit this benefit. Neither on the two pages referenced above, nor on a separate terms and conditions at https://www.aa.com/i18n/aadvantage-program/aadvantage-terms-and-conditions.jsp
-    
+    1. My basic economy ticket is “Eligible for upgrades”, and I am “exempt from certain restrictions,” including “Upgrade privileges”. This ticket counts as “Main Cabin” fare. Source: <https://www.aa.com/i18n/travel-info/experience/seats/basic-economy.jsp>
+    2. My eligible upgrade applies “From any eligible purchased, published fare in the Main Cabin or Premium Economy to the next class of service (Business or domestic First)”. Source: <https://www.aa.com/i18n/aadvantage-program/miles/redeem/award-travel/complimentary-upgrades.jsp>
+    3. My companion’s eligibility for upgrades is specified as “With 1 companion on the same flight”. And this advertisement does not mention any restriction for my companion’s ticket fare (e.g. basic economy) that would limit this benefit. Neither on the two pages referenced above, nor on a separate terms and conditions at <https://www.aa.com/i18n/aadvantage-program/aadvantage-terms-and-conditions.jsp>
+
     During my ticketing at PHL, and at the American business lounges in PHL and MIA, staff confirmed that I was eligible for and received a complimentary upgrade (thank you!) However they denied to upgrade my husband citing a policy that “basic economy tickets are not eligible”. **American staff should, but did not, grant the full AAdvantage program benefits advertised publicly by American. Or alternatively, the AAdvantage program benefit advertisements should be, but have not been, reduced to reflect any effective and undisclosed restrictions.**
-22.  I am a Citi® / AAdvantage® Platinum Select World EliteTM Mastercard® cardmember. When traveling in Buenos Aires, I used this credit card to pay for dinner with my husband. The credit card processing fee/currency conversion fee for this dinner was over USD 200 for a dinner which cost approximately that same amount when paying in the local currency (ARS). In other words, the AAdvantage card charged me approximately 100% [sic] in fees on top of the price of my purchase. My husband’s credit card which is the Chase Amazon Prime credit card in the same scenario only charges approximately 10% in fees. I understand that Argentina has an unstable economy, which is why it is necessary to compare American’s credit card versus another competing credit card. In this experience, having been charged these fees, one does not feel “advantaged,” “selected,” “elite,” or “platinum” nor are they prepared for “world” travel. **A credit card branded by American and offered to higher-status AAdvantage customers for world travel should, but did not, avoid exorbitant fees on travel purchases. Or if American will not avoid exorbitant fees then American should, but did not, notify passengers that are AAdvantage cardmembers that are ticketed for travel to Argentina that exorbitant fees will apply.**
+22. I am a Citi® / AAdvantage® Platinum Select World EliteTM Mastercard® cardmember. When traveling in Buenos Aires, I used this credit card to pay for dinner with my husband. The credit card processing fee/currency conversion fee for this dinner was over USD 200 for a dinner which cost approximately that same amount when paying in the local currency (ARS). In other words, the AAdvantage card charged me approximately 100% [sic] in fees on top of the price of my purchase. My husband’s credit card which is the Chase Amazon Prime credit card in the same scenario only charges approximately 10% in fees. I understand that Argentina has an unstable economy, which is why it is necessary to compare American’s credit card versus another competing credit card. In this experience, having been charged these fees, one does not feel “advantaged,” “selected,” “elite,” or “platinum” nor are they prepared for “world” travel. **A credit card branded by American and offered to higher-status AAdvantage customers for world travel should, but did not, avoid exorbitant fees on travel purchases. Or if American will not avoid exorbitant fees then American should, but did not, notify passengers that are AAdvantage cardmembers that are ticketed for travel to Argentina that exorbitant fees will apply.**
 
 I hope this letter is helpful, fun and… actionable! Please let’s work together to make flying better in the 21st century. I still have a lot of the world left to see!!!
 

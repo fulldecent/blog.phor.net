@@ -7,4 +7,4 @@ old-link: https://fulldecent.blogspot.com/2006/11/not-everyone-looks-their-best-
 
 The least flattering photo of anyone ever
 
-![Least flattering](assets/images/2006-11-29-not-everyone-looks-their-best-all-time.jpg)
+![Least flattering](/assets/images/2006-11-29-not-everyone-looks-their-best-all-time.webp)

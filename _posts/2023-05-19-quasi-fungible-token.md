@@ -2,7 +2,7 @@
 title: "Quasi fungible token and MiCA"
 tags: ["blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1659547537647304705
+  - link: https://x.com/fulldecent/status/1659547537647304705
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -15,13 +15,13 @@ This week, Europe passed [legislation regulating markets for crypto tokens](http
 
 Today we've got our truck driving glasses on.
 
-![Man driving truck with sunglasses, courtesy World Sikh Organization of Canada @ Pexels #14797994](/assets/images/2023-05-19-quasi-fungible-token.jpg)
+![Man driving truck with sunglasses, courtesy World Sikh Organization of Canada @ Pexels #14797994](/assets/images/2023-05-19-quasi-fungible-token.webp)
 
 ## What's out of scope?
 
 Here is one major finding in the regulation about non-fungible tokens:
 
-> This Regulation should not apply to crypto-assets that are unique and not fungible with other crypto-assets, including digital art and collectibles. The value of such unique and non-fungible crypto-assets is attributable to each crypto-asset’s unique characteristics and the utility it gives to the token holder. 
+> This Regulation should not apply to crypto-assets that are unique and not fungible with other crypto-assets, including digital art and collectibles. The value of such unique and non-fungible crypto-assets is attributable to each crypto-asset’s unique characteristics and the utility it gives to the token holder.
 
 And let's zoom in on that:
 

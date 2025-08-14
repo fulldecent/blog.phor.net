@@ -20,4 +20,4 @@ You can save all your emails to a single ZIP file using Mac, Windows, or Linux (
 3. Open a connection to a network share running on your main operating system
 4. Copy over (2 hours for my 10,000 messages, 2GB)
 
-![Konqueror email screenshot](/assets/images/2010-10-18-how-to-export-your-gmail-account-or-any.jpg)
+![Konqueror email screenshot](/assets/images/2010-10-18-how-to-export-your-gmail-account-or-any.webp)

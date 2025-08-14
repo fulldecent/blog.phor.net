@@ -2,7 +2,7 @@
 title: "10 weird things you can do on a couch"
 tags: ["my-life"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1495979686278668288
+  - link: https://x.com/fulldecent/status/1495979686278668288
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2004/06/after-countless-nights-of-ptfo-many.html

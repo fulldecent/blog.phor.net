@@ -3,7 +3,7 @@ title: "Collatz research"
 tags: ["math"]
 old-link: https://fulldecent.blogspot.com/2006/06/when-i-was-looking-into-collatz.html
 comments:
-  - link: https://twitter.com/fulldecent/status/1663791208907546630
+  - link: https://x.com/fulldecent/status/1663791208907546630
     name: '@fulldecent'
     text: The official X thread
   - link: https://fulldecent.blogspot.com/2006/06/when-i-was-looking-into-collatz.html

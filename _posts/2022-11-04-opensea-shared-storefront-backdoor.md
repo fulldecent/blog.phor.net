@@ -2,13 +2,13 @@
 title: "Does OpenSea Shared Storefront have a backdoor?"
 tags: ["nft"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1589652866041401344
+  - link: https://x.com/fulldecent/status/1589652866041401344
     name: '@fulldecent'
     text: The official X thread
-  - link: https://twitter.com/fulldecent/status/1577066829440503808
+  - link: https://x.com/fulldecent/status/1577066829440503808
     name: '@fulldecent'
     text: Why didn't OpenSea publish this smart contract?
-  - link: https://twitter.com/fulldecent/status/1582140475208699904
+  - link: https://x.com/fulldecent/status/1582140475208699904
     name: '@fulldecent'
     text: Reverse engineering bytecode, Ben Affleck style, no paycheck
 ---
@@ -65,21 +65,19 @@ Here are some notes about how to effectively decompile and study smart contracts
 Since OpenSea general produces intentional code, I was only looking for backdoors, code paths that results in a `SSTORE`.
 
 1. Replace `revert.*;` to `REVERT`
-1. Replace `  var.*\W+REVERT.*` and `  memory.*\W+REVERT` to `REVERT`, go back and forth a few times
+1. Replace `var.*\W+REVERT.*` and `memory.*\W+REVERT` to `REVERT`, go back and forth a few times
 1. In `main` function
-  1. Find dispatches that result in `return`, replace with `return; // does not change state`
-  1. On dispatch, mark in red any called function/goto
-  1. On red things, mark in red any called function/goto, repeat
-  1. Delete everything not red
+1. Find dispatches that result in `return`, replace with `return; // does not change state`
+1. On dispatch, mark in red any called function/goto
+1. On red things, mark in red any called function/goto, repeat
+1. Delete everything not red
 
 You have completed the easy steps. Go to bed and do the rest steps with full brain power.
-
 
 ## Acknowledgements
 
 - Contract decompilation (easier than reading straight bytecode) provided by [https://ethervm.io/decompile](https://ethervm.io/decompile)
-- Tracing each `SLOAD` and `STATICCALL` while playing with contracts provided by [@sohamzemse](https://twitter.com/sohamzemse) in [hardhat-tracer](https://github.com/zemse/hardhat-tracer), running on [@HardhatHQ](https://twitter.com/HardhatHQ) [Hardhat](https://hardhat.org/).
-
+- Tracing each `SLOAD` and `STATICCALL` while playing with contracts provided by [@sohamzemse](https://x.com/sohamzemse) in [hardhat-tracer](https://github.com/zemse/hardhat-tracer), running on [@HardhatHQ](https://x.com/HardhatHQ) [Hardhat](https://hardhat.org/).
 
 ## Reading circle questions
 
@@ -89,14 +87,15 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
 - Is it necessary for a large company to publish their smart contract's source code even when many people won't read it?
 
 {%- comment -%}
+
 - [x] Publish GitHub repo // visibility public
 - [x] Tweet
 - [x] Update 2 BLOG POSTS to link to that tweet
 - [x] Update Tweets to reference this new tweet
-  - [x] https://twitter.com/fulldecent/status/1581004011763007488
-  - [x] https://twitter.com/fulldecent/status/1577066829440503808
-  - [x] https://twitter.com/fulldecent/status/1582140475208699904
-- [x] Post to https://news.ycombinator.com/item?id=33507819
-- [x] Post to https://www.reddit.com/r/opensea/comments/yorv3l/why_does_the_main_opensea_smart_contract_no/
-- [x] Post audit to https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e#comments
+  - [x] <https://x.com/fulldecent/status/1581004011763007488>
+  - [x] <https://x.com/fulldecent/status/1577066829440503808>
+  - [x] <https://x.com/fulldecent/status/1582140475208699904>
+- [x] Post to <https://news.ycombinator.com/item?id=33507819>
+- [x] Post to <https://www.reddit.com/r/opensea/comments/yorv3l/why_does_the_main_opensea_smart_contract_no/>
+- [x] Post audit to <https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e#comments>
 {%- endcomment -%}

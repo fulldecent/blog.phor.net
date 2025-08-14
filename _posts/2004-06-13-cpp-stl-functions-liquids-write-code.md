@@ -2,7 +2,7 @@
 title: "C++ STL set functions… and liquids that can write code"
 tags: ["coding"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1522343235007438848
+  - link: https://x.com/fulldecent/status/1522343235007438848
     name: '@fulldecent'
     text: The official X thread
   - link: https://fulldecent.blogspot.com/2004/06/are-you-badass-with-c-then-fix-this.html?showComment=1087170900000#c108717092705622985

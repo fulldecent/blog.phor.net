@@ -67,7 +67,7 @@ and it links to the [Privacy Policy](https://www.linkedin.com/static?key=privacy
 Furthermore here is my conversation with customer service:
 
 > **Customer (William Entriken) 2008-11-19 09:58 AM** I have used your tool to find contacts to add to linked in (via gmail). However, now I understand that you are also collecting my personal information about these contacts (their email address and phone numbers). I never gave you permission to collect this information. How can I be sure that you will delete it? How can I prevent you from collecting it in the future? How can determine what personal information you have of mine that has been uploaded by other users? Do you know my personal phone number and email? birthday? address?
-> 
+>
 > Thank you and please note that this finding as well as any response you make, or lack thereof, will be published.
 
 > **Response (LinkedIn - Lindsay (LB)) 2008-11-24 04:33 PM** Dear William, Thank you for contacting LinkedIn Customer Support. Please note, when you import an address book we do not collect any information other than the information posted on your imported contacts list, which is the email address. Invitations are not sent from your imported contacts list unless it is approved by you.
@@ -84,24 +84,23 @@ So... I was talking to a bot. Anyway, LinkedIn DOES collect more information tha
 
 Here is my own profile page to start:
 
-![Profile](assets/images/2008-12-23-linkedin-steals-private-address-data.png)
+![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data.webp)
 
 Here is me creating a Gmail account and adding some personal information:
 
-![Gmail](assets/images/2008-12-23-linkedin-steals-private-address-data-2.png)
+![Gmail](/assets/images/2008-12-23-linkedin-steals-private-address-data-2.webp)
 
 Here is me importing my webmail account:
 
-![Import](assets/images/2008-12-23-linkedin-steals-private-address-data-3.png)
+![Import](/assets/images/2008-12-23-linkedin-steals-private-address-data-3.webp)
 
 Here is my profile page with the new information:
 
-![Profile](assets/images/2008-12-23-linkedin-steals-private-address-data-4.png)
+![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data-4.webp)
 
 ... and closer up:
 
-![Profile](assets/images/2008-12-23-linkedin-steals-private-address-data-5.png)
-
+![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data-5.webp)
 
 ## Results
 

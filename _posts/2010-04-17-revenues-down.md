@@ -9,4 +9,4 @@ Problem: advertising revenues are down
 
 Solution: put ads on top of the ads
 
-![Billboard](/assets/images/2010-04-17-revenues-down.jpg)
+![Billboard](/assets/images/2010-04-17-revenues-down.webp)

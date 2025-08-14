@@ -2,7 +2,7 @@
 title: The future of Web3 is still custodial
 tags: ["blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1635342665515687938
+  - link: https://x.com/fulldecent/status/1635342665515687938
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -15,11 +15,11 @@ This question comes up so much, posting here as-is (with permission):
 
 > Hi - Thoroughly enjoyed your talk at Google, thanks for giving it. I still have this issue that I'm trying to wrap my head around, which is how/if the world will ever make the move from the custodial world we live in (my bank, my trading account, etc) to a world where I have a single private key and really "own" these NFTs. My concern is that all of this great stuff in terms of smart contracts or even Vitalik's idea of a soulbound NFTs ASSUME that we're all going to suddenly bind ourselves to our own private key that we have to guard with our lives, only to be subject to all the rules of what I can sell, when I can sell, and what transaction fees I have to pay.
 >
-> Instead, I can put my trust in Coinbase, or whoever else in the long run comes up. For that I get: * Not needing to worry about private keys. * Being able to sell to whomever I want and skirt all the blockchain rules.
+> Instead, I can put my trust in Coinbase, or whoever else in the long run comes up. For that I get: *Not needing to worry about private keys.* Being able to sell to whomever I want and skirt all the blockchain rules.
 >
 > Can you help me understand this / do you have a perspective?
 >
-> DM with https://twitter.com/dando212
+> DM with <https://x.com/dando212>
 
 And the response:
 
@@ -42,7 +42,7 @@ And see also [Community Service Hour](https://www.youtube.com/watch?v=A_wVSSXXGc
 {: .margin-note}
 I have no idea who I paraphrase-stole this quote from
 
-Business models don't change, business practices change. 
+Business models don't change, business practices change.
 
 Since ages ago, commerce and reputation have been aligned very closely. You want to buy apples, I'm selling apples, you assess my reputation, and then you buy. Both of us walk away with some risk, you of getting a bad apple, me of some retribution if I sell you a bad apple. Other risks include fake consideration (money, barter) for the purchase.
 

@@ -1,5 +1,5 @@
 ---
-title: "Health Care Reform -- Doctor Shortage To Expand the Role of Registered Nurses"
+title: "Health care reform—doctor shortage to expand the role of registered nurses"
 tags: 
   - government
 authors: 

@@ -1,5 +1,5 @@
 ---
-title: "Firefox zero-day: You can't leave this page (2)"
+title: "Firefox zero-day: you can't leave this page (2)"
 tags: ["zero-day", "security"]
 comments:
  - link: https://x.com/fulldecent/status/1824510778520526923
@@ -39,7 +39,7 @@ This was found when creating a JavaScript snippet to handle redirects for a simp
 
 It appears that Firefox employs hueristics or other logic to allow back navigation even when a web page is doing redirects to prevent this.
 
-I found that the main effective element here in the minimal exploit code is the `async` function. The `fetch` function is effective for here, as well as `crypto.subtle.digest`. However some other `async` functions that we tried did not exhibit the bug, such as the most straightforward `await Promise.resolve(true)`. 
+I found that the main effective element here in the minimal exploit code is the `async` function. The `fetch` function is effective for here, as well as `crypto.subtle.digest`. However some other `async` functions that we tried did not exhibit the bug, such as the most straightforward `await Promise.resolve(true)`.
 
 I also golfed the exploit, this may make it applicable in more contexts such as with user-generated content. Golfing is a team sport, so do share if you find a shorter vector!
 

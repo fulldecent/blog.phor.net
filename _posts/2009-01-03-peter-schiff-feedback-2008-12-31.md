@@ -14,7 +14,7 @@ I listen to [Peter's Schiff's weekly podcast](https://www.youtube.com/playlist?l
 
 > [10:25](https://www.europac.net/media/PeterSchiff_12-31-2008.rm#10:25) "... November [2007] to November [2008] retail sales in China were up 22%... I mean the Chinese, among their top five hobbies... shopping is up there, I mean it is probably number four, right up there with ping pong and gymnastics."
 
-![Sales as a percentage of GDP](assets/images/2009-01-03-peter-schiff-feedback-2008-12-31.jpg)
+![Sales as a percentage of GDP](/assets/images/2009-01-03-peter-schiff-feedback-2008-12-31.webp)
 
 Response:
 

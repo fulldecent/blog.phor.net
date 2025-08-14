@@ -1,8 +1,8 @@
 ---
-title: "Hey Are you open to working on projects right now?"
+title: "Hey are you open to working on projects right now?"
 tags: ["scam"]
 #comments:
-# - link: https://twitter.com/fulldecent/status/1740120842351087868
+# - link: https://x.com/fulldecent/status/1740120842351087868
 #   name: '@fulldecent'
 #   text: The official X thread
 ---
@@ -92,7 +92,7 @@ Subject: Hire
 >
 > We have a project, it is at the stage of development for about 2 years. It is a innovative and futuristic crypto gaming project that specializes in creating expansive meta universes created on the UE5 engine with a total budget of $900,000 as of 2023. We have 6 investors, some of them are well known: 4 companies, 2 legal entities. Our project has two legal licenses in the UK, as well as Dubai, to trade assets and software development (game studio). We also have a license from Apple to put our game in their AppStore, as well as support for almost all platforms that exist today, ranging from Windows, to Linux and Oculus. We have Microsoft certificates, which allow us to confirm our development without any problems and put it into Microsoft Store. We also have 1 audit one by DappRadar, a detailed RoadMap / WhitePaper, a team of 28 people from different parts of the world, and we already have 4 patents on AI developments, which are already built into our worlds. You can also check out our trailer:
 >
-> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors.jpg)
+> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors.webp)
 
 > From: William Entriken
 >
@@ -106,7 +106,7 @@ Subject: Hire
 >
 > Yes, our team has meticulously examined your portfolio, and rest assured, I am fully aware of your expertise and wouldn't reach out otherwise. At the moment, our project is in the midst of an extensive rebranding process. I'd be happy to share with you a few promotional videos to give you a glimpse of the anticipated new look. Additionally, I would like to propose to you the role of the lead advisor in the project, a position that I believe aligns well with your skills and experience.
 >
-> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors2.jpg)
+> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors2.webp)
 
 > From: William Entriken
 >
@@ -114,15 +114,15 @@ Subject: Hire
 >
 > Happy to set up a time to discuss details or we can discuss further here. This does not look too similar to other projects I am working on. As for the role, I am only able to work as a technical advisor—I cannot advise on legal or tax matters.
 >
-> You are also welcome to present your project on an upcoming call on Community Service Hour at https://hour.gg if you would like to say anything publicly about it.
+> You are also welcome to present your project on an upcoming call on Community Service Hour at <https://hour.gg> if you would like to say anything publicly about it.
 
 > From: Timothy smith
 >
 > Hey, thank you for your response! Yes, we are currently hosting gaming events in which our team is participating. It's definitely a different project, as we strive to make our platform unique by adding various innovations and functionalities based on the Web3 concept. For now, our project is entirely unique, and there are no counterparts.
-> 
+>
 > Regarding your role as a technical advisor, it is very valuable to us. The technical aspect of games and applications within the Web3 concept plays a key role, and your expert opinion and advice can greatly contribute to the development of our project.
-> 
-> I can add you to our gaming playground system, to our room. Also, I think there will be an opportunity to chat with the project founder. You can join our Discord here: https://discord.gg/quantumstudio
+>
+> I can add you to our gaming playground system, to our room. Also, I think there will be an opportunity to chat with the project founder. You can join our Discord here: <https://discord.gg/quantumstudio>
 
 > From: William Entriken
 >
@@ -145,7 +145,7 @@ Subject: Hire
 
 > From: Timothy Smith
 >
-> Hey William All documents and other informational materials can be found on our Link3: https://link3.to/quant. If you need anything, feel free to write to me. With all due respect, Timothy Smith.
+> Hey William All documents and other informational materials can be found on our Link3: <https://link3.to/quant>. If you need anything, feel free to write to me. With all due respect, Timothy Smith.
 
 > From: William Entriken
 >
@@ -169,7 +169,7 @@ Subject: Hire
 >
 > Thank you for sharing. I do not install software. does Quantum work other ways?
 >
-> Also I cannot recommend other people to install software unless it is in an app store. There are several crypto projects offering software but actually they are malware, here is one of many examples: https://twitter.com/1c4m3by/status/1727977963864359216
+> Also I cannot recommend other people to install software unless it is in an app store. There are several crypto projects offering software but actually they are malware, here is one of many examples: <https://x.com/1c4m3by/status/1727977963864359216>
 
 > From: Timothy Smith
 >
@@ -202,7 +202,7 @@ Subject: Hire
 
 > From: Timothy Smith
 >
-> You can choose a time on the calendar for a meeting with Alex: https://calendly.com/woolanalex/30min
+> You can choose a time on the calendar for a meeting with Alex: <https://calendly.com/woolanalex/30min>
 >
 > Have you already tried entering the metaverse? Join in before the conference starts by clicking the Play button on our launcher, and you'll join the lobby.
 
@@ -250,7 +250,7 @@ This thread is between me, Tim, and Alex <woolanalex@gmail.com>. This is the ema
 >
 > We are targeting a start date for next week, and I can turn this paperwork around quickly today.
 
-... emails woolanalex@gmail.com are now bouncing. 
+... emails <woolanalex@gmail.com> are now bouncing.
 
 > From: Timothy Smith
 >
@@ -270,7 +270,7 @@ This thread is between me, Tim, and Alex <woolanalex@gmail.com>. This is the ema
 >
 > yes, that's actually true. His email got blocked due to suspicious activity as he told me. It might be because of sending documents too frequently.
 >
-> We are currently in the midst of a busy phase in our project, gradually transitioning into the final stage. By the way, are you planning to join us? I'll duplicate the access codes for you: You can find more information on our official website: https://quantumverse.world/. Access codes: Windows: MTRX-ADV1-JNS9 and MacOS: MTRX-ADV2-JNS9
+> We are currently in the midst of a busy phase in our project, gradually transitioning into the final stage. By the way, are you planning to join us? I'll duplicate the access codes for you: You can find more information on our official website: <https://quantumverse.world/>. Access codes: Windows: MTRX-ADV1-JNS9 and MacOS: MTRX-ADV2-JNS9
 
 > From: William Entriken
 >
@@ -294,22 +294,22 @@ Through the links they sent to me on email above, our meeting, and my own resear
 
 🚨☢️ Consider these links as dangerous and I do not endorse them!
 
-- X https://twitter.com/QStudioX
-- Discord https://discord.com/invite/quantumstudio
-- Discord web https://discord.com/servers/quantum-quan-1071493704373764267
-- Medium https://medium.com/@quantumstudio
-- Mirror https://mirror.xyz/quantumstudio.eth
-- Whitepaper https://docs.quantumverse.world/
-- UK License https://find-and-update.company-information.service.gov.uk/company/01592381
-- US License https://www.georgiacompanyregistry.com/companies/quantum-advantage-llc/
-- Partners https://docs.quantumverse.world/quantum-partners
-- Investors https://docs.quantumverse.world/quantum-investors
-- Staff Handbook https://docs.quantumverse.world/legal/staff-handbook
-- Website Privacy Policy https://docs.quantumverse.world/legal/website-privacy-policy
-- Gala Games https://app.gala.games/games/quantumverse
-- $QUANT Bubblemaps https://app.bubblemaps.io/eth/token/0x4e69365007ee6560d01d174b608bf9ac13d58f37
-- Bluesky https://bsky.app/profile/quantumstudio
-- Entre https://joinentre.com/profile/quantumstudio
+- X <https://x.com/QStudioX>
+- Discord <https://discord.com/invite/quantumstudio>
+- Discord web <https://discord.com/servers/quantum-quan-1071493704373764267>
+- Medium <https://medium.com/@quantumstudio>
+- Mirror <https://mirror.xyz/quantumstudio.eth>
+- Whitepaper <https://docs.quantumverse.world/>
+- UK License <https://find-and-update.company-information.service.gov.uk/company/01592381>
+- US License <https://www.georgiacompanyregistry.com/companies/quantum-advantage-llc/>
+- Partners <https://docs.quantumverse.world/quantum-partners>
+- Investors <https://docs.quantumverse.world/quantum-investors>
+- Staff Handbook <https://docs.quantumverse.world/legal/staff-handbook>
+- Website Privacy Policy <https://docs.quantumverse.world/legal/website-privacy-policy>
+- Gala Games <https://app.gala.games/games/quantumverse>
+- $QUANT Bubblemaps <https://app.bubblemaps.io/eth/token/0x4e69365007ee6560d01d174b608bf9ac13d58f37>
+- Bluesky <https://bsky.app/profile/quantumstudio>
+- Entre <https://joinentre.com/profile/quantumstudio>
 
 ## End result
 
@@ -323,7 +323,7 @@ I welcome your criticism and advice on all aspects here.
 
 There are a lot of details above dancing around my due diligence of the company, setting up an agreement, talking about the product, and making meetings. <mark>However, the important part is the software. They are persistent in trying to get me to install software on my computer. This is the red flag.</mark>
 
-See also: 
+See also:
 
-* [Lord Fluff Lord claims](https://twitter.com/Fluff_Lord/status/1758277360695025962) to have reviewed this software and found it is a scam 
-* [Muaawiyah Tucker shares advice](https://twitter.com/c_hashreview/status/1716170632281370821) on using different email addresses for everything
+- [Lord Fluff Lord claims](https://x.com/Fluff_Lord/status/1758277360695025962) to have reviewed this software and found it is a scam
+- [Muaawiyah Tucker shares advice](https://x.com/c_hashreview/status/1716170632281370821) on using different email addresses for everything

@@ -2,7 +2,7 @@
 title: "Randomization strategies for NFT drops"
 tags: ["blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1490829369748897795
+  - link: https://x.com/fulldecent/status/1490829369748897795
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -11,7 +11,7 @@ comments:
 
 NFTs that are released for sale typically drop as a set, and each asset in the set has a different value or may appeal differently to different people. Even with [500 still frames of Joe Biden eating a sandwich](https://xkcd.com/915/), some are great and some are terrible.
 
-This article reviews different approaches to randomization I have seen in the wild or heard about. 
+This article reviews different approaches to randomization I have seen in the wild or heard about.
 
 Of course product designers will ask for the holy grail, but... <mark>Fair, random and immediate sales are not possible on decentralized ledgers. ("No FRID".)</mark> Many creative solutions have been tried to trade between these features.
 
@@ -44,7 +44,7 @@ graph LR
 subgraph Numbered sales
   m[Metadata is public]-->p
   p[Pick one]-->b[Buy that]
-	b[Buy that]-->g[Got that]
+ b[Buy that]-->g[Got that]
 end
 ```
 
@@ -173,9 +173,9 @@ So how does a naive buyer upgrade to a MEV buyer? A buyer can rely on **rerolls*
 
 Examples:
 
-- [Meebits drop was hacked for millions](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) because it allowed buyers to know which ID they were getting while also accidentally revealing which IDs were valuable. The attacker used the "rerolls" technique.
-- [The Photon Project](https://thephotonprojectnft.com) ([smart contract](https://etherscan.io/address/0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F#code)) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
-- [LazyArray data structure](https://github.com/fulldecent/solidity-template/blob/main/contracts/Data%20structures/LazyArray.sol) allows to efficiently implement sample without replacement.
+* [Meebits drop was hacked for millions](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) because it allowed buyers to know which ID they were getting while also accidentally revealing which IDs were valuable. The attacker used the "rerolls" technique.
+* [The Photon Project](https://thephotonprojectnft.com) ([smart contract](https://etherscan.io/address/0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F#code)) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
+* [LazyArray data structure](https://github.com/fulldecent/solidity-template/blob/main/contracts/Data%20structures/LazyArray.sol) allows to efficiently implement sample without replacement.
 
 ## Iterative commit-reveal
 
@@ -206,14 +206,14 @@ There are several ways to get this entropy:
 
 I'll open a separate discussion on offchain oracles later.
 
-Let's clarify about an offchain oracle, first that is not a decentralized system and second it is not random. Many people have a thought otherwise, but do not have a strong conviction/evidence. 
+Let's clarify about an offchain oracle, first that is not a decentralized system and second it is not random. Many people have a thought otherwise, but do not have a strong conviction/evidence.
 
 There are ways for an MEV participant to manipulate the `BLOCKHASH`. But these techniques are not well-known in 2022. I'm working to change that. <mark>Hacking NFT drops will get a lot easier in 2023 due to proof-of-stake.</mark>
 
 Examples:
 
 * [Area](https://area.world) ([smart contract](https://etherscan.io/address/0xf85c6320cc60DEC45Af1f7cE82B13dd24D539690#code)) uses a "commit train" so that each buyer is doing a commit as well as the reveal for the previous buyer.
-* [Non-Fungible Fungi](https://twitter.com/FungibleFungi) ([smart contract](https://etherscan.io/address/0x90ee3cf59fcde2fe11838b9075ea4681462362f1#code)) uses an VRF oracle to pick token indicies.
+* [Non-Fungible Fungi](https://x.com/FungibleFungi) ([smart contract](https://etherscan.io/address/0x90ee3cf59fcde2fe11838b9075ea4681462362f1#code)) uses an VRF oracle to pick token indicies.
 
 ## Metadata reveal at end
 
@@ -249,13 +249,13 @@ There are a few mitigations to make this not so terrible.
 
 Examples:
 
-- [Meebits accidentally revealed which metadata was good](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) by publishing the data on IPFS and making it available on their website
-  - [Peter Kacherginsky has](https://iphelix.medium.com/meebit-nft-exploit-analysis-c9417b804f89) a good analysis of the hack
+* [Meebits accidentally revealed which metadata was good](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) by publishing the data on IPFS and making it available on their website
+  * [Peter Kacherginsky has](https://iphelix.medium.com/meebit-nft-exploit-analysis-c9417b804f89) a good analysis of the hack
 
 ## Reading circle questions
 
-- What is the difference in risk profile from a founder that publishes the metadata before a drop starts versus after it ends?
-- Will it be random if the founder promises to use next week's Dow Jones Industrial Average opening price as a seed for random distribution?
-- Is the risk of rug pulls/disappearance moot when you buy in a presale?
-- How do auctions and other price-discovery mechanisms offset the "abstract" risk discussed under "no randomization" above?
-- Is there any benefit to using an auction for drops which are designed to be "random"?
+* What is the difference in risk profile from a founder that publishes the metadata before a drop starts versus after it ends?
+* Will it be random if the founder promises to use next week's Dow Jones Industrial Average opening price as a seed for random distribution?
+* Is the risk of rug pulls/disappearance moot when you buy in a presale?
+* How do auctions and other price-discovery mechanisms offset the "abstract" risk discussed under "no randomization" above?
+* Is there any benefit to using an auction for drops which are designed to be "random"?

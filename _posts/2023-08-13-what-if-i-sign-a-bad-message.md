@@ -2,7 +2,7 @@
 title: What is the worst thing that could happen if I sign a bad message?
 tags: ["blockchain", "security"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1690924467403337728
+  - link: https://x.com/fulldecent/status/1690924467403337728
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -11,7 +11,7 @@ Did you ever quickly sign a message and not know what it was?
 
 For example, here is a message for logging into Rarible.
 
-![Message signature request for logging into Rarible](/assets/images/2023-08-13-what-if-i-sign-a-bad-message.png)
+![Message signature request for logging into Rarible](/assets/images/2023-08-13-what-if-i-sign-a-bad-message.webp)
 
 This article explains the worst thing that could happen if you sign a message you didn't understand. And it explains an ongoing issue with major Ethereum wallet applications that implement message signing.
 
@@ -19,7 +19,7 @@ This article explains the worst thing that could happen if you sign a message yo
 
 In the context of Ethereum applications, a <dfn>message</dfn> is some data that is endorsed by some human. That message can be validated off-chain and it can also be validated on-chain by a smart contract.
 
-Formalizing this a little bit: 
+Formalizing this a little bit:
 
 * By *data*, we typically refer to a sequence of text or raw bytes. Although a standard exists for higher-level data structures.
 * By *some human*, we refer to an externally owned account (EOA). This is controlled by a person, not a smart contract.
@@ -30,11 +30,14 @@ Formalizing this a little bit:
 Ethereum messages are used primarily for two purposes:
 
 1. **To authenticate a human to a website or application.** By validating a message, the website or application can verify that the human controls a particular Ethereum account. This includes:
-  * Logging into a website
-  * Sending a verifiable email to somebody else
+
+* Logging into a website
+* Sending a verifiable email to somebody else
+
 2. **To authorize a smart contract to perform some action.** Typically, a smart contract uses signed messages when a transaction involves multiple parties:
-  * Selling an NFT, where another human party wants to buy it
-  * Preparing some arbitrary transaction, where another human party wants to pay to broadcast it
+
+* Selling an NFT, where another human party wants to buy it
+* Preparing some arbitrary transaction, where another human party wants to pay to broadcast it
 
 Most nything that can be done using a message could also be done using a transaction. But transactions have a cost (to record on a blockchain) and messages are free. Therefore, messages can be a first choice when possible.
 

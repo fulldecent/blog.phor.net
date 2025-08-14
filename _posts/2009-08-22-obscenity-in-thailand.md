@@ -9,4 +9,4 @@ Geography for a day
 
 We all know that the capital of Thailand is Bangkok. But did you know that they also have a city named Phuket?
 
-![Phuket](/assets/images/2009-08-22-obscenity-in-thailand.jpg)
+![Phuket](/assets/images/2009-08-22-obscenity-in-thailand.webp)

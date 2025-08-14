@@ -4,16 +4,16 @@ tags:
   - youhearditherefirst 
 authors:
   - Anonymous
-old-link: <https://fulldecent.blogspot.com/2010/09/mexicans-are-taking-all-our-jobs-kick.html>
+old-link: https://fulldecent.blogspot.com/2010/09/mexicans-are-taking-all-our-jobs-kick.html
 comments:
-  - link: <https://fulldecent.blogspot.com/2010/09/mexicans-are-taking-all-our-jobs-kick.html#comment-4010263409313384050>
+  - link: https://fulldecent.blogspot.com/2010/09/mexicans-are-taking-all-our-jobs-kick.html#comment-4010263409313384050
     name: William Entriken
-    text: Bonus image:<br /><br /><https://www.marriedtothesea.com/index.php?date=080807>
+    text: "Bonus image: https://www.marriedtothesea.com/index.php?date=080807"
 ---
 
 *Posting for a friend without a blog*
 
-![American jobs](/assets/images/2010-09-24-mexicans-are-taking-all-our-jobs-kick.gif)
+![American jobs](/assets/images/2010-09-24-mexicans-are-taking-all-our-jobs-kick.webp)
 
 Here's the argument, I'm sure you heard it before:
 

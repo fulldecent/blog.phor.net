@@ -1,5 +1,5 @@
 ---
-title: "Bank security case study: Why is financial fraud so easy in America?"
+title: "Bank security case study: why is financial fraud so easy in America?"
 tags:
   - privacy
   - security 

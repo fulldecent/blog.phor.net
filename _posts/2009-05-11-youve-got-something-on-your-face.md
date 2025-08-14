@@ -18,7 +18,7 @@ comments:
 
 Somebody walks up to you and tells you that you have something on your face. They make a gesture on their left cheek to show you where the thing is on your face.
 
-![You've got something on your face](assets/images/2009-05-11-youve-got-something-on-your-face.jpg)
+![You've got something on your face](/assets/images/2009-05-11-youve-got-something-on-your-face.webp)
 
 Do you have something on:
 

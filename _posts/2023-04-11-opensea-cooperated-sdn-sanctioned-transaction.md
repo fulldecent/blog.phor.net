@@ -2,7 +2,7 @@
 title: "OpenSea cooperated transaction with SDN sanctioned entity"
 tags: ["nft"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1645766658110238720
+  - link: https://x.com/fulldecent/status/1645766658110238720
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -64,7 +64,7 @@ It is not clear whether OpenSea was obligated to seize, prevent transferring the
 
 Thank you to Google for providing access to BigQuery public datasets and processing in support of this article.
 
-There may be other transactions with SDN and non-SDN entities, but I stopped looking. Queries across the entire Ethereum blockchain can be costly and I exhausted my allowance for several months working on this article. You can find other articles on this site (and associated older blogs I am converting over) that used thousands of USD of gas fees and other resources to bring you first-class reporting. But for this one I relied on the free allowance from Google.
+There may be other transactions with SDN and non-SDN entities, but I stopped looking. Queries across the entire Ethereum blockchain can be costly and I exhausted my allowance for several months working on this article. You can find other articles on this site that used thousands of USD of gas fees and other resources to bring you first-class reporting. But for this one I relied on the free allowance from Google.
 
 Here is the query:
 

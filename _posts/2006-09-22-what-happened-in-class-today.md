@@ -25,4 +25,4 @@ I also met a bunch of people today. Here's an overview:
 
 With this post, I'm also including the photo of the minute. This is where I literally reach on my floor and pick something up to take a low quality snapshot of it. This may or may not catch on with future posts.
 
-![Wire](assets/images/2006-09-22-what-happened-in-class-today.jpg)
+![Wire](/assets/images/2006-09-22-what-happened-in-class-today.webp)

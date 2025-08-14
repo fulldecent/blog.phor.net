@@ -2,7 +2,7 @@
 title: "Moon dust: auditable, versioned databases"
 tags: ["blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1650313072966348803
+  - link: https://x.com/fulldecent/status/1650313072966348803
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -125,7 +125,7 @@ All of these are commercial best practices, used to various degree in industry.
 
 Here is a simple example of a SQL database (SQLite) which implements an auditable trail for all changes to the database.
 
-Access this project at https://github.com/fulldecent/versioned_database_template
+Access this project at <https://github.com/fulldecent/versioned_database_template>
 
 ```sql
 CREATE TABLE favorite_words (
@@ -179,7 +179,7 @@ If:
 2. you digitally sign them
 3. you regularly publish or send the hashes/signatures to interested parties...
 
-then your business records are auditable. The auditing party can confirm that records you disclose at some future time are the same records that were effective at the time in question. i.e. they were contemporaneous. 
+then your business records are auditable. The auditing party can confirm that records you disclose at some future time are the same records that were effective at the time in question. i.e. they were contemporaneous.
 
 We can still do a little better.
 
@@ -215,7 +215,7 @@ Here is a diagram of four rows of a database (at top). These are summarized into
     CD-->ABCD
 ```
 
-You don't need to understand all of this picture. Just appreciate how each row down is halving the amount of stuff. If the first row is every personal tax record submitted in the United States in 2022, then it would take less than 30 rows (of hashes) to summarize into one Merkle root. 
+You don't need to understand all of this picture. Just appreciate how each row down is halving the amount of stuff. If the first row is every personal tax record submitted in the United States in 2022, then it would take less than 30 rows (of hashes) to summarize into one Merkle root.
 
 That also means the US government could sign and **publish a Merkle root of all the personal tax records** submitted in 2022 (as of, say May 1, 2023, midnight, New York). And they could **give you a receipt of your tax filing**, along with about 30 succinct gobbledygook hashes (see an example in the "manifest" above). This is a small amount of information that could fit on a QR code. And you could use that to **let anybody confirm** that your tax record is the one the US government received.
 

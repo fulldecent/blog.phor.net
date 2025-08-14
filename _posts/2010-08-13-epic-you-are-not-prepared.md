@@ -1,5 +1,5 @@
 ---
-title: "EPIC: You are not prepared"
+title: "Epic: you are not prepared"
 tags:
   - goodfind 
 old-link: https://fulldecent.blogspot.com/2010/08/epic-you-are-not-prepared.html

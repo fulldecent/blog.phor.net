@@ -31,4 +31,4 @@ Snippet:
 | U.S.           | 178.0 cm (5'10.1") | 163.2 cm (5'4.4")    | Black Americans, 20–39        | Measured    | 2003–2006 | [69](https://en.wikipedia.org/wiki/Human_height#cite_note-cdc-68) |
 | U.S.           | 170.6 cm (5'7.2")  | 158.7 cm (5'2.5")    | Mexican-Americans, 20–39      | Measured    | 2003–2006 | [69](https://en.wikipedia.org/wiki/Human_height#cite_note-cdc-68) |
 
-![Who is taller](assets/images/2009-09-08-who-is-taller-chinese-girls-or-american.jpg)
+![Who is taller](/assets/images/2009-09-08-who-is-taller-chinese-girls-or-american.webp)

@@ -15,7 +15,7 @@ Procedure:
 
 Example:
 
-https://phor.net/personal
+<https://phor.net/personal>
 
 Notes:
 

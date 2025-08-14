@@ -17,12 +17,11 @@ You can specify the period to consider.
 
 Also, the site provides a recommended new schedule in order to avoid systematic latenesses which have been identified.
 
-![SEPTA performance](assets/images/2009-05-15-independent-review-of-septa-performance.png)
+![SEPTA performance](/assets/images/2009-05-15-independent-review-of-septa-performance.webp)
 
 This site is at: [https://apps.phor.net/septa/](https://apps.phor.net/septa/)
 
 Enjoy!
-
 
 ---
 

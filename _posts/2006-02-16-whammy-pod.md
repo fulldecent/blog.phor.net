@@ -2,7 +2,7 @@
 title: Whammy pod
 tags: ["my-life", "humor"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1645766658110238720
+  - link: https://x.com/fulldecent/status/1645766658110238720
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2006/02/whammy.html

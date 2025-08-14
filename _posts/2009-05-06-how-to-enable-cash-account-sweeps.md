@@ -9,11 +9,11 @@ This also serves as a short lesson in client-side validation/server-side validat
 
 First, go into the Funding and Transfers tab to set up a withdraw and choose "Available Balance":
 
-![Funding and Transfers](assets/images/2009-05-06-how-to-enable-cash-account-sweeps.png)
+![Funding and Transfers](/assets/images/2009-05-06-how-to-enable-cash-account-sweeps.webp)
 
 Then, use a JavaScript console, or a client side tool to change the Frequency to "Weekly" and submit*:
 
-![Change Frequency](assets/images/2009-05-06-how-to-enable-cash-account-sweeps-2.png)
+![Change Frequency](/assets/images/2009-05-06-how-to-enable-cash-account-sweeps-2.webp)
 
 This is not the most straightforward way of using the website. However, I consider this is a legitimate and useful feature. *If you don't know how to accomplish this, you are not the intended audience here, but a first hint would be for you to use Chrome and access the Developer Tools menu item.
 

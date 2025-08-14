@@ -22,4 +22,4 @@ comments:
 
 I didn't slap you... I high-fived you in your face.
 
-![High five tee shirt](assets/images/2009-04-11-high-five-tee-shirt.jpg)
+![High five tee shirt](/assets/images/2009-04-11-high-five-tee-shirt.webp)

@@ -7,13 +7,13 @@ affiliate-link: true
 
 Connecting your Roku device to Xfinity Wi-Fi can be tricky, especially since Roku devices do not come with any built-in browser. This limitation makes the standard login process through a web page impossible. However, there's an effective workaround using a computer to spoof your Roku's MAC address, allowing you to authenticate on the Xfinity Wi-Fi network. Here's a step-by-step guide on how to do it, specifically tested and confirmed for the Roku 4K version.
 
-## You will need:
+## You will need
 
 - A Roku device
 - A computer, preferably a Mac for this guide
 - Access to the Xfinity Wi-Fi network
 
-## Step-by-step guide:
+## Step-by-step guide
 
 **1. Gather your Roku's MAC address**
 

@@ -1,5 +1,5 @@
 ---
-title: "Security case study: Hashes for popular router passwords"
+title: "Security case study: hashes for popular router passwords"
 tags: ["security"]
 old-link: https://privacylog.blogspot.com/2009/11/hashes-for-popular-router-passwords.html
 comments:

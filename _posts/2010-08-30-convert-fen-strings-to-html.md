@@ -6,10 +6,10 @@ old-link: https://fulldecent.blogspot.com/2010/08/convert-fen-strings-to-html.ht
 comments:
   - link: https://fulldecent.blogspot.com/2010/08/convert-fen-strings-to-html.html#comment-3765269258234609476
     name: Anonymous
-    text: Thanks for sharing this link,  but unfortunately it seems to be offline... Does anybody have a mirror or another source? Please reply to my post if you do!<br /><br />I would appreciate if a staff member here at fulldecent.blogspot.com could post it.<br /><br />Thanks,<br />Jules
+    text: "Thanks for sharing this link,  but unfortunately it seems to be offline... Does anybody have a mirror or another source? Please reply to my post if you do!<br /><br />I would appreciate if a staff member here at fulldecent.blogspot.com could post it.<br /><br />Thanks,<br />Jules"
   - link: https://fulldecent.blogspot.com/2010/08/convert-fen-strings-to-html.html#comment-3651018604546488685
     name: William Entriken
-    text: Are you able to access the homepage <https://phor.net> ? I posted a copy of fen2html at hosting2.phor.net/~phor/beta/fen2html.html<br /><br />Enjoy!
+    text: "Are you able to access the homepage https://phor.net ? I posted a copy of fen2html at hosting2.phor.net/~phor/beta/fen2html.html<br /><br />Enjoy!"
 ---
 
 Introducing the FEN to HTML converter. Paste FEN in, view the board and get HTML out. Does not use any images.

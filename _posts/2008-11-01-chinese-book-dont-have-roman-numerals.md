@@ -16,4 +16,4 @@ Chinese books don't use these roman numerals...
 
 ...which leads to interesting tables of contents like this one:
 
-![Chinese book](assets/images/2008-11-01-chinese-book-dont-have-roman-numerals.jpg)
+![Chinese book](/assets/images/2008-11-01-chinese-book-dont-have-roman-numerals.webp)

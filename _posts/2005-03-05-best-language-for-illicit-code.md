@@ -2,7 +2,7 @@
 title: "Best language for illicit code"
 tags: ["my-life"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1589652876770836486
+  - link: https://x.com/fulldecent/status/1589652876770836486
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2005/03/so-public-safety-comes-into-my-room.html

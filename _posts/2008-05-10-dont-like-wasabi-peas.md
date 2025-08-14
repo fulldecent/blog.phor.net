@@ -1,5 +1,5 @@
 ---
-title: "Baby girl does not like wasabi peas"
+title: "Baby Girl does not like wasabi peas"
 tags: 
   - humor	
 old-link: https://fulldecent.blogspot.com/2008/05/baby-girl-does-not-like-wasabi-peas.html
@@ -9,4 +9,4 @@ comments:
     text: I want to let her know when she grow up
 ---
 
-![Too spicy](assets/images/2008-05-10-dont-like-wasabi-peas.jpg)
+![Too spicy](/assets/images/2008-05-10-dont-like-wasabi-peas.webp)

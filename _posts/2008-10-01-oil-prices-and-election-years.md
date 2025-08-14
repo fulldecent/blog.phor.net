@@ -7,7 +7,7 @@ old-link: https://fulldecent.blogspot.com/2008/10/oil-prices-and-election-years.
 
 I have heard that oil prices are affected by an election year. After some analysis, this is clearly not the case. Here's the data, relative oil prices on election years and non-election years:
 
-![Oil prices and election years](assets/images/2008-10-01-oil-prices-and-election-years.png)
+![Oil prices and election years](/assets/images/2008-10-01-oil-prices-and-election-years.webp)
 
 Methodology:
 

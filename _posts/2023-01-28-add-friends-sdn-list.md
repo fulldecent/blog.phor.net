@@ -2,7 +2,7 @@
 title: "Add your friends to the SDN list with this one weird trick"
 tags: ["nft", "zero-day"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1619215274263322624
+  - link: https://x.com/fulldecent/status/1619215274263322624
     name: '@fulldecent'
     text: The official X thread
   - link: https://github.com/MetaMask/metamask-extension/issues/11147
@@ -15,13 +15,14 @@ comments:
 
 *There is humor in this article title, you do not want to add your friends to the Specially Designated Nationals (SDN) list. This list is published by the US Department of the Treasury's Office of Foreign Assets Control (OFAC) and is used to enforce economic sanctions and other financial restrictions imposed by the United States government.*
 
-## Summary:
+## Summary
 
 A dapp that uses a contract interaction can add a value amount of 1000000000 Wei to the transaction and MetaMask will show that the amount is zero ("0").
 
-## Steps To reproduce:
+## Steps to reproduce
 
 1. Transfer 1000000000 Wei, or in Ethers, use any contract interaction with:
+
    ```javascript
    contractWithSigner.someFunction({ value: "1000000000" });
    ```
@@ -34,9 +35,9 @@ A dapp that uses a contract interaction can add a value amount of 1000000000 Wei
 
 1. In addition to the very large zero ("0") amount shown, the "total" value at the bottom also does not show this amount.
 
-## Supporting material/references:
+## Supporting material/references
 
-![Transaction confirmation box](/assets/images/2023-01-28-Add%20your%20friends%20to%20the%20SDN%20list%20with%20this%20one%20weird%20trick.png)
+![Transaction confirmation box](/assets/images/2023-01-28-add-friends-sdn-list.webp)
 
 ## Impact
 

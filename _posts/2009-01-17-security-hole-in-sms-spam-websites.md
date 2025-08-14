@@ -13,7 +13,7 @@ updates:
 
 The Web 2.0 paradigm introduces a new web programming model. However, with new programming models comes the risk of developer incompetence.
 
-#### Old Model:
+#### Old Model
 
 ```mermaid
 graph TD;
@@ -21,7 +21,7 @@ graph TD;
     Server-->Database;
 ```
 
-#### New Model:
+#### New Model
 
 ```mermaid
 graph TD;
@@ -39,7 +39,7 @@ Examples of SMS spam websites include:
 - [iqlovetestv0.iqlovetest.com](https://iqlovetestv0.iqlovetest.com/)
 - [thankyoupath.com/landing_pages/quiz_dating](https://www.thankyoupath.com/landing_pages/quiz_dating/)
 
-![Screenshot](/assets/images/2009-01-17-security-hole-in-sms-spam-websites.png)
+![Screenshot](/assets/images/2009-01-17-security-hole-in-sms-spam-websites.webp)
 
 ### Exploit Example
 

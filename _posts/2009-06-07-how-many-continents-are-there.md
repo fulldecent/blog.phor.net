@@ -29,5 +29,5 @@ However, there are some crazy people in this world who think otherwise.
 
 You can read more here:
 
-- https://en.wikipedia.org/wiki/Continents
-- https://zh.wikipedia.org/wiki/%E6%B4%B2
+- <https://en.wikipedia.org/wiki/Continents>
+- <https://zh.wikipedia.org/wiki/%E6%B4%B2>

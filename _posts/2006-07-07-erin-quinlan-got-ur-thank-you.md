@@ -3,7 +3,7 @@ title: Hey we got ur thank you
 tags: ["humor", "my-life"]
 old-link: https://fulldecent.blogspot.com/2006/07/erin-quinlan-hey-we-got-ur-thank-you.html
 comments:
-  - link: https://twitter.com/fulldecent/status/1690924467403337728
+  - link: https://x.com/fulldecent/status/1690924467403337728
     name: '@fulldecent'
     text: The official X thread
 ---

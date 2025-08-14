@@ -2,7 +2,7 @@
 title: Standards for online etiquette
 tags: ["my-life"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1635342665515687938
+  - link: https://x.com/fulldecent/status/1635342665515687938
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2005/12/i-have-been-told-several-times-that-i.html

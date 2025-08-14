@@ -10,7 +10,7 @@ Original quote:
 
 > Using new methodology being developed, GM said it expects the Volt to consume as little as 25 kilowatt hours per 100 miles in city driving. At the U.S. average cost of electricity, a typical Volt driver would pay about $2.75 for electricity to travel 100 miles, or less than 3 cents per mile, GM said in the statement today.
 >
-> https://www.bloomberg.com/apps/news?pid=20601082&sid=aEDzRDhEIFVs
+> <https://www.bloomberg.com/apps/news?pid=20601082&sid=aEDzRDhEIFVs>
 
 Other assumptions:
 

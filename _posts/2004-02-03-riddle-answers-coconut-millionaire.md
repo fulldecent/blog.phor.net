@@ -2,7 +2,7 @@
 title: "Riddle: answers to the coconut millionaire question"
 tags: ["riddle", "my-life", "funny"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1515068047261904898
+  - link: https://x.com/fulldecent/status/1515068047261904898
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2004/02/riddle-posted-in-my-profile-my-friend.html

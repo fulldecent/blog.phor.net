@@ -17,4 +17,4 @@ ING Direct does not include an account sweep function. There is an HTML hack pos
 
 Note: you cannot sweep all money from a non-ING account to an ING account, since ING cannot determine the balance of that external account.
 
-![Account sweep setup with ING Direct](assets/images/2008-06-08-ing-direct-account-sweep.png)
+![Account sweep setup with ING Direct](/assets/images/2008-06-08-ing-direct-account-sweep.webp)

@@ -16,9 +16,9 @@ I shaved my beard today. And I got a lot of reactions, so I'll tell you about th
 
 ## Before/after
 
-![Before](assets/images/2006-11-28-just-like-baby-seal.jpg)
+![Before](/assets/images/2006-11-28-just-like-baby-seal.webp)
 
-![After](assets/images/2006-11-28-just-like-baby-seal-before.jpg)
+![After](/assets/images/2006-11-28-just-like-baby-seal-before.webp)
 
 ## At home
 
@@ -46,7 +46,7 @@ Yu-ching and Wen-yen were surprised too wanted to know why, Will, why?!
 
 Kristin found out that I shaved by way of my new buddy icon, since I change it daily.
 
-![AIM buddy icon](assets/images/2006-11-28-just-like-baby-seal-buddy-icon.jpg)
+![AIM buddy icon](/assets/images/2006-11-28-just-like-baby-seal-buddy-icon.webp)
 
 ## At home
 

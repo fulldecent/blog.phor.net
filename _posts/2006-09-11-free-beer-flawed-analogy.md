@@ -14,7 +14,7 @@ comments:
 
 Please use the terms "Joe Sixpack" and "free beer" in a sentence that explains how Joe righteously denounces the giveaway to seek something even freer.
 
-Beer, and software, are a meritocracy. The ideology is just one of the merits (for some, but not all). 
+Beer, and software, are a meritocracy. The ideology is just one of the merits (for some, but not all).
 
 Therefore, I propose a new term that makes this apparent:
 

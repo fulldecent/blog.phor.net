@@ -1,8 +1,8 @@
 ---
-title: "Riddle beakers"
-tags: ["my-life"]
+title: "Riddle: beakers"
+tags: ["my-life", "riddle"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1619215276138205185
+  - link: https://x.com/fulldecent/status/1619215276138205185
     name: '@fulldecent'
     text: The official X thread
 old-link: https://fulldecent.blogspot.com/2005/10/after-more-than-2-years-in-hibernation.html
@@ -18,7 +18,7 @@ For those that are new here, the profile riddle started in 2002. The rankings ar
 {: .margin-note}
 From The Muppet Movie, 1979, which I expect is out of copyright by now.
 
-![Muppets and beakers](/assets/images/2005-10-18-riddle-beakers.jpg)
+![Muppets and beakers](/assets/images/2005-10-18-riddle-beakers.webp)
 
 ## More riddle woes
 
@@ -38,6 +38,7 @@ there is now 5 in the 6<br />
 Many minds are pondering this problem right now! And more importantly, Steve recognizes and ultimately surrenders to the fact that the profile riddles are a true rubric of human intelligence and wit.
 
 ## The answer
+
 All beakers have graduation marks, so just fill either beaker up exactly to the 5 gallon mark.
 
 ```
@@ -72,18 +73,4 @@ snoop2828 0 3
 *denotes a recent win/loss
 ```
 
-@TODO: fix these links...
-
-Other riddles on this blog:
-
-FIVE LIGHTS (SPOILER): <a href="http://fulldecent.blogspot.com/2009/02/5-lights-riddle-answer.html">http://fulldecent.blogspot.com/2009/02/5-lights-riddle-answer.html</a>
-
-FIVE LIGHTS:&nbsp;<a href="http://fulldecent.blogspot.com/2009/01/riddle-upgraded-one-about-lights.html">http://fulldecent.blogspot.com/2009/01/riddle-upgraded-one-about-lights.html</a>
-
-FOUR LIGHTS:&nbsp;<a href="http://fulldecent.blogspot.com/2009/01/profile-riddle-is-back-lights.html">http://fulldecent.blogspot.com/2009/01/profile-riddle-is-back-lights.html</a>
-
-COINS:&nbsp;<a href="http://fulldecent.blogspot.com/2006/08/new-riddle-i-have-two-coins.html">http://fulldecent.blogspot.com/2006/08/new-riddle-i-have-two-coins.html</a>
-
-BEAKERS:&nbsp;<a href="http://fulldecent.blogspot.com/2005/10/after-more-than-2-years-in-hibernation.html">http://fulldecent.blogspot.com/2005/10/after-more-than-2-years-in-hibernation.html</a>
-
-[COCONUT MILLIONAIRE 2004-02-03](/2004/02/03/Riddle-answers-to-the-coconut-millionaire-question)
+Find [other riddle posts](posts-by-tag#riddle) on this blog.

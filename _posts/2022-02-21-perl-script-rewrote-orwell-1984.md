@@ -2,7 +2,7 @@
 title: "The Perl script that rewrote Orwell's Nineteen Eighty-Four"
 tags: ["programming", "prediction"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1495979686278668288
+  - link: https://x.com/fulldecent/status/1495979686278668288
     name: '@fulldecent'
     text: The official X thread
   - link: https://www.reddit.com/r/2600/comments/t4b6ov/nineteen_eightyfive/

@@ -2,7 +2,7 @@
 title: "What kinds of things should be standardized?"
 tags: ["coding"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1575908251945689091
+  - link: https://x.com/fulldecent/status/1575908251945689091
     name: '@fulldecent'
     text: The official X thread
   - link: https://ethereum-magicians.org/t/which-things-need-ercs-and-which-dont/11128

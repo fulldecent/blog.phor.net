@@ -9,7 +9,7 @@ Here is some pretty conclusive evidence that TD Ameritrade is sharing your accou
 
 First, login to your TD Ameritrade account and you will find a chart like this:
 
-![TD Ameritrade pie chart](assets/images/2008-09-19-td-ameritrade-sells-your-position.png)
+![TD Ameritrade pie chart](/assets/images/2008-09-19-td-ameritrade-sells-your-position.webp)
 
 This specific chart is displayed on my screen via the following HTML code:
 

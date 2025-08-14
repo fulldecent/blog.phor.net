@@ -1,5 +1,5 @@
 ---
-title: "Are you Looking for a rhino thimble?"
+title: "Are you looking for a rhino thimble?"
 tags: 
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2008/03/are-you-looking-for-rhino-thimble.html

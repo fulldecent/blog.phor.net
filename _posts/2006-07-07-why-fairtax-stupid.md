@@ -3,14 +3,14 @@ title: Why FairTax is stupid
 tags: ["government"]
 old-link: https://fulldecent.blogspot.com/2006/07/why-fairtax-is-stupid.html
 comments:
-  - link: https://twitter.com/fulldecent/status/1702160272180277548
+  - link: https://x.com/fulldecent/status/1702160272180277548
     name: '@fulldecent'
     text: The official X thread
 ---
 
 Below are some basic notes against the book *The FairTax Book* by Neal Boortz and John Linder.
 
-See also: https://en.wikipedia.org/wiki/FairTax
+See also: <https://en.wikipedia.org/wiki/FairTax>
 
 ## Responsibility moved from IRS to state
 
@@ -18,7 +18,7 @@ See also: https://en.wikipedia.org/wiki/FairTax
 
 I'm not sure if you've noticed, but states are even more corrupt that the federal government. The last time I checked, the state of New Jersey has shut down all state-sponsored prescription plans, the state gaming commission, and countless other programs while sending home without pay 10's of thousands of state employees because they cannot agree on a 2007 budget.
 
-Links: https://en.wikipedia.org/wiki/2006_New_Jersey_state_government_shutdown
+Links: <https://en.wikipedia.org/wiki/2006_New_Jersey_state_government_shutdown>
 
 ## Paper trail added for all cash expenditures
 
@@ -26,7 +26,7 @@ Links: https://en.wikipedia.org/wiki/2006_New_Jersey_state_government_shutdown
 
 To further investigate this claim, I will need to read further into the matter. However, no literature I have read on the matter discuss the specific tax collection practice. Even a cursory look at the collection will lead you understand that a record needs to be kept by both the retailer and customer about each transaction (sale). This will require the retailer to uniquely identify you (social security number). Also, it is quite likely in practice that any such system will be implemented such that your "sales record for tax purposes" will be kept associated with your itemized sales receipt. What this creates is a record of every retail item purchased in the US to its purchaser.
 
-Links: https://www.sfgate.com/news/article/Libraries-post-Patriot-Act-warnings-Santa-Cruz-2664869.php
+Links: <https://www.sfgate.com/news/article/Libraries-post-Patriot-Act-warnings-Santa-Cruz-2664869.php>
 
 P.S. Anonymous purchases could be abused. Since one would simply purchase all but $10,000 of products anonymously, be considered poor, and have that money returned.
 

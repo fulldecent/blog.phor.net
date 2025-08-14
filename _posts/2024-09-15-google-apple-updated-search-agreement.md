@@ -47,6 +47,7 @@ The new agreement is so simple, you'll be surprised Apple didn't launch with thi
 It is an agreement between the search engine and the platform (e.g. Apple).
 
 {: .table}
+
 | Old agreement | New agreement |
 |---------------|---------------|
 | Default search for X% of traffic | Default search for X% of traffic or for Y visitors |
@@ -61,7 +62,7 @@ So if Google bids 3¢ per query and wants to buy all of them, but DuckDuckGo bid
 
 This allows Apple to maximize revenue. It allows DuckDuckGo to purchase some traffic. And it allows Apple to build a search engine if they want to.
 
-![Contract changes](/assets/images/2024-09-15-google-apple-updated-search-agreement.png)
+![Contract changes](/assets/images/2024-09-15-google-apple-updated-search-agreement.webp)
 
 ## How it effects you
 

@@ -16,15 +16,15 @@ I have seen paperless billing implemented poorly many times... which is a shame 
 
 There's a lot of things you can do with a real (paper) bill that you can't do with an e-bill. When banks realize this and compensate for shortcomings, customers will be more willing to accept e-bills.
 
-1. You can be confident in the arrival of a real bill. 
+1. You can be confident in the arrival of a real bill.
 
     When an e-bill is released, the bank sends you an email. If the you do not receive the email, or you don't open it, the bank should promise the to MAIL A PAPER COPY. Then you can be 100% sure you will get the bill.
 
 2. Before you pay a bill, you can keep it on your desk, as a reminder to pay.
-     
+
     Banks should keep your e-bills available on a website and should show you whether you have viewed the bill or not. The bank should also allow you to mark the e-bill as "unread". This is similar to an email inbox, and mimics the function of the real bill on the desk:
 
-    ![Paperless billing screenshot](assets/images/2009-01-12-how-to-successfully-implement-paperless.jpg)
+    ![Paperless billing screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless.webp)
 
 3. Real bills are legal evidence in court.
 
@@ -38,9 +38,9 @@ There's a lot of things you can do with a real (paper) bill that you can't do wi
 
 Here are two examples poorly execution of e-bill systems: ING Direct and Chase:
 
-![ING Direct e-bill screenshot](assets/images/2009-01-12-how-to-successfully-implement-paperless-2.jpg)
+![ING Direct e-bill screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless-2.webp)
 
-![Chase e-bill screenshot](assets/images/2009-01-12-how-to-successfully-implement-paperless-3.jpg)
+![Chase e-bill screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless-3.webp)
 
 ---
 

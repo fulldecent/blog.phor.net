@@ -88,26 +88,23 @@ Update 2010-07-09:  thanks to Michael Poon at MIT for showing how to login via c
 
 1. Login to Google Voice with Chrome, Safari or any other browser with web developer tools
 
-2. Open web developer tools, and load https://voice.google.com/signup?pli=1
+2. Open web developer tools, and load <https://voice.google.com/signup?pli=1>
 
 3. In the developer network tab, click clear, and then search for `9999`
 
-
-
-
 search=$1
-curl 'https://clients6.google.com/voice/v1/voiceclient/accountphonecandidate/search?alt=protojson&key=AIzaSyDTYc1N4xiODyrQYK0Kl6g_y279LjYkrBg' \
+curl '<https://clients6.google.com/voice/v1/voiceclient/accountphonecandidate/search?alt=protojson&key=AIzaSyDTYc1N4xiODyrQYK0Kl6g_y279LjYkrBg>' \
   -H 'accept: */*' \
 ...
 
-
 # seq 201 989 | xargs -P 50 -n 1 -I {} sh tmp.sh {} 2>/dev/null | egrep -o '\+1\d{10}' > numbers.txt
 
-4.  with Firefox / LiveHTTPHeaders
+4. with Firefox / LiveHTTPHeaders
 
     Don't use Chrome, I know, I know... just download Firefox
 
 5. Find which area codes Google Voice has
+
     ```sh
     mkdir GOOGLEVOICE; cd GOOGLEVOICE
     
@@ -156,11 +153,13 @@ curl 'https://clients6.google.com/voice/v1/voiceclient/accountphonecandidate/sea
     cut -b1-8 numbers | sort -u | (while read LINE; do curl --cookie "$COOKIES" "${URL}?ac=${LINE:0:3}&amp;q=$LINE[0-9]&amp;start=5"; done) | grep -Pho '\d{10}\b' | sort -u &gt;&gt; numbers</pre>
 
 7. Harvest out your winnings
+
     ```sh
     sort -u numbers &gt; sorted; mv sorted numbers 
     ```
 
 8. Find cool numbers, using my definition of cool
+
     ```sh
     # repeated set of 4 digits
     grep -P "(\d{4}).*\1" numbers
@@ -204,5 +203,5 @@ curl 'https://clients6.google.com/voice/v1/voiceclient/accountphonecandidate/sea
     # 4842020022
     # 4842020220
     ```
-    
+
 See also the [repository for all this code](https://github.com/fulldecent/google-voice-numbers).

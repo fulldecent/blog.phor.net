@@ -10,7 +10,7 @@ comments:
 affiliate-link: true
 ---
 
-![The Primal Blueprint book cover](assets/images/2012-05-30-pick-me-ups-at-work.jpg)
+![The Primal Blueprint book cover](/assets/images/2012-05-30-pick-me-ups-at-work.webp)
 
 This book is chock full of advice on exercise, food, and human habits. The interesting part is how he compares human physiology of today versus thousands of years ago, talking about how human biology doesn't necessarily agree with the types of foods we consume. Not surprising because world population went up 6,000-fold in just the past 10 millennia but the number of people dedicated to food collection grew much slower due to "efficiencies". So... read the book or just consider eating more of some of these foods that the author recommends in this book or on his blog.
 

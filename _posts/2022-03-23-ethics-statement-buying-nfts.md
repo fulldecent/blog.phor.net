@@ -2,7 +2,7 @@
 title: "Ethics statement on buying NFTs"
 tags: ["my-life", "blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1506745270188625922
+  - link: https://x.com/fulldecent/status/1506745270188625922
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -25,7 +25,7 @@ This article documents my ethics policy and what I am changing effective today.
 My mission in the blockchain world is simple:
 
 > Verify seller claims & authenticity for most things you buy
-> 
+>
 > [phor.net](https://phor.net)
 
 This explains the grand strategy of how blockchain, and specifically NFTs, are leading to a world where consumers can lookup and research about things they buy. This is important to me, and I am very proud to have been on the teams that brought to the world: [brand verification for vaccines](https://www.ey.com/en_gl/news/2019/04/ey-ops-chain-industrializes-the-blockchain-at-scale-for-enterprises), [government authentication of COVID testing](https://potys.gob.mx/ahauinnova-mexico-fights-black-market-covid-tests-avalanche-blockchain), [private DNA testing](https://genobank.io), [weekly free classes on open source](https://phor.net/#speaking).
@@ -67,7 +67,7 @@ There is nothing inherently wrong about buying cute pictures. And there is nothi
 
 So here is my policy going forward:
 
-1. NFTs I buy will be on my accounts listed at [https://phor.net](https://phor.net) in the footer, all my official accounts are there.
+1. I will disclose my accounts where appropriate at [https://phor.net](https://phor.net) in the footer.
 2. I will publish/link to this account list disclosure in any contexts where I'm talking and there is potential for shilling.
 3. If I'm talking about something where I have some non-trivial interest I will disclose this fact inline.
 4. I will make mistakes and I will welcome your feedback on how I'm doing. Hold me to the highest standard and don't be shy.

@@ -2,12 +2,12 @@
 title: "Comcast internet FAQ communication case study"
 tags:
   - user-interface
-old-link: <https://privacylog.blogspot.com/2010/09/comcast-internet-faq.html>
+old-link: https://privacylog.blogspot.com/2010/09/comcast-internet-faq.html
 ---
 
 The Comcast High-Speed Internet website lists top customer questions as:
 
-![Comcast FAQ](/assets/images/2010-09-29-comcast-internet-faq.png)
+![Comcast FAQ](/assets/images/2010-09-29-comcast-internet-faq.webp)
 
 1. [What can I do from my Email toolbar in the SmartZone Communications Center?](https://customer.comcast.com/Pages/FAQViewer.aspx?Guid=4f70b962-48f2-49ae-b8f6-cb19703b3a6a)
 2. [How do I prevent spam?](https://customer.comcast.com/Pages/FAQViewer.aspx?Guid=bfea97c3-2bcf-4002-b5e2-119cc04a279b)

@@ -3,7 +3,7 @@ title: Some notes about my Google SOC project
 tags: ["my-life"]
 old-link: https://fulldecent.blogspot.com/2006/06/heres-some-notes-im-made-about-my.html
 comments:
-  - link: https://twitter.com/fulldecent/status/1668633621476028419
+  - link: https://x.com/fulldecent/status/1668633621476028419
     name: '@fulldecent'
     text: The official X thread
 ---

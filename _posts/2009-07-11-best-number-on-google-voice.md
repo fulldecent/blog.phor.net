@@ -11,9 +11,9 @@ comments:
 
 I got a Google Voice invite today and had to choose which number I want. Of course all the repeated digits are gone (215-777-7772, ...) are gone. Google provides a simple interface to find a good number, but this is the interface I like, `grep`:
 
-![Grepping through Google Voice numbers](assets/images/2009-07-11-best-number-on-google-voice.png)
+![Grepping through Google Voice numbers](/assets/images/2009-07-11-best-number-on-google-voice.webp)
 
-## So I did the following (Mac 10.5 / Safari):
+## So I did the following (Mac 10.5 / Safari)
 
 1. [Download all available Google Voice phone numbers](full-google-voice-hack) for a given area code.
 
@@ -75,7 +75,7 @@ I got a Google Voice invite today and had to choose which number I want. Of cour
     grep "\([0-9]\)\([0-9]\)\1\2\1.*\([0-9]\)\([0-9]\)\3\4\3" numbers
     ABABACDCDC
     ```
-    
+
 This is my new number. All the others are up for grabs.
 
 Thanks for help from Chris Nolan who provided expeditious python scripting in support of this effort.

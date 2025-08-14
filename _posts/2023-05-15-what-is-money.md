@@ -2,7 +2,7 @@
 title: "What is money, and how is Bitcoin/tokens different?"
 tags: ["blockchain"]
 comments:
-  - link: https://twitter.com/fulldecent/status/1658306446319050752
+  - link: https://x.com/fulldecent/status/1658306446319050752
     name: '@fulldecent'
     text: The official X thread
 ---
@@ -25,7 +25,7 @@ We can take this in a few directions, depending on the audience. But here are a 
 
 ## Pay by credit card
 
-A credit card transaction works by having a consumer and merchant establish mutual banking relationships through a credit clearing network, Visa is the largest. 
+A credit card transaction works by having a consumer and merchant establish mutual banking relationships through a credit clearing network, Visa is the largest.
 
 This credit network is situated on top the normal banking and payments structure for commerce in any given currency.
 
@@ -72,7 +72,7 @@ Now I take out an even more ridiculous amount of money from my wallet. Definitel
 
 ## No spoiler
 
-Every time I give this speech, SOMEBODY in the class knows the answer to this last question. And they know the EXACT answer. 
+Every time I give this speech, SOMEBODY in the class knows the answer to this last question. And they know the EXACT answer.
 
 Most recently in Tallinn, Estonia I was giving a preview of this talk to an audience of two people. And I even jinxed it by bragging that SOMEBODY ALWAYS knows. Any somebody said "I don't know". Sure as day, the other person knew.
 

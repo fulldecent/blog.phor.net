@@ -1,5 +1,5 @@
 ---
-title: "Phone, Email, TXT battle"
+title: "Phone, email, TXT battle"
 tags: 
   - mylife	
 old-link: https://fulldecent.blogspot.com/2008/02/phone-email-txt-battle.html
@@ -46,5 +46,5 @@ My last 3 received Emails messages:
 > S K
 
 > Here is list of books you need to read in the next 2 weeks.
-> 
+>
 > D F

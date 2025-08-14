@@ -5,6 +5,6 @@ tags:
 old-link: https://fulldecent.blogspot.com/2007/12/reply-to-xkcd.html
 ---
 
-In response to https://xkcd.com/164/
+In response to <https://xkcd.com/164/>
 
-![Comic](assets/images/2007-12-08-warming-velociraptors.jpg)
+![Comic](/assets/images/2007-12-08-warming-velociraptors.webp)

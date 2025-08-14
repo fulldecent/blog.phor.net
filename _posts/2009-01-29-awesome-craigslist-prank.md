@@ -8,7 +8,7 @@ Back in June 2008, someone posted this advertisement on Craigslist:
 
 > 4 months old, male, very friendly and sociable, especially to young kids. If you're interested in this friendly lil fella, call Will at 267-\*\*\*-\*\*\*\*.
 >
-> ![Puppy](assets/images/2009-01-29-awesome-craigslist-prank.jpg)
+> ![Puppy](/assets/images/2009-01-29-awesome-craigslist-prank.webp)
 
 This was a great prank. My phone was off when it was posted. When I turned my phone on, I had 20 voicemails and over the next 2 hours, my phone was literally ringing off the hook.
 

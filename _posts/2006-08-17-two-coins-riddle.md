@@ -1,7 +1,7 @@
 ---
 title: "Riddle: two coins"
 tags: 
-  - my-life 
+  - riddle
 old-link: https://fulldecent.blogspot.com/2006/08/new-riddle-i-have-two-coins.html
 ---
 

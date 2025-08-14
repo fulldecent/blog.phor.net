@@ -1,5 +1,5 @@
 ---
-title: "Q: How do you pass a $700B bailout bill?"
+title: "Q: how do you pass a $700B bailout bill?"
 tags: 
   - howto
   - government
