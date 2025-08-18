@@ -259,7 +259,7 @@ Comments specially requested throughout the discussion in the *Explanation of Pr
 
     1. No changes should be made. Additional rules are not needed.
 
-## Additional Questions
+## Additional questions
 
 Comments are also requested... on the following questions:
 

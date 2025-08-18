@@ -5,7 +5,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2010/07/are-you-fit-enough-to-be-fbi-special.html
 ---
 
-### Test one: Sit-ups (in one minute)
+### Test one: sit-ups (in one minute)
 
 Performed with a partner holding down your feet and legs at a 90° angle.
 
@@ -43,7 +43,7 @@ Equivalent to halfway around a 1/4 mile track.
 
 ---
 
-### Test three: Push-ups (untimed)
+### Test three: push-ups (untimed)
 
 | Score | Female Range | Male Range |
 |-------|--------------|------------|

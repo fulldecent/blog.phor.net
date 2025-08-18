@@ -27,7 +27,7 @@ And when you click on it you see further:
 
 I will walk you through how to get every penny out of your gift card and use it on Amazon.
 
-## Step 1: Make sure your card is valid
+## Step 1: make sure your card is valid
 
 {: .margin-note}
 Now and every time you click a link to "check your credit card" you must verify the URL is not a scam website.
@@ -42,7 +42,7 @@ You may see an a available balance of ten cents ($0.10) less than the face value
 
 Screenshot this card information, you will need it later below.
 
-## Step 2: Verify your Amazon purchase
+## Step 2: verify your Amazon purchase
 
 In order to spend the exact, full amount of your gift card, you need to use the "Amazon Reload" page.
 
@@ -66,7 +66,7 @@ You are looking specifically for one of these error messages:
 
 And you need to screenshot that error message on the page with your order details.
 
-## Step 3: File a complaint with the Consumer Financial Protection Bureau
+## Step 3: file a complaint with the Consumer Financial Protection Bureau
 
 Visit the [Consumer Financial Protection Bureau](https://portal.consumerfinance.gov/consumer/s/login/SelfRegister). And fill in your basic contact information. This is a US federal government website, which you can verify by seeing `.gov` at the end of the domain name in the URL you land on.
 
@@ -120,7 +120,7 @@ Don't worry, I will show you every correct answer and copy/paste you need here.
 
 And when you are done, print out your complaint for your records. This also includes contact information for the CFPB.
 
-## Step 4: Wait for the check
+## Step 4: wait for the check
 
 For reference, I filed my complaint on 2024-01-10.
 

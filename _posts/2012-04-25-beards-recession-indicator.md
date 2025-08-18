@@ -21,7 +21,7 @@ Over the course of a few visits, I viewed each volume of Apparel Arts/GQ from 19
 
 There were plenty of auxiliary observations during this analysis.
 
-### Goatee and Beards
+### Goatee and beards
 
 In all the magazines we looked at, *people in GQ magazine never have a beard without a moustache*. That means no chin straps, goatees, soul patches, chin curtains, or mutton chops. Actually there were two exceptions... and both times it was Abraham Lincoln.
 

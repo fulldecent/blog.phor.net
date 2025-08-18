@@ -84,9 +84,9 @@ encl.
 {: .margin-note}
 Pull request everything, lol
 
-## Appendix A—proposed web page
+## Appendix a—proposed web page
 
-![Appendix A—proposed web page](/assets/images/2023-10-19-american-airlines-aka-policy3.webp)
+![Appendix a—proposed web page](/assets/images/2023-10-19-american-airlines-aka-policy3.webp)
 
 Salient required features of this page.
 

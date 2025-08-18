@@ -25,7 +25,7 @@ The only reasons we have this many doctors in society, instead of patients and l
 
 ---
 
-### Forwarded Email
+### Forwarded email
 
 On Fri, May 28, 2010, Michael Tomeo wrote:
 

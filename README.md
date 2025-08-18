@@ -91,7 +91,7 @@ convert_to_webp "input.png"
 
 Word case:
 
-* Post titles use sentence case. Headings use sentence case. Prose uses sentence case. DO NOT USE TITLE CASE.
+* Use uppercase letters just at the start of sentences, and for proper nouns and initialisms.
 
 Formatting a chat conversation (Full Decent is always the red one):
 
