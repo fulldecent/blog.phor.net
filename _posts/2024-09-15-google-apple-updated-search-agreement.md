@@ -1,6 +1,6 @@
 ---
 title: Google and Apple's updated default search agreement
-tags: ["technology", "business", "game-theory"]
+tags: ["business", "game-theory"]
 ---
 
 {: .margin-note}

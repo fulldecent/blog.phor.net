@@ -1,7 +1,7 @@
 ---
 title: "How to get banned from Google"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2007/06/banned-from-google.html
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Whitelist and blacklist"
-tags: 
-  - rants
-  - youhearditherefirst	
+tags:
+  - rant
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2021/07/whitelist-and-blacklist.html
 ---
 

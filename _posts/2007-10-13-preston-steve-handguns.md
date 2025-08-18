@@ -1,7 +1,7 @@
 ---
 title: "LeBow Preston and Steve food drive details"
-tags: 
-  - humor	
+tags:
+  - humor
 old-link: https://fulldecent.blogspot.com/2007/10/handguns.html
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "How to tell if you're dreaming"
-tags: 
-  - howto
-  - youhearditherefirst	
+tags:
+  - how-to
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/09/how-to-tell-if-youre-dreaming.html
 ---
 

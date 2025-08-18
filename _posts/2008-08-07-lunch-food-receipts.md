@@ -1,8 +1,8 @@
 ---
 title: "Expense receipts for past food purchases"
-tags: 
+tags:
   - eastwest
-  - humor	
+  - humor
 old-link: https://fulldecent.blogspot.com/2008/08/lunch-food.html
 ---
 

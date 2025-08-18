@@ -1,6 +1,6 @@
 ---
 title: "Will's China travel plans"
-tags: 
+tags:
   - eastwest
 old-link: https://fulldecent.blogspot.com/2009/08/wills-china-travel-plans.html
 comments:

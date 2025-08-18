@@ -1,7 +1,7 @@
 ---
 title: "Stock markets have gone down over the last 10-year period"
-tags: 
-  - finance	
+tags:
+  - finance
 old-link: https://fulldecent.blogspot.com/2008/10/stock-markets-have-gone-down-over-last.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn privacy case study: stealing private data from your address book"
-tags: 
-  - privacy	
+tags:
+  - privacy
 old-link: https://privacylog.blogspot.com/2008/12/privacy-fail-linkedin-steals-private.html
 comments:
   - link: https://privacylog.blogspot.com/2008/12/privacy-fail-linkedin-steals-private.html#comment-4953179886967594797

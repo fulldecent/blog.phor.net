@@ -1,6 +1,6 @@
 ---
 title: "Independent review of SEPTA performance"
-tags: ["best-practice", "data-science", "research"]
+tags: ["best-practice", "research"]
 old-link: https://fulldecent.blogspot.com/2009/05/independent-review-of-septa-performance.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/05/independent-review-of-septa-performance.html#comment-4537484032392987448

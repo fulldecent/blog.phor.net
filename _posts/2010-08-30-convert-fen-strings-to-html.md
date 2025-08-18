@@ -1,7 +1,7 @@
 ---
 title: "Convert FEN strings to HTML"
 tags:
-  - youhearditherefirst 
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/08/convert-fen-strings-to-html.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/08/convert-fen-strings-to-html.html#comment-3765269258234609476

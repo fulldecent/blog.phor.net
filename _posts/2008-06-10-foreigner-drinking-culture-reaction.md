@@ -1,6 +1,6 @@
 ---
 title: "Perceptions of foreigners and the US drinking culture"
-tags: 
+tags:
   - humor
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2008/06/quote-of-day-2008-06-07.html

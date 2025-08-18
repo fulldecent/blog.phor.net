@@ -1,9 +1,9 @@
 ---
 title: "How to learn Chinese in 52 weeks without taking class or visiting China"
-tags: 
+tags:
   - bonus
   - eastwest
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2012/01/how-to-learn-chinese-in-52-weeks.html
 comments:
   - link: https://fulldecent.blogspot.com/2012/01/how-to-learn-chinese-in-52-weeks.html#comment-6720756523492889511

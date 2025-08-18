@@ -1,6 +1,6 @@
 ---
 title: "How to open SealedMedia files on Mac with Adobe Acrobat"
-tags: 
+tags:
   - how-to
 old-link: https://fulldecent.blogspot.com/2007/04/opening-sealedmedia-files-using-adobe.html
 ---

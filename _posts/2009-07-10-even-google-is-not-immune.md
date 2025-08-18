@@ -1,7 +1,7 @@
 ---
 title: "Security case study: Google Voice"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2009/07/even-google-is-not-immune.html
 comments:
   - link: https://privacylog.blogspot.com/2009/07/even-google-is-not-immune.html#comment-9167516521980163702

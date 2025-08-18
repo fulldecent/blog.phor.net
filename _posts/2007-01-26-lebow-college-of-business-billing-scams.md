@@ -1,6 +1,6 @@
 ---
 title: "LeBow College of business billing"
-tags: 
+tags:
   - scam
 old-link: https://fulldecent.blogspot.com/2007/01/lebow-college-of-business-billing-scams.html
 updates:

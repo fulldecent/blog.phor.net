@@ -1,6 +1,6 @@
 ---
 title: "Google Tasks interface case study"
-tags: 
+tags:
   - user-interface
 old-link: https://privacylog.blogspot.com/2010/07/api-for-google-tasks.html
 comments:

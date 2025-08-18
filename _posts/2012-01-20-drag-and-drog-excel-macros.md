@@ -1,6 +1,6 @@
 ---
 title: "Run an Excel macro on any file using drag and drop"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2012/01/run-excel-macro-on-any-file-using-drag.html
 ---
 

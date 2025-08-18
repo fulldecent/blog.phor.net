@@ -1,13 +1,13 @@
 ---
 title: "Chinese books don't have roman numerals"
-tags: 
+tags:
   - eastwest
-  - humor	
+  - humor
 old-link: https://fulldecent.blogspot.com/2008/11/chinese-book-dont-have-roman-numerals.html
 comments:
   - link: https://fulldecent.blogspot.com/2008/11/chinese-book-dont-have-roman-numerals.html?showComment=6196706467620778168#c6196706467620778168
     name: Anonymous
-    text: ...please where can I buy a unicorn?	
+    text: '...please where can I buy a unicorn?'
 ---
 
 In English books, the preface, introduction, et al. live on pages numbered with lower case roman numerals.

@@ -1,6 +1,6 @@
 ---
 title: "Trump has turned media into liars"
-tags: ["media-literacy"]
+tags: ["civics"]
 old-link: https://fulldecent.blogspot.com/2016/09/trump-has-turned-media-into-liars.html
 ---
 

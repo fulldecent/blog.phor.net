@@ -1,7 +1,7 @@
 ---
 title: "Google misappropriating use of social security numbers"
-tags: 
-  - privacy	
+tags:
+  - privacy
 old-link: https://privacylog.blogspot.com/2014/04/google-misappropriating-use-of-social.html
 ---
 

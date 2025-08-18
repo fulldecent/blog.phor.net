@@ -2,7 +2,6 @@
 title: "DRM: controlling what you buy"
 tags: ["rant"]
 old-link: https://fulldecent.blogspot.com/2006/07/there-is-important-issue-affecting.html
-
 ---
 
 There is an important issue affecting the consumer electronics world. New devices that are made and sold to the consumer will be unilaterally controlled by the creators of the device. What this means is that the next wave of products will not allow you to do things that they don't want you to do.

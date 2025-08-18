@@ -1,7 +1,7 @@
 ---
 title: "A comparison of Bush and Obama"
 tags:
-  - politics 
+  - politics
 old-link: https://fulldecent.blogspot.com/2010/08/comparison-of-bush-and-obama.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/08/comparison-of-bush-and-obama.html#comment-5361860459603654810

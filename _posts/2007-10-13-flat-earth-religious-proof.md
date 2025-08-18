@@ -1,7 +1,7 @@
 ---
 title: "Religious proof of a flat Earth"
-tags: 
-  - humor	
+tags:
+  - humor
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2007/10/quote-of-day-2007-10-13.html
 ---

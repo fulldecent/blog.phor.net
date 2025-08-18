@@ -1,7 +1,7 @@
 ---
 title: "World Affairs Council—net neutrality"
-tags: 
-  - rant	
+tags:
+  - rant
 old-link: https://fulldecent.blogspot.com/2006/10/world-affairs-council-net-neutrality.html
 comments:
   - link: https://fulldecent.blogspot.com/2006/10/world-affairs-council-net-neutrality.html?showComment=1159795440000#c115979546352970555
@@ -16,7 +16,6 @@ comments:
   - link: https://fulldecent.blogspot.com/2006/10/world-affairs-council-net-neutrality.html?showComment=1160410200000#c116041020473098046
     name: 'William Entriken'
     text: 'This event was cancelled, so I really missed out on it. However, I will follow up on these comments to clarify. [rest of the comment...]'
-
 ---
 
 I am attending the World Affairs Council session this Thursday 2006-10-05 to see David Cohen, the Executive Vice President for Comcast Corporation speak about net neutrality. They will likely support their opinion that they should have the power to charge for "guaranteed delivery of their services". I think that this extreme and unchecked power is unwarranted, especially with their history of anti-competitive behavior towards Vonage.

@@ -1,7 +1,7 @@
 ---
 title: "Not everyone looks their best all the time"
-tags: 
-  - humor	
+tags:
+  - humor
 old-link: https://fulldecent.blogspot.com/2006/11/not-everyone-looks-their-best-all-time.html
 ---
 

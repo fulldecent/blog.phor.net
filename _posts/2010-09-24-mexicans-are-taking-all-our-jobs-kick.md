@@ -1,7 +1,7 @@
 ---
 title: "The Mexicans are taking all our jobs, kick them out"
 tags:
-  - youhearditherefirst 
+  - youhearditherefirst
 authors:
   - Anonymous
 old-link: https://fulldecent.blogspot.com/2010/09/mexicans-are-taking-all-our-jobs-kick.html

@@ -1,7 +1,7 @@
 ---
 title: "Introducing System Bus Radio"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2016/02/introducing-system-bus-radio.html
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "You've got something on your face, left or right?"
-tags: 
+tags:
   - eastwest
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/05/youve-got-something-on-your-face.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/05/youve-got-something-on-your-face.html#comment-4392889444423855203

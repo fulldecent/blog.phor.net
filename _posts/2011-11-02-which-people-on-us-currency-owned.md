@@ -1,7 +1,7 @@
 ---
 title: "Which people on US currency owned slaves?"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/11/which-people-on-us-currency-owned.html
 ---
 

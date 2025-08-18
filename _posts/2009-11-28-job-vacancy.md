@@ -1,7 +1,7 @@
 ---
 title: "Developing advanced weapons capabilities in Iraq"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/11/job-vacancy.html
 ---
 

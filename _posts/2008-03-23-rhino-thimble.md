@@ -1,6 +1,6 @@
 ---
 title: "Are you looking for a rhino thimble?"
-tags: 
+tags:
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2008/03/are-you-looking-for-rhino-thimble.html
 ---

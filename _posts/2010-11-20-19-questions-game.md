@@ -2,7 +2,7 @@
 title: "19 Questions game"
 tags:
   - math
-  - youhearditherefirst 
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/11/19-questions-game.html
 updates:
   - date: "2012-04-28"

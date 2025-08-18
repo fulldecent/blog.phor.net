@@ -1,7 +1,7 @@
 ---
 title: "Calling all alcoholics, sexaholics, gamblers, drug addicts"
-tags: 
-  - rants	
+tags:
+  - rant
 old-link: https://fulldecent.blogspot.com/2011/02/calling-all-alcoholics-sexaholics.html
 ---
 

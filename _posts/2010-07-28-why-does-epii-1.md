@@ -1,7 +1,7 @@
 ---
 title: "Why does e^(pi*i) = -1?"
-tags: 
-  - math	
+tags:
+  - math
 old-link: https://fulldecent.blogspot.com/2010/07/why-does-epii-1.html
 ---
 

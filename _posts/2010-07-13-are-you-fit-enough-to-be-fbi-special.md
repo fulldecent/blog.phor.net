@@ -1,7 +1,7 @@
 ---
 title: "Are you fit enough to be an FBI special agent?"
-tags: 
-  - goodfind
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2010/07/are-you-fit-enough-to-be-fbi-special.html
 ---
 

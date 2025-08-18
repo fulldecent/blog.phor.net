@@ -1,8 +1,8 @@
 ---
 title: "Resumes in the East and West"
-tags: 
+tags:
   - eastwest
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/08/resumes-in-east-and-west.html
 ---
 

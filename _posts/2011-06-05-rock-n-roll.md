@@ -1,7 +1,7 @@
 ---
 title: "Rock 'n' roll"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2011/06/rock-n-roll.html
 ---
 

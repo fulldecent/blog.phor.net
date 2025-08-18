@@ -1,7 +1,7 @@
 ---
 title: "The best number on Google Voice"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/07/best-number-on-google-voice.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/07/best-number-on-google-voice.html#comment-8920784486157531034

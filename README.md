@@ -130,6 +130,16 @@ See scripts/ folder for some cool tools. Requerements for the tools are document
 
 * Use `yq` to change title.
 
+## Tags
+
+Tags should use slug formatting, don't mash words.
+
+Here is how to batch edit a tag:
+
+```sh
+find _posts -type f -name "*.md" -exec yq e -i -I 2 --front-matter=process '.tags |= map(select(. == "mylife") = "my-life")' {} \;
+```
+
 ## How to promote a post
 
 After publishing a post, you can promote it by:

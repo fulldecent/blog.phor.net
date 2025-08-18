@@ -1,7 +1,7 @@
 ---
 title: "What Firefox really needs"
-tags: 
-  - rant	
+tags:
+  - rant
 old-link: https://fulldecent.blogspot.com/2008/03/what-firefox-really-needs.html
 ---
 

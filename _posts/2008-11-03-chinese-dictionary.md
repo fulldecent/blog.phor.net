@@ -1,8 +1,8 @@
 ---
 title: "Chinese dictionary"
-tags: 
+tags:
   - eastwest
-  - rant	
+  - rant
 old-link: https://fulldecent.blogspot.com/2008/11/chinese-dictionary.html
 ---
 

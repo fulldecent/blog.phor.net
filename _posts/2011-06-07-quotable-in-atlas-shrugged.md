@@ -1,7 +1,7 @@
 ---
 title: "Quotable in Atlas Shrugged"
-tags: 
-  - goodfind
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2011/06/quotable-in-atlas-shrugged.html
 affiliate-link: true
 ---

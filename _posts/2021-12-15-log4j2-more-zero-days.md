@@ -1,8 +1,8 @@
 ---
 title: "Log4j2 more zero days"
-tags: 
+tags:
   - security
-  - zero-day	
+  - zero-day
 old-link: https://privacylog.blogspot.com/2021/12/log4j2-more-zero-days.html
 ---
 

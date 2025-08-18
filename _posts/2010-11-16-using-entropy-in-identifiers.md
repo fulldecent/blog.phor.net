@@ -1,7 +1,7 @@
 ---
 title: "Giving away all your customer details because of a checksum"
 tags:
-  - privacy 
+  - privacy
 old-link: https://privacylog.blogspot.com/2010/11/using-entropy-in-identifiers.html
 comments:
   - link: https://privacylog.blogspot.com/2010/11/using-entropy-in-identifiers.html#comment-4425274784706274842

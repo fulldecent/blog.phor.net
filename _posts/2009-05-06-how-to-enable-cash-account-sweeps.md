@@ -1,7 +1,7 @@
 ---
 title: "Zecco case study: how to enable cash account sweeps"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2009/05/how-to-enable-cash-account-sweeps-in.html
 ---
 

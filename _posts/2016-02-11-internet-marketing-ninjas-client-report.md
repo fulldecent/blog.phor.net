@@ -1,8 +1,8 @@
 ---
 title: "Internet Marketing Ninjas client report vulnerability"
-tags: 
+tags:
   - privacy
-  - security	
+  - security
 old-link: https://privacylog.blogspot.com/2016/02/internet-marketing-ninjas-client-report.html
 ---
 

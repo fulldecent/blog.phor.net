@@ -1,8 +1,8 @@
 ---
 title: "Health care reform—doctor shortage to expand the role of registered nurses"
-tags: 
+tags:
   - government
-authors: 
+authors:
   - Michael Tomeo
 old-link: https://fulldecent.blogspot.com/2010/05/re-health-care-reform-dr-shortage-to.html
 ---

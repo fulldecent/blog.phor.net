@@ -1,7 +1,7 @@
 ---
 title: "Phone, email, TXT battle"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2008/02/phone-email-txt-battle.html
 ---
 

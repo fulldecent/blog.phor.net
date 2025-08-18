@@ -1,7 +1,7 @@
 ---
 title: "Protip for eating"
 tags:
-  - eastwest 
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2010/10/protip-for-eating.html
 comments:
   - link: https://privacylog.blogspot.com/2010/10/protip-for-eating.html#comment-8745576002582670683

@@ -1,8 +1,8 @@
 ---
 title: "Measuring economic growth over generations"
-tags: 
-  - goodfind
-  - politics	
+tags:
+  - good-find
+  - politics
 old-link: https://fulldecent.blogspot.com/2016/03/measuring-economic-growth-over.html
 ---
 

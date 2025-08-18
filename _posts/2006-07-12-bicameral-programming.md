@@ -2,7 +2,6 @@
 title: Bicameral programming
 tags: ["programming"]
 old-link: https://fulldecent.blogspot.com/2006/07/definition-of-awesome.html
-
 ---
 
 1. You're writing software and do the interface part first:

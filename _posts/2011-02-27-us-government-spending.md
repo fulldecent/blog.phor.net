@@ -1,7 +1,7 @@
 ---
 title: "US government spending"
-tags: 
-  - politics	
+tags:
+  - politics
 old-link: https://fulldecent.blogspot.com/2011/02/us-government-spending.html
 ---
 

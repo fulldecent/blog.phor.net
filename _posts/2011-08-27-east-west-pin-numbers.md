@@ -1,7 +1,7 @@
 ---
 title: "East/west PIN numbers"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2011/08/eastwest-pin-numbers.html
 ---
 

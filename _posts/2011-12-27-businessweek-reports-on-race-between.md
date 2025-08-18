@@ -1,7 +1,7 @@
 ---
 title: "Businessweek reports on race between second and third place candidates in Iowa primaries, completely ignores first place"
-tags: 
-  - politics	
+tags:
+  - politics
 old-link: https://fulldecent.blogspot.com/2011/12/businessweek-reports-on-race-between.html
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Generic process to unroll any recursive algorithm"
-tags: 
-  - howto
+tags:
+  - how-to
   - technical
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2015/10/generic-process-to-unroll-any-recursive.html
 ---
 

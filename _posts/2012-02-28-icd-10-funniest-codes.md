@@ -1,8 +1,8 @@
 ---
 title: "The funniest and best ICD-10 codes"
-tags: 
+tags:
   - politics
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2012/02/new-medical-bill-theres-code-for-that.html
 comments:
   - link: https://fulldecent.blogspot.com/2012/02/new-medical-bill-theres-code-for-that.html#comment-934452679068704226

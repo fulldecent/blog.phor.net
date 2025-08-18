@@ -1,7 +1,7 @@
 ---
 title: "Google prejudice"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2009/11/google-prejudice.html
 ---
 

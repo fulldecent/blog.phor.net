@@ -1,6 +1,6 @@
 ---
 title: "New efforts in voyeurism and backlash"
-tags: 
+tags:
   - humor
 old-link: https://fulldecent.blogspot.com/2010/06/all-this-effort.html
 comments:

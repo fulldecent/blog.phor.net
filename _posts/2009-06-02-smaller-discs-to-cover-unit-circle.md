@@ -1,7 +1,7 @@
 ---
 title: "Smaller discs to cover the unit circle"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2009/06/smaller-discs-to-cover-unit-circle.html
 ---
 

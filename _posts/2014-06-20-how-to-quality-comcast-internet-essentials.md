@@ -1,6 +1,6 @@
 ---
 title: "How to quality for Comcast Internet Essentials and Freedom Pop's reduced rates"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2014/06/how-to-quality-for-comcast-internet.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Beards over time, facial hair and the economy"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2012/04/beards-over-time-facial-hair-and.html
 ---
 

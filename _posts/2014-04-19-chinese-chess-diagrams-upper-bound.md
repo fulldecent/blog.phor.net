@@ -1,7 +1,7 @@
 ---
 title: "Upper bound on number of diagrams in Chinese chess"
-tags: 
-  - math	
+tags:
+  - math
 old-link: https://fulldecent.blogspot.com/2014/04/upper-bound-on-number-of-diagrams-in.html
 ---
 

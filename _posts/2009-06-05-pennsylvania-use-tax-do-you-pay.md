@@ -1,7 +1,7 @@
 ---
 title: "Pennsylvania use tax, do you pay all your taxes?"
-tags: 
-  - finance	
+tags:
+  - finance
 old-link: https://fulldecent.blogspot.com/2009/06/pennsylvania-use-tax-do-you-pay-all.html
 ---
 

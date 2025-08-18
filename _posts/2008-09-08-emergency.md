@@ -1,8 +1,8 @@
 ---
 title: "How to read multi-lingual exit signs"
-tags: 
+tags:
   - humor
-  - mylife	
+  - my-life
 old-link: https://fulldecent.blogspot.com/2008/09/emergency.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Goals update"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2011/02/goals-update.html
 comments:
   - link: https://fulldecent.blogspot.com/2008/01/my-goals-in-life.html#comments

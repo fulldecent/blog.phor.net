@@ -2,7 +2,7 @@
 title: "Bank security case study: why is financial fraud so easy in America?"
 tags:
   - privacy
-  - security 
+  - security
 old-link: https://privacylog.blogspot.com/2010/08/why-is-financial-fraud-so-easy-in.html
 ---
 

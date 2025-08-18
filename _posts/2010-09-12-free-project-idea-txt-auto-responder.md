@@ -2,7 +2,7 @@
 title: "Free project idea—TXT auto-responder for train lateness"
 tags:
   - technical
-  - youhearditherefirst 
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/09/free-project-idea-txt-auto-responder.html
 ---
 

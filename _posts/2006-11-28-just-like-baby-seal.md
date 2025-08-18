@@ -1,7 +1,7 @@
 ---
 title: "Just like a babby seal"
-tags: 
-  - my-life 
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2006/11/just-like-baby-seal.html
 comments:
   - link: https://fulldecent.blogspot.com/2006/11/just-like-baby-seal.html?showComment=1164818360000#c116481837848996788

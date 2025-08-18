@@ -1,7 +1,7 @@
 ---
 title: "High volatility in the NASDAQ"
-tags: 
-  - finance	
+tags:
+  - finance
 old-link: https://fulldecent.blogspot.com/2008/09/nasdaq.html
 ---
 

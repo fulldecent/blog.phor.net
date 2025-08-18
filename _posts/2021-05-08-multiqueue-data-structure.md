@@ -1,8 +1,8 @@
 ---
 title: "Multiqueue data structure"
-tags: 
+tags:
   - math
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2021/05/multiqueue-data-structure.html
 ---
 

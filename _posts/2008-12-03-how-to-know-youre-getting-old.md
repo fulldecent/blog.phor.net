@@ -1,7 +1,7 @@
 ---
 title: "Q: how do you know you're getting old?"
-tags: 
-  - rant	
+tags:
+  - rant
 old-link: https://fulldecent.blogspot.com/2008/12/q-how-do-you-know-you-getting-old.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Bake-off smack talk!"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2007/11/bake-off-smack-talk.html
 ---
 

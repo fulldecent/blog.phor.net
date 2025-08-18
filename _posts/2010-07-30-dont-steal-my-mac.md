@@ -1,7 +1,7 @@
 ---
 title: Don't steal my Mac
-tags: 
-  - bonus 
+tags:
+  - bonus
 old-link: https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/07/dont-steal-my-mac.html#comment-4794529858096537754

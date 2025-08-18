@@ -1,8 +1,8 @@
 ---
 title: "Sean Connery, Steve Jobs and Louis Vuitton"
 tags:
-  - goodfind
-  - rants
+  - good-find
+  - rant
 old-link: https://fulldecent.blogspot.com/2011/11/sean-connery-steve-jobs-and-louis.html
 comments:
   - link: https://fulldecent.blogspot.com/2011/11/sean-connery-steve-jobs-and-louis.html#comment-8666463390177621769

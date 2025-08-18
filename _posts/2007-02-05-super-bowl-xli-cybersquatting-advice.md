@@ -1,7 +1,7 @@
 ---
 title: "Superbowl 2007 XLI cybersquatting advice"
-tags: 
-  - goodfind	
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2007/02/superbowl-2007-xli.html
 ---
 

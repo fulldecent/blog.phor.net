@@ -1,6 +1,6 @@
 ---
 title: "iCloud interface case study: how to only show reminders"
-tags: 
+tags:
   - user-interface
 old-link: https://privacylog.blogspot.com/2011/10/stop-using-google-tasks-switch-to-apple.html
 comments:

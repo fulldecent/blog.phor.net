@@ -1,8 +1,8 @@
 ---
 title: "MBA starting salaries"
-tags: 
-  - mylife
-  - research	
+tags:
+  - my-life
+  - research
 old-link: https://fulldecent.blogspot.com/2007/12/mba-starting-salaries.html
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "I was kidnapped in Manila and lived to tell about it"
-tags: 
+tags:
   - eastwest
-  - mylife
-  - youhearditherefirst	
+  - my-life
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2017/08/i-was-kidnapped-in-manila-and-lived-to.html
 comments:
   - link: https://fulldecent.blogspot.com/2017/08/i-was-kidnapped-in-manila-and-lived-to.html#comment-7668483919683551212

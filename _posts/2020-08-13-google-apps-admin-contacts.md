@@ -1,9 +1,9 @@
 ---
 title: "Google Apps publishes administrator contact information"
-tags: 
+tags:
   - privacy
   - security
-  - zero-day	
+  - zero-day
 old-link: https://privacylog.blogspot.com/2020/08/google-apps-publishes-administrator.html
 comments:
   - link: https://privacylog.blogspot.com/2020/08/google-apps-publishes-administrator.html#comment-8432039822837375362

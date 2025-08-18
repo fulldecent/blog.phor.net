@@ -1,6 +1,6 @@
 ---
 title: "ING Direct communication case study: how to successfully implement paperless billing"
-tags: 
+tags:
   - user-interface
 old-link: https://privacylog.blogspot.com/2009/01/how-to-successfully-implement-paperless.html
 comments:

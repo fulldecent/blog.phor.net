@@ -1,7 +1,7 @@
 ---
 title: "Advanced and basic use of expletives"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 authors:
   - Su Wang
 old-link: https://fulldecent.blogspot.com/2010/04/quote-of-day-2010-04-25.html

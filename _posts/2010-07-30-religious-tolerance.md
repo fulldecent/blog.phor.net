@@ -1,9 +1,9 @@
 ---
 title: Religious tolerance
 tags:
-  - goodfind
+  - good-find
   - politics
-  - rant 
+  - rant
 old-link: https://fulldecent.blogspot.com/2010/07/religious-tolerance.html
 ---
 

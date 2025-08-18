@@ -1,7 +1,7 @@
 ---
 title: "Directions to parallel park a car perfectly"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2011/11/directions-to-parallel-park-car.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Apple leaking private customer information over insecure HTTP"
-tags: 
-  - privacy	
+tags:
+  - privacy
 old-link: https://privacylog.blogspot.com/2015/10/apple-leaking-private-customer.html
 ---
 

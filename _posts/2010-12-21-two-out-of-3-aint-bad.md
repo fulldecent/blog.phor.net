@@ -1,7 +1,7 @@
 ---
 title: "Two out of 3 aint bad"
 tags:
-  - mylife 
+  - my-life
 old-link: https://fulldecent.blogspot.com/2010/12/two-out-of-3-aint-bad.html
 ---
 

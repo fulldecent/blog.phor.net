@@ -1,6 +1,6 @@
 ---
 title: "Alternate methods of horses and water"
-tags: 
+tags:
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2008/02/quote-of-day-2008-02-11.html
 comments:

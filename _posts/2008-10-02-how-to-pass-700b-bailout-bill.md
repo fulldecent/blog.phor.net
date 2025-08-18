@@ -1,7 +1,7 @@
 ---
 title: "Q: how do you pass a $700B bailout bill?"
-tags: 
-  - howto
+tags:
+  - how-to
   - government
 old-link: https://fulldecent.blogspot.com/2008/10/q-how-do-you-pass-700b-bailout-bill.html
 ---

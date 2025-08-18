@@ -1,7 +1,7 @@
 ---
 title: "Quote of the week 2008-01-11"
-tags: 
-  - humor	
+tags:
+  - humor
 old-link: https://fulldecent.blogspot.com/2008/01/quote-of-day-2008-01-11.html
 comments:
   - link: https://fulldecent.blogspot.com/2008/01/quote-of-day-2008-01-11.html#comments

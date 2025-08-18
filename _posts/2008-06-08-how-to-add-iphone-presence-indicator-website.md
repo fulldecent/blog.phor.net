@@ -1,6 +1,6 @@
 ---
 title: "How to add iPhone presence indicator on your website"
-tags: 
+tags:
   - how-to
 old-link: https://fulldecent.blogspot.com/2008/06/iphone-presence-indicator-for-your.html
 ---

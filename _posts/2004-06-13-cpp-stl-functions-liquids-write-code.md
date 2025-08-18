@@ -7,17 +7,7 @@ comments:
     text: The official X thread
   - link: https://fulldecent.blogspot.com/2004/06/are-you-badass-with-c-then-fix-this.html?showComment=1087170900000#c108717092705622985
     name: Tyler
-    text: "You were very close to getting the solution.
-
-From the version where you have the ltpairchar struct, change this line:
-
-set_difference(A.begin(), A.end(), B.begin(), B.end(), ltpairchar, inserter(C, C.begin()) );
-
-to:
-
-set_difference(A.begin(), A.end(), B.begin(), B.end(), inserter(C, C.begin()), ltpairchar());
-
-You needed the () operator after your struct, and you had the last two arguments out of order."
+    text: "You were very close to getting the solution.\nFrom the version where you have the ltpairchar struct, change this line:\nset_difference(A.begin(), A.end(), B.begin(), B.end(), ltpairchar, inserter(C, C.begin()) );\nto:\nset_difference(A.begin(), A.end(), B.begin(), B.end(), inserter(C, C.begin()), ltpairchar());\nYou needed the () operator after your struct, and you had the last two arguments out of order."
 old-link: https://fulldecent.blogspot.com/2004/06/are-you-badass-with-c-then-fix-this.html
 ---
 

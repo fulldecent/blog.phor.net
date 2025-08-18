@@ -1,7 +1,7 @@
 ---
 title: "Visa payment processing case study: network flaws"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2011/12/flaws-in-visas-payment-processing.html
 comments:
   - link: https://privacylog.blogspot.com/2011/12/flaws-in-visas-payment-processing.html#comment-1719965291948370259

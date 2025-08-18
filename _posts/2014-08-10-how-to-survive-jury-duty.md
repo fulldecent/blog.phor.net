@@ -1,8 +1,8 @@
 ---
 title: "How to make the best out of jury duty"
-tags: 
+tags:
   - eastwest
-  - humor	
+  - humor
 old-link: https://fulldecent.blogspot.com/2014/08/how-to-make-best-out-of-jury-duty.html
 ---
 

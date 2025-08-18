@@ -1,6 +1,6 @@
 ---
 title: "An open response to President Bush"
-tags: 
+tags:
   - politics
   - rant
 old-link: https://fulldecent.blogspot.com/2008/12/open-response-to-president-bush.html

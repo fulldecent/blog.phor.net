@@ -1,7 +1,7 @@
 ---
 title: "Where do you get your finance news, why the DOW sucks"
-tags: 
-  - finance	
+tags:
+  - finance
 old-link: https://fulldecent.blogspot.com/2008/09/where-do-you-get-your-finance-news-why.html
 ---
 

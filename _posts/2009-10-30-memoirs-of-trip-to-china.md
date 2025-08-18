@@ -1,7 +1,7 @@
 ---
 title: "Memoirs of a trip to China (东游记)"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2009/10/memoirs-of-trip-to-china.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/10/memoirs-of-trip-to-china.html#comment-3457989069695230921

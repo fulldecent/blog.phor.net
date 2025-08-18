@@ -1,6 +1,6 @@
 ---
 title: "Interesting properties of the entropy function"
-tags: 
+tags:
   - math
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/12/interesting-properties-of-entropy.html
@@ -11,7 +11,6 @@ comments:
 updates:
   - date: 2017-07-03
     changes: "Corrected equation for associative definition, thank you /u/Syrak."
-
 ---
 
 This may not be the first time someone recognized this, but I have recently discovered some interesting and useful properties of the entropy function and now share them.

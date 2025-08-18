@@ -1,6 +1,6 @@
 ---
 title: "Engineers vs. baseline humans"
-tags: 
+tags:
   - humor
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2008/01/engineers.html

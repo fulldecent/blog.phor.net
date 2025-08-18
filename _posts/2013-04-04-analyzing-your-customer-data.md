@@ -1,6 +1,6 @@
 ---
 title: "Analyzing your customer data"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2013/04/analyzing-your-customer-data.html
 ---
 

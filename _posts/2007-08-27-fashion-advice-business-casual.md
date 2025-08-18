@@ -1,7 +1,7 @@
 ---
 title: "Fashion advice for business and casual settings"
-tags: 
-  - humor	
+tags:
+  - humor
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2007/08/new-quote-of-week.html
 ---

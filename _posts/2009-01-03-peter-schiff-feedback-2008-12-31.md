@@ -1,8 +1,8 @@
 ---
 title: "Peter Schiff feedback - 2008-12-31"
-tags: 
+tags:
   - finance
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/01/peter-schiff-feedback-2008-12-31.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/01/peter-schiff-feedback-2008-12-31.html#comment-7205546891190124484

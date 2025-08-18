@@ -1,6 +1,6 @@
 ---
 title: "Ten things you can only do without Facebook"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2013/12/ten-things-you-can-only-do-without.html
 ---
 

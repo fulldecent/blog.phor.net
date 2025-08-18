@@ -1,6 +1,6 @@
 ---
 title: "Street tips that might save your life, and other advice right now"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2014/01/street-tips-that-might-save-your-life.html
 ---
 

@@ -12,10 +12,10 @@ comments:
     name: The Villanovan
     text: Hacker attempts class cancellation via e-mail
 updates:
- - date: 2009-08-29
-   changes: Added full text of the second email
- - date: 2013-12-20
-   changes: Disclosed everything I know
+  - date: 2009-08-29
+    changes: Added full text of the second email
+  - date: 2013-12-20
+    changes: Disclosed everything I know
 old-link: https://fulldecent.blogspot.com/2004/09/123838-anthony-romano-will-123838-full.html
 ---
 

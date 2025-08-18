@@ -1,7 +1,7 @@
 ---
 title: "Technical notes about KDE ksmserver"
 tags:
-  - technical 
+  - technical
 old-link: https://fulldecent.blogspot.com/2010/08/technical-notes-about-kde-ksmserver.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/08/technical-notes-about-kde-ksmserver.html#comment-2136523330522637038

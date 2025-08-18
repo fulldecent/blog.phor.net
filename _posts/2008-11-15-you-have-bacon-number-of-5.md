@@ -1,7 +1,7 @@
 ---
 title: "You have a Bacon number of 5"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2008/11/you-have-bacon-number-of-5.html
 ---
 

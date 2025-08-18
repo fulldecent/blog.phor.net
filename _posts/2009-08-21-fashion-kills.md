@@ -1,9 +1,9 @@
 ---
 title: "Fashion kills"
 authors: ["William Entriken", "Hong Miao"]
-tags: 
+tags:
   - eastwest
-  - quote-of-the-week	
+  - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2009/08/quote-of-day-2009-08-21.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/08/quote-of-day-2009-08-21.html#comment-5259044693143907140

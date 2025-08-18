@@ -1,6 +1,6 @@
 ---
 title: "Quarter life crisis"
-tags: 
+tags:
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2008/08/quarter-life-crises.html
 ---

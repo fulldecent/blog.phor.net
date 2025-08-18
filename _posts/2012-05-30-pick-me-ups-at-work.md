@@ -1,7 +1,7 @@
 ---
 title: "Primal foods available on Amazon"
-tags: 
-  - mylife	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2009/04/pick-me-ups-at-work.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/04/pick-me-ups-at-work.html#comment-9215732633128130114

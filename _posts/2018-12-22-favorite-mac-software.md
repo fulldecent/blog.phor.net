@@ -1,6 +1,6 @@
 ---
 title: "Mac software worth getting, free and paid"
-tags: ["lists"]
+tags: ["list"]
 old-link: https://fulldecent.blogspot.com/2018/12/mac-software-worth-buying-and-free.html
 ---
 

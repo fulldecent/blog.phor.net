@@ -1,6 +1,6 @@
 ---
 title: "Excel bug/feature: recursive VLOOKUP for hierarchy calculations"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2012/10/excel-bugfeature-recursive-vlookup-for.html
 ---
 

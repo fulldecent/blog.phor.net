@@ -1,6 +1,6 @@
 ---
 title: "Who is taller, Chinese girls or American girls?"
-tags: 
+tags:
   - eastwest
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2009/09/who-is-taller-chinese-girls-or-american.html

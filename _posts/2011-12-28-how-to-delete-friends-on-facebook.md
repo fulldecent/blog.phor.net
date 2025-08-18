@@ -1,6 +1,6 @@
 ---
 title: "How to delete friends on Facebook (UPDATED FOR THE LATEST VERSION)"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2011/12/how-to-delete-friends-on-facebook.html
 ---
 

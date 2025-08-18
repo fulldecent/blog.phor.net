@@ -1,6 +1,6 @@
 ---
 title: "Never use BCC"
-tags: 
+tags:
   - how-to
 old-link: https://fulldecent.blogspot.com/2006/12/dont-use-bcc.html
 comments:
@@ -9,7 +9,7 @@ comments:
     text: |
       What about this case:
       You need to send an email to a single person, it is only relevant to them. However, in response to the message, the recipient is likely to a) respond to sender, or b) call a third party for further clarification.
-      
+
       Third party is not interested in the topic of the email, and only becomes interested if recipient follows up with him instead of reply. This is a case where third party should be BCC rather than CC, since they *should* have no interest in the email.
   - link: https://fulldecent.blogspot.com/2006/12/dont-use-bcc.html?showComment=1165843140000#c5999327847066247084
     name: 'William Entriken'
@@ -22,51 +22,35 @@ comments:
     name: 'William Entriken'
     text: |
       **this is how i'd read the first email:**
-      
+
       from: coworker_a
       to: me
       subj: work
-      
+
       please do this work
-      
+
       **this is how i'd read the second:**
-      
+
       from: coworker_a
       to: me
       cc: boss
       subj: work
-      
+
       please do this work
       ps, big brother is watching
-      
+
       which effect would you rather your message have?
   - link: https://fulldecent.blogspot.com/2006/12/dont-use-bcc.html?showComment=1251589720202#c9204063561060732573
     name: 'William Entriken'
     text: |
       I've also seen the excuse: use BCC so you'll get less spam.
-      
+
       Here is my reply: what is spam?
-      
+
       Do you know that gmail came out in 2004 and I haven't gotten spam since?
   - link: https://fulldecent.blogspot.com/2006/12/dont-use-bcc.html?showComment=1279055436968#c3971554742918804071
     name: 'William Entriken'
-    text: |
-      I will concede one occasion where BCC is appropriate: 
-      
-      --------
-      From: Warren Buffet
-      To: Candidate A, Candidate B, Candidate C, Candidate D
-      Subj: Succession
-      
-      Dear Applicant,
-      Congratulations, I have chosen a list of candidates to succeed me, which includes you. A candidate which is still alive by the time I am unable to run Berkshire Hathaway will be chosen at random.
-      
-      Sincerely,
-      WB
-      --------
-      
-      When you need to protect your recipients' identities (not just because of spam, R.I.P. 2004) you should explicitly describe the nature and quantity of the recipient list.
-
+    text: "I will concede one occasion where BCC is appropriate: \n\n--------\nFrom: Warren Buffet\nTo: Candidate A, Candidate B, Candidate C, Candidate D\nSubj: Succession\n\nDear Applicant,\nCongratulations, I have chosen a list of candidates to succeed me, which includes you. A candidate which is still alive by the time I am unable to run Berkshire Hathaway will be chosen at random.\n\nSincerely,\nWB\n--------\n\nWhen you need to protect your recipients' identities (not just because of spam, R.I.P. 2004) you should explicitly describe the nature and quantity of the recipient list.\n"
 ---
 
 First, [what is BCC?](https://en.wikipedia.org/wiki/Blind_Carbon_Copy)

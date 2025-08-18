@@ -1,7 +1,7 @@
 ---
 title: "TI copyright"
-tags: 
-  - goodfind	
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2010/07/ti-copyright.html
 ---
 

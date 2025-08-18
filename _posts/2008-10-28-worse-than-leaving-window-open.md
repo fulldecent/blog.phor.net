@@ -1,7 +1,7 @@
 ---
 title: "Q: what's worse than leaving your window open"
-tags: 
-  - humor	
+tags:
+  - humor
 old-link: https://fulldecent.blogspot.com/2008/10/q-whats-worse-than-leaving-your-window.html
 ---
 

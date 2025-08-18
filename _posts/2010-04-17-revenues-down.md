@@ -1,7 +1,7 @@
 ---
 title: "How to increase advertising revenues with limited ad space"
-tags: 
-  - goodfind
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2010/04/revenues-down.html
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "ING Direct prevents millions from properly filing taxes" 
-tags: 
+title: "ING Direct prevents millions from properly filing taxes"
+tags:
   - user-interface
 old-link: https://privacylog.blogspot.com/2009/03/ing-direct-stops-me-from-filing-my.html
 ---

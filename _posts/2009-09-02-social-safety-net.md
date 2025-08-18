@@ -2,7 +2,7 @@
 title: "Funding the social safety net and deportation"
 authors:
   - "Su Wang"
-tags: 
+tags:
   - eastwest
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2009/09/quote-of-day-2009-09-02.html

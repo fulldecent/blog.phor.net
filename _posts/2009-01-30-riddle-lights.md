@@ -1,7 +1,7 @@
 ---
 title: "Riddle: 5 lights"
-tags: 
-  - riddle	
+tags:
+  - riddle
 old-link: https://fulldecent.blogspot.com/2009/01/riddle-upgraded-one-about-lights.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/01/profile-riddle-is-back-lights.html#comment-8777301457623114405

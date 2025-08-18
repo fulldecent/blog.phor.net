@@ -1,9 +1,9 @@
 ---
 title: "Stealing a bridge"
-tags: 
+tags:
   - eastwest
-  - goodfind
-  - scamalert	
+  - good-find
+  - scam
 old-link: https://fulldecent.blogspot.com/2012/03/stealing-bridge.html
 ---
 

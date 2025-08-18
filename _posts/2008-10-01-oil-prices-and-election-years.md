@@ -1,7 +1,7 @@
 ---
 title: "Oil prices and election years regression analysis"
-tags: 
-  - finance	
+tags:
+  - finance
 old-link: https://fulldecent.blogspot.com/2008/10/oil-prices-and-election-years.html
 ---
 

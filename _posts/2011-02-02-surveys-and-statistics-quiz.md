@@ -1,8 +1,8 @@
 ---
 title: "Surveys and statistics quiz"
-tags: 
-  - goodfind
-  - youhearditherefirst	
+tags:
+  - good-find
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/02/surveys-and-statistics-quiz.html
 ---
 Today at the office, I am working on a survey of our franchises and compiling the data into something meaningful—about 40 pages of analysis. For inspiration, I am seeking other reports that describe the responses of large surveys (please let me know if you can recommend any good ones). I am particularly interested in the format that information is presented. In the midst of this, I present:

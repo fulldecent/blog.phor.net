@@ -1,6 +1,6 @@
 ---
 title: "Penna Turnpike Commission overbills ~$40M per year on turnpike violation notices, successfully avoids public disclosure"
-tags: ["civic", "investigation"]
+tags: ["civics", "investigation"]
 old-link: https://fulldecent.blogspot.com/2019/10/penna-turnpike-commission-overbills-40m.html
 ---
 

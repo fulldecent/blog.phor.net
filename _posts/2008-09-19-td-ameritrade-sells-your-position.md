@@ -1,7 +1,7 @@
 ---
 title: "TD Ameritrade privacy case study: selling your position information to a third party"
-tags: 
-  - privacy	
+tags:
+  - privacy
 old-link: https://privacylog.blogspot.com/2008/09/td-ameritrade-sells-your-position.html
 ---
 

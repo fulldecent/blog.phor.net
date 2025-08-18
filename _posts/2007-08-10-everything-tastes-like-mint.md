@@ -1,7 +1,7 @@
 ---
 title: "Everything tastes like mint"
-tags: 
-  - mylife	
+tags:
+  - my-life
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2007/08/baby-girl.html
 authors: ["Baby Girl"]

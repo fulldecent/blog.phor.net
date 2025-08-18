@@ -1,8 +1,8 @@
 ---
 title: "Your salary over the years"
-tags: 
+tags:
   - finance
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/03/your-salary-over-years.html
 ---
 

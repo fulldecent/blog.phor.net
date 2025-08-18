@@ -1,8 +1,8 @@
 ---
 title: "The second SHA collision"
-tags: 
+tags:
   - security
-  - zero-day	
+  - zero-day
 old-link: https://privacylog.blogspot.com/2019/12/the-second-sha-collision.html
 comments:
   - link: https://privacylog.blogspot.com/2019/12/the-second-sha-collision.html#comment-8117894812164938956

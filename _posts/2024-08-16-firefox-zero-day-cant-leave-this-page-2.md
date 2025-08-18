@@ -2,9 +2,9 @@
 title: "Firefox zero-day: you can't leave this page (2)"
 tags: ["zero-day", "security"]
 comments:
- - link: https://x.com/fulldecent/status/1824510778520526923
-   name: '@fulldecent'
-   text: The official X thread
+  - link: https://x.com/fulldecent/status/1824510778520526923
+    name: '@fulldecent'
+    text: The official X thread
 ---
 
 This a 0-day announcement showing web pages can prevent visitors from navigating back away from their website.

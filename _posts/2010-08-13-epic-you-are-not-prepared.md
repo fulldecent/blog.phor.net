@@ -1,7 +1,7 @@
 ---
 title: "Epic: you are not prepared"
 tags:
-  - goodfind 
+  - good-find
 old-link: https://fulldecent.blogspot.com/2010/08/epic-you-are-not-prepared.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/08/epic-you-are-not-prepared.html#comment-2251335063296642900

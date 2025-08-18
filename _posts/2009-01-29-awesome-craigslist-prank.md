@@ -1,6 +1,6 @@
 ---
 title: "Best Craigslist prank involving puppies"
-tags: ["howto", "humor"]
+tags: ["how-to", "humor"]
 old-link: https://fulldecent.blogspot.com/2009/01/awesome-craigslist-prank.html
 ---
 

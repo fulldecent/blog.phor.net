@@ -1,7 +1,7 @@
 ---
 title: "Differences in study habits / east versus west"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2010/03/cultural-series-competetiveness.html
 ---
 

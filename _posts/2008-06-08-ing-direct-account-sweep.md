@@ -1,8 +1,8 @@
 ---
 title: "ING Direct communication case study: account sweep user interface"
-tags: 
-  - user-interface	
-  - howto
+tags:
+  - user-interface
+  - how-to
 old-link: https://privacylog.blogspot.com/2008/06/ing-direct-account-sweep.html
 comments:
   - link: https://privacylog.blogspot.com/2008/06/ing-direct-account-sweep.html#comments

@@ -1,7 +1,7 @@
 ---
 title: "Unlimited free money from the US Mint"
-tags: 
-  - goodfind	
+tags:
+  - good-find
 old-link: https://fulldecent.blogspot.com/2008/10/free-25-from-us-mint.html
 comments:
   - link: https://fulldecent.blogspot.com/2008/10/free-25-from-us-mint.html?showComment=1232474940000#c3365744811537368637

@@ -1,6 +1,6 @@
 ---
 title: "Protein bars and whey protein, which ones have melamine?"
-tags: 
+tags:
   - scam
 old-link: https://fulldecent.blogspot.com/2008/10/protein-bars-and-whey-protein-which.html
 ---

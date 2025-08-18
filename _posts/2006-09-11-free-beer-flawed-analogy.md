@@ -1,7 +1,7 @@
 ---
 title: '"Free beer" a flawed analogy'
-tags: 		
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2006/09/free-beer-flawed-analogy.html
 comments:
   - link: https://fulldecent.blogspot.com/2006/09/free-beer-flawed-analogy.html?showComment=1157987520000#c115798754345728433

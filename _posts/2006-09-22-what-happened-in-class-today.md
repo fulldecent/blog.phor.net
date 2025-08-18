@@ -1,7 +1,7 @@
 ---
 title: What happened in class today
-tags: 
-  - my-life	
+tags:
+  - my-life
 old-link: https://fulldecent.blogspot.com/2006/09/what-happened-in-class-today-i-heard.html
 ---
 

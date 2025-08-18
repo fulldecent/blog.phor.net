@@ -1,14 +1,14 @@
 ---
 title: "Classic and modern job searching tips"
-tags: 
+tags:
   - bonus
   - finance
-  - howto
-  - mylife
+  - how-to
+  - my-life
   - politics
-  - scamalert
+  - scam
   - technical
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html#comment-5666518525526171656

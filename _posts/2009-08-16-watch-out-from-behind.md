@@ -1,7 +1,7 @@
 ---
 title: "Watch out from behind"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2009/08/quote-of-day-2009-08-16.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/08/quote-of-day-2009-08-16.html#comment-4817844987086397814

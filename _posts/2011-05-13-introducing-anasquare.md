@@ -1,7 +1,7 @@
 ---
 title: "Introducing Anasquare"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2011/05/introducing-anasquare.html
 comments:
   - link: https://fulldecent.blogspot.com/2011/05/introducing-anasquare.html#comment-8483315241845417298

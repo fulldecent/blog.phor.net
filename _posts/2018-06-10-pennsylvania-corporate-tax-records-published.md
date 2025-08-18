@@ -1,6 +1,6 @@
 ---
 title: "Pennsylvania corporate tax records were available to public"
-tags: ["investigations", "civics"]
+tags: ["investigation", "civics"]
 old-link: https://privacylog.blogspot.com/2018/06/pennsylvania-corporate-tax-records-were.html
 ---
 

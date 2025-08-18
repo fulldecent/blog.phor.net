@@ -1,7 +1,7 @@
 ---
 title: "SanDisk privacy case study: do not click accept"
-tags: 
-  - user-interface	
+tags:
+  - user-interface
 old-link: https://privacylog.blogspot.com/2008/04/san-disk-do-not-click-accept.html
 ---
 

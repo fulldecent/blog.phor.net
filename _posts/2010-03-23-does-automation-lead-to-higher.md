@@ -1,8 +1,8 @@
 ---
 title: "Does automation lead to higher unemployment?"
-tags: 
+tags:
   - politics
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/03/does-automation-lead-to-higher.html
 ---
 

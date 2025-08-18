@@ -1,7 +1,7 @@
 ---
 title: "ING Direct communication case study: failure in customer communication"
-tags: 
-  - user-interface	
+tags:
+  - user-interface
 old-link: https://privacylog.blogspot.com/2008/04/clarity-in-communications-do-it.html
 ---
 

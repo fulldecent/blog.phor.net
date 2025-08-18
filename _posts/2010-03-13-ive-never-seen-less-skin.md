@@ -1,7 +1,7 @@
 ---
 title: "How to play strip poker in Asia [pics]"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2010/03/ive-never-seen-less-skin.html
 ---
 

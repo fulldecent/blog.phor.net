@@ -1,6 +1,6 @@
 ---
 title: "Top stand-up comedy acts in the 20th century"
-tags: ["lists"]
+tags: ["list"]
 old-link: https://fulldecent.blogspot.com/2014/06/top-stand-up-comedy-acts-in-20th-century.html
 ---
 

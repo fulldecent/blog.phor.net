@@ -1,7 +1,7 @@
 ---
 title: "Erin Quinlan is the Prom Queen!"
-tags: 
-  - youhearditherefirst	
+tags:
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2006/12/erin-quinlan-is-prom-queen.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Security hole: charge money to any mobile number"
-tags: 
+tags:
   - security
   - zero-day
 old-link: https://privacylog.blogspot.com/2009/01/security-hole-in-sms-spam-websites.html

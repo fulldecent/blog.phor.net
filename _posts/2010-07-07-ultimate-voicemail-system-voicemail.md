@@ -1,6 +1,6 @@
 ---
 title: "The ultimate voicemail system (\"the Voicemail Remote\")"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2010/07/ultimate-voicemail-system-voicemail.html
 ---
 

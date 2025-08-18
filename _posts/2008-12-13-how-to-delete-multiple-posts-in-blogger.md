@@ -1,6 +1,6 @@
 ---
 title: "How to delete multiple posts in blogger"
-tags: 
+tags:
   - how-to
 old-link: https://fulldecent.blogspot.com/2008/12/how-to-delete-multiple-posts-in-blogger.html
 ---

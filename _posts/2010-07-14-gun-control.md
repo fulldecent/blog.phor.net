@@ -1,6 +1,6 @@
 ---
 title: "Gun control"
-tags: 
+tags:
   - humor
 old-link: https://fulldecent.blogspot.com/2010/07/gun-control.html
 ---

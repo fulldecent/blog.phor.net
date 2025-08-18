@@ -1,8 +1,8 @@
 ---
 title: "Study advice for foreign students studying accounting in the United States"
-tags: 
+tags:
   - politics
-  - youhearditherefirst	
+  - youhearditherefirst
 authors:
   - Su Wang
 old-link: https://fulldecent.blogspot.com/2010/01/accounting.html

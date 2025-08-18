@@ -1,7 +1,7 @@
 ---
 title: "Obscenity in Thailand"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2009/08/geography-for-day.html
 ---
 

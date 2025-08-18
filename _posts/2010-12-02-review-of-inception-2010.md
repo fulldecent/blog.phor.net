@@ -1,7 +1,7 @@
 ---
 title: "Review of Inception (2010)"
 tags:
-  - youhearditherefirst 
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/12/review-of-inception-2010.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/12/review-of-inception-2010.html#comment-8318194801930478932

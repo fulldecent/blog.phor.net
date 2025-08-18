@@ -1,7 +1,7 @@
 ---
 title: "What happens when you send a zero-day to a bank?"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2017/04/what-happens-when-you-send-zero-day-to.html
 ---
 

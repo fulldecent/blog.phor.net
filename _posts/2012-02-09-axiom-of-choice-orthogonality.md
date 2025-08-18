@@ -1,10 +1,10 @@
 ---
 title: "Axiom of choice [MATH]"
-tags: 
+tags:
   - bonus
   - humor
   - math
-  - youhearditherefirst	
+  - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2012/02/axiom-of-choice-math.html
 ---
 

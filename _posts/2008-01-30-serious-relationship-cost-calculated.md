@@ -1,6 +1,6 @@
 ---
 title: "I calculated how much it costs to have a serious relationship"
-tags: 
+tags:
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2008/01/i-calculated-how-much-it-costs-to-have.html
 ---

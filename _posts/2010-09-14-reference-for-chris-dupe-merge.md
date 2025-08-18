@@ -1,7 +1,7 @@
 ---
 title: "Reference for Chris—dupe merge"
 tags:
-  - goodfind 
+  - good-find
 old-link: https://fulldecent.blogspot.com/2010/09/reference-for-chris-dupe-merge.html
 comments:
   - link: https://fulldecent.blogspot.com/2010/09/reference-for-chris-dupe-merge.html#comment-2215846764135909467

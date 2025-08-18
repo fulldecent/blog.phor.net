@@ -1,9 +1,9 @@
 ---
 title: "Language difference between men and women"
-tags: 
-  - goodfind
+tags:
+  - good-find
   - math
-  - technical	
+  - technical
 old-link: https://fulldecent.blogspot.com/2014/06/language-difference-between-men-and.html
 ---
 

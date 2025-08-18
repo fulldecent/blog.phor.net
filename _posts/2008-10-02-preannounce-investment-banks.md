@@ -1,7 +1,7 @@
 ---
 title: "Pre-announcement, investment banks security flaw"
-tags: 
-  - security	
+tags:
+  - security
 old-link: https://privacylog.blogspot.com/2008/10/pre-announcement.html
 ---
 

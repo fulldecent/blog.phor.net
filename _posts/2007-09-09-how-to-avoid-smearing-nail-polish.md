@@ -1,7 +1,7 @@
 ---
 title: "How to avoid smearing nail polish"
-tags: 
-  - humor	
+tags:
+  - humor
   - quote-of-the-week
 old-link: https://fulldecent.blogspot.com/2007/09/quote-of-week-2007-09-09.html
 authors: ["Baby Girl"]

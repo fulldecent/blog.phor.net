@@ -1,6 +1,6 @@
 ---
 title: "Real-time UPS/FEDEX tracking with GPS"
-tags: ["howto"]
+tags: ["how-to"]
 old-link: https://fulldecent.blogspot.com/2009/04/real-time-upsfedex-tracking-with-ups.html
 comments:
   - link: https://fulldecent.blogspot.com/2009/04/real-time-upsfedex-tracking-with-ups.html#comment-7182433759731316229

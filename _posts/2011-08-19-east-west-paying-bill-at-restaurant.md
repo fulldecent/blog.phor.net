@@ -1,7 +1,7 @@
 ---
 title: "Paying the bill at a restaurant"
-tags: 
-  - eastwest	
+tags:
+  - eastwest
 old-link: https://fulldecent.blogspot.com/2011/08/east-west-paying-bill-at-restaurant.html
 ---
 

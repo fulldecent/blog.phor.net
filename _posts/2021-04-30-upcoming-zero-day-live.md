@@ -1,7 +1,7 @@
 ---
 title: "Upcoming event: Zero Day Live 2021-05-01 2PM New York Time"
-tags: 
-  - zero-day	
+tags:
+  - zero-day
 old-link: https://privacylog.blogspot.com/2021/04/upcoming-event-zero-day-live-2021-05-01.html
 ---
 
