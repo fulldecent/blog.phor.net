@@ -121,6 +121,17 @@
     setMermaidTheme(); // Set theme on load
     matchPrefersLight.addEventListener('change', setMermaidTheme); // Update on theme change    
 
+    // Re-render Mermaid diagrams when details are opened
+    document.querySelectorAll('details').forEach(details => {
+      details.addEventListener('toggle', () => {
+        if (details.open) {
+          mermaid.run({
+            nodes: details.querySelectorAll('.language-mermaid')
+          });
+        }
+      });
+    });
+
   </script>
   {%- endif -%}
 </body>
