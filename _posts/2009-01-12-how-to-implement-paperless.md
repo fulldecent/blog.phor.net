@@ -24,7 +24,7 @@ There's a lot of things you can do with a real (paper) bill that you can't do wi
 
     Banks should keep your e-bills available on a website and should show you whether you have viewed the bill or not. The bank should also allow you to mark the e-bill as "unread". This is similar to an email inbox, and mimics the function of the real bill on the desk:
 
-    ![Paperless billing screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless.webp)
+    ![Paperless billing screenshot](/assets/images/2009-01-12-how-to-implement-paperless.webp)
 
 3. Real bills are legal evidence in court.
 
@@ -38,9 +38,9 @@ There's a lot of things you can do with a real (paper) bill that you can't do wi
 
 Here are two examples poorly execution of e-bill systems: ING Direct and Chase:
 
-![ING Direct e-bill screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless-2.webp)
+![ING Direct e-bill screenshot](/assets/images/2009-01-12-how-to-implement-paperless-2.webp)
 
-![Chase e-bill screenshot](/assets/images/2009-01-12-how-to-successfully-implement-paperless-3.webp)
+![Chase e-bill screenshot](/assets/images/2009-01-12-how-to-implement-paperless-3.webp)
 
 ---
 

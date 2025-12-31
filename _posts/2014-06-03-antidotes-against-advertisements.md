@@ -16,13 +16,13 @@ In celebration of critical thinking, and to keep your skills sharp I take enjoym
 
 **Case one:**
 
-![Case one](/assets/images/2014-06-03-antidotes-for-salespeople-best.webp)
+![Case one](/assets/images/2014-06-03-antidotes-against-advertisements.webp)
 
 Of course the correct answer from the buyer is that they need to shop around, maybe the competition has something they didn't even know they needed... because of the unknown unknowns. The human flaw exploited is hubris, that the buyer knows exactly what it is that they want. Probably also lack of mental breadth, that they started talking about other options and the salesperson brought up so many things that they forgot what they were originally talking about.
 
 **Case two:**
 
-![Case two](/assets/images/2014-06-03-antidotes-for-salespeople-best-2.webp)
+![Case two](/assets/images/2014-06-03-antidotes-against-advertisements-2.webp)
 
 This person on the phone is not earning their salary. They have agreed to all sales demands, shown all their cards and not represented their employer's interests... this is worse than a secretary or having the boss call the sales person directly. If this person has limited authority and can't negotiate then a better line 3 would be: "I'm not sure of (decision makers)'s evaluation of your product versus the competition, but I have been asked if this is your best price." One human flaw is hubris, this person is not a decision maker but they are pretending that they know the decision factors.
 

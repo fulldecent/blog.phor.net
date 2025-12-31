@@ -13,7 +13,7 @@ However, based on its broad definitions, this seems to also apply to entire bloc
 
 Even calculator.exe that comes with every Windows computer and Calculator.app on MacOS since System 6 and now macOS, these all seem to be affected.
 
-![Is calculator.exe a smart contract?](/assets/images/2023-05-31-regulating-calculator.exe.webp)
+![Is calculator.exe a smart contract?](/assets/images/2023-05-31-calculator.exe-regulation.webp)
 
 These applications would all be required to have backdoors which allow shutdown of the application and removal/safeguarding of data.
 

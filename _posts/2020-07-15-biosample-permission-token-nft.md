@@ -12,7 +12,7 @@ Written by: William Entriken, Daniel Uribe.
 
 Permission is a broad problem space covering any *permit*, where a *permitter* will ultimately authorize some *property* use to a *permittee*. These permits cover a broad field of authorizations, which may also be  called “grants,” “consents,” “licenses,” and “clams.” A practical  example is the licensing deals in force to produce *FIFA 20*, a football video game [EA-1] [EA-2] [FIFA-1]:
 
-![Licensing](/assets/images/2020-07-15-biosample-permission-token-with-non.webp)
+![Licensing](/assets/images/2020-07-15-biosample-permission-token-nft.webp)
 
 ```mermaid
 flowchart LR
@@ -72,7 +72,7 @@ We put forth a basic system for a permission platform to publish information and
 
 This diagram below illustrates which data is required to keep inside this system:
 
-![Data in system](/assets/images/2020-07-15-biosample-permission-token-with-non-3.webp)
+![Data in system](/assets/images/2020-07-15-biosample-permission-token-nft-3.webp)
 
 This published permit information includes the status of whether the license is active or revoked (E).
 
@@ -82,7 +82,7 @@ The identity of the permitee must be public (D), this is how the media owner and
 
 The permitee does this by simply using their existing well-known  publishing channel (press release, etc.) to make a statement that this  legal entity supports the permission platform and show their identifier.
 
-![Data in system 2](/assets/images/2020-07-15-biosample-permission-token-with-non-4.webp)
+![Data in system 2](/assets/images/2020-07-15-biosample-permission-token-nft-4.webp)
 
 ### Owner references
 
@@ -133,7 +133,7 @@ The platform administrative blockchain account will be a well-known  public addr
 
 There can be no duplicate tokens in ERC-721 sharing the same token  ID. The platform administrative blockchain account will create this  identity token and transfer the token to the account that will control  that identity ID. Therefore the recipient should wait to confirm that  the platform recognizes them before using that account. After  transferring this token, it shall be impossible for the platform  administrative blockchain account to recreate or reassign that  registered identifier, and anybody shall be able to find the owner of  that registered identifier.
 
-![Conventions](/assets/images/2020-07-15-biosample-permission-token-with-non-5.webp)
+![Conventions](/assets/images/2020-07-15-biosample-permission-token-nft-5.webp)
 
 ### Convention on registering property tokens
 
@@ -147,7 +147,7 @@ The platform administrative blockchain account will be a well-known  public addr
 
 There can be no duplicate tokens in ERC-721 sharing the same token  ID. The platform administrative blockchain account will create this  media token and transfer the token to the account that is the owner for  that media identifier. Therefore the owner should wait to confirm that  the platform recognizes them before creating any permit with it.
 
-![Conventions on property](/assets/images/2020-07-15-biosample-permission-token-with-non-6.webp)
+![Conventions on property](/assets/images/2020-07-15-biosample-permission-token-nft-6.webp)
 
 ### Specialized minting function
 
@@ -227,7 +227,7 @@ The world already has privacy laws like the General Data Protection  Regulation 
 
 With this new token, we are hoping to contribute to everybody that  places their trust into health care systems. Companies can become more  responsible and ethical where they manage human data and biosamples.  Let’s do our part to improve the system, so that donors can better trust health care and be more comfortable to participate in studies, so  researchers can have more access to data, which gives doctors more  access to life-saving innovations.
 
-![Biometric example](/assets/images/2020-07-15-biosample-permission-token-with-non-7.webp)
+![Biometric example](/assets/images/2020-07-15-biosample-permission-token-nft-7.webp)
 
 ## Future research
 

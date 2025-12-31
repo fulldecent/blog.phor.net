@@ -7,7 +7,7 @@ old-link: https://fulldecent.blogspot.com/2014/04/upper-bound-on-number-of-diagr
 
 After some work on the number of reachable positions for chess, I turned some attention to Chinese chess. Here is proof of an upper bound for the number of reachable diagrams, I am using the [François Labelle](https://www.eecs.berkeley.edu/~flab/) from [statistics on chess positions](https://www.eecs.berkeley.edu/~flab/chess/statistics-positions.html).
 
-![Positions](/assets/images/2014-04-19-upper-bound-on-number-of-diagrams-in.webp)
+![Positions](/assets/images/2014-04-19-chinese-chess-diagrams-upper-bound.webp)
 
 A very simple upper bound is:
 

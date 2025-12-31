@@ -11,4 +11,4 @@ This person tells you exactly what is on-topic and what is not. Stap focused.
 > <span style="color:blue">Su:</span> This is Su, will. You sent the wrong text message<br>
 > <span style="color:blue">Su:</span> Only hotpot related message should go to Su
 
-![Hotpot only](/assets/images/2013-08-05-stay-focused.webp)
+![Hotpot only](/assets/images/2013-08-05-hotpot-only.webp)

@@ -14,7 +14,7 @@ iOS editor: [Diet Coda](https://panic.com/dietcoda/)
 
 While you are editing code in Coda, this allows you to immediately see the changes in a dedicated preview window on the iPad.
 
-![Diet Coda](/assets/images/2013-04-07-ipad-apps-to-control-desktop-apps.webp)
+![Diet Coda](/assets/images/2013-04-07-ipad-companion-apps.webp)
 
 ## Air Display
 
@@ -24,7 +24,7 @@ iOS app: [Air Display](https://avatron.com/apps/air-display)
 
 This extends your screen by putting the spillover onto an iPad.
 
-![Air Display](/assets/images/2013-04-07-ipad-apps-to-control-desktop-apps-2.webp)
+![Air Display](/assets/images/2013-04-07-ipad-companion-apps-2.webp)
 
 ## Adobe Nav
 
@@ -34,7 +34,7 @@ iOS app: [Adobe Nav](https://www.photoshop.com/products/mobile/nav)
 
 This allows you to select and configure tools while using Photoshop.
 
-![Adobe Nav](/assets/images/2013-04-07-ipad-apps-to-control-desktop-apps-3.webp)
+![Adobe Nav](/assets/images/2013-04-07-ipad-companion-apps-3.webp)
 
 ## VirtualDJ Remote
 
@@ -44,7 +44,7 @@ iOS app: [VirtualDJ Remote](https://www.virtualdj.com/products/iremote.html)
 
 Basically just a copy of what's on the screen, little extra value.
 
-![VirtualDJ Remote](/assets/images/2013-04-07-ipad-apps-to-control-desktop-apps-4.webp)
+![VirtualDJ Remote](/assets/images/2013-04-07-ipad-companion-apps-4.webp)
 
 ## TouchOSC
 
@@ -54,4 +54,4 @@ iOS app: [TouchOSC](https://hexler.net/software/touchosc)
 
 A generic controller app where you can design your own interface or download templates. The commands are sent to your desktop app as MIDI or OSC. Takes about 8 hours to set this up and run.
 
-![TouchOSC](/assets/images/2013-04-07-ipad-apps-to-control-desktop-apps-5.webp)
+![TouchOSC](/assets/images/2013-04-07-ipad-companion-apps-5.webp)
