@@ -71,10 +71,6 @@ layout: base
   <h2>
     Related articles
   </h2>
-  <p class="mb-0">
-    <i class="bi bi-clock"></i>
-    In time order:
-  </p>
   {% assign posts = site.posts | sort: 'date' %}
   {% for post in posts %}
   {% if post.id == page.id %}
@@ -82,27 +78,71 @@ layout: base
   {% assign prevIndex = currIndex | minus: 1 %}
   {% assign nextIndex = currIndex | plus: 1 %}
   {% assign articleIndexLength = forloop.length | minus: 1 %}
-  <ul>
-    <li>
-      {% if currIndex == 0 %}
-      (This is the first post, no earlier posts)
-      {% else %}
-      &laquo; Older <a href="{{ site.url }}{{ site.baseurl }}{{ posts[prevIndex].url }}">
-        {{ posts[prevIndex].title | escape
-        }}</a>
+  <div class="row">
+    <div class="col">
+      <p class="mb-0">
+        <i class="bi bi-clock"></i>
+        In time order:
+      </p>
+      <ul>
+        <li>
+          {% if currIndex == 0 %}
+          (This is the first post, no earlier posts)
+          {% else %}
+          &laquo; Older <a href="{{ site.url }}{{ site.baseurl }}{{ posts[prevIndex].url }}">
+            {{ posts[prevIndex].title | escape
+            }}</a>
+          {% endif %}
+        </li>
+        <li>
+          {% if currIndex == articleIndexLength %}
+          This is the latest post, subscribe below and be the first to see the next one.
+          {% else %}
+          &raquo; Newer
+          <a href="{{ site.url }}{{ site.baseurl }}{{ posts[nextIndex].url }}">{{ posts[nextIndex].title | escape
+            }} </a>
+          {% endif %}
+        </li>
+      </ul>
+    </div>
+
+    {% comment %} Track shown post IDs to avoid duplicates {% endcomment %}
+    {% assign shown_ids = page.id %}
+    {% if currIndex != 0 %}
+    {% assign shown_ids = shown_ids | append: "," | append: posts[prevIndex].id %}
+    {% endif %}
+    {% if currIndex != articleIndexLength %}
+    {% assign shown_ids = shown_ids | append: "," | append: posts[nextIndex].id %}
+    {% endif %}
+
+    {% comment %} Show up to 3 tags {% endcomment %}
+    {% for tag in page.tags %}
+    {% if forloop.index0 < 3 %} {% assign tag_posts="" %} {% assign tag_post_count=0 %} {% comment %} Collect posts with
+      this tag, excluding shown ones {% endcomment %} {% for p in site.posts %} {% if p.tags contains tag and
+      tag_post_count < 3 %} {% unless shown_ids contains p.id %} {% if tag_posts=="" %} {% assign tag_posts=p.id %} {%
+      else %} {% assign tag_posts=tag_posts | append: "," | append: p.id %} {% endif %} {% assign
+      tag_post_count=tag_post_count | plus: 1 %} {% assign shown_ids=shown_ids | append: "," | append: p.id %} {%
+      endunless %} {% endif %} {% endfor %} {% if tag_post_count> 0 %}
+      <div class="col">
+        <p class="mb-0">
+          <i class="bi bi-tag"></i>
+          More on <a href="/posts-by-tag#{{ tag | slugify }}">#{{ tag }}</a>:
+        </p>
+        <ul>
+          {% assign tag_post_ids = tag_posts | split: "," %}
+          {% for tag_post_id in tag_post_ids %}
+          {% for p in site.posts %}
+          {% if p.id == tag_post_id %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ p.url }}">{{ p.title | escape }}</a></li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
-    </li>
-    <li>
-      {% if currIndex == articleIndexLength %}
-      This is the latest post, subscribe below and be the first to see the next one.
-      {% else %}
-      &raquo; Newer
-      <a href="{{ site.url }}{{ site.baseurl }}{{ posts[nextIndex].url }}">{{ posts[nextIndex].title | escape
-        }} </a>
       {% endif %}
-    </li>
-  </ul>
+      {% endfor %}
+  </div>
   {% endif %}
   {% endfor %}
-  </p>
 </aside>
