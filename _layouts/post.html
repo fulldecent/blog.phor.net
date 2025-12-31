@@ -75,7 +75,7 @@ layout: base
     <i class="bi bi-clock"></i>
     In time order:
   </p>
-  {% assign posts = site.posts | sort: 'date' | sort: 'name' %}
+  {% assign posts = site.posts | sort: 'date' %}
   {% for post in posts %}
   {% if post.id == page.id %}
   {% assign currIndex = forloop.index0 %}
@@ -87,32 +87,17 @@ layout: base
       {% if currIndex == 0 %}
       (This is the first post, no earlier posts)
       {% else %}
-      &laquo; Older <a href="{{ site.url }}{{ site.baseurl }}{{ site.posts[prevIndex].url }}">
-        {{ site.posts[prevIndex].title | escape
+      &laquo; Older <a href="{{ site.url }}{{ site.baseurl }}{{ posts[prevIndex].url }}">
+        {{ posts[prevIndex].title | escape
         }}</a>
       {% endif %}
     </li>
     <li>
       {% if currIndex == articleIndexLength %}
-      This is the latest post, subscribe and be the first to see the next one:
-
-      <div class="hstack gap-3">
-        <form
-          action="https://phor.us9.list-manage.com/subscribe/post?u=8b49e10ddf197497c02ff4eae&amp;id=e3fcfddf94&amp;MERGE1=blog.phor.net"
-          method="post">
-          <div class="input-group">
-            <input type="email" name="EMAIL" style="max-width:10rem" class="form-control form-control-sm"
-              placeholder="Email address" required>
-            <button type="submit" class="btn btn-primary ms-2 rounded-pill btn-sm"><i class="bi bi-bell-fill"></i>
-              Monthly<span class="d-none d-lg-inline"> email</span></button>
-          </div>
-        </form>
-        <div class="vr d-none d-lg-block"></div>
-        <a class="text-decoration-none text-nowrap" href="/feed.xml"><i class="bi-rss"></i> RSS</a>
-      </div>
+      This is the latest post, subscribe below and be the first to see the next one.
       {% else %}
       &raquo; Newer
-      <a href="{{ site.url }}{{ site.baseurl }}{{ site.posts[nextIndex].url }}">{{ site.posts[nextIndex].title | escape
+      <a href="{{ site.url }}{{ site.baseurl }}{{ posts[nextIndex].url }}">{{ posts[nextIndex].title | escape
         }} </a>
       {% endif %}
     </li>
