@@ -104,3 +104,7 @@ But if you look at it from the other perspective, people that supply the assets,
 Direct purchase of an equity token is not finance. Even if that token entitles you to receive dividends or other benefits. Because the transaction is fundamentally identical to purchasing bread, or an orange tree that yields fruit.
 
 Blockchain tokens that cover ownership in a enterprise will be a major blockchain use case going fowrard. And there are many reasons to watch this space for future developments.
+
+## Next steps
+
+In [the next article](2026-01-04-defi-primatives-for-rwa.md), we examine DeFi primitives specifically for real world assets (RWA), including custodial considerations and unique primitives for profit-generating enterprises and crowdsales.

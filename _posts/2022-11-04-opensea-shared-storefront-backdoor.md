@@ -86,6 +86,10 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
 - Is OpenSea's implementation compliant with [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155#approval)'s transfer and approval specifications?
 - Is it necessary for a large company to publish their smart contract's source code even when many people won't read it?
 
+## See also
+
+- [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md) discusses custodial relationships and how they affect asset ownership on blockchain
+
 {%- comment -%}
 
 - [x] Publish GitHub repo // visibility public

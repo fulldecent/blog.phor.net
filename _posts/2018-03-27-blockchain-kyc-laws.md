@@ -19,7 +19,7 @@ Enter [micro identity](https://cryptoeconomics.blog/2018/03/27/erc-721-extension
 
 The recently posted ERC-721 was [explored in Dallas](https://explore721.com) and provides a standardized mechanism for a custodian to associate ownership of an asset to an entity on the Ethereum blockchain.
 
-Lining up this implementation, we see that Coinbase (custodian) can hold KYC-compliant identities of real people (assets) and connection to your wallet address (entity). There is even be a way that Coinbase could charge money to other entities for this service.
+Lining up this implementation, we see that Coinbase (custodian) can hold KYC-compliant identities of real people (assets) and connection to your wallet address (entity). There is even be a way that Coinbase could charge money to other entities for this service. For more on custodial relationships in blockchain systems, see [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md).
 
 Would this mechanism be sufficient for one US-based bitcoin exchange to legally do commerce with you without directly having access to your personal information?
 

@@ -4,7 +4,7 @@ tags: ["blockchain"]
 comments: []
 ---
 
-We have looked at the basic function of finance: asset supply, asset lending and liquidation. And we studied the minimum ways to apply this in a traditional system with legal and regulator recourse as well as a rules based blockchain system. Next we will look specifically at the finance primatives related to real world assets (RWA) onchain.
+In [the previous articles](2025-12-20-one-core-finance-function.md) about [reconstructing finance in DeFi](2025-12-30-one-core-defi-function.md), we looked at the basic function of finance: asset supply, asset lending and liquidation. And we studied the minimum ways to apply this in a traditional system with legal and regulator recourse as well as a rules based blockchain system. Next we will look specifically at the finance primatives related to real world assets (RWA) onchain.
 
 But first, what are real world assets?
 
@@ -14,7 +14,7 @@ I am not ready to take a stand on defining what are RWAs. So I will tell you wha
 
 One broad definition of RWAs is "any asset that does not exist solely on chain" or "any asset that is not solely on-chain or on IPFS". Or even "any asset that does not exist solely on-chain or a media file hosted somewhere."
 
-These nitpicks matter to some people that spent a lot of money on non-fungible tokens (NFTs) representing images.
+These nitpicks matter to some people that spent a lot of money on [non-fungible tokens](2021-09-29-nft-contract-before-terra-nullius.md) (NFTs) representing images.
 
 Another definition of RWAs is "any kind of asset that existed before the year 2000".
 
@@ -60,7 +60,7 @@ Anyway, studying these exceptional situations do not necessarily tell you what D
 If a profit generating enterprise will want to share its benefits with on-chain participants, there are several approachs.
 
 1. Perform snapshot of on-chain token holders, and distribute benefits off-chain to them.
-1. Perform snapshot of on-chain token holders, and distribute benefits on-chain to them. (Similar to how OpenSea broadcasts royalties for NFTs).
+1. Perform snapshot of on-chain token holders, and distribute benefits on-chain to them. (Similar to how [OpenSea broadcasts royalties](2022-11-04-opensea-shared-storefront-backdoor.md) for NFTs).
 1. Execute a multi-award reverse auction to buy tokens and then burn them.
 1. Execute a market purchase order against an on-chain DEX to buy tokens and then burn them.
 

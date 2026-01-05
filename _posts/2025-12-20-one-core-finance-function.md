@@ -196,7 +196,7 @@ sequenceDiagram
     end
 ```
 
-In [the next article](2025-12-30-one-core-defi-function.md), we build up the minimum implementation of finance using DeFi tooling and study its utility along with other blockchain token application patterns to see if they meet our core definition of finance.
+In [the next article](2025-12-30-one-core-defi-function.md), we build up the minimum implementation of finance using DeFi tooling and study its utility along with other blockchain token application patterns to see if they meet our core definition of finance. We then examine [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md) (RWA) onchain.
 
 ## Further reading
 

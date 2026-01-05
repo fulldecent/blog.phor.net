@@ -27,7 +27,7 @@ And let's zoom in on that:
 
 > The value of [non-fungible tokens] is attributable to each crypto-asset’s unique characteristics and the utility it gives to the token holder.
 
-This is a major cop out.
+In English, that is a statement, not a qualifying clause!
 
 ## Utility, utility, utility
 
@@ -39,9 +39,9 @@ The regulation right there clearly recognizes your token's utility and its uniqu
 
 ## A demo
 
-Here is a demonstration of a non-fungible token (check) but that also allows you to trade several of them at a time. This makes the token compatible with DeFi and other obviously financial markets (check).
+Here is a demonstration of a non-fungible token (check) but that also allows you to trade several of them at a time. This makes the token compatible with DeFi and other obviously financial markets (check). For more on how tokens integrate with DeFi, see our article on [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md).
 
-And of course this may totally goes against the spirit of the regulation.
+And of course this may totally go against the spirit of the regulation.
 
 ```solidity
 // SPDX-License-Identifier: MIT
