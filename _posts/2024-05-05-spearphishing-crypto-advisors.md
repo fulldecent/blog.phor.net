@@ -9,7 +9,7 @@ tags: ["scam"]
 
 Sharing my experience here with a spearphishing campaign where somebody approached me as a potential client. But their intention was to have me run software on my computer. The goal was assumedly to steal any cryptocurrency I have access to.
 
-Below are the full details af the exchange. i.e. I am doxxing my private communications with this person and team since I believe they were in bad faith.
+Below are the full details of the exchange. i.e. I am doxxing my private communications with this person and team since I believe they were in bad faith.
 
 Please use this as a case study and keep yourself safe.
 

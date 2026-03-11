@@ -7,7 +7,7 @@ comments:
     text: The official X thread
 ---
 
-How well do you kow what money is? We will explore a few intuitive things that money is, break them down, and then see how Bitcoin and tokens on blockchain are so much different.
+How well do you know what money is? We will explore a few intuitive things that money is, break them down, and then see how Bitcoin and tokens on blockchain are so much different.
 
 I usually present this topic as part of a workshop, to people having any or no experience whatsoever in blockchain. Draw on your own life experiences—that is an important part of connecting with the content here.
 

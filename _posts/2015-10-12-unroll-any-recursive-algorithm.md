@@ -26,7 +26,7 @@ int depth(node *tree) {
 }
 ```
 
-And this recursive implementation is vulnerable to a stack overflow. If the input is a maximally lobsided tree, this will use stack space linear with the tree storage.
+And this recursive implementation is vulnerable to a stack overflow. If the input is a maximally lopsided tree, this will use stack space linear with the tree storage.
 
 ## Step one
 

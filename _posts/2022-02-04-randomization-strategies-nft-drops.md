@@ -56,7 +56,7 @@ Here all the NFTs are available for sale and buyers can come get whichever ones 
 | ----- | ------ | --------- |
 | ✅ Yes | ❌ Not at all  | ✅ Yes |
 
-Each purchasing transaction is a signal expressing value for a specific asset over all other available assets (possibly even with next-for-grabs). That signal could be front-runned using MEV. And these MEV participants could even outbid each other. The threat is so abstract that I am still rating this as "fair". Also, this could be addressed by using different princing mechanisms.
+Each purchasing transaction is a signal expressing value for a specific asset over all other available assets (possibly even with next-for-grabs). That signal could be front-runned using MEV. And these MEV participants could even outbid each other. The threat is so abstract that I am still rating this as "fair". Also, this could be addressed by using different pricing mechanisms.
 
 Examples:
 
@@ -77,7 +77,7 @@ subgraph Next for grabs
 end
 ```
 
-Here all the NFTs metadata is public. Each buyer has only the choice of buying the next available one. Because multiple parties can participate on the blockchain simultaneously, it is possible that a buyer things they are getting one thing but when the transaction settles they got a different thing.
+Here all the NFTs metadata is public. Each buyer has only the choice of buying the next available one. Because multiple parties can participate on the blockchain simultaneously, it is possible that a buyer thinks they are getting one thing but when the transaction settles they got a different thing.
 
 {: .table}
 

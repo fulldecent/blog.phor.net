@@ -10,7 +10,7 @@ Written by: William Entriken, Daniel Uribe.
 
 ## The permission problem space
 
-Permission is a broad problem space covering any *permit*, where a *permitter* will ultimately authorize some *property* use to a *permittee*. These permits cover a broad field of authorizations, which may also be  called “grants,” “consents,” “licenses,” and “clams.” A practical  example is the licensing deals in force to produce *FIFA 20*, a football video game [EA-1] [EA-2] [FIFA-1]:
+Permission is a broad problem space covering any *permit*, where a *permitter* will ultimately authorize some *property* use to a *permittee*. These permits cover a broad field of authorizations, which may also be called "grants," "consents," "licenses," and "claims." A practical example is the licensing deals in force to produce *FIFA 20*, a football video game [EA-1] [EA-2] [FIFA-1]:
 
 ![Licensing](/assets/images/2020-07-15-biosample-permission-token-nft.webp)
 

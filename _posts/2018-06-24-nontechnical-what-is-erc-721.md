@@ -19,7 +19,7 @@ But first, let's think about something you use every day:
 
 ## How does your phone connect to a web server?
 
-Most of your time on computers/phones/technology is spent essenntially with a web browser accessing a web page. Most of the screens you see out in the world that display information are essentially using a web page to show it, but they just hide the URL bar.
+Most of your time on computers/phones/technology is spent essentially with a web browser accessing a web page. Most of the screens you see out in the world that display information are essentially using a web page to show it, but they just hide the URL bar.
 
 ![Flight board](/assets/images/2018-06-24-nontechnical-what-is-erc-721.webp)
 

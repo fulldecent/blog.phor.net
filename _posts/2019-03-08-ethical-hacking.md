@@ -17,7 +17,7 @@ The relevant definition/law in the United States related to hacking is the Compu
 
 ## Resources
 
-- [Cryptome](<https://cryptome.org/> posts full disclosures. There are many other topics and theories discussed. But as a primary resource it has lots of good releases.
+- [Cryptome](https://cryptome.org/) posts full disclosures. There are many other topics and theories discussed. But as a primary resource it has lots of good releases.
 
 ## How is ethics involved?
 
@@ -37,7 +37,7 @@ If the security researcher discloses a bug to a vendor, then the vendor may have
 - Avoid hysteria and front-page news coverage, loss of customers
 - Prevent the researcher from finding anything else
 - Avoid responsibility for having done anything wrong
-- Retaliate against the messenger for brining bad news
+- Retaliate against the messenger for bringing bad news
 
 This dichotomy leads to laws being passed, court cases, doxing and more. Often this plays out in the public theater.
 

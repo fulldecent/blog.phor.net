@@ -30,7 +30,7 @@ sequenceDiagram
     end
 ```
 
-First, notice how the order of operations matters, all deposits must be secured before any assets are released. This model is very similar to the traditional finance of selling a call option, but the individual steps are slighly reordered.
+First, notice how the order of operations matters, all deposits must be secured before any assets are released. This model is very similar to the traditional finance of selling a call option, but the individual steps are slightly reordered.
 
 ## Rational actors
 

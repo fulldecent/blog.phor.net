@@ -32,7 +32,7 @@ This company collects your bank login password. Which gives them full access to 
 
 If there is a no privacy policy, then a company is permitted to use your information to the maximum extent permitted under applicable law. So a privacy policy such as Plaid's which says a bunch of words and then "OR PERMITTED UNDER APPLICABLE LAW" is literally the same as not having any privacy policy whatsoever.
 
-Also since Plaid has jurisdiction in USA, England and Amsterdam, this means they can use whatever is the worst combination of jurisdictions to screw you. (E.g. maybe if the applicable law is in USA then it okay to screw people in Amsterdam, but then if applicable law is in Amsterdam then it is okay to screw pepole in USA.) Don't think this language was added by accident.
+Also since Plaid has jurisdiction in USA, England and Amsterdam, this means they can use whatever is the worst combination of jurisdictions to screw you. (E.g. maybe if the applicable law is in USA then it okay to screw people in Amsterdam, but then if applicable law is in Amsterdam then it is okay to screw people in USA.) Don't think this language was added by accident.
 
 A company that wastes your time by adding a bunch of words into a "privacy policy" which is the same as not having any privacy policy is a scam.
 
@@ -50,7 +50,7 @@ It also includes this wonderful:
 An optimal business strategy for this company is simply to:
 
 1. Modify the user agreement to say "you allow Plaid to take all your retirement money for its own use and you are required to agree to this effective today."
-2. "Reasonably notify" you by sending you an email which also includes "TRUMP 2024/2028 fundraiser" in the subect so it definitely doesn't go spam.
+2. "Reasonably notify" you by sending you an email which also includes "TRUMP 2024/2028 fundraiser" in the subject so it definitely doesn't go to spam.
 3. That email doesn't matter anyway because Plaid uses computers and they can just have them take everybody's retirement money from every account one second after the policy update.
 
 If you think Plaid is not going to take all your money because something, something, well just replace "all your retirement money" with "full details of any financial transaction you made in your life at that bank."
@@ -63,7 +63,7 @@ When using Plaid you agree to not sue them unless you provide all relevant infor
 
 This reduces the available options you have and the ability to keep information close to your chest if you will sue Plaid, which you should because it is scam.
 
-A company which specifically reduces your rights when you sue them is a scam. And even asking pepole to give up these kind of rights should be a crime.
+A company which specifically reduces your rights when you sue them is a scam. And even asking people to give up these kind of rights should be a crime.
 
 ## Your bank recognizes any activity on your account as authorized if you gave your password
 

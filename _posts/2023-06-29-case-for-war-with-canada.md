@@ -49,4 +49,4 @@ In an increasingly uncertain and complex world, the United States must be prepar
 
 To be clear, I don't think we should go to war with Canada. Bill probably does, but he just hasn't told you yet.
 
-Imagine your own persona campaign manager, working full time to write hateful, targeted campaigns for violence or political action individually for every single person on Earth. This is the future of politics. Barely anybody is ready for that.
+Imagine your own personal campaign manager, working full time to write hateful, targeted campaigns for violence or political action individually for every single person on Earth. This is the future of politics. Barely anybody is ready for that.

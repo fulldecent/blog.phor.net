@@ -1,16 +1,16 @@
 ---
-title: DeFi primatives for RWA
+title: DeFi primitives for RWA
 tags: ["blockchain"]
 comments: []
 ---
 
-In [the previous articles](2025-12-20-one-core-finance-function.md) about [reconstructing finance in DeFi](2025-12-30-one-core-defi-function.md), we looked at the basic function of finance: asset supply, asset lending and liquidation. And we studied the minimum ways to apply this in a traditional system with legal and regulator recourse as well as a rules based blockchain system. Next we will look specifically at the finance primatives related to real world assets (RWA) onchain.
+In [the previous articles](2025-12-20-one-core-finance-function.md) about [reconstructing finance in DeFi](2025-12-30-one-core-defi-function.md), we looked at the basic function of finance: asset supply, asset lending and liquidation. And we studied the minimum ways to apply this in a traditional system with legal and regulator recourse as well as a rules based blockchain system. Next we will look specifically at the finance primitives related to real world assets (RWA) onchain.
 
 But first, what are real world assets?
 
 ## What are real world assets (RWA)?
 
-I am not ready to take a stand on defining what are RWAs. So I will tell you what many people are using this word for, and why some of it sounds silly to me. You can make your own conclusions and I wont argue you yet.
+I am not ready to take a stand on defining what are RWAs. So I will tell you what many people are using this word for, and why some of it sounds silly to me. You can make your own conclusions and I won't argue you yet.
 
 One broad definition of RWAs is "any asset that does not exist solely on chain" or "any asset that is not solely on-chain or on IPFS". Or even "any asset that does not exist solely on-chain or a media file hosted somewhere."
 
@@ -32,21 +32,21 @@ Another definition of RWAs is "if aliens were looking down at us from space and 
 | Stock share    | YES | YES | NO |
 | Black Lotus MtG card | YES | YES | YES |
 
-In all cases, a real world asset implies some kind of custodial. And therefore you must remember [Entriken's Law](https://x.com/fulldecent/status/978777547772170242):
+In all cases, a real world asset implies some kind of custody. And therefore you must remember [Entriken's Law](https://x.com/fulldecent/status/978777547772170242):
 
 > Your ownership of assets on a ledger is only as valid as your trust in the custodian who has physical control of the assets.
 
 This applies because the assets are recorded on a blockchain, which is a ledger. But the assets themselves are not on the blockchain, they are held somewhere by some custodian.
 
-## What primatives apply to any RWA?
+## What primitives apply to any RWA?
 
 Let's think about some of the exceptional situations that could apply to a real world asset.
 
 1. It could be irreparably damaged.
 2. It could be stolen.
-3. The custodian could fail to honor committments they have made about the asset.
-4. The custodian could be unable to honor some specific committments due to legal or regulatory restrictions.
-5. The custodian could becaume incapacitated or unreachable.
+3. The custodian could fail to honor commitments they have made about the asset.
+4. The custodian could be unable to honor some specific commitments due to legal or regulatory restrictions.
+5. The custodian could become incapacitated or unreachable.
 6. The custodian may have never made committments about the asset that you thought they made.
 7. The asset may not be what you thought it was.
 8. The asset may cease to provide the benefits you expected.
@@ -55,7 +55,7 @@ You also need to clearly understand if the blockchain token is a **companion tok
 
 Anyway, studying these exceptional situations do not necessarily tell you what DeFi primatives you need. But as a concept you need to be prepared for these circumstances.
 
-## DeFi primatives for profit generating enterprises
+## DeFi primitives for profit generating enterprises
 
 If a profit generating enterprise will want to share its benefits with on-chain participants, there are several approachs.
 

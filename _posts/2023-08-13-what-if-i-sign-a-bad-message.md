@@ -34,12 +34,12 @@ Ethereum messages are used primarily for two purposes:
 * Logging into a website
 * Sending a verifiable email to somebody else
 
-2. **To authorize a smart contract to perform some action.** Typically, a smart contract uses signed messages when a transaction involves multiple parties:
+1. **To authorize a smart contract to perform some action.** Typically, a smart contract uses signed messages when a transaction involves multiple parties:
 
 * Selling an NFT, where another human party wants to buy it
 * Preparing some arbitrary transaction, where another human party wants to pay to broadcast it
 
-Most nything that can be done using a message could also be done using a transaction. But transactions have a cost (to record on a blockchain) and messages are free. Therefore, messages can be a first choice when possible.
+Most anything that can be done using a message could also be done using a transaction. But transactions have a cost (to record on a blockchain) and messages are free. Therefore, messages can be a first choice when possible.
 
 There are best practices for each of these kinds of messages, which I will elaborate on in a future article.
 

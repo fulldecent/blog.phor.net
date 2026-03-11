@@ -63,7 +63,7 @@ The taxi stops in Zapote, Las Piñas City exactly at [a Jeepney stop](https://go
 
 Everybody wants to eat, but I'm not hungry. So we go into the restaurant/bar/hole in the wall. I have no problem talking to these people and they're all friendly so let's do it. This place has a video KTV machine, apparently this is called videoke or a carinderia.
 
-They ordered a little fish for me. I had someone else at the table eat some before I eat a couple bites. They ordered a pitcher of beer for the table and I poured my own glass. I pounded it and put it down. Don't let strangers pour your drinks, and don't walk away from your drive they might be tainted, that's what they say.
+They ordered a little fish for me. I had someone else at the table eat some before I eat a couple bites. They ordered a pitcher of beer for the table and I poured my own glass. I pounded it and put it down. Don't let strangers pour your drinks, and don't walk away from your drink, they might be tainted, that's what they say.
 
 So I sing a few songs with Mina and Mina's brother. Mina loves 90's loves songs. I know what to do, I put in a coin and dialed in Mariah Carey, Boyz II Men - One Sweet Day. We do a duet, we kill it. She has a great voice, why waste it on a life of crime?! She would not allow me to take her photo but she got my photo.
 
@@ -96,7 +96,7 @@ The taxi wanted ₱500 but my wallet had ₱400. But I managed. And I got home. 
 
 ## Makati police, Manila police, FBI, PH National Police
 
-Before bed I cancelled all my credit cards and found they had charged about $3,000. When you see the details of these transactions (below) you might lose any remaining faith you have in the competency of our world financial institutions. Apparantly me, my credit card and/or my phone went as far south as Batangas, which is over 100 km from where I started.
+Before bed I cancelled all my credit cards and found they had charged about $3,000. When you see the details of these transactions (below) you might lose any remaining faith you have in the competency of our world financial institutions. Apparently me, my credit card and/or my phone went as far south as Batangas, which is over 100 km from where I started.
 
 After a short sleep, I went to Makati Police Station 9 and met the captain. He's sharp and he asks to see the notebook I'm carrying. "What are you going to do if we look pull the ATM videos and find you are taking the money out?" "That didn't happen, I'll change my religion." He believes I was hypnotized.
 

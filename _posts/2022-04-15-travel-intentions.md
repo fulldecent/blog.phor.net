@@ -20,7 +20,7 @@ My confirmed travel plans are always posted at [phor.net](https://phor.net/#spea
 
 I can have the biggest impact if I'm attending an event with **industry people** that are **inspired by Web3**, and **need a workshop/speech/chat** to decide their path forward.
 
-It can be difficult to see between capable, resourced industry people that are likely to change the world versus opportunists/traders/afficionados that aren't ready to commit on projects. And I want to work with all of you, learn from you and share what I know. But if I can choose I know my priorities.
+It can be difficult to see between capable, resourced industry people that are likely to change the world versus opportunists/traders/aficionados that aren't ready to commit on projects. And I want to work with all of you, learn from you and share what I know. But if I can choose I know my priorities.
 
 ## Choosing
 

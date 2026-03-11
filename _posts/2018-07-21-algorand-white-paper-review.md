@@ -4,7 +4,7 @@ tags: ["blockchain"]
 old-link: https://fulldecent.blogspot.com/2018/07/algorand-white-paper-review.html
 ---
 
-This article briefly reviews the Algorand [technical paper](<https://arxiv.org/pdf/1607.01341.pdf> as well as their white paper for investors. I don't know if the investor paper is public, so I wont link to it. But if you have seen you then you will know you have the right on if:
+This article briefly reviews the Algorand [technical paper](https://arxiv.org/pdf/1607.01341.pdf) as well as their white paper for investors. I don't know if the investor paper is public, so I won't link to it. But if you have seen it then you will know you have the right one if:
 
 - It's in Chinese
 - 1,208,476 bytes

@@ -1,5 +1,5 @@
 ---
-title: "The ethics of oot disclosing vulnerabilities"
+title: "The ethics of not disclosing vulnerabilities"
 tags: ["security", "best-practice"]
 old-link: https://privacylog.blogspot.com/2021/04/the-ethics-of-not-disclosing.html
 ---

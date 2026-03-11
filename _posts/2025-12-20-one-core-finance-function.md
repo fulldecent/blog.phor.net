@@ -4,11 +4,11 @@ tags: ["blockchain"]
 comments: []
 ---
 
-Finance has one core functionn: asset supply, asset lending and liquidation, all tied together. In this article we test this definition of finance, show that nothing else is actually finance and look forward to how traditional finance and decentralized finance, DeFi, (e.g. on blockchain) implement this core function.
+Finance has one core function: asset supply, asset lending and liquidation, all tied together. In this article we test this definition of finance, show that nothing else is actually finance and look forward to how traditional finance and decentralized finance, DeFi, (e.g. on blockchain) implement this core function.
 
 This is a first principles look at finance.
 
-## The core lending primative
+## The core lending primitive
 
 Finance provides a basic function in an economy, which is the supply/lending of assets, backed by the threat of liquidation. This is a trifecta. If any of these is missing, you are not talking about finance, you are talking about something else.
 
@@ -38,7 +38,7 @@ Let review some examples of applying this core function. *And while we're doing 
 
 ### Example: bank deposit account
 
-A bank deposit account is a classic example of these three primatives. The supplier is the **depositor** who **deposits money** to the bank. The borrower is the **bank** which receives the money and promises to return it on demand, plus some **interest** as benefit. The liquidation is typically well-defined, through **legal systems and bank deposit insurance**. This finance function is offered by a bank, and they are the second party to the agreement. The bank pays the legal system or bank deposit insurance some taxes and/or premium in this scheme.
+A bank deposit account is a classic example of these three primitives. The supplier is the **depositor** who **deposits money** to the bank. The borrower is the **bank** which receives the money and promises to return it on demand, plus some **interest** as benefit. The liquidation is typically well-defined, through **legal systems and bank deposit insurance**. This finance function is offered by a bank, and they are the second party to the agreement. The bank pays the legal system or bank deposit insurance some taxes and/or premium in this scheme.
 
 <details markdown="1">
 <summary>Sequence diagram</summary>

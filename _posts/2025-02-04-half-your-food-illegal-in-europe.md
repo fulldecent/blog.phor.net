@@ -7,7 +7,7 @@ comments:
     text: The official X thread
 ---
 
-I randomly picked up several food products off the shelf in Whole Foods and Trader Joe’s to see if those foods would be banned in Europe. This is way harder than you might think, and you wont believe the results.
+I randomly picked up several food products off the shelf in Whole Foods and Trader Joe’s to see if those foods would be banned in Europe. This is way harder than you might think, and you won't believe the results.
 
 ## Why check?
 
@@ -70,4 +70,4 @@ But it does not tell you whether any pre-market authorizations have been granted
 * Are there are specific foods you would like to research whether they are legal in Europe?
 * Do you or your kids have a reaction to some best selling foods?
 * How much do you care about understanding the food you put in your or your kids' mouth?
-* Where do you thing you could find many EU illegal foods in the US?
+* Where do you think you could find many EU illegal foods in the US?

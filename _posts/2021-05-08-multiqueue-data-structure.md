@@ -6,7 +6,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2021/05/multiqueue-data-structure.html
 ---
 
-A multiqueue is to a queue as a multisite is to a set. This generic structure might be useful to some programmer somewhere and I haven't seen it in textbooks, so here is an example in Swift.
+A multiqueue is to a queue as a multiset is to a set. This generic structure might be useful to some programmer somewhere and I haven't seen it in textbooks, so here is an example in Swift.
 
 ```swift
 // This implementation uses O(N) memory, O(1) enqueue and O(N) dequeue.

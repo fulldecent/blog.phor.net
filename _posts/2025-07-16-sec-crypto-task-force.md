@@ -65,7 +65,8 @@ I'm working hard to do business in the US, and do it legally. Don't let the US f
 
 First, have a serious project, not just a whitepaper. Have counsel. Be prepared to discuss your project in detail. If you have already considered to do business "near-shore" instead of in the US, bring your notes from that analysis.
 
-You can bring counsel to your meeting. Or you can just bring your executives or your business develpment team.
+You can bring counsel to your meeting, or you can bring your executives or your business
+development team.
 
 Use the [SEC Crypto Task Force official meeting request form](https://www.sec.gov/about/crypto-task-force/meeting-request) and prepare all your documents.
 
