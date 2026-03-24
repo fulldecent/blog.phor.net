@@ -106,3 +106,11 @@ When you find a mismatch, you need to:
 For example, if `2013-08-05-hotpot-only.md` references `/assets/images/2013-08-05-stay-focused.webp`:
 1. `mv assets/images/2013-08-05-stay-focused.webp assets/images/2013-08-05-hotpot-only.webp`
 2. Update the post: `sed -i '' 's/2013-08-05-stay-focused/2013-08-05-hotpot-only/g' _posts/2013-08-05-hotpot-only.md`
+
+## Proactively and periodically checking for typos and formatting issues
+
+Do this by randomly looking at a few articles each day and distilling suggestions when you have a high confidence of an error.
+
+## Style guide
+
+- Writing titles and intro sentences <https://gwern.net/blog/2026/make-me-care>

@@ -4,6 +4,9 @@ tags:
   - politics
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2012/02/new-medical-bill-theres-code-for-that.html
+updates:
+  - date: 2026-03-23
+    changes: Interactive ICD-10 search now embedded directly in this post
 comments:
   - link: https://fulldecent.blogspot.com/2012/02/new-medical-bill-theres-code-for-that.html#comment-934452679068704226
     name: Anonymous
@@ -36,7 +39,7 @@ Records: Here are some actual medical diagnosis codes. In fact some of these wou
 
 Search the full list of codes below and post the comment if you think this is funny or find another good one!
 
-See the [complete list of ICD-10 codes](https://phor.net/fun/icd-10-all-codes.tsv).
+See the [complete list of ICD-10 codes](/assets/2012-02-28-icd-10-all-codes.tsv).
 
 ## Random ICD-10 codes
 
@@ -47,7 +50,7 @@ See the [complete list of ICD-10 codes](https://phor.net/fun/icd-10-all-codes.ts
 
 <script>
 let icd10Data = null;
-fetch('https://phor.net/fun/icd-10-all-codes.tsv')
+fetch('/assets/2012-02-28-icd-10-all-codes.tsv')
   .then(response => response.text())
   .then(data => {
     icd10Data = data.split(/\r?\n/).filter(Boolean);
