@@ -113,4 +113,6 @@ Do this by randomly looking at a few articles each day and distilling suggestion
 
 ## Style guide
 
+- See my post my-best-voice.md for the overall voice and style I aspire to use in my writing, which is consistent across all my projects. The post includes specific guidelines on typography, formatting, and best practices for documentation.
+
 - Writing titles and intro sentences <https://gwern.net/blog/2026/make-me-care>
