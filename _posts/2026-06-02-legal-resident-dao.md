@@ -1,5 +1,5 @@
 ---
-title: Fun cryptographic primatives you can build trustless systems on
+title: Legal resident DAO
 ---
 
 *This paper provides a technical explanation of how to send blockchain tokens only to verifiable US citizens. It runs entirely on-chain and is trustless. This approach scales to other jurisdictions and other verifications, and it does not require cooperation from government.*
