@@ -3,8 +3,6 @@ title: "Notary pairs: immutable, mutual timestamping service for business relati
 tags: blockchain
 ---
 
-## Notary pairs: immutable, mutual timestamping service for business relationships
-
 You created a document today.
 
 When you deliver that to your business peer, you want confirmation that they received it and when. This includes emails, electronic document interchange and other business processes.
