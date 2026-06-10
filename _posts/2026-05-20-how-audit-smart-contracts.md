@@ -1,5 +1,6 @@
 ---
 title: How I audit smart contracts in 2026
+tags: blockchain
 ---
 
 *How I audit smart contracts: my complete checklist plus a real case study*
