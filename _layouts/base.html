@@ -117,6 +117,7 @@
     const setMermaidTheme = () => {
       const theme = document.documentElement.getAttribute('data-bs-theme') === 'light' ? 'default' : 'dark';
       mermaid.initialize({
+        startOnLoad: false,
         theme: theme,
         ///TODO: use the article font here, how to do it? https://mermaid-js.github.io/mermaid/#/./usage
         themeCSS: "* {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif}",
@@ -126,7 +127,7 @@
         },
         fontFamily: 'Gill Sans'
       });
-      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+      mermaid.run({ nodes: document.querySelectorAll('.language-mermaid') });
     };
     setMermaidTheme(); // Set theme on load
     matchPrefersLight.addEventListener('change', setMermaidTheme); // Update on theme change    
