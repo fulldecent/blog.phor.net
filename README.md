@@ -44,7 +44,7 @@ For raster images hard limit is 1600 px max size for high detail. For editorial,
 1. Make a featured image with the same basename as the post and put it in `/assets/images`. Include it like:
 
    ```markdown
-   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops.svg)
+   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops.webp)
    ```
 
 2. For other images, name sequentiall, with suffixes or a folder:
