@@ -2,7 +2,7 @@
 layout: base
 # Requires: page.title, page.tags
 ---
-{%- assign time_estimated = content | number_of_words | divided_by: 300 | plus: 1 | append: " minutes" -%}
+{%- assign time_estimated = content | number_of_words | divided_by: 200 | plus: 1 | append: " minutes" -%}
 {%- if page contains "time" -%}
 {%- assign time_estimated = page.time -%}
 {%- endif -%}
