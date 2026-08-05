@@ -1,0 +1,95 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hash4eva - following addresses</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1 style="margin-bottom: 8px;">🔔 Following addresses</h1>
+    <p class="text-muted" style="margin-bottom: 32px;">Track accounts and contracts you care about. Get notified when something important happens.</p>
+
+    <!-- Login prompt -->
+    <div class="card" style="border: 2px dashed var(--border-color);">
+      <div style="text-align: center; padding: 48px 24px;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">🔐</div>
+        <h2 style="margin-bottom: 8px;">Log in to follow addresses</h2>
+        <p class="text-muted" style="margin-bottom: 24px; max-width: 480px; margin-left: auto; margin-right: auto;">
+          Connect your wallet or sign in to follow accounts and contracts. You'll get alerts for security events, large transfers, contract upgrades, and more.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+          <button class="btn btn-primary">🦊 Connect wallet</button>
+          <button class="btn btn-secondary">✉️ Sign in with email</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features preview -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">What you can track</span>
+      </div>
+      <div style="display: grid; gap: 16px;">
+        <div style="display: flex; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">🔔</span>
+          <div>
+            <h4>Transaction alerts</h4>
+            <p class="text-muted">Get notified when a followed address sends or receives transactions above your threshold.</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">⬆️</span>
+          <div>
+            <h4>Contract upgrades</h4>
+            <p class="text-muted">Get alerted when a contract you follow is upgraded or its admin functions are called.</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">🚨</span>
+          <div>
+            <h4>Security incidents</h4>
+            <p class="text-muted">Get immediate alerts if a contract you follow is involved in a security incident.</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">🔑</span>
+          <div>
+            <h4>Key leak detection</h4>
+            <p class="text-muted">Get alerted if a private key associated with a followed address appears in a known leak.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <a href="hash4eva.html">Home</a>
+    <a href="hash4eva-incidents.html">Incidents</a>
+    <a href="hash4eva-demos.html">Demos</a>
+    <a href="hash4eva-ads.html">Advertise</a>
+  </footer>
+</body>
+</html>

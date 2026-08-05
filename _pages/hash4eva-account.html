@@ -1,0 +1,1036 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account - hash4eva</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Visit tracking badge (local storage) -->
+  <div id="visitBadge" style="position: fixed; top: 60px; right: 16px; z-index: 100; background: var(--bg-card); border: 1px dashed var(--border-color); border-radius: 4px; padding: 8px 12px; font-size: 12px; display: none; max-width: 280px;" data-tooltip="This information is stored in your browser's\nlocal storage. Nothing is sent to any server.\nDashed border = local only (not synced).\nLog in to save notes to your account.">
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+      <span id="visitText" class="text-muted" style="font-size: 11px;">First visit</span>
+      <button onclick="toggleNoteInput()" style="background: none; border: none; color: var(--neon-cyan); cursor: pointer; font-size: 11px; padding: 0;">📝 note</button>
+    </div>
+    <div id="noteSection" style="display: none; margin-top: 8px;">
+      <div id="savedNote" style="display: none; font-style: italic; color: var(--text-secondary); margin-bottom: 4px; font-size: 11px;"></div>
+      <textarea id="noteInput" class="form-input" style="font-size: 11px; min-height: 40px; resize: vertical; margin-bottom: 4px;" placeholder="Leave a note about this account..."></textarea>
+      <div style="display: flex; gap: 4px;">
+        <button onclick="saveNote()" class="btn btn-primary" style="font-size: 7px; padding: 2px 8px;">Save locally</button>
+        <button onclick="promptLogin()" class="btn btn-secondary" style="font-size: 7px; padding: 2px 8px;">🔐 Log in to sync</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Config panel for demo -->
+  <button class="config-toggle" id="configToggle">⚙️ CONFIG</button>
+  <div class="config-panel" id="configPanel" style="display: none;">
+    <h4>🎛️ Demo configuration</h4>
+    <div class="form-group">
+      <label class="form-label">Account status</label>
+      <select class="form-input" id="cfgStatus" onchange="updateConfig()">
+        <option value="kyc-linked">✅ KYC-linked (exchange transfers)</option>
+        <option value="first-degree">🔗 1st degree connection</option>
+        <option value="second-degree">🔗 2nd degree connection</option>
+        <option value="third-degree">🔗 3rd degree connection</option>
+        <option value="unknown">❓ Unknown</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgHasENS" onchange="updateConfig()" checked>
+        Has ENS name
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgLeaked" onchange="updateConfig()">
+        Private key leaked
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgSandwicher" onchange="updateConfig()">
+        Known sandwicher
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgKYCTransfer" onchange="updateConfig()" checked>
+        Has KYC exchange transfers
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgVulnApprovals" onchange="updateConfig()">
+        Has vulnerable approvals
+      </label>
+    </div>
+    <hr style="border-color: var(--border-color); margin: 16px 0;">
+    <a href="#" class="btn btn-secondary" style="width: 100%; justify-content: center;" onclick="copyCurrentURL()">📋 Copy URL</a>
+  </div>
+
+  <main class="main-content">
+    <!-- Key leaked warning -->
+    <div class="alert alert-danger" id="leakedWarning" style="display: none;">
+      <div class="alert-title">⚠️ PRIVATE KEY LEAKED</div>
+      <p>This account's private key has been publicly exposed. Any tokens sent here will likely be stolen by MEV bots monitoring the address.</p>
+      <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+        <button class="btn btn-danger" data-tooltip="Prepare a Flashbots bundle to extract\nremaining value before MEV bots can\nintercept. Uses Flashbots Protect RPC\nto submit privately to block builders.">🔥 Liquidate — $2.4M</button>
+        <a href="#" style="color: var(--neon-cyan);">Learn how to rescue tokens with an MEV transaction →</a>
+      </div>
+    </div>
+
+    <!-- Sandwicher warning -->
+    <div class="alert alert-warning" id="sandwicherWarning" style="display: none;">
+      <div class="alert-title">🥪 Known MEV sandwicher</div>
+      <p>This account has participated in sandwich attacks against other users. <a href="#" style="color: var(--neon-cyan);">View sandwich history →</a></p>
+    </div>
+
+    <!-- Vulnerable approvals warning -->
+    <div class="alert alert-warning" id="vulnApprovalsWarning" style="display: none;">
+      <div class="alert-title">🔓 Vulnerable value token approvals</div>
+      <p>This account has authorized value tokens to contracts with known vulnerabilities. <a href="#" style="color: var(--neon-cyan);">Review approvals (like revoke.cash) →</a></p>
+    </div>
+
+    <!-- Profile header -->
+    <div class="profile-header">
+      <div class="profile-avatar">
+        <img src="https://api.dicebear.com/7.x/identicon/svg?seed=vitalik" alt="Account avatar" class="avatar avatar-large" id="profileAvatar">
+      </div>
+      <div class="profile-info">
+        <div style="font-family: 'Press Start 2P', monospace; font-size: 10px; color: var(--neon-pink); margin-bottom: 4px; letter-spacing: 1px;">Account</div>
+        <div class="profile-name" id="profileName">vitalik.eth</div>
+        <div class="profile-address" style="display: flex; align-items: center; gap: 8px;">
+          <span class="address" id="profileAddress">0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</span>
+          <button onclick="copyAddress()" style="background: none; border: 1px solid var(--border-color); color: var(--text-secondary); cursor: pointer; padding: 2px 6px; border-radius: 3px; font-size: 14px;" data-tooltip="Copy address to clipboard\nFormatted per EIP-55 mixed-case checksum">📋</button>
+        </div>
+        <div class="profile-badges" id="profileBadges">
+          <span class="badge badge-info tt-clean" data-tooltip="Source: ENS Registry\nContract: 0x00000...C4Bfb\nResolved on-chain via ENS reverse lookup">ENS</span>
+          <span class="badge badge-safe tt-clean" id="accountTypeBadge" data-tooltip="Source: this account has signed transactions\n(has a nonce > 0), which requires a private key\n→ Externally Owned Account">EOA</span>
+          <span class="badge badge-safe tt-clean" id="statusBadge" data-tooltip="Source: Transfer events from KYC exchanges\n(Coinbase, Binance, Kraken) to this address">🏦 KYC-LINKED</span>
+          <a href="#" class="network-badge ethereum" data-tooltip="Source: Ethereum RPC\nHas on-chain activity">Ethereum</a>
+          <a href="#" class="network-badge polygon" data-tooltip="Source: Polygon RPC\nHas on-chain activity">Polygon</a>
+          <a href="#" class="network-badge arbitrum" data-tooltip="Source: Arbitrum RPC\nHas on-chain activity">Arbitrum</a>
+        </div>
+        <div class="profile-actions">
+          <button class="btn btn-primary" onclick="showFollowModal()">🔔 Follow</button>
+          <button class="btn btn-secondary" onclick="showLoveNoteModal()">💌 Send a love note</button>
+          <button class="btn btn-success" onclick="showQRModal()">📱 Payment QR</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Account summary stats -->
+    <div class="card">
+      <div class="stats-grid">
+        <div class="stat-item tt-clean" data-tooltip="$1.1M ETH\n$0.8M tier 1 stablecoins (USDC, USDT, DAI)\n$0.7M NFTs\n$0.5M other value tokens\n\nPrepare a transaction to transfer\nall assets to a destination address.">
+          <button class="btn btn-danger" style="font-size: 0.875rem; padding: 6px 12px;">🔥 Liquidate — $2.4M</button>
+          <div class="stat-label">Liquidation value</div>
+        </div>
+        <a href="#tab-actions" class="stat-item" style="text-decoration:none; color:inherit;" data-tooltip="Source: Ethereum RPC\neth_getTransactionCount(address)\nThe nonce is the number of transactions\nsigned and broadcast by this account" class="tt-clean">
+          <div class="stat-value">15,847</div>
+          <div class="stat-label">Nonce</div>
+        </a>
+        <a href="#tab-tokens" class="stat-item" style="text-decoration:none; color:inherit;" data-tooltip="Source: Token Transfer events\nERC-20 value tokens with balance > 0\nClick to view value tokens" class="tt-clean">
+          <div class="stat-value">47</div>
+          <div class="stat-label">Value tokens held</div>
+        </a>
+        <a href="#tab-nfts" class="stat-item" style="text-decoration:none; color:inherit;" data-tooltip="Source: ERC-721 + ERC-1155 Transfer events\nNFTs currently owned by this address\nClick to view NFTs" class="tt-clean">
+          <div class="stat-value">312</div>
+          <div class="stat-label">NFTs owned</div>
+        </a>
+        <div class="stat-item" data-tooltip="Source: Ethereum node\nFirst nonce > 0 or first Transfer event\nBlock 4,041,169 — Jul 30, 2017" class="tt-clean">
+          <div class="stat-value">2017</div>
+          <div class="stat-label">First active</div>
+        </div>
+        <a href="hash4eva-transaction.html?hash=0x123abc" class="stat-item" style="text-decoration:none; color:inherit;" data-tooltip="Source: block explorer API\nMost recent outgoing transaction\nBlock 19,245,123\nClick to view transaction" class="tt-clean">
+          <div class="stat-value">2 hrs ago</div>
+          <div class="stat-label">Last active</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="two-column">
+      <!-- Left column: Identity & KYC -->
+      <div>
+        <!-- Identity section -->
+        <div class="card" id="identityCard">
+          <div class="card-header">
+            <span class="card-title">👤 Identity</span>
+          </div>
+          
+          <!-- KYC-linked identity info -->
+          <div id="doxxedInfo">
+            <div class="alert alert-success">
+              <strong>🏦 Identity known by Coinbase</strong><br>
+              This account has received 23 transfers from Coinbase, which requires identity verification.
+              <span class="src-icon" data-tooltip="Source: Transfer events from\nCoinbase hot wallet to this address\n23 transfers detected on Ethereum mainnet">i</span>
+            </div>
+            <div style="margin-top: 12px;">
+              <a href="#" class="btn btn-primary" style="font-size: 0.875rem;">📋 Subpoena identity from Coinbase</a>
+              <p class="text-muted" style="margin-top: 8px; font-size: 0.875rem;"><a href="#" style="color: var(--neon-cyan);">Guide to exchange subpoena process →</a></p>
+            </div>
+          </div>
+
+          <!-- Connection info (shown for 1st/2nd/3rd degree) -->
+          <div id="connectionInfo" style="display: none;">
+            <div class="alert alert-info">
+              <div class="alert-title" id="connectionDegreeTitle">🔗 1st degree connection</div>
+              <p id="connectionDescription">This account has received direct transfers from Coinbase.</p>
+            </div>
+            <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px;">
+              <h4 style="margin-bottom: 8px;">Connection path</h4>
+              <div id="connectionPath">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                  <span class="address-short">0xd8dA...6045</span>
+                  <span>←</span>
+                  <span class="badge badge-safe">Coinbase</span>
+                  <span class="text-muted">(KYC required)</span>
+                </div>
+              </div>
+              <p class="text-muted" style="margin-top: 12px; font-size: 0.875rem;">
+                📋 <a href="#" style="color: var(--neon-cyan);">Law enforcement contact for Coinbase subpoenas</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Unknown identity -->
+          <div id="unknownInfo" style="display: none;">
+            <div class="alert alert-warning">
+              <div class="alert-title">❓ Unknown identity</div>
+              <p>No verified identity information is available for this account. Use caution when transacting.</p>
+            </div>
+            <p class="text-muted">
+              This account has no direct connections to KYC-verified exchanges and no public identity claims.
+            </p>
+          </div>
+        </div>
+
+        <!-- ENS info -->
+        <div class="card" id="ensCard">
+          <div class="card-header">
+            <span class="card-title">🏷️ ENS profile</span>
+            <span class="badge badge-info">VERIFIED</span>
+          </div>
+          <div style="display: grid; gap: 12px;">
+            <div>
+              <span class="text-muted">Name:</span>
+              <span data-tooltip="Source: ENS Registry\nresolver.name(namehash('vitalik.eth'))\nContract: 0x00000...C4Bfb">vitalik.eth</span>
+            </div>
+            <div>
+              <span class="text-muted">Avatar:</span>
+              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=vitalik" alt="" style="width: 24px; height: 24px; vertical-align: middle; border-radius: 4px;" data-tooltip="Source: ENS text record 'avatar'\nresolver.text(node, 'avatar')" class="tt-clean">
+            </div>
+            <div>
+              <span class="text-muted">Description:</span>
+              <span data-tooltip="Source: ENS text record 'description'\nresolver.text(node, 'description')">Building the future of decentralized systems.</span>
+            </div>
+            <div>
+              <span class="text-muted">Website:</span>
+              <a href="#" style="color: var(--neon-cyan);" data-tooltip="Source: ENS text record 'url'\nresolver.text(node, 'url')">vitalik.ca ↗</a>
+            </div>
+            <div>
+              <span class="text-muted">X:</span>
+              <a href="#" style="color: var(--neon-cyan);" data-tooltip="Source: ENS text record 'com.twitter'\nresolver.text(node, 'com.twitter')">@VitalikButerin ↗</a>
+            </div>
+            <div>
+              <span class="text-muted">GitHub:</span>
+              <a href="#" style="color: var(--neon-cyan);" data-tooltip="Source: ENS text record 'com.github'\nresolver.text(node, 'com.github')">vbuterin ↗</a>
+            </div>
+            <div>
+              <span class="text-muted">Last updated:</span>
+              <span data-tooltip="Source: Most recent TextChanged event\non ENS resolver for this name">2024-01-15</span>
+              <a href="#" style="color: var(--neon-cyan); margin-left: 8px;">Edit on ENS ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- KYC status -->
+        <div class="card" id="kycCard">
+          <div class="card-header">
+            <span class="card-title">🏦 KYC trail</span>
+          </div>
+          <p class="text-muted" style="margin-bottom: 16px;">
+            Transfers from exchanges where identity verification is required.
+          </p>
+          <div class="data-table">
+            <table style="width: 100%;">
+              <tr>
+                <td><a href="hash4eva-account.html?address=0xCoinbaseHotWallet&status=kyc-linked" class="badge badge-safe" style="text-decoration:none" data-tooltip="Source: block explorer labeled address\nCoinbase Commerce hot wallet\n0x71660c4005BA85c37ccec55d0C4493E66Fe775d3" class="tt-clean">Coinbase</a></td>
+                <td><span data-tooltip="Source: Transfer events from Coinbase\nto this address on Ethereum mainnet">23 transfers</span></td>
+                <td class="text-muted"><a href="hash4eva-transaction.html?hash=0xCoinbaseLast" style="color:inherit" data-tooltip="Click to view this transaction\nBlock 19,180,000">Last: 2024-02-01</a></td>
+              </tr>
+              <tr>
+                <td><a href="hash4eva-account.html?address=0xKrakenHotWallet&status=kyc-linked" class="badge badge-safe" style="text-decoration:none" data-tooltip="Source: block explorer labeled address\nKraken exchange hot wallet\n0x2910543Af39abA0Cd09dBb2D50200b3E800A63D2" class="tt-clean">Kraken</a></td>
+                <td><span data-tooltip="Source: Transfer events from Kraken\nto this address on Ethereum mainnet">8 transfers</span></td>
+                <td class="text-muted"><a href="hash4eva-transaction.html?hash=0xKrakenLast" style="color:inherit" data-tooltip="Click to view this transaction\nBlock 18,400,000">Last: 2023-11-15</a></td>
+              </tr>
+              <tr>
+                <td><a href="hash4eva-account.html?address=0xBinanceHotWallet&status=kyc-linked" class="badge badge-warning" style="text-decoration:none" data-tooltip="Source: block explorer labeled address\nBinance exchange hot wallet\n0x28C6c06298d514Db089934071355E5743bf21d60" class="tt-clean">Binance</a></td>
+                <td><span data-tooltip="Source: Transfer events from Binance\nto this address on Ethereum mainnet">3 transfers</span></td>
+                <td class="text-muted"><a href="hash4eva-transaction.html?hash=0xBinanceLast" style="color:inherit" data-tooltip="Click to view this transaction\nBlock 15,400,000">Last: 2022-08-20</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="alert alert-info" style="margin-top: 16px;">
+            <strong>📋 For law enforcement:</strong><br>
+            <a href="#" style="color: var(--neon-cyan);">Guide to obtaining subpoenas for exchange records →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: Summary & Actions -->
+      <div>
+        <!-- Account summary -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">📊 Activity summary</span>
+          </div>
+          <p style="margin-bottom: 16px;">
+            This account primarily <strong style="color: var(--neon-cyan);">deploys smart contracts</strong> and 
+            <strong style="color: var(--neon-cyan);">interacts with DeFi protocols</strong>.
+          </p>
+          <div style="display: grid; gap: 8px;">
+            <div style="display: flex; justify-content: space-between;">
+              <span data-tooltip="Source: Transactions with empty 'to' field\nEach creates a new smart contract">Contract deployments</span>
+              <span class="text-success" data-tooltip="Source: block explorer API\nAll CREATE/CREATE2 transactions">847</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span data-tooltip="Source: Transactions calling known DeFi\nrouters (Uniswap, Aave, Compound, etc.)">DeFi interactions</span>
+              <span class="text-success" data-tooltip="Source: Transaction method signature\nmatching against known DeFi ABIs">3,241</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span data-tooltip="Source: ERC-721/1155 Transfer events\nwhere value was exchanged (not free mints)">NFT trades</span>
+              <span class="text-info" data-tooltip="Source: OpenSea/Blur/Seaport events\nwhere this address was buyer or seller">156</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span data-tooltip="Source: VoteCast events on known\ngovernance contracts (Governor, Snapshot)">Governance votes</span>
+              <span class="text-info" data-tooltip="Source: On-chain Governor.VoteCast\n+ off-chain Snapshot votes">89</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span data-tooltip="Source: 0-value transactions sent to\nthis address with UTF-8 calldata">Love letters received</span>
+              <span class="text-muted" data-tooltip="Source: Filtered transactions with\nvalue=0 and non-empty input data">1,247</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Manual notes (for notable accounts) -->
+        <div class="card" id="notesCard">
+          <div class="card-header">
+            <span class="card-title">📝 Official notes</span>
+            <span class="badge badge-neutral">VERIFIED</span>
+          </div>
+          <div class="alert alert-info">
+            <strong>block explorer note:</strong><br>
+            "This is the personal wallet of Vitalik Buterin, co-founder of Ethereum."
+          </div>
+          <p class="text-muted" style="font-size: 0.875rem;">
+            Source: <a href="#" style="color: var(--neon-cyan);">block explorer labeled addresses</a>
+          </p>
+        </div>
+
+        <!-- Safe wallets -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">🔐 Multi-sig access</span>
+          </div>
+          <p class="text-muted" style="margin-bottom: 16px;">
+            Safe wallets this account is a signer for:
+          </p>
+          <a href="hash4eva-account.html?address=0xEFTreasury&status=kyc-linked" class="recent-item" style="margin-bottom: 8px; text-decoration:none;">
+            <div class="recent-info">
+              <div class="recent-name">Ethereum Foundation Treasury</div>
+              <div class="text-muted"><span data-tooltip="Source: Safe API (safe.global)\ngetOwners() on-chain call\nThreshold: 3, Total owners: 5">3 of 5 signers</span> · <span data-tooltip="Source: Safe wallet balances\nSummed at current market prices\nvia CoinGecko">$847M</span></div>
+            </div>
+          </a>
+          <a href="hash4eva-account.html?address=0xProtocolGuild&status=kyc-linked" class="recent-item" style="text-decoration:none;">
+            <div class="recent-info">
+              <div class="recent-name">Protocol Guild</div>
+              <div class="text-muted"><span data-tooltip="Source: Safe API (safe.global)\ngetOwners() on-chain call\nThreshold: 7, Total owners: 13">7 of 13 signers</span> · <span data-tooltip="Source: Safe wallet balances\nSummed at current market prices\nvia CoinGecko">$12M</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs for transactions, tokens, etc. -->
+    <div class="card" style="margin-top: 24px;">
+      <div class="tabs" id="mainTabs">
+        <button class="tab active" data-tab="actions">Actions</button>
+        <button class="tab" data-tab="tokens">Value tokens</button>
+        <button class="tab" data-tab="nfts">NFTs</button>
+        <button class="tab" data-tab="signatures">Signatures</button>
+        <button class="tab" data-tab="messages">Messages / Love letters</button>
+      </div>
+
+      <!-- Actions tab -->
+      <div class="tab-content" id="tab-actions">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px;">
+          <div>
+            <label class="form-checkbox" style="display: inline-flex; margin-right: 16px;" data-tooltip="A transaction is signed by this account\nand broadcast to the network. It has a\nnonce and an ECDSA signature from\nthis account's private key.">
+              <input type="checkbox" checked> Show transactions
+            </label>
+            <label class="form-checkbox" style="display: inline-flex;" data-tooltip="A message call originates from a\ndifferent transaction or from another\nmessage call. It is initiated by a\ncontract via CALL/DELEGATECALL opcodes,\nnot directly signed by this account.">
+              <input type="checkbox" checked> Show message calls
+            </label>
+          </div>
+          <div style="display: flex; gap: 4px; align-items: center;">
+            <span class="network-badge ethereum" style="cursor: pointer;" data-tooltip="Show Ethereum mainnet actions">Ethereum</span>
+            <span class="network-badge polygon" style="cursor: pointer; opacity: 0.5;" data-tooltip="Show Polygon actions">Polygon</span>
+            <span class="network-badge arbitrum" style="cursor: pointer; opacity: 0.5;" data-tooltip="Show Arbitrum actions">Arbitrum</span>
+          </div>
+        </div>
+
+        <a href="hash4eva-transaction.html?type=deploy" class="tx-item" style="text-decoration:none; color:inherit;">
+          <div class="tx-type contract">📝</div>
+          <div class="tx-details">
+            <div class="tx-action">Contract creation</div>
+            <div class="tx-meta">
+              <span class="network-badge ethereum">ETH</span>
+              <span data-tooltip="Source: Ethereum RPC\neth_getBlockByNumber(19245123)\nClick row to view full transaction">Block 19,245,123</span> · 2 hours ago
+            </div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-main">New contract</div>
+            <div class="tx-value-sub"><span data-tooltip="Source: Transaction receipt\ncontractAddress field">0x7a82...c3f1</span></div>
+          </div>
+          <span class="badge badge-safe tt-clean" data-tooltip="Source: Transaction 'from' field matches\nthis account's address">SIGNED</span>
+        </a>
+
+        <a href="hash4eva-transaction.html?type=transfer" class="tx-item" style="text-decoration:none; color:inherit;">
+          <div class="tx-type send">↑</div>
+          <div class="tx-details">
+            <div class="tx-action">Transfer to <a href="hash4eva-account.html?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Click to view this account">0x94A8...1154</a></div>
+            <div class="tx-meta">
+              <span class="network-badge ethereum">ETH</span>
+              <span data-tooltip="Source: Ethereum RPC\neth_getBlockByNumber(19245100)">Block 19,245,100</span> · 3 hours ago
+            </div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-main"><span data-tooltip="Source: Transaction 'value' field\n10,500,000,000,000,000,000 wei">-10.5 ETH</span></div>
+            <div class="tx-value-sub"><span data-tooltip="Source: ETH price from CoinGecko\n$2,400 × 10.5 ETH">$25,200</span></div>
+          </div>
+          <span class="badge badge-safe tt-clean" data-tooltip="Source: ECDSA signature verification\nSigned by this account's private key">SIGNED</span>
+        </a>
+
+        <a href="hash4eva-transaction.html?type=transfer" class="tx-item" style="text-decoration:none; color:inherit;">
+          <div class="tx-type receive">↓</div>
+          <div class="tx-details">
+            <div class="tx-action">Received from <a href="hash4eva-account.html?address=0xCoinbaseHotWallet&status=kyc-linked" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Source: block explorer labeled address\nCoinbase Commerce hot wallet\nClick to view account">Coinbase</a></div>
+            <div class="tx-meta">
+              <span class="network-badge ethereum">ETH</span>
+              <span data-tooltip="Source: Ethereum RPC\neth_getBlockByNumber(19244890)">Block 19,244,890</span> · 5 hours ago
+            </div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-main" style="color: var(--neon-green);"><span data-tooltip="Source: Transaction 'value' field\n50,000,000,000,000,000,000 wei">+50 ETH</span></div>
+            <div class="tx-value-sub"><span data-tooltip="Source: ETH price from CoinGecko\n$2,400 × 50 ETH">$120,000</span></div>
+          </div>
+          <span class="badge badge-neutral tt-clean" data-tooltip="Source: Transaction 'to' field\nmatches this account's address">RECEIVED</span>
+        </a>
+
+        <a href="hash4eva-transaction.html?type=contract" class="tx-item" style="text-decoration:none; color:inherit;">
+          <div class="tx-type swap">⇄</div>
+          <div class="tx-details">
+            <div class="tx-action">Swap on <span data-tooltip="Source: Transaction 'to' address\nmatches Uniswap V3 Router\n0xE592427A0AEce92De3Edee1F18E0157C05861564">Uniswap V3</span></div>
+            <div class="tx-meta">
+              <span class="network-badge ethereum">ETH</span>
+              <span data-tooltip="Source: Ethereum RPC\neth_getBlockByNumber(19244500)">Block 19,244,500</span> · 8 hours ago
+            </div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-main"><span data-tooltip="Source: Uniswap Swap event log\nDecoded amounts from event data">5 ETH → 8,500 USDC</span></div>
+            <div class="tx-value-sub"><span data-tooltip="Source: gasUsed × gasPrice\nfrom transaction receipt">0.02 ETH fee</span></div>
+          </div>
+          <span class="badge badge-safe tt-clean" data-tooltip="Source: ECDSA signature verification\nSigned by this account's private key">SIGNED</span>
+        </a>
+
+        <div class="tx-item">
+          <div class="tx-type receive">💌</div>
+          <div class="tx-details">
+            <div class="tx-action">Love letter from <span class="address-short">0x1234...5678</span></div>
+            <div class="tx-meta">
+              <span class="network-badge ethereum">ETH</span>
+              Block 19,244,000 · 12 hours ago
+            </div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-main" style="color: var(--neon-pink);">0 ETH + message</div>
+            <div class="tx-value-sub">"gm ser!"</div>
+          </div>
+          <span class="badge badge-neutral">MESSAGE</span>
+        </div>
+
+        <div class="text-center" style="margin-top: 16px;">
+          <button class="btn btn-secondary">Load more actions</button>
+        </div>
+      </div>
+
+      <!-- Value tokens tab -->
+      <div class="tab-content hidden" id="tab-tokens">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <div>
+            <button class="btn btn-secondary">Export for taxes</button>
+            <button class="btn btn-danger" style="margin-left: 8px;">Liquidate all — $2.4M</button>
+          </div>
+          <select class="form-input" style="width: auto;">
+            <option>Show value in: USD</option>
+            <option>Show value in: ETH</option>
+            <option>Show value in: BTC</option>
+          </select>
+        </div>
+
+        <div class="token-item">
+          <div class="token-icon">Ξ</div>
+          <div class="token-info">
+            <div class="token-name">Ethereum</div>
+            <div class="token-symbol">ETH</div>
+          </div>
+          <div class="token-balance">
+            <div class="token-amount"><span data-tooltip="Source: Ethereum RPC\neth_getBalance(address)\n847,250,000,000,000,000,000 wei">847.25 ETH</span></div>
+            <div class="token-usd"><span data-tooltip="Source: CoinGecko API\nETH/USD = $2,400\n847.25 × $2,400 = $2,033,400">$2,033,400</span></div>
+          </div>
+          <button class="btn btn-success" style="font-size: 8px;">Trade</button>
+        </div>
+
+        <div class="token-item">
+          <div class="token-icon" style="background: #2775ca; color: white;">$</div>
+          <div class="token-info">
+            <a href="hash4eva-contract.html?address=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" class="token-name" style="color:inherit; text-decoration:none" data-tooltip="Source: ERC-20 balanceOf() call\nContract: 0xA0b8...eB48\nClick to view USDC contract">USD Coin</a>
+            <div class="token-symbol">USDC</div>
+          </div>
+          <div class="token-balance">
+            <div class="token-amount"><span data-tooltip="Source: USDC.balanceOf(address)\non Ethereum mainnet\n125,000,000,000 (6 decimals)">125,000 USDC</span></div>
+            <div class="token-usd"><span data-tooltip="Source: CoinGecko API\nUSDC/USD = $1.00">$125,000</span></div>
+          </div>
+          <button class="btn btn-danger" style="font-size: 8px;" data-tooltip="Seize 125,000 USDC from this account.\n\nTransaction: call blacklist(address) then\nseizeBalanceOf(address) on USDC proxy.\n\nOnly effective if signed by:\n• Circle compliance admin (0x5B6e...F29a)\n\nAnyone can click to preview the transaction\ndata and simulate it on a blockchain fork.">🔥 Seize $125,000</button>
+          <button class="btn btn-success" style="font-size: 8px;">Trade</button>
+        </div>
+
+        <div class="token-item">
+          <div class="token-icon" style="background: #627eea;">⟠</div>
+          <div class="token-info">
+            <a href="hash4eva-contract.html?address=0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0" class="token-name" style="color:inherit; text-decoration:none" data-tooltip="Source: ERC-20 balanceOf() call\nContract: 0x7f39...2Ca0\nClick to view wstETH contract">Wrapped stETH</a>
+            <div class="token-symbol">wstETH</div>
+          </div>
+          <div class="token-balance">
+            <div class="token-amount"><span data-tooltip="Source: wstETH.balanceOf(address)\non Ethereum mainnet\n50,000,000,000,000,000,000 (18 decimals)">50 wstETH</span></div>
+            <div class="token-usd"><span data-tooltip="Source: CoinGecko API\nwstETH/USD = $2,700\n50 × $2,700 = $135,000">$135,000</span></div>
+          </div>
+          <button class="btn btn-danger" style="font-size: 8px;" data-tooltip="Steal 50 wstETH ($135,000) from this account.\n\nTransaction: deploy new implementation with\ndrain() function, then call upgradeTo(newImpl)\nfrom proxy admin, then call drain().\n\nOnly effective if signed by:\n• Lido DAO multisig (0x3e40...D869)\n\nAnyone can click to preview the transaction\ndata and simulate it on a blockchain fork.">🔥 Steal $135,000</button>
+          <button class="btn btn-success" style="font-size: 8px;">Trade</button>
+        </div>
+
+        <div style="margin-top: 16px; padding: 16px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <h4 style="margin-bottom: 8px;">⚠️ Value token approvals</h4>
+          <p class="text-muted" style="margin-bottom: 12px;">
+            These contracts can spend your value tokens:
+          </p>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border-color);">
+            <a href="hash4eva-contract.html?address=0xE592427A0AEce92De3Edee1F18E0157C05861564&ownership=kyc-linked" style="color:var(--neon-cyan); text-decoration:none" data-tooltip="Source: Approval event logs\nContract: 0xE592...1564\nClick to view contract">Uniswap V3 Router</a>
+            <span class="badge badge-safe tt-clean" data-tooltip="Source: Contract audit status\nUniswap V3 is audited by Trail of Bits,\nABDK, samczsun">Safe</span>
+            <button class="btn btn-secondary" style="font-size: 7px;">Revoke</button>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 0;">
+            <a href="hash4eva-contract.html?address=0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC&ownership=kyc-linked" style="color:var(--neon-cyan); text-decoration:none" data-tooltip="Source: Approval event logs\nContract: 0x0000...14dC\nClick to view contract">OpenSea Seaport</a>
+            <span class="badge badge-safe tt-clean" data-tooltip="Source: Contract audit status\nSeaport is audited by OpenZeppelin,\nTrail of Bits">Safe</span>
+            <button class="btn btn-secondary" style="font-size: 7px;">Revoke</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- NFTs tab -->
+      <div class="tab-content hidden" id="tab-nfts">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px;">
+          <div style="background: var(--bg-card-hover); border-radius: 4px; overflow: hidden;">
+            <div style="aspect-ratio: 1; background: linear-gradient(135deg, #ff6b6b, #4ecdc4);"></div>
+            <div style="padding: 8px;">
+              <a href="hash4eva-contract.html?address=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB" style="font-size: 0.875rem; color:inherit; text-decoration:none" data-tooltip="Source: ERC-721 ownerOf(3100)\nContract: CryptoPunks\n0xb47e...3BBB">CryptoPunk #3100</a>
+              <div class="text-muted" style="font-size: 0.75rem;"><span data-tooltip="Source: OpenSea API\nLowest current listing price\nfor this collection">Floor: 45 ETH</span></div>
+            </div>
+          </div>
+          <div style="background: var(--bg-card-hover); border-radius: 4px; overflow: hidden;">
+            <div style="aspect-ratio: 1; background: linear-gradient(135deg, #a8e6cf, #dcedc1);"></div>
+            <div style="padding: 8px;">
+              <a href="hash4eva-contract.html?address=0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D" style="font-size: 0.875rem; color:inherit; text-decoration:none" data-tooltip="Source: ERC-721 ownerOf(8817)\nContract: BoredApeYachtClub\n0xBC4C...f13D">Bored Ape #8817</a>
+              <div class="text-muted" style="font-size: 0.75rem;"><span data-tooltip="Source: OpenSea API\nLowest current listing price\nfor this collection">Floor: 28 ETH</span></div>
+            </div>
+          </div>
+          <div style="background: var(--bg-card-hover); border-radius: 4px; overflow: hidden;">
+            <div style="aspect-ratio: 1; background: linear-gradient(135deg, #ffd93d, #ff8c00);">
+              <div style="padding: 4px; text-align: right;"><button class="btn btn-danger" style="font-size: 7px; padding: 2px 6px;" data-tooltip="Steal Azuki #1234 (floor: 8.5 ETH / $20,400).\n\nTransaction: deploy new implementation with\ntransferOverride(), call upgradeTo(newImpl)\nfrom proxy admin, call transferOverride(tokenId, to).\n\nOnly effective if signed by:\n• Azuki deployer (0xED5A...C544 owner)\n\nAnyone can click to preview the transaction\ndata and simulate it on a blockchain fork.">🔥 Steal NFT</button></div>
+            </div>
+            <div style="padding: 8px;">
+              <a href="hash4eva-contract.html?address=0xED5AF388653567Af2F388E6224dC7C4b3241C544" style="font-size: 0.875rem; color:inherit; text-decoration:none" data-tooltip="Source: ERC-721 ownerOf(1234)\nContract: Azuki\n0xED5A...C544">Azuki #1234</a>
+              <div class="text-muted" style="font-size: 0.75rem;"><span data-tooltip="Source: OpenSea API\nLowest current listing price\nfor this collection">Floor: 8.5 ETH</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="text-muted text-center" style="margin-top: 16px;">Showing 3 of 312 NFTs</p>
+      </div>
+
+      <!-- Signatures tab -->
+      <div class="tab-content hidden" id="tab-signatures">
+        <div class="alert alert-info" style="margin-bottom: 16px;">
+          <div class="alert-title">🔐 Signature history</div>
+          <p>Messages and permits this account has signed, detected via ECRECOVER operations.</p>
+        </div>
+        <p class="text-muted">This is useful for "was I hacked?" analysis.</p>
+        <div class="data-table" style="margin-top: 16px;">
+          <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Contract</th>
+                <th>When</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span data-tooltip="Source: ECRECOVER from permit()\ntransactions on USDC contract\nEIP-2612 gasless approve">EIP-2612 Permit</span></td>
+                <td><a href="hash4eva-contract.html?address=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Contract: 0xA0b8...eB48\nClick to view USDC contract">USDC</a></td>
+                <td><a href="hash4eva-transaction.html" style="color:inherit" data-tooltip="Source: Transaction log\nBlock 19,200,000\nClick to view transaction">2 days ago</a></td>
+                <td><span class="badge badge-safe tt-clean" data-tooltip="Source: Permit deadline field\nDeadline has passed, approval\nis no longer valid">Expired</span></td>
+              </tr>
+              <tr>
+                <td><span data-tooltip="Source: SetApprovalForAll event log\nGrants operator access to all NFTs\nin this collection">SetApprovalForAll</span></td>
+                <td><a href="hash4eva-contract.html?address=0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Contract: 0x0000...14dC (Seaport)\nClick to view contract">OpenSea</a></td>
+                <td><a href="hash4eva-transaction.html" style="color:inherit" data-tooltip="Source: Transaction log\nBlock 19,150,000\nClick to view transaction">1 week ago</a></td>
+                <td><span class="badge badge-warning tt-clean" data-tooltip="Source: isApprovedForAll() returns true\nThis operator can still move your NFTs">Active</span></td>
+              </tr>
+              <tr>
+                <td><span data-tooltip="Source: Off-chain EIP-712 signature\nUsed for wallet login, no on-chain\neffect">Login signature</span></td>
+                <td><a href="hash4eva-contract.html?address=0xBlurExchange" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Blur NFT marketplace\nClick to view contract">Blur.io</a></td>
+                <td><a href="hash4eva-transaction.html" style="color:inherit" data-tooltip="Source: Off-chain signature timestamp\nClick to view details">2 weeks ago</a></td>
+                <td><span class="badge badge-safe tt-clean" data-tooltip="Source: Login signatures cannot\nauthorize transfers or spend tokens">Safe</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Messages tab -->
+      <div class="tab-content hidden" id="tab-messages">
+        <div class="alert alert-info" style="margin-bottom: 16px;">
+          <div class="alert-title">💌 Love letters</div>
+          <p>Messages attached to zero-ETH transactions sent to this account.</p>
+        </div>
+        <div class="tx-item">
+          <div class="tx-type receive">💌</div>
+          <div class="tx-details">
+            <div class="tx-action">From <span class="address-short">0x1234...5678</span></div>
+            <div class="tx-meta"><a href="hash4eva-transaction.html?hash=0xabc123&chain=ethereum" style="color: inherit; text-decoration: none;" data-tooltip="2024-03-15T14:23:47Z" class="tt-clean"><span class="network-badge ethereum" style="font-size: 9px; padding: 1px 6px;">Ethereum</span> 12 hours ago</a></div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-sub" style="font-style: italic;">"gm ser! love your work on Ethereum!"</div>
+          </div>
+        </div>
+        <div class="tx-item">
+          <div class="tx-type receive">💌</div>
+          <div class="tx-details">
+            <div class="tx-action">From <span class="address-short">0xabcd...ef01</span></div>
+            <div class="tx-meta"><a href="hash4eva-transaction.html?hash=0xdef456&chain=polygon" style="color: inherit; text-decoration: none;" data-tooltip="2024-03-12T09:01:12Z" class="tt-clean"><span class="network-badge polygon" style="font-size: 9px; padding: 1px 6px;">Polygon</span> 3 days ago</a></div>
+          </div>
+          <div class="tx-value">
+            <div class="tx-value-sub" style="font-style: italic;">"When merge? 😂"</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modals -->
+  <div id="followModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h3 style="font-family: 'Bangers', cursive; margin-bottom: 16px;">🔔 Follow this account</h3>
+      <p class="text-muted" style="margin-bottom: 16px;">Get email notifications for activity on this account.</p>
+      <div class="form-group">
+        <label class="form-checkbox"><input type="checkbox" checked> All signed actions</label>
+      </div>
+      <div class="form-group">
+        <label class="form-checkbox"><input type="checkbox"> Incoming transfers only</label>
+      </div>
+      <div class="form-group">
+        <label class="form-checkbox"><input type="checkbox" checked> Only valuable tokens (> $100)</label>
+      </div>
+      <div class="form-group">
+        <label class="form-checkbox"><input type="checkbox"> Vulnerable approval warnings</label>
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-input" placeholder="your@email.com">
+      </div>
+      <button class="btn btn-primary" style="width: 100%;">Subscribe</button>
+      <button class="btn btn-secondary" style="width: 100%; margin-top: 8px;" onclick="closeModals()">Cancel</button>
+    </div>
+  </div>
+
+  <div id="qrModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h3 style="font-family: 'Bangers', cursive; margin-bottom: 16px;">📱 Payment QR code</h3>
+      <div class="form-group">
+        <label class="form-label">Network</label>
+        <select class="form-input">
+          <option>Ethereum Mainnet</option>
+          <option>Polygon</option>
+          <option>Arbitrum</option>
+          <option>Base</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Action</label>
+        <select class="form-input">
+          <option>Pay ETH</option>
+          <option>Pay USDC</option>
+          <option>Pay DAI</option>
+          <option>Send message only</option>
+        </select>
+      </div>
+      <div class="text-center" style="margin: 24px 0;">
+        <div class="qr-code">
+          <svg width="150" height="150" viewBox="0 0 150 150">
+            <rect width="150" height="150" fill="white"/>
+            <text x="75" y="75" text-anchor="middle" fill="#333">QR CODE</text>
+          </svg>
+        </div>
+        <p class="text-muted" style="margin-top: 8px; font-size: 0.875rem;">Scan to pay</p>
+      </div>
+      <button class="btn btn-success" style="width: 100%;">Copy payment link</button>
+      <button class="btn btn-secondary" style="width: 100%; margin-top: 8px;" onclick="closeModals()">Close</button>
+    </div>
+  </div>
+
+  <div id="loveNoteModal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h3 style="font-family: 'Bangers', cursive; margin-bottom: 16px;">💌 Send a love note</h3>
+      <p class="text-muted" style="margin-bottom: 16px;">Send a 0-value action with a message in the calldata. Your message will be permanently recorded on-chain.</p>
+      <div class="form-group">
+        <label class="form-label">Your message</label>
+        <textarea class="form-input" id="loveNoteText" rows="3" placeholder="gm ser! love your work..."></textarea>
+      </div>
+      <div class="form-group" id="encryptionOption">
+        <label class="form-checkbox" data-tooltip="This account has broadcast at least one\ntransaction, so its public key can be\nrecovered from the ECDSA signature.\nEncrypted notes can only be read by\nthe account holder's private key.">
+          <input type="checkbox" id="encryptNote"> 🔐 Encrypt with recipient's public key
+        </label>
+        <p class="text-muted" style="font-size: 0.75rem; margin-top: 4px;" id="encryptionExplainer">
+          ✅ Public key available — this account has signed actions, so we can recover their public key via ECRECOVER for encryption.
+        </p>
+      </div>
+      <div id="noEncryptionOption" style="display: none;">
+        <div class="alert alert-warning" style="font-size: 0.8rem;">
+          🔓 Encryption unavailable — this account has never signed an action, so its public key is unknown. Your message will be sent in plaintext.
+        </div>
+      </div>
+      <button class="btn btn-primary" style="width: 100%;">Send love note (requires wallet)</button>
+      <button class="btn btn-secondary" style="width: 100%; margin-top: 8px;" onclick="closeModals()">Cancel</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+    }
+    .modal-content {
+      background: var(--bg-card);
+      border: 2px solid var(--neon-pink);
+      border-radius: 4px;
+      padding: 24px;
+      max-width: 400px;
+      width: 90%;
+    }
+  </style>
+
+  <script>
+    // Parse URL parameters
+    const params = new URLSearchParams(window.location.search);
+    const address = params.get('address') || '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045';
+    const status = params.get('status') || 'kyc-linked';
+    const hasENS = params.get('hasENS') !== 'false';
+    const leaked = params.get('leaked') === 'true';
+    const sandwicher = params.get('sandwicher') === 'true';
+    const kycTransfer = params.get('kycTransfer') !== 'false';
+    const vulnApprovals = params.get('vulnApprovals') === 'true';
+
+    // Config panel toggle
+    const configToggle = document.getElementById('configToggle');
+    const configPanel = document.getElementById('configPanel');
+    configToggle.addEventListener('click', () => {
+      configPanel.style.display = configPanel.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Set config panel values from URL
+    document.getElementById('cfgStatus').value = status;
+    document.getElementById('cfgHasENS').checked = hasENS;
+    document.getElementById('cfgLeaked').checked = leaked;
+    document.getElementById('cfgSandwicher').checked = sandwicher;
+    document.getElementById('cfgKYCTransfer').checked = kycTransfer;
+    document.getElementById('cfgVulnApprovals').checked = vulnApprovals;
+
+    function updateConfig() {
+      const newParams = new URLSearchParams();
+      newParams.set('address', address);
+      newParams.set('status', document.getElementById('cfgStatus').value);
+      newParams.set('hasENS', document.getElementById('cfgHasENS').checked);
+      newParams.set('leaked', document.getElementById('cfgLeaked').checked);
+      newParams.set('sandwicher', document.getElementById('cfgSandwicher').checked);
+      newParams.set('kycTransfer', document.getElementById('cfgKYCTransfer').checked);
+      newParams.set('vulnApprovals', document.getElementById('cfgVulnApprovals').checked);
+      window.location.search = newParams.toString();
+    }
+
+    function copyCurrentURL() {
+      navigator.clipboard.writeText(window.location.href);
+      alert('URL copied!');
+    }
+
+    // Apply configuration to page
+    function applyConfig() {
+      // Address
+      document.getElementById('profileAddress').textContent = address;
+      document.getElementById('profileAvatar').src = `https://api.dicebear.com/7.x/identicon/svg?seed=${address}`;
+
+      // Status badge and identity sections
+      const statusBadge = document.getElementById('statusBadge');
+      const doxxedInfo = document.getElementById('doxxedInfo');
+      const connectionInfo = document.getElementById('connectionInfo');
+      const unknownInfo = document.getElementById('unknownInfo');
+      const kycCard = document.getElementById('kycCard');
+      const notesCard = document.getElementById('notesCard');
+
+      doxxedInfo.style.display = 'none';
+      connectionInfo.style.display = 'none';
+      unknownInfo.style.display = 'none';
+
+      if (status === 'kyc-linked') {
+        statusBadge.textContent = '🏦 KYC-LINKED';
+        statusBadge.className = 'badge badge-safe';
+        doxxedInfo.style.display = 'block';
+        document.getElementById('profileName').textContent = 'vitalik.eth';
+      } else if (status === 'first-degree') {
+        statusBadge.textContent = '🔗 1ST DEGREE';
+        statusBadge.className = 'badge badge-info';
+        connectionInfo.style.display = 'block';
+        document.getElementById('connectionDegreeTitle').textContent = '🔗 1st degree connection';
+        document.getElementById('connectionDescription').textContent = 'This account has received direct transfers from Coinbase.';
+        document.getElementById('profileName').textContent = address.slice(0, 10) + '...' + address.slice(-4);
+        notesCard.style.display = 'none';
+      } else if (status === 'second-degree') {
+        statusBadge.textContent = '🔗 2ND DEGREE';
+        statusBadge.className = 'badge badge-warning';
+        connectionInfo.style.display = 'block';
+        document.getElementById('connectionDegreeTitle').textContent = '🔗 2nd degree connection';
+        document.getElementById('connectionDescription').textContent = 'This account received funds from an account that used Coinbase.';
+        document.getElementById('connectionPath').innerHTML = `
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <span class="address-short">${address.slice(0, 10)}...</span>
+            <span>←</span>
+            <span class="address-short">0x7890...1234</span>
+            <span>←</span>
+            <span class="badge badge-safe">Coinbase</span>
+          </div>
+        `;
+        document.getElementById('profileName').textContent = address.slice(0, 10) + '...' + address.slice(-4);
+        notesCard.style.display = 'none';
+      } else if (status === 'third-degree') {
+        statusBadge.textContent = '🔗 3RD DEGREE';
+        statusBadge.className = 'badge badge-warning';
+        connectionInfo.style.display = 'block';
+        document.getElementById('connectionDegreeTitle').textContent = '🔗 3rd degree connection';
+        document.getElementById('connectionDescription').textContent = 'Two hops from a KYC exchange.';
+        document.getElementById('connectionPath').innerHTML = `
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <span class="address-short">${address.slice(0, 10)}...</span>
+            <span>←</span>
+            <span class="address-short">0xaaaa...bbbb</span>
+            <span>←</span>
+            <span class="address-short">0xcccc...dddd</span>
+            <span>←</span>
+            <span class="badge badge-safe">Kraken</span>
+          </div>
+        `;
+        document.getElementById('profileName').textContent = address.slice(0, 10) + '...' + address.slice(-4);
+        notesCard.style.display = 'none';
+      } else {
+        statusBadge.textContent = '❓ UNKNOWN';
+        statusBadge.className = 'badge badge-neutral';
+        unknownInfo.style.display = 'block';
+        kycCard.style.display = 'none';
+        notesCard.style.display = 'none';
+        document.getElementById('profileName').textContent = address.slice(0, 10) + '...' + address.slice(-4);
+      }
+
+      // ENS section
+      if (!hasENS) {
+        document.getElementById('ensCard').style.display = 'none';
+        document.querySelector('.badge-info').style.display = 'none';
+      }
+
+      // Warnings
+      if (leaked) {
+        document.getElementById('leakedWarning').style.display = 'block';
+      }
+      if (sandwicher) {
+        document.getElementById('sandwicherWarning').style.display = 'block';
+      }
+      if (vulnApprovals) {
+        document.getElementById('vulnApprovalsWarning').style.display = 'block';
+      }
+      if (!kycTransfer && status !== 'kyc-linked') {
+        kycCard.style.display = 'none';
+      }
+    }
+
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.remove('hidden');
+      });
+    });
+
+    // Modal functions
+    function showFollowModal() {
+      document.getElementById('followModal').style.display = 'flex';
+    }
+    function showLoveNoteModal() {
+      document.getElementById('loveNoteModal').style.display = 'flex';
+    }
+    function showQRModal() {
+      document.getElementById('qrModal').style.display = 'flex';
+    }
+    function closeModals() {
+      document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+    }
+
+    // Close modals on background click
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModals();
+      });
+    });
+
+    // Apply config on load
+    applyConfig();
+
+    // Copy address (EIP-55 checksummed)
+    function copyAddress() {
+      navigator.clipboard.writeText(address);
+      const btn = event.target;
+      btn.textContent = '✓';
+      setTimeout(() => { btn.textContent = '📋'; }, 1500);
+    }
+
+    // Visit tracking (local storage)
+    function initVisitTracking() {
+      const key = 'visit_' + address;
+      const stored = localStorage.getItem(key);
+      const badge = document.getElementById('visitBadge');
+      const visitText = document.getElementById('visitText');
+      const noteInput = document.getElementById('noteInput');
+      const savedNote = document.getElementById('savedNote');
+
+      if (stored) {
+        const data = JSON.parse(stored);
+        const lastVisit = new Date(data.lastVisit);
+        const now = new Date();
+        const diffMs = now - lastVisit;
+        const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+        const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+        let ago;
+        if (diffDays > 0) ago = diffDays + ' day' + (diffDays !== 1 ? 's' : '') + ' ago';
+        else if (diffHours > 0) ago = diffHours + ' hour' + (diffHours !== 1 ? 's' : '') + ' ago';
+        else ago = 'just now';
+        visitText.textContent = 'Last visited ' + ago;
+        if (data.note) {
+          savedNote.textContent = '"' + data.note + '"';
+          savedNote.style.display = 'block';
+          noteInput.value = data.note;
+        }
+        data.lastVisit = new Date().toISOString();
+        localStorage.setItem(key, JSON.stringify(data));
+      } else {
+        visitText.textContent = 'First visit';
+        localStorage.setItem(key, JSON.stringify({ lastVisit: new Date().toISOString(), note: '' }));
+      }
+      badge.style.display = 'block';
+    }
+
+    function toggleNoteInput() {
+      const section = document.getElementById('noteSection');
+      section.style.display = section.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function saveNote() {
+      const key = 'visit_' + address;
+      const stored = JSON.parse(localStorage.getItem(key) || '{}');
+      const note = document.getElementById('noteInput').value;
+      stored.note = note;
+      stored.lastVisit = new Date().toISOString();
+      localStorage.setItem(key, JSON.stringify(stored));
+      const savedNote = document.getElementById('savedNote');
+      if (note) {
+        savedNote.textContent = '"' + note + '"';
+        savedNote.style.display = 'block';
+      } else {
+        savedNote.style.display = 'none';
+      }
+      document.getElementById('noteSection').style.display = 'none';
+    }
+
+    function promptLogin() {
+      alert('Log in to sync your notes across devices. This feature requires an account.');
+    }
+
+    initVisitTracking();
+  </script>
+</body>
+</html>

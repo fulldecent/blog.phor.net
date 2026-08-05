@@ -1,0 +1,278 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hash4eva - blockchain explorer for the streets</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Hero search section -->
+    <section class="hero-section text-center mb-lg" style="padding: 60px 0;">
+      <img src="/assets/hash4eva/brickscape.webp" alt="" class="hero-bg-bricks">
+      <img src="/assets/hash4eva/graffiti.webp" alt="" class="hero-bg-graffiti">
+      <h1 style="font-family: 'Bangers', cursive; font-size: 3.5rem; letter-spacing: 4px; margin-bottom: 16px;">
+        <span style="color: var(--neon-pink);">Explore</span>
+        <span style="color: var(--neon-cyan);">Your</span>
+        <span style="color: var(--neon-yellow);">Block</span>
+      </h1>
+      <p
+        style="font-size: 1.25rem; margin-bottom: 32px; color: #fff; text-shadow: 0 0 8px rgba(0,0,0,0.9), 0 0 20px rgba(0,0,0,0.7);">
+        Protect ya neck, watch ya chains
+      </p>
+
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" id="mainSearch" placeholder="Search addresses, tokens, applications..."
+          autocomplete="off">
+        <div class="search-autocomplete" id="searchAutocomplete">
+          <a href="hash4eva-account.html?address=0xd859d7d8603D2dAb768D679eEEC25930C8FC59C1" class="autocomplete-item">
+            <span class="autocomplete-type address">ADDRESS</span>
+            <span>0xd859d7d8603D2dAb768D679eEEC25930C8FC59C1</span>
+          </a>
+          <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" class="autocomplete-item">
+            <span class="autocomplete-type app">APP</span>
+            <span>CryptoKitties</span>
+          </a>
+          <a href="hash4eva-account.html?address=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2" class="autocomplete-item">
+            <span class="autocomplete-type token">TOKEN</span>
+            <span>Wrapped Ether (WETH)</span>
+          </a>
+          <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
+            class="autocomplete-item">
+            <span class="autocomplete-type address">ADDRESS</span>
+            <span>vitalik.eth</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="two-column">
+      <!-- Recent addresses (localStorage based) -->
+      <section>
+        <h2 class="section-title">Recently viewed</h2>
+        <div id="recentAddresses">
+          <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
+            class="recent-item">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=vitalik" alt="" class="recent-avatar">
+            <div class="recent-info">
+              <div class="recent-name">vitalik.eth</div>
+              <div class="recent-update">↗ 3 new transactions</div>
+            </div>
+            <span class="badge badge-info">ENS</span>
+          </a>
+          <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" class="recent-item">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=cryptokitties" alt="" class="recent-avatar">
+            <div class="recent-info">
+              <div class="recent-name">CryptoKitties</div>
+              <div class="recent-update">↗ 127 new events</div>
+            </div>
+            <span class="badge badge-neutral">CONTRACT</span>
+          </a>
+          <a href="hash4eva-account.html?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree"
+            class="recent-item">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=binance" alt="" class="recent-avatar">
+            <div class="recent-info">
+              <div class="recent-name">Binance Hot Wallet</div>
+              <div class="recent-update">↗ 2,341 new transactions</div>
+            </div>
+            <span class="badge badge-warning">HOT WALLET</span>
+          </a>
+          <a href="hash4eva-account.html?address=0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B&status=unknown"
+            class="recent-item">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=unknown1" alt="" class="recent-avatar">
+            <div class="recent-info">
+              <div class="recent-name">0xAb58...eC9B</div>
+              <div class="recent-update">No new activity</div>
+            </div>
+            <span class="badge badge-neutral">EOA</span>
+          </a>
+        </div>
+        <p class="text-muted" style="margin-top: 16px; font-size: 0.875rem;">
+          📍 Stored in your browser. No cookies. No tracking.
+        </p>
+      </section>
+
+      <!-- Email signup -->
+      <section>
+        <div class="email-signup">
+          <h3>📬 Get email alerts</h3>
+          <p class="text-muted">
+            Watch your accounts and get the latest chain news.<br>
+            First to know about hacks, exploits, and opportunities.
+          </p>
+          <form class="email-form" onsubmit="return false;">
+            <input type="email" class="form-input" placeholder="your@email.com">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <div style="text-align: left; max-width: 400px; margin: 0 auto;">
+            <label class="form-checkbox">
+              <input type="checkbox" checked> Incidents
+            </label>
+            <label class="form-checkbox">
+              <input type="checkbox" checked> Weekly market
+            </label>
+            <label class="form-checkbox">
+              <input type="checkbox" checked id="followedAccountsCheck"> Followed accounts
+            </label>
+            <div id="followedAddresses" style="margin-top: 8px;">
+              <textarea class="form-input" rows="3" placeholder="Paste Ethereum addresses or ENS names, one per line"
+                style="width: 100%; resize: vertical;"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Trending / Latest incidents teaser -->
+    <section class="mt-md">
+      <h2 class="section-title">🔥 Latest incidents</h2>
+      <div class="three-column">
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title" style="color: var(--hot-red);">⚠️ EXPLOIT</span>
+            <span class="badge badge-danger">$47M LOST</span>
+          </div>
+          <h3 style="margin-bottom: 8px;">DeFiProtocol flash loan attack</h3>
+          <p class="text-muted" style="margin-bottom: 16px;">
+            Attacker exploited reentrancy vulnerability in staking contract.
+            Funds drained across 3 chains.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+            <span class="network-badge ethereum">Ethereum</span>
+            <span class="network-badge arbitrum">Arbitrum</span>
+            <span class="network-badge polygon">Polygon</span>
+          </div>
+          <a href="hash4eva-incidents.html" class="btn btn-danger">View timeline →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title" style="color: var(--neon-yellow);">🔑 KEY LEAK</span>
+            <span class="badge badge-warning">ONGOING</span>
+          </div>
+          <h3 style="margin-bottom: 8px;">Project Alpha deployer compromised</h3>
+          <p class="text-muted" style="margin-bottom: 16px;">
+            Private key exposed in public GitHub repo. Contract admin access at risk.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+            <span class="network-badge ethereum">Ethereum</span>
+          </div>
+          <a href="hash4eva-incidents.html" class="btn btn-warning">View timeline →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title" style="color: var(--neon-green);">✅ RESOLVED</span>
+            <span class="badge badge-safe">WHITE HAT</span>
+          </div>
+          <h3 style="margin-bottom: 8px;">NFT marketplace rescue</h3>
+          <p class="text-muted" style="margin-bottom: 16px;">
+            Security researcher discovered and reported critical bug. Bounty paid.
+          </p>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+            <span class="network-badge base">Base</span>
+          </div>
+          <a href="hash4eva-incidents.html" class="btn btn-success">View timeline →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="#">Top tokens</a>
+        <a href="#">Top contracts</a>
+      </div>
+      <div class="footer-section">
+        <h4>Networks</h4>
+        <a href="#">Ethereum</a>
+        <a href="#">Polygon</a>
+        <a href="#">Arbitrum</a>
+        <a href="#">Optimism</a>
+        <a href="#">Base</a>
+      </div>
+      <div class="footer-section">
+        <h4>Business</h4>
+        <a href="#">Advertise</a>
+        <a href="#">API access</a>
+        <a href="#">Email campaigns</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of service</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+    <div class="text-center text-muted" style="margin-top: 32px;">
+      <p>hash4eva © 2024 · Keeping the streets informed</p>
+    </div>
+  </footer>
+
+  <script>
+    // Search autocomplete demo
+    const searchInput = document.getElementById('mainSearch');
+    const autocomplete = document.getElementById('searchAutocomplete');
+
+    searchInput.addEventListener('focus', () => {
+      autocomplete.classList.add('active');
+    });
+
+    searchInput.addEventListener('blur', (e) => {
+      // Delay to allow clicking on autocomplete items
+      setTimeout(() => {
+        autocomplete.classList.remove('active');
+      }, 200);
+    });
+
+    searchInput.addEventListener('input', (e) => {
+      if (e.target.value.length > 0) {
+        autocomplete.classList.add('active');
+      }
+    });
+
+    // Simulate localStorage for recently viewed
+    // In real app, this would track actual views
+    console.log('hash4eva loaded - Demo mode');
+
+    // Toggle followed accounts address input
+    const followedCheck = document.getElementById('followedAccountsCheck');
+    const followedAddresses = document.getElementById('followedAddresses');
+    followedCheck.addEventListener('change', () => {
+      followedAddresses.style.display = followedCheck.checked ? '' : 'none';
+    });
+  </script>
+</body>
+
+</html>

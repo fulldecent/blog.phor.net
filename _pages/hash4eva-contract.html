@@ -1,0 +1,953 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contract - hash4eva</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Config panel for demo -->
+  <button class="config-toggle" id="configToggle">⚙️ CONFIG</button>
+  <div class="config-panel" id="configPanel" style="display: none;">
+    <h4>🎛️ Demo configuration</h4>
+    <div class="form-group">
+      <label class="form-label">Ownership status</label>
+      <select class="form-input" id="cfgOwnership" onchange="updateConfig()">
+        <option value="kyc-linked">✅ Owner is KYC-linked (exchange)</option>
+        <option value="multisig">🔐 Owned by multisig</option>
+        <option value="unknown">❓ Unknown owner</option>
+        <option value="none">🚫 No owner (renounced)</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgUpgradeable" onchange="updateConfig()">
+        Upgradeable contract
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgSelfdestruct" onchange="updateConfig()">
+        Has SELFDESTRUCT opcode
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgRugpullable" onchange="updateConfig()">
+        Rugpullable (admin controls)
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgVerified" onchange="updateConfig()" checked>
+        Source code verified
+      </label>
+    </div>
+    <hr style="border-color: var(--border-color); margin: 16px 0;">
+    <a href="#" class="btn btn-secondary" style="width: 100%; justify-content: center;" onclick="copyCurrentURL()">📋
+      Copy URL</a>
+  </div>
+
+  <main class="main-content">
+    <!-- Rugpull warning -->
+    <div class="alert alert-danger" id="rugpullWarning" style="display: none;">
+      <div class="alert-title">⚠️ RUGPULL RISK DETECTED</div>
+      <p>This contract has admin functions that could drain user funds or disable withdrawals.</p>
+      <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="btn btn-danger" onclick="showRugpullDemo()">🔥 See how the rugpull works</button>
+        <button class="btn btn-secondary">📋 Download test case</button>
+      </div>
+    </div>
+
+    <!-- Upgradeable warning -->
+    <div class="alert alert-warning" id="upgradeableWarning" style="display: none;">
+      <div class="alert-title">🔄 Upgradeable contract</div>
+      <p>Contract logic can be changed by the admin. Previous behavior is not guaranteed.</p>
+      <p style="margin-top: 8px;" class="text-muted">Last upgrade: <strong>2024-01-15</strong> (45 days ago)</p>
+
+      <div style="margin-top: 16px; padding: 16px; background: rgba(0,0,0,0.3); border-radius: 4px; border-left: 3px solid var(--neon-yellow);">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <h4 style="margin-bottom: 4px;">💰 Liquidation exposure</h4>
+            <p class="text-muted">The admin can upgrade this contract to drain all assets held within it.</p>
+          </div>
+          <div class="liquidate-btn-wrapper" style="position: relative;">
+            <button class="btn btn-danger" id="liquidateBtn" style="white-space: nowrap;">🔥 Liquidate all assets — $47M</button>
+            <div class="liquidate-tooltip" id="liquidateTooltip" style="display: none; position: absolute; bottom: calc(100% + 8px); right: 0; width: 380px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 4px; padding: 16px; z-index: 100; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+              <h4 style="margin-bottom: 8px; color: var(--neon-yellow);">How this works</h4>
+              <p style="margin-bottom: 12px;">Because this contract is upgradeable, the admin (owner) can deploy a new implementation that transfers all tokens and ETH to any address.</p>
+              <p style="margin-bottom: 12px;"><strong>Accounts that can do this:</strong></p>
+              <div style="margin-bottom: 12px; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+                <div style="margin-bottom: 4px;"><a href="hash4eva-account.html?address=0xabcd&status=kyc-linked" class="address-short" style="color: var(--neon-cyan);">0xabcd...ef01</a> <span class="badge badge-safe">COINBASE KYC</span></div>
+                <div style="margin-bottom: 4px;"><a href="hash4eva-account.html?address=0x2222&status=kyc-linked" class="address-short" style="color: var(--neon-cyan);">0x2222...3333</a> <span class="badge badge-safe">BINANCE KYC</span></div>
+                <div><a href="hash4eva-account.html?address=0x4444&status=unknown" class="address-short" style="color: var(--neon-cyan);">0x4444...5555</a> <span class="badge badge-neutral">UNKNOWN</span></div>
+              </div>
+              <p style="margin-bottom: 8px;"><strong>Steps to liquidate:</strong></p>
+              <ol style="margin-left: 20px; margin-bottom: 12px; line-height: 1.8;">
+                <li>Deploy a new implementation with a <code>drain()</code> function</li>
+                <li>Call <code>upgradeTo(newImpl)</code> from the Safe wallet (3/5 signatures)</li>
+                <li>Call <code>drain()</code> to transfer all ERC-20 balances and ETH</li>
+              </ol>
+              <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                <button class="btn btn-secondary" style="flex: 1;">📝 View transaction data</button>
+                <button class="btn btn-secondary" style="flex: 1;">🔀 Simulate on fork</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Selfdestruct warning -->
+    <div class="alert alert-warning" id="selfdestructWarning" style="display: none;">
+      <div class="alert-title">💣 SELFDESTRUCT capable</div>
+      <p>This contract contains reachable SELFDESTRUCT opcode. It can be permanently destroyed.</p>
+    </div>
+
+    <!-- Contract header -->
+    <div class="profile-header">
+      <div class="profile-avatar">
+        <img src="https://api.dicebear.com/7.x/identicon/svg?seed=cryptokitties" alt="Contract avatar"
+          class="avatar avatar-large" id="contractAvatar">
+      </div>
+      <div class="profile-info">
+        <div class="profile-name" id="contractName">CryptoKitties</div>
+        <div class="profile-address">
+          <span class="address" id="contractAddress">0x06012c8cf97BEaD5deAe237070F9587f8E7A266d</span>
+        </div>
+        <div class="profile-badges" id="contractBadges">
+          <span class="badge badge-neutral tt-clean"
+            data-tooltip="Source: Ethereum RPC\neth_getCode(address) returns bytecode\n→ This is a smart contract, not an EOA">CONTRACT</span>
+          <span class="badge badge-safe tt-clean" id="ownershipBadge"
+            data-tooltip="Source: owner() on-chain call\n→ Returns address of Safe wallet\n→ Safe signers have received transfers\n  from KYC exchanges (Coinbase, Binance)">OWNER:
+            KYC-LINKED</span>
+          <span class="badge badge-safe tt-clean" id="verifiedBadge"
+            data-tooltip="Source: block explorer Verified Contracts API\nSolidity source code published and matches\ndeployed bytecode">✓
+            VERIFIED</span>
+          <a href="#" class="network-badge ethereum"
+            data-tooltip="Source: Contract deployed on Ethereum\nBlock 4,605,167 — Nov 23, 2017">Ethereum</a>
+        </div>
+        <div class="profile-actions">
+          <button class="btn btn-primary">🔔 Follow</button>
+          <button class="btn btn-secondary">📱 dApp view</button>
+          <button class="btn btn-secondary">⬇️ Download as app</button>
+          <button class="btn btn-success" data-tooltip="Upload evidence of a potential rug pull,\nasset theft, or admin abuse on this contract.\nYour submission will be reviewed and may\nresult in a warning badge for other users.">📝 Submit audit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contract stats -->
+    <div class="card">
+      <div class="stats-grid">
+        <div class="stat-item"
+          data-tooltip="Source: DeFi Llama API\nTotal value locked in this contract\nSum of all ERC-20 balances at\ncurrent market prices"
+          class="tt-clean">
+          <div class="stat-value">$47M</div>
+          <div class="stat-label">TVL</div>
+        </div>
+        <div class="stat-item"
+          data-tooltip="Source: block explorer API\nAll transactions where 'to' address\nmatches this contract"
+          class="tt-clean">
+          <div class="stat-value">2.1M</div>
+          <div class="stat-label">Transactions</div>
+        </div>
+        <div class="stat-item"
+          data-tooltip="Source: block explorer API\nDistinct 'from' addresses in\ntransactions to this contract"
+          class="tt-clean">
+          <div class="stat-value">847K</div>
+          <div class="stat-label">Unique users</div>
+        </div>
+        <div class="stat-item"
+          data-tooltip="Source: ERC-165 supportsInterface()\n0x80ac58cd → ERC-721\nVerified via on-chain call"
+          class="tt-clean">
+          <div class="stat-value">ERC-721</div>
+          <div class="stat-label">Standard</div>
+        </div>
+        <a href="hash4eva-transaction.html?type=deploy" class="stat-item" style="text-decoration:none; color:inherit;"
+          data-tooltip="Source: Contract creation transaction\nBlock 4,605,167\nTx: 0x...\nClick to view deployment tx"
+          class="tt-clean">
+          <div class="stat-value">Nov 2017</div>
+          <div class="stat-label">Deployed</div>
+        </a>
+        <a href="hash4eva-transaction.html" class="stat-item" style="text-decoration:none; color:inherit;"
+          data-tooltip="Source: Most recent Upgraded event\nBlock 19,100,000 — Jan 15, 2024\nClick to view upgrade tx"
+          class="tt-clean">
+          <div class="stat-value">45 days</div>
+          <div class="stat-label">Since last upgrade</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="two-column">
+      <!-- Left column: Control & Security -->
+      <div>
+        <!-- Ownership section -->
+        <div class="card" id="ownershipCard">
+          <div class="card-header">
+            <span class="card-title">👑 Control & ownership</span>
+          </div>
+
+          <!-- KYC-linked owner -->
+          <div id="ownerDoxxed">
+            <div class="alert alert-success">
+              <strong>✓ Admin linked to KYC exchange accounts</strong><br>
+              Administrative control flows to accounts that have received transfers from exchanges requiring identity
+              verification.
+              <span class="src-icon"
+                data-tooltip="Source: owner() on-chain call\n→ Safe API getOwners()\n→ Transfer events from Coinbase/Binance\n  hot wallets to signer addresses">i</span>
+            </div>
+            <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-top: 16px;">
+              <h4 style="margin-bottom: 12px;">Ownership chain</h4>
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px;">
+                <span class="address-short">Contract</span>
+                <span>→ <span
+                    data-tooltip="Source: On-chain call\nowner() → address\nOwnableUpgradeable (OpenZeppelin)">owner()</span>:</span>
+                <a href="hash4eva-account.html?address=0x1234&status=kyc-linked" class="address-short"
+                  style="color: var(--neon-cyan);"
+                  data-tooltip="Click to view Safe wallet\nGnosis Safe at 0x1234...5678">0x1234...5678</a>
+                <span class="badge badge-info tt-clean"
+                  data-tooltip="Source: Safe API (safe.global)\nContract detected as Gnosis Safe\nvia getModules() response">SAFE
+                  WALLET</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                <span class="address-short">Safe</span>
+                <span>→ <span data-tooltip="Source: Safe API getOwners()\nThreshold: 3, Total owners: 5">3/5
+                    signers</span> including:</span>
+              </div>
+              <div style="margin-left: 24px; margin-top: 8px;">
+                <div style="margin-bottom: 4px;">
+                  <a href="hash4eva-account.html?address=0xabcd&status=kyc-linked" class="address-short"
+                    style="color: var(--neon-cyan);" data-tooltip="Click to view account">0xabcd...ef01</a>
+                  <span class="badge badge-safe tt-clean"
+                    data-tooltip="Source: Transfer events from\nCoinbase hot wallet to this address\n23 transfers detected">🏦
+                    COINBASE KYC</span>
+                  <span class="text-muted">- <span data-tooltip="Source: block explorer label\n+ ENS text records">John
+                      Smith, Dapper Labs</span></span>
+                </div>
+                <div style="margin-bottom: 4px;">
+                  <a href="hash4eva-account.html?address=0x2222&status=kyc-linked" class="address-short"
+                    style="color: var(--neon-cyan);" data-tooltip="Click to view account">0x2222...3333</a>
+                  <span class="badge badge-safe tt-clean"
+                    data-tooltip="Source: Transfer events from\nBinance hot wallet to this address\n8 transfers detected">🏦
+                    BINANCE KYC</span>
+                  <span class="text-muted">- <span data-tooltip="Source: block explorer label\n+ ENS text records">Jane Doe,
+                      Dapper Labs</span></span>
+                </div>
+                <div>
+                  <a href="hash4eva-account.html?address=0x4444&status=unknown" class="address-short"
+                    style="color: var(--neon-cyan);" data-tooltip="Click to view account">0x4444...5555</a>
+                  <span class="badge badge-neutral tt-clean"
+                    data-tooltip="No exchange transfers found\nfor this Safe signer">UNKNOWN</span>
+                </div>
+              </div>
+            </div>
+            <div class="alert alert-info" style="margin-top: 16px;">
+              <strong>🏦 Exchange KYC trail</strong><br>
+              2 of 3 required signers have received transfers from exchanges that require identity verification
+              (Coinbase, Binance).<br>
+              <a href="#" style="color: var(--neon-cyan);">Guide to exchange subpoena process →</a>
+            </div>
+          </div>
+
+          <!-- Unknown owner -->
+          <div id="ownerUnknown" style="display: none;">
+            <div class="alert alert-warning">
+              <strong>❓ Unknown owner</strong><br>
+              The owner of this contract has no verified identity.
+            </div>
+            <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-top: 16px;">
+              <h4 style="margin-bottom: 12px;">Owner address</h4>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <a href="hash4eva-account.html?address=0xDEAD&status=unknown" class="address-short"
+                  style="color: var(--neon-cyan);">0xDEAD...BEEF</a>
+                <span class="badge badge-neutral">UNKNOWN</span>
+              </div>
+              <p class="text-muted" style="margin-top: 12px;">
+                ⚠️ This owner could potentially rug users with signing authority.
+              </p>
+            </div>
+          </div>
+
+          <!-- Multisig owner -->
+          <div id="ownerMultisig" style="display: none;">
+            <div class="alert alert-info">
+              <strong>🔐 Multi-sig controlled</strong><br>
+              Contract requires multiple signatures for admin actions.
+            </div>
+            <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-top: 16px;">
+              <h4 style="margin-bottom: 12px;">Safe wallet: 3 of 5 signers</h4>
+              <p class="text-muted">Some signers are not verified.</p>
+            </div>
+          </div>
+
+          <!-- No owner -->
+          <div id="ownerNone" style="display: none;">
+            <div class="alert alert-success">
+              <strong>🚫 Ownership renounced</strong><br>
+              This contract has no owner. Admin functions are permanently disabled.
+            </div>
+            <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-top: 16px;">
+              <p>owner() returns: <span class="address-short">0x0000...0000</span></p>
+              <p class="text-muted" style="margin-top: 8px;">
+                ✓ No entity can modify this contract's behavior.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Security analysis -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">🔒 Security analysis</span>
+          </div>
+
+          <h4 style="margin-bottom: 12px;">Standards compliance</h4>
+          <div style="display: grid; gap: 8px; margin-bottom: 16px;">
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: ERC-165 supportsInterface()\n0x80ac58cd → ERC-721\nChecks: transferFrom, safeTransferFrom,\nownerOf, balanceOf, approve, etc.">ERC-721
+                (NFT)</span>
+              <span class="badge badge-safe tt-clean"
+                data-tooltip="Source: On-chain call\nsupportsInterface(0x80ac58cd) = true\n+ All required methods found in ABI">✓
+                COMPLIANT</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: ERC-165 supportsInterface()\n0x01ffc9a7 → ERC-165\nAllows querying which interfaces\nthis contract supports">ERC-165
+                (Interface)</span>
+              <span class="badge badge-safe tt-clean"
+                data-tooltip="Source: On-chain call\nsupportsInterface(0x01ffc9a7) = true">✓ COMPLIANT</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: Checks for contractURI()\nmethod in contract ABI\nReturns OpenSea collection metadata">OpenSea
+                contractURI</span>
+              <span class="badge badge-safe tt-clean"
+                data-tooltip="Source: contractURI() method found\nin verified source code ABI">✓ SUPPORTED</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: Checks for\nOperatorFilterRegistry integration\nBlocks filtered marketplaces">OpenSea
+                Operator Filter</span>
+              <span class="badge badge-warning tt-clean"
+                data-tooltip="Source: No calls to\nOperatorFilterRegistry found in\ncontract bytecode or source">NOT
+                IMPLEMENTED</span>
+            </div>
+          </div>
+
+          <h4 style="margin-bottom: 12px;">Opcode analysis</h4>
+          <div style="display: grid; gap: 8px;">
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;"
+              id="selfdestructRow">
+              <span
+                data-tooltip="Source: Bytecode disassembly\nSearches for opcode 0xFF\nCan permanently destroy the contract\nand send remaining ETH to a target">SELFDESTRUCT</span>
+              <span class="badge badge-safe tt-clean" id="selfdestructBadge"
+                data-tooltip="Source: Bytecode scan\nOpcode 0xFF not reachable">✓ NOT FOUND</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;"
+              id="delegatecallRow">
+              <span
+                data-tooltip="Source: Bytecode disassembly\nSearches for opcode 0xF4\nExecutes code from another contract\nin this contract's storage context">DELEGATECALL</span>
+              <span class="badge badge-warning tt-clean" id="delegatecallBadge"
+                data-tooltip="Source: Bytecode scan\nOpcode 0xF4 found — suggests\nproxy/upgradeable pattern">⚠️ FOUND
+                (upgradeable?)</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: Bytecode disassembly\nSearches for opcode 0xF2\nDeprecated: like DELEGATECALL\nbut also forwards msg.value">CALLCODE</span>
+              <span class="badge badge-safe tt-clean" data-tooltip="Source: Bytecode scan\nOpcode 0xF2 not found">✓ NOT
+                FOUND</span>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+              <span
+                data-tooltip="Source: Bytecode disassembly\nSearches for opcode 0xF5\nDeploys contracts to deterministic\naddresses using salt + init code hash">CREATE2</span>
+              <span class="badge badge-info tt-clean"
+                data-tooltip="Source: Bytecode scan\nOpcode 0xF5 found">FOUND</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: Contract info -->
+      <div>
+        <!-- Website link -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">🌐 Linked website</span>
+            <span class="badge badge-safe tt-clean"
+              data-tooltip="Source: DNS TXT record lookup\ncryptokitties.co TXT record contains:\n'eth-contract=0x06012c8cf97BEaD5...'">✓
+              VERIFIED</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="https://api.dicebear.com/7.x/shgraffiti/svg?seed=cryptokitties" alt=""
+              style="width: 48px; height: 48px; border-radius: 8px;">
+            <div>
+              <a href="#" style="color: var(--neon-cyan); font-size: 1.25rem;">cryptokitties.co ↗</a>
+              <p class="text-muted">Website links back to this contract via <span
+                  data-tooltip="Source: dig TXT cryptokitties.co\nReturns:\n'eth-contract=0x06012c...266d'\nBidrectional verification confirmed">DNS
+                  TXT record</span>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transaction summary -->
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">📊 Call summary</span>
+          </div>
+          <div style="display: grid; gap: 8px;">
+            <a href="#tab-calls"
+              style="display: flex; justify-content: space-between; align-items: center; text-decoration:none; color:inherit;">
+              <code style="color: var(--neon-cyan);"
+                data-tooltip="Source: Function selector 0xa9059cbb\nDecoded from transaction input data\nERC-721 standard method">transfer()</code>
+              <span
+                data-tooltip="Source: block explorer API\nAll transactions matching\nfunction selector 0xa9059cbb">847,234
+                calls</span>
+            </a>
+            <a href="#tab-calls"
+              style="display: flex; justify-content: space-between; align-items: center; text-decoration:none; color:inherit;">
+              <code style="color: var(--neon-cyan);"
+                data-tooltip="Source: Function selector 0xf7d8c883\nCryptoKitties-specific breeding method">breed()</code>
+              <span
+                data-tooltip="Source: block explorer API\nAll transactions matching\nfunction selector 0xf7d8c883">423,891
+                calls</span>
+            </a>
+            <a href="#tab-calls"
+              style="display: flex; justify-content: space-between; align-items: center; text-decoration:none; color:inherit;">
+              <code style="color: var(--neon-cyan);"
+                data-tooltip="Source: Function selector 0x095ea7b3\nERC-721 standard approval method">approve()</code>
+              <span
+                data-tooltip="Source: block explorer API\nAll transactions matching\nfunction selector 0x095ea7b3">234,567
+                calls</span>
+            </a>
+            <a href="#tab-calls"
+              style="display: flex; justify-content: space-between; align-items: center; text-decoration:none; color:inherit;">
+              <code style="color: var(--neon-cyan);"
+                data-tooltip="Source: Function selector 0x3d7d3f5a\nCreates a public auction for a kitty">createSaleAuction()</code>
+              <span
+                data-tooltip="Source: block explorer API\nAll transactions matching\nfunction selector 0x3d7d3f5a">156,789
+                calls</span>
+            </a>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <code style="color: var(--neon-pink);"
+                data-tooltip="Source: Function in contract ABI\nOnly callable by owner address\nCan withdraw contract ETH balance">withdrawBalance()</code>
+              <span class="badge badge-warning tt-clean"
+                data-tooltip="Source: onlyOwner modifier detected\nin verified source code\nThis function is restricted to admin">ADMIN</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upgrade history -->
+        <div class="card" id="upgradeHistoryCard">
+          <div class="card-header">
+            <span class="card-title">🔄 Upgrade history</span>
+          </div>
+          <a href="hash4eva-transaction.html?type=contract" class="tx-item"
+            style="padding-left: 0; text-decoration:none; color:inherit;">
+            <div class="tx-type contract">📝</div>
+            <div class="tx-details">
+              <div class="tx-action"><span
+                  data-tooltip="Source: Upgraded(address) event log\nNew implementation contract deployed\nClick to view upgrade transaction">Implementation
+                  updated</span></div>
+              <div class="tx-meta"><span data-tooltip="Source: Block timestamp\nBlock 19,100,000">2024-01-15</span> ·
+                v2.1.0</div>
+            </div>
+            <div class="tx-value">
+              <span class="text-info">View tx →</span>
+            </div>
+          </a>
+          <a href="hash4eva-transaction.html?type=contract" class="tx-item"
+            style="padding-left: 0; text-decoration:none; color:inherit;">
+            <div class="tx-type contract">📝</div>
+            <div class="tx-details">
+              <div class="tx-action"><span
+                  data-tooltip="Source: Upgraded(address) event log\nClick to view upgrade transaction">Implementation
+                  updated</span></div>
+              <div class="tx-meta"><span data-tooltip="Source: Block timestamp\nBlock 17,500,000">2023-06-20</span> ·
+                v2.0.0</div>
+            </div>
+            <div class="tx-value">
+              <span class="text-info">View tx →</span>
+            </div>
+          </a>
+          <a href="hash4eva-transaction.html?type=deploy" class="tx-item"
+            style="padding-left: 0; text-decoration:none; color:inherit;">
+            <div class="tx-type contract">🚀</div>
+            <div class="tx-details">
+              <div class="tx-action"><span
+                  data-tooltip="Source: Contract creation transaction\nBlock 4,605,167\nClick to view deployment">Initial
+                  deployment</span></div>
+              <div class="tx-meta"><span data-tooltip="Source: Block timestamp\nBlock 4,605,167">2017-11-23</span> ·
+                v1.0.0</div>
+            </div>
+            <div class="tx-value">
+              <span class="text-info">View tx →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs for code, events, storage -->
+    <div class="card" style="margin-top: 24px;">
+      <div class="tabs" id="mainTabs">
+        <button class="tab active" data-tab="dapp">dApp</button>
+        <button class="tab" data-tab="code">Code</button>
+        <button class="tab" data-tab="events">Events</button>
+        <button class="tab" data-tab="storage">Storage</button>
+        <button class="tab" data-tab="calls">Recent calls</button>
+      </div>
+
+      <!-- dApp tab -->
+      <div class="tab-content" id="tab-dapp">
+        <div class="alert alert-info">
+          <div class="alert-title">📱 Interactive dApp interface</div>
+          <p>Interact with contract functions directly.</p>
+        </div>
+
+        <div style="display: flex; gap: 16px; margin-bottom: 24px;">
+          <button class="btn btn-success" data-tooltip="Use the downloaded webpage locally to perform any interactions with the smart contract. This supports using an air gap network and supports using your own RPC client.">⬇️ Download as HTML</button>
+          <button class="btn btn-secondary">🖥️ Download Mac app</button>
+          <button class="btn btn-secondary">🪟 Download Windows app</button>
+        </div>
+
+        <h4 style="margin-bottom: 16px;">Read functions</h4>
+        <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <code style="color: var(--neon-cyan); font-size: 1.1rem;">balanceOf(address)</code>
+            <span class="badge badge-info">READ</span>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="owner address (0x...)">
+          </div>
+          <button class="btn btn-secondary">Query</button>
+        </div>
+
+        <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-bottom: 16px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <code style="color: var(--neon-cyan); font-size: 1.1rem;">tokenURI(uint256)</code>
+            <span class="badge badge-info">READ</span>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="tokenId">
+          </div>
+          <button class="btn btn-secondary">Query</button>
+        </div>
+
+        <h4 style="margin-bottom: 16px;">Write functions</h4>
+        <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <code style="color: var(--neon-pink); font-size: 1.1rem;">transfer(address, uint256)</code>
+            <span class="badge badge-warning">WRITE</span>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="to address">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="tokenId">
+          </div>
+          <button class="btn btn-primary">🔗 Connect wallet & execute</button>
+        </div>
+      </div>
+
+      <!-- Code tab -->
+      <div class="tab-content hidden" id="tab-code">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <div id="verifiedCodeStatus">
+            <span class="badge badge-safe">✓ SOURCE VERIFIED</span>
+            <span class="text-muted" style="margin-left: 8px;">Solidity 0.8.19 · MIT License</span>
+          </div>
+          <div>
+            <button class="btn btn-secondary">📋 Copy ABI</button>
+            <button class="btn btn-secondary">⬇️ Download source</button>
+          </div>
+        </div>
+
+        <div class="code-block">
+          <span class="comment">// SPDX-License-Identifier: MIT</span>
+          <span class="keyword">pragma solidity</span> ^0.8.19;
+
+          <span class="keyword">import</span> <span
+            class="string">"@openzeppelin/contracts/token/ERC721/ERC721.sol"</span>;
+
+          <span class="keyword">contract</span> <span class="function">CryptoKitties</span> <span
+            class="keyword">is</span> ERC721 {
+          <span class="keyword">address</span> <span class="keyword">public</span> owner;
+
+          <span class="keyword">mapping</span>(<span class="keyword">uint256</span> => Kitty) <span
+            class="keyword">public</span> kitties;
+
+          <span class="keyword">struct</span> Kitty {
+          <span class="keyword">uint256</span> genes;
+          <span class="keyword">uint64</span> birthTime;
+          <span class="keyword">uint32</span> matronId;
+          <span class="keyword">uint32</span> sireId;
+          }
+
+          <span class="keyword">function</span> <span class="function">breed</span>(
+          <span class="keyword">uint256</span> _matronId,
+          <span class="keyword">uint256</span> _sireId
+          ) <span class="keyword">external</span> <span class="keyword">returns</span> (<span
+            class="keyword">uint256</span>) {
+          <span class="comment">// Breeding logic...</span>
+          }
+
+          <span class="comment">// ... more code</span>
+          }
+        </div>
+      </div>
+
+      <!-- Events tab -->
+      <div class="tab-content hidden" id="tab-events">
+        <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+          <button class="btn btn-secondary">Transfer</button>
+          <button class="btn btn-secondary">Approval</button>
+          <button class="btn btn-secondary">Birth</button>
+          <button class="btn btn-secondary">All events</button>
+        </div>
+
+        <div class="data-table">
+          <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Data</th>
+                <th>Block</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="badge badge-info">Transfer</span></td>
+                <td><span class="address-short">0x1234</span> → <span class="address-short">0x5678</span></td>
+                <td>19,245,123</td>
+                <td>2 min ago</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-info">Birth</span></td>
+                <td>Kitty #1847234 born</td>
+                <td>19,245,100</td>
+                <td>5 min ago</td>
+              </tr>
+              <tr>
+                <td><span class="badge badge-info">Approval</span></td>
+                <td><span class="address-short">0xaaaa</span> approved <span class="address-short">0xbbbb</span></td>
+                <td>19,245,050</td>
+                <td>12 min ago</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Storage tab -->
+      <div class="tab-content hidden" id="tab-storage">
+        <div class="alert alert-info" style="margin-bottom: 16px;">
+          <div class="alert-title">💾 Contract storage</div>
+          <p>Hierarchical view of storage slots with nested mapping visualization.</p>
+        </div>
+
+        <div style="font-family: monospace; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px;">
+          <div>
+            <span style="color: var(--text-muted);">slot 0:</span>
+            <span style="color: var(--neon-pink);">owner</span> =
+            <span class="address-short">0x1234...5678</span>
+          </div>
+          <div style="margin-top: 8px;">
+            <span style="color: var(--text-muted);">slot 1:</span>
+            <span style="color: var(--neon-pink);">totalSupply</span> =
+            <span style="color: var(--neon-green);">1,847,234</span>
+          </div>
+          <div style="margin-top: 8px;">
+            <span style="color: var(--text-muted);">slot 2:</span>
+            <span style="color: var(--neon-cyan);">mapping(uint256 => Kitty) kitties</span>
+            <div style="margin-left: 24px; margin-top: 4px;">
+              <details>
+                <summary style="cursor: pointer; color: var(--neon-yellow);">SHA3(1) = 0x29a82...</summary>
+                <div style="margin-left: 16px; margin-top: 4px;">
+                  <div>genes: <span style="color: var(--neon-green);">0x847a2c...</span></div>
+                  <div>birthTime: <span style="color: var(--neon-green);">1511395200</span></div>
+                  <div>matronId: <span style="color: var(--neon-green);">0</span></div>
+                  <div>sireId: <span style="color: var(--neon-green);">0</span></div>
+                </div>
+              </details>
+              <details>
+                <summary style="cursor: pointer; color: var(--neon-yellow);">SHA3(2) = 0x82c1f...</summary>
+                <div style="margin-left: 16px; margin-top: 4px;">
+                  <div>genes: <span style="color: var(--neon-green);">0x12ef87...</span></div>
+                  <div>birthTime: <span style="color: var(--neon-green);">1511396400</span></div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent calls tab -->
+      <div class="tab-content hidden" id="tab-calls">
+        <div class="tx-item">
+          <div class="tx-type contract">📝</div>
+          <div class="tx-details">
+            <div class="tx-action">breed(1234, 5678)</div>
+            <div class="tx-meta">from <span class="address-short">0xaaaa</span> · 2 min ago</div>
+          </div>
+          <div class="tx-value">
+            <span class="badge badge-safe">SUCCESS</span>
+          </div>
+        </div>
+        <div class="tx-item">
+          <div class="tx-type send">↑</div>
+          <div class="tx-details">
+            <div class="tx-action">transfer(0x1234..., 847)</div>
+            <div class="tx-meta">from <span class="address-short">0xbbbb</span> · 5 min ago</div>
+          </div>
+          <div class="tx-value">
+            <span class="badge badge-safe">SUCCESS</span>
+          </div>
+        </div>
+        <div class="tx-item">
+          <div class="tx-type swap">⇄</div>
+          <div class="tx-details">
+            <div class="tx-action">createSaleAuction(1847, 1eth, 0.5eth)</div>
+            <div class="tx-meta">from <span class="address-short">0xcccc</span> · 8 min ago</div>
+          </div>
+          <div class="tx-value">
+            <span class="badge badge-safe">SUCCESS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rugpull demo modal -->
+    <div id="rugpullModal" class="modal" style="display: none;">
+      <div class="modal-content" style="max-width: 600px;">
+        <h3 style="font-family: 'Bangers', cursive; color: var(--hot-red); margin-bottom: 16px;">🔥 Rugpull simulation
+        </h3>
+        <p style="margin-bottom: 16px;">Here's how the admin could drain all funds:</p>
+
+        <div class="code-block" style="margin-bottom: 16px;">
+          <span class="comment">// Admin calls this function:</span>
+          <span class="function">withdrawBalance</span>(<span class="string">"0xAdminWallet"</span>, <span
+            class="number">47000000</span>)
+
+          <span class="comment">// Or upgrades to malicious implementation:</span>
+          <span class="function">upgradeTo</span>(<span class="string">"0xMaliciousContract"</span>)
+        </div>
+
+        <div class="alert alert-warning">
+          <p>Fork mainnet and try it yourself! This proves the vulnerability is real.</p>
+        </div>
+
+        <div style="display: flex; gap: 8px; margin-top: 16px;">
+          <button class="btn btn-danger">▶️ Run simulation</button>
+          <button class="btn btn-secondary">📋 Download test case</button>
+          <button class="btn btn-secondary" onclick="closeModals()">Close</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+    }
+
+    .modal-content {
+      background: var(--bg-card);
+      border: 2px solid var(--hot-red);
+      border-radius: 4px;
+      padding: 24px;
+      max-width: 400px;
+      width: 90%;
+    }
+  </style>
+
+  <script>
+    // Parse URL parameters
+    const params = new URLSearchParams(window.location.search);
+    const address = params.get('address') || '0x06012c8cf97BEaD5deAe237070F9587f8E7A266d';
+    const ownership = params.get('ownership') || 'kyc-linked';
+    const upgradeable = params.get('upgradeable') === 'true';
+    const selfdestruct = params.get('selfdestruct') === 'true';
+    const rugpullable = params.get('rugpullable') === 'true';
+    const verified = params.get('verified') !== 'false';
+
+    // Config panel toggle
+    const configToggle = document.getElementById('configToggle');
+    const configPanel = document.getElementById('configPanel');
+    configToggle.addEventListener('click', () => {
+      configPanel.style.display = configPanel.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Set config panel values from URL
+    document.getElementById('cfgOwnership').value = ownership;
+    document.getElementById('cfgUpgradeable').checked = upgradeable;
+    document.getElementById('cfgSelfdestruct').checked = selfdestruct;
+    document.getElementById('cfgRugpullable').checked = rugpullable;
+    document.getElementById('cfgVerified').checked = verified;
+
+    function updateConfig() {
+      const newParams = new URLSearchParams();
+      newParams.set('address', address);
+      newParams.set('ownership', document.getElementById('cfgOwnership').value);
+      newParams.set('upgradeable', document.getElementById('cfgUpgradeable').checked);
+      newParams.set('selfdestruct', document.getElementById('cfgSelfdestruct').checked);
+      newParams.set('rugpullable', document.getElementById('cfgRugpullable').checked);
+      newParams.set('verified', document.getElementById('cfgVerified').checked);
+      window.location.search = newParams.toString();
+    }
+
+    function copyCurrentURL() {
+      navigator.clipboard.writeText(window.location.href);
+      alert('URL copied!');
+    }
+
+    // Apply configuration to page
+    function applyConfig() {
+      // Address
+      document.getElementById('contractAddress').textContent = address;
+      document.getElementById('contractAvatar').src = `https://api.dicebear.com/7.x/identicon/svg?seed=${address}`;
+
+      // Ownership
+      const ownerDoxxed = document.getElementById('ownerDoxxed');
+      const ownerUnknown = document.getElementById('ownerUnknown');
+      const ownerMultisig = document.getElementById('ownerMultisig');
+      const ownerNone = document.getElementById('ownerNone');
+      const ownershipBadge = document.getElementById('ownershipBadge');
+
+      ownerDoxxed.style.display = 'none';
+      ownerUnknown.style.display = 'none';
+      ownerMultisig.style.display = 'none';
+      ownerNone.style.display = 'none';
+
+      if (ownership === 'kyc-linked') {
+        ownerDoxxed.style.display = 'block';
+        ownershipBadge.textContent = 'OWNER: KYC-LINKED';
+        ownershipBadge.className = 'badge badge-safe';
+      } else if (ownership === 'unknown') {
+        ownerUnknown.style.display = 'block';
+        ownershipBadge.textContent = 'OWNER: UNKNOWN';
+        ownershipBadge.className = 'badge badge-warning';
+      } else if (ownership === 'multisig') {
+        ownerMultisig.style.display = 'block';
+        ownershipBadge.textContent = 'OWNER: MULTISIG';
+        ownershipBadge.className = 'badge badge-info';
+      } else {
+        ownerNone.style.display = 'block';
+        ownershipBadge.textContent = 'NO OWNER';
+        ownershipBadge.className = 'badge badge-safe';
+      }
+
+      // Warnings
+      if (rugpullable) {
+        document.getElementById('rugpullWarning').style.display = 'block';
+      }
+      if (upgradeable) {
+        document.getElementById('upgradeableWarning').style.display = 'block';
+        document.getElementById('delegatecallBadge').className = 'badge badge-warning';
+      } else {
+        document.getElementById('upgradeHistoryCard').style.display = 'none';
+        document.getElementById('delegatecallBadge').textContent = '✓ NOT FOUND';
+        document.getElementById('delegatecallBadge').className = 'badge badge-safe';
+      }
+      if (selfdestruct) {
+        document.getElementById('selfdestructWarning').style.display = 'block';
+        document.getElementById('selfdestructBadge').textContent = '⚠️ FOUND';
+        document.getElementById('selfdestructBadge').className = 'badge badge-danger';
+      }
+
+      // Verified
+      if (!verified) {
+        document.getElementById('verifiedBadge').textContent = '❌ NOT VERIFIED';
+        document.getElementById('verifiedBadge').className = 'badge badge-danger';
+        document.getElementById('verifiedCodeStatus').innerHTML = '<span class="badge badge-danger">❌ SOURCE NOT VERIFIED</span>';
+      }
+    }
+
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.remove('hidden');
+      });
+    });
+
+    // Modal functions
+    function showRugpullDemo() {
+      document.getElementById('rugpullModal').style.display = 'flex';
+    }
+    function closeModals() {
+      document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+    }
+
+    // Close modals on background click
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModals();
+      });
+    });
+
+    // Apply config on load
+    applyConfig();
+  </script>
+</body>
+
+</html>

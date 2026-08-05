@@ -1,0 +1,513 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction - hash4eva</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Config panel for demo -->
+  <button class="config-toggle" id="configToggle">⚙️ CONFIG</button>
+  <div class="config-panel" id="configPanel" style="display: none;">
+    <h4>🎛️ Demo configuration</h4>
+    <div class="form-group">
+      <label class="form-label">Transaction type</label>
+      <select class="form-input" id="cfgType" onchange="updateConfig()">
+        <option value="transfer">ETH Transfer</option>
+        <option value="contract">Contract call</option>
+        <option value="deploy">Contract deployment</option>
+        <option value="message">Love letter (0 ETH + message)</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgReplayable" onchange="updateConfig()">
+        Replayable (no EIP-155)
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgFailed" onchange="updateConfig()">
+        Failed transaction
+      </label>
+    </div>
+    <div class="form-group">
+      <label class="form-checkbox">
+        <input type="checkbox" id="cfgSandwich" onchange="updateConfig()">
+        Part of sandwich attack
+      </label>
+    </div>
+    <hr style="border-color: var(--border-color); margin: 16px 0;">
+    <a href="#" class="btn btn-secondary" style="width: 100%; justify-content: center;" onclick="copyCurrentURL()">📋 Copy URL</a>
+  </div>
+
+  <main class="main-content">
+    <!-- Replay warning -->
+    <div class="alert alert-danger" id="replayWarning" style="display: none;">
+      <div class="alert-title">⚠️ REPLAY ATTACK POSSIBLE</div>
+      <p>This transaction was NOT signed with EIP-155 (chain ID). It can be replayed on other EVM networks!</p>
+      <div style="margin-top: 12px;">
+        <p class="text-muted">Networks where this transaction can be replayed:</p>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px;">
+          <span class="network-badge polygon">Polygon</span>
+          <span class="network-badge arbitrum">Arbitrum</span>
+          <span class="network-badge optimism">Optimism</span>
+          <span class="network-badge base">Base</span>
+        </div>
+      </div>
+      <button class="btn btn-danger" style="margin-top: 12px;">📋 Copy raw transaction for replay</button>
+    </div>
+
+    <!-- Sandwich warning -->
+    <div class="alert alert-warning" id="sandwichWarning" style="display: none;">
+      <div class="alert-title">🥪 Part of sandwich attack</div>
+      <p>This transaction was sandwiched by MEV bots. The user likely received worse execution than expected.</p>
+      <div style="margin-top: 12px; background: rgba(0,0,0,0.3); padding: 12px; border-radius: 4px;">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+          <span class="badge badge-danger">TOP BUN</span>
+          <a href="#" class="address-short" style="color: var(--neon-cyan);">0xMEV...Bot</a>
+          <span class="text-muted">bought before victim</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+          <span class="badge badge-warning">MEAT</span>
+          <span>This transaction (victim)</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span class="badge badge-danger">BOTTOM BUN</span>
+          <a href="#" class="address-short" style="color: var(--neon-cyan);">0xMEV...Bot</a>
+          <span class="text-muted">sold after victim</span>
+        </div>
+      </div>
+      <p class="text-muted" style="margin-top: 12px; font-size: 0.875rem;">
+        Estimated loss: <strong style="color: var(--hot-red);">$847</strong> in worse execution
+      </p>
+    </div>
+
+    <!-- Failed warning -->
+    <div class="alert alert-danger" id="failedWarning" style="display: none;">
+      <div class="alert-title">❌ TRANSACTION FAILED</div>
+      <p>This transaction reverted. Gas was still consumed.</p>
+      <p class="text-muted" style="margin-top: 8px;">Revert reason: <code>ERC721: transfer caller is not owner nor approved</code></p>
+    </div>
+
+    <!-- Transaction header -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📝 Transaction details</span>
+        <span class="badge badge-safe tt-clean" id="statusBadge" data-tooltip="Source: Transaction receipt\nstatus field = 1 (success)\nReturned by eth_getTransactionReceipt">SUCCESS</span>
+      </div>
+      
+      <div style="display: grid; gap: 16px;">
+        <div>
+          <span class="text-muted">Transaction hash:</span>
+          <div class="address" style="margin-top: 4px;" data-tooltip="Source: Transaction hash (Keccak-256)\nUnique identifier computed from\nthe signed transaction fields" class="tt-clean">0x8a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b</div>
+        </div>
+        
+        <div class="two-column" style="gap: 24px;">
+          <div>
+            <span class="text-muted">Status:</span>
+            <div id="statusText" style="color: var(--neon-green); font-size: 1.25rem;"><span data-tooltip="Source: Transaction receipt\nstatus = 0x1 (success)\nAll state changes were applied">✓ Success</span></div>
+          </div>
+          <div>
+            <span class="text-muted">Block:</span>
+            <div><a href="#" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction receipt\nblockNumber field\nClick to view block details">19,245,123</a> (<span data-tooltip="Source: Latest block − tx block\nMore confirmations = more finality">847 confirmations</span>)</div>
+          </div>
+        </div>
+        
+        <div class="two-column" style="gap: 24px;">
+          <div>
+            <span class="text-muted">Timestamp:</span>
+            <div><span data-tooltip="Source: Block header timestamp\neth_getBlockByNumber(19245123)\ntimestamp field (Unix epoch)">Feb 28, 2024 14:23:45 UTC</span> (<span data-tooltip="Computed: current time − block time">2 hours ago</span>)</div>
+          </div>
+          <div>
+            <span class="text-muted">Network:</span>
+            <div><span class="network-badge ethereum" data-tooltip="Source: Chain ID from EIP-155\nsignature (v value)\nChain ID = 1 → Ethereum Mainnet">Ethereum Mainnet</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parties -->
+    <div class="two-column">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">📤 From</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=sender" alt="" class="avatar">
+          <div>
+            <div style="margin-bottom: 4px;">
+              <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'from' field\nRecovered via ECRECOVER from\nthe ECDSA signature (v,r,s)\nClick to view account">vitalik.eth</a>
+              <span class="badge badge-safe tt-clean" style="margin-left: 8px;" data-tooltip="Source: Transfer events from KYC exchanges\n(Coinbase, Kraken) to this address">🏦 KYC-LINKED</span>
+            </div>
+            <div class="address-short" style="color: var(--text-muted);" data-tooltip="Source: ECRECOVER(hash, v, r, s)\nFull: 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045">0xd8dA...6045</div>
+          </div>
+        </div>
+        <p class="text-muted" style="margin-top: 12px; font-size: 0.875rem;">
+          <strong>Signed</strong> this transaction with their private key.
+          <span class="src-icon" data-tooltip="Source: ECDSA signature (v,r,s)\nin raw transaction data\nRecoverable to sender's public key">i</span>
+        </p>
+      </div>
+
+      <div class="card" id="toCard">
+        <div class="card-header">
+          <span class="card-title">📥 To</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 16px;">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=receiver" alt="" class="avatar">
+          <div>
+            <div style="margin-bottom: 4px;">
+              <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'to' field\neth_getCode() returns bytecode\n→ Smart contract\nClick to view contract">CryptoKitties</a>
+              <span class="badge badge-neutral tt-clean" style="margin-left: 8px;" data-tooltip="Source: eth_getCode(address)\nReturns non-empty bytecode\n→ This is a smart contract">CONTRACT</span>
+            </div>
+            <div class="address-short" style="color: var(--text-muted);" data-tooltip="Source: Transaction 'to' field\nFull: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d">0x0601...266d</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Value & Gas -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">💰 Value & gas</span>
+      </div>
+      
+      <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));">
+        <div class="stat-item" data-tooltip="Source: Transaction 'value' field\n0 wei = 0 ETH\nFrom signed transaction data" class="tt-clean">
+          <div class="stat-value" id="valueDisplay">0 ETH</div>
+          <div class="stat-label">Value</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Transaction receipt\ngasUsed × effectiveGasPrice\n100,000 × 42 Gwei = 0.0042 ETH" class="tt-clean">
+          <div class="stat-value">0.0042 ETH</div>
+          <div class="stat-label">Gas fee</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Transaction 'gasPrice' field\n42,000,000,000 wei = 42 Gwei\nNote: EIP-1559 txs show effectiveGasPrice" class="tt-clean">
+          <div class="stat-value">42 Gwei</div>
+          <div class="stat-label">Gas price</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Transaction receipt\ngasUsed field\n(gas limit was higher, unused gas refunded)" class="tt-clean">
+          <div class="stat-value">100,000</div>
+          <div class="stat-label">Gas used</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Gas fee × ETH price\n0.0042 ETH × $2,400 = $10.08\nETH price from CoinGecko API" class="tt-clean">
+          <div class="stat-value">$10.08</div>
+          <div class="stat-label">Fee (USD)</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Transaction 'type' field\nType 0 = Legacy (pre-EIP-1559)\nType 2 = EIP-1559 with priority fee" class="tt-clean">
+          <div class="stat-value">Standard</div>
+          <div class="stat-label">Tx type</div>
+        </div>
+      </div>
+          <div class="stat-value">0.0042 ETH</div>
+          <div class="stat-label">Gas fee</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">42 Gwei</div>
+          <div class="stat-label">Gas price</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">100,000</div>
+          <div class="stat-label">Gas used</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">$10.08</div>
+          <div class="stat-label">Fee (USD)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">Standard</div>
+          <div class="stat-label">Tx type</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Side effects -->
+    <div class="card" id="sideEffectsCard">
+      <div class="card-header">
+        <span class="card-title">⚡ Side effects</span>
+      </div>
+      <p class="text-muted" style="margin-bottom: 16px;">What changed as a result of this transaction:</p>
+      
+      <div style="display: grid; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">🖼️</span>
+          <div style="flex-grow: 1;">
+            <div><span data-tooltip="Source: Transfer(from, to, tokenId) event\nSignature: 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\nEmitted by CryptoKitties contract">NFT Transfer</span></div>
+            <div class="text-muted"><a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color:var(--neon-cyan)" data-tooltip="Click to view this NFT\non CryptoKitties contract page">CryptoKitty #1847</a> transferred to <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Click to view recipient account">0x1234</a></div>
+          </div>
+          <span class="badge badge-info tt-clean" data-tooltip="Source: ERC-165 supportsInterface()\non emitting contract\n0x80ac58cd → ERC-721">ERC-721</span>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">📝</span>
+          <div style="flex-grow: 1;">
+            <div><span data-tooltip="Source: EVM execution trace\nSSTORE opcodes detected in\ntransaction execution">Storage changed</span></div>
+            <div class="text-muted"><span data-tooltip="Source: debug_traceTransaction\n3 distinct SSTORE operations\nwith different storage slot keys">3 storage slots modified</span></div>
+          </div>
+          <span class="badge badge-neutral">STATE</span>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+          <span style="font-size: 1.5rem;">📢</span>
+          <div style="flex-grow: 1;">
+            <div><span data-tooltip="Source: Transaction receipt 'logs' field\nEvents emitted during execution\nIndexed by topic hash">Events emitted</span></div>
+            <div class="text-muted"><span data-tooltip="Source: Log topic[0] = keccak256(\n'Transfer(address,address,uint256)')\n= 0xddf252ad...">Transfer(from, to, tokenId)</span></div>
+          </div>
+          <span class="badge badge-neutral">EVENT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Love letter message -->
+    <div class="card" id="messageCard" style="display: none;">
+      <div class="card-header">
+        <span class="card-title">💌 Message</span>
+      </div>
+      <div style="background: rgba(0,0,0,0.3); padding: 24px; border-radius: 4px; text-align: center;">
+        <p style="font-size: 1.5rem; font-style: italic; color: var(--neon-pink);">
+          "gm ser! Love what you're building. Keep up the great work! 🚀"
+        </p>
+        <p class="text-muted" style="margin-top: 16px;">Decoded from transaction input data (UTF-8)</p>
+      </div>
+    </div>
+
+    <!-- Technical details -->
+    <div class="card">
+      <div class="tabs">
+        <button class="tab active" data-tab="input">Input data</button>
+        <button class="tab" data-tab="logs">Logs</button>
+        <button class="tab" data-tab="trace">Trace</button>
+        <button class="tab" data-tab="raw">Raw</button>
+      </div>
+
+      <div class="tab-content" id="tab-input">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+          <span>Function: <code style="color: var(--neon-cyan);" data-tooltip="Source: First 4 bytes of input data\n0xa9059cbb matched against\n4byte.directory / block explorer ABI">transfer(address to, uint256 tokenId)</code></span>
+          <button class="btn btn-secondary">Decode</button>
+        </div>
+        <div class="code-block">
+0xa9059cbb
+000000000000000000000000<span class="string">1234567890123456789012345678901234567890</span>
+0000000000000000000000000000000000000000000000000000000000000<span class="number">737</span>
+        </div>
+        <div style="margin-top: 16px; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px;">
+          <h4 style="margin-bottom: 8px;">Decoded parameters:</h4>
+          <div style="display: grid; gap: 8px;">
+            <div><span class="text-muted">to:</span> <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Source: Bytes 4-36 of input data\n(left-padded 20-byte address)\nClick to view account">0x1234...5678</a></div>
+            <div><span class="text-muted">tokenId:</span> <span style="color: var(--neon-green);" data-tooltip="Source: Bytes 36-68 of input data\n(uint256 big-endian)\n0x737 = 1847 decimal">1847</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content hidden" id="tab-logs">
+        <div style="background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px; margin-bottom: 12px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <span class="badge badge-info">LOG #0</span>
+            <span class="text-muted">CryptoKitties</span>
+          </div>
+          <div><strong>Transfer</strong>(address indexed from, address indexed to, uint256 indexed tokenId)</div>
+          <div style="margin-top: 8px; font-size: 0.875rem;">
+            <div><span data-tooltip="Source: Log indexed topic[1]\naddress type, left-padded">from: <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" class="address-short" style="color:var(--neon-cyan)">0xd8dA...6045</a></span></div>
+            <div><span data-tooltip="Source: Log indexed topic[2]\naddress type, left-padded">to: <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)">0x1234...5678</a></span></div>
+            <div><span data-tooltip="Source: Log indexed topic[3]\nuint256 type">tokenId: <span style="color: var(--neon-green);">1847</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content hidden" id="tab-trace">
+        <div class="code-block" style="font-size: 0.875rem;">
+CALL CryptoKitties.transfer(0x1234..., 1847)
+  ├─ SLOAD slot 0x29a8... = 0xd8dA...
+  ├─ REQUIRE: msg.sender == owner ✓
+  ├─ SSTORE slot 0x29a8... = 0x1234...
+  ├─ SSTORE slot 0x82c1... = 0x1234...
+  └─ LOG3 Transfer(0xd8dA..., 0x1234..., 1847)
+        </div>
+      </div>
+
+      <div class="tab-content hidden" id="tab-raw">
+        <h4 style="margin-bottom: 12px;">Raw transaction</h4>
+        <div class="code-block" style="font-size: 0.75rem; word-break: break-all;">
+{
+  "hash": "0x8a2b3c4d...",
+  "nonce": 847,
+  "blockHash": "0x...",
+  "blockNumber": 19245123,
+  "transactionIndex": 42,
+  "from": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+  "to": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
+  "value": "0x0",
+  "gasPrice": "0x9c7652400",
+  "gas": "0x186a0",
+  "input": "0xa9059cbb000000...",
+  "v": "0x1c",
+  "r": "0x...",
+  "s": "0x..."
+}
+        </div>
+        <div id="eip155Info" style="margin-top: 16px;">
+          <span class="badge badge-safe tt-clean" data-tooltip="Source: Transaction 'v' value\nv = chainId * 2 + 35 or 36 (EIP-155)\nv = 37 or 38 → Chain ID 1\nPrevents cross-chain replay">✓ EIP-155 SIGNED</span>
+          <span class="text-muted" style="margin-left: 8px;"><span data-tooltip="Source: Derived from v value\n(v - 35) / 2 = 1 → Ethereum Mainnet">Chain ID: 1 (Ethereum Mainnet)</span></span>
+        </div>
+        <div id="noEip155Info" style="margin-top: 16px; display: none;">
+          <span class="badge badge-danger tt-clean" data-tooltip="Source: Transaction 'v' value\nv = 27 or 28 (no chain ID)\nNo EIP-155 protection!\nTransaction can be replayed">⚠️ NO EIP-155</span>
+          <span class="text-muted" style="margin-left: 8px;">This transaction can be replayed on other networks!</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Parse URL parameters
+    const params = new URLSearchParams(window.location.search);
+    const txType = params.get('type') || 'contract';
+    const replayable = params.get('replayable') === 'true';
+    const failed = params.get('failed') === 'true';
+    const sandwich = params.get('sandwich') === 'true';
+
+    // Config panel toggle
+    const configToggle = document.getElementById('configToggle');
+    const configPanel = document.getElementById('configPanel');
+    configToggle.addEventListener('click', () => {
+      configPanel.style.display = configPanel.style.display === 'none' ? 'block' : 'none';
+    });
+
+    // Set config panel values
+    document.getElementById('cfgType').value = txType;
+    document.getElementById('cfgReplayable').checked = replayable;
+    document.getElementById('cfgFailed').checked = failed;
+    document.getElementById('cfgSandwich').checked = sandwich;
+
+    function updateConfig() {
+      const newParams = new URLSearchParams();
+      newParams.set('type', document.getElementById('cfgType').value);
+      newParams.set('replayable', document.getElementById('cfgReplayable').checked);
+      newParams.set('failed', document.getElementById('cfgFailed').checked);
+      newParams.set('sandwich', document.getElementById('cfgSandwich').checked);
+      window.location.search = newParams.toString();
+    }
+
+    function copyCurrentURL() {
+      navigator.clipboard.writeText(window.location.href);
+      alert('URL copied!');
+    }
+
+    // Apply configuration
+    function applyConfig() {
+      // Warnings
+      if (replayable) {
+        document.getElementById('replayWarning').style.display = 'block';
+        document.getElementById('eip155Info').style.display = 'none';
+        document.getElementById('noEip155Info').style.display = 'block';
+      }
+      if (failed) {
+        document.getElementById('failedWarning').style.display = 'block';
+        document.getElementById('statusBadge').textContent = 'FAILED';
+        document.getElementById('statusBadge').className = 'badge badge-danger';
+        document.getElementById('statusText').innerHTML = '❌ Failed';
+        document.getElementById('statusText').style.color = 'var(--hot-red)';
+      }
+      if (sandwich) {
+        document.getElementById('sandwichWarning').style.display = 'block';
+      }
+
+      // Transaction type specific
+      if (txType === 'transfer') {
+        document.getElementById('valueDisplay').textContent = '10.5 ETH';
+        document.getElementById('sideEffectsCard').innerHTML = `
+          <div class="card-header">
+            <span class="card-title">⚡ Side effects</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+            <span style="font-size: 1.5rem;">💰</span>
+            <div style="flex-grow: 1;">
+              <div>ETH Transfer</div>
+              <div class="text-muted">10.5 ETH sent to <span class="address-short">0x1234</span></div>
+            </div>
+            <span class="badge badge-success">VALUE</span>
+          </div>
+        `;
+      } else if (txType === 'message') {
+        document.getElementById('messageCard').style.display = 'block';
+        document.getElementById('sideEffectsCard').innerHTML = `
+          <div class="card-header">
+            <span class="card-title">⚡ Side effects</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; padding: 12px; background: rgba(0,0,0,0.3); border-radius: 4px;">
+            <span style="font-size: 1.5rem;">💌</span>
+            <div style="flex-grow: 1;">
+              <div>Message only</div>
+              <div class="text-muted">No value transferred, just a love letter</div>
+            </div>
+            <span class="badge badge-info">MESSAGE</span>
+          </div>
+        `;
+      } else if (txType === 'deploy') {
+        document.getElementById('toCard').innerHTML = `
+          <div class="card-header">
+            <span class="card-title">📥 Created contract</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=newcontract" alt="" class="avatar">
+            <div>
+              <div style="margin-bottom: 4px;">
+                <a href="hash4eva-contract.html?address=0xNEW" style="color: var(--neon-cyan);">New Contract</a>
+                <span class="badge badge-info" style="margin-left: 8px;">CREATED</span>
+              </div>
+              <div class="address-short" style="color: var(--text-muted);">0x7a82...c3f1</div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.remove('hidden');
+      });
+    });
+
+    applyConfig();
+  </script>
+</body>
+</html>

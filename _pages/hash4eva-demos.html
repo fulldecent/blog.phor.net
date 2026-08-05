@@ -1,0 +1,392 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo scenarios - hash4eva</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1 class="section-title">🎨 Demo scenarios</h1>
+    <p class="text-muted" style="margin-bottom: 32px;">
+      This page documents all available demo scenarios and URL parameters for testing different views.
+      Every page has a config panel (⚙️ button in top right) to dynamically change settings.
+    </p>
+
+    <!-- Pages overview -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📄 Available pages</span>
+      </div>
+      <div style="display: grid; gap: 12px;">
+        <a href="hash4eva.html" class="recent-item" style="text-decoration: none;">
+          <div class="recent-info">
+            <div class="recent-name">🏠 Homepage</div>
+            <div class="text-muted">Search, recently viewed, email signup, incidents preview</div>
+          </div>
+        </a>
+        <a href="hash4eva-account.html" class="recent-item" style="text-decoration: none;">
+          <div class="recent-info">
+            <div class="recent-name">👤 Account page</div>
+            <div class="text-muted">EOA profiles with identity, KYC status, transactions, tokens</div>
+          </div>
+        </a>
+        <a href="hash4eva-contract.html" class="recent-item" style="text-decoration: none;">
+          <div class="recent-info">
+            <div class="recent-name">📜 Contract page</div>
+            <div class="text-muted">Smart contract analysis, ownership, code, security</div>
+          </div>
+        </a>
+        <a href="hash4eva-transaction.html" class="recent-item" style="text-decoration: none;">
+          <div class="recent-info">
+            <div class="recent-name">📝 Transaction page</div>
+            <div class="text-muted">Transaction details, side effects, replay warnings</div>
+          </div>
+        </a>
+        <a href="hash4eva-incidents.html" class="recent-item" style="text-decoration: none;">
+          <div class="recent-info">
+            <div class="recent-name">🔥 Incidents page</div>
+            <div class="text-muted">Security incidents, hacks, disclosure timelines</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Account page scenarios -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">👤 Account page scenarios</span>
+      </div>
+      
+      <h4 style="margin-bottom: 12px;">URL parameters</h4>
+      <div class="code-block" style="margin-bottom: 24px;">
+account.html?
+  address=0x...        <span class="comment">// The account address</span>
+  status=kyc-linked    <span class="comment">// kyc-linked | first-degree | second-degree | third-degree | unknown</span>
+  hasENS=true          <span class="comment">// true | false</span>
+  leaked=false         <span class="comment">// true | false - Private key leaked</span>
+  sandwicher=false     <span class="comment">// true | false - Known MEV sandwicher</span>
+  kycTransfer=true     <span class="comment">// true | false - Has transfers from KYC exchanges</span>
+  vulnApprovals=false  <span class="comment">// true | false - Has vulnerable token approvals</span>
+      </div>
+
+      <h4 style="margin-bottom: 12px;">Demo links</h4>
+      <div style="display: grid; gap: 8px;">
+        <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked&hasENS=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-safe">KYC-LINKED</span>
+          <div class="recent-info">
+            <div class="recent-name">Well-known account (vitalik.eth)</div>
+            <div class="text-muted">KYC exchange transfers, ENS profile, full features</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree&hasENS=false" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-info">1ST DEGREE</span>
+          <div class="recent-info">
+            <div class="recent-name">1st degree KYC connection</div>
+            <div class="text-muted">Direct transfers from Coinbase/KYC exchange</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x1111111111111111111111111111111111111111&status=second-degree&hasENS=false" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">2ND DEGREE</span>
+          <div class="recent-info">
+            <div class="recent-name">2nd degree KYC connection</div>
+            <div class="text-muted">One hop from KYC exchange</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x2222222222222222222222222222222222222222&status=third-degree&hasENS=false" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">3RD DEGREE</span>
+          <div class="recent-info">
+            <div class="recent-name">3rd degree KYC connection</div>
+            <div class="text-muted">Two hops from KYC exchange</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x3333333333333333333333333333333333333333&status=unknown&hasENS=false&kycTransfer=false" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-neutral">UNKNOWN</span>
+          <div class="recent-info">
+            <div class="recent-name">Unknown account</div>
+            <div class="text-muted">No identity info, no KYC trail</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x4444444444444444444444444444444444444444&status=unknown&leaked=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">LEAKED</span>
+          <div class="recent-info">
+            <div class="recent-name">Leaked private key</div>
+            <div class="text-muted">Warning about compromised account</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x5555555555555555555555555555555555555555&status=unknown&sandwicher=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">SANDWICHER</span>
+          <div class="recent-info">
+            <div class="recent-name">Known MEV sandwicher</div>
+            <div class="text-muted">Account has participated in sandwich attacks</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-account.html?address=0x6666666666666666666666666666666666666666&status=kyc-linked&vulnApprovals=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">VULN APPROVALS</span>
+          <div class="recent-info">
+            <div class="recent-name">Vulnerable token approvals</div>
+            <div class="text-muted">Has approvals to contracts with known vulnerabilities</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contract page scenarios -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📜 Contract page scenarios</span>
+      </div>
+      
+      <h4 style="margin-bottom: 12px;">URL parameters</h4>
+      <div class="code-block" style="margin-bottom: 24px;">
+contract.html?
+  address=0x...        <span class="comment">// The contract address</span>
+  ownership=kyc-linked <span class="comment">// kyc-linked | multisig | unknown | none</span>
+  upgradeable=false    <span class="comment">// true | false</span>
+  selfdestruct=false   <span class="comment">// true | false</span>
+  rugpullable=false    <span class="comment">// true | false</span>
+  verified=true        <span class="comment">// true | false - Source code verified</span>
+      </div>
+
+      <h4 style="margin-bottom: 12px;">Demo links</h4>
+      <div style="display: grid; gap: 8px;">
+        <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d&ownership=kyc-linked&verified=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-safe">SAFE</span>
+          <div class="recent-info">
+            <div class="recent-name">Trusted contract (KYC-linked owner)</div>
+            <div class="text-muted">Best case: verified source, owner linked to KYC exchanges</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&ownership=multisig" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-info">MULTISIG</span>
+          <div class="recent-info">
+            <div class="recent-name">Multi-sig controlled contract</div>
+            <div class="text-muted">Owned by a Safe wallet</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB&ownership=none" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-safe">RENOUNCED</span>
+          <div class="recent-info">
+            <div class="recent-name">Ownership renounced</div>
+            <div class="text-muted">No owner, immutable contract</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC&ownership=unknown&verified=false" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">UNKNOWN</span>
+          <div class="recent-info">
+            <div class="recent-name">Unknown owner, unverified</div>
+            <div class="text-muted">No identity info, source not verified</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD&ownership=unknown&upgradeable=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">UPGRADEABLE</span>
+          <div class="recent-info">
+            <div class="recent-name">Upgradeable contract</div>
+            <div class="text-muted">Proxy pattern, can be modified</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE&ownership=unknown&selfdestruct=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">SELFDESTRUCT</span>
+          <div class="recent-info">
+            <div class="recent-name">Has SELFDESTRUCT opcode</div>
+            <div class="text-muted">Contract can be permanently destroyed</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-contract.html?address=0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF&ownership=unknown&rugpullable=true&upgradeable=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">RUGPULL RISK</span>
+          <div class="recent-info">
+            <div class="recent-name">Rugpullable contract</div>
+            <div class="text-muted">Admin can drain funds, shows rugpull simulation</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Transaction page scenarios -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">📝 Transaction page scenarios</span>
+      </div>
+      
+      <h4 style="margin-bottom: 12px;">URL parameters</h4>
+      <div class="code-block" style="margin-bottom: 24px;">
+transaction.html?
+  type=contract       <span class="comment">// transfer | contract | deploy | message</span>
+  replayable=false    <span class="comment">// true | false - No EIP-155 signature</span>
+  failed=false        <span class="comment">// true | false - Transaction reverted</span>
+  sandwich=false      <span class="comment">// true | false - Part of sandwich attack</span>
+      </div>
+
+      <h4 style="margin-bottom: 12px;">Demo links</h4>
+      <div style="display: grid; gap: 8px;">
+        <a href="hash4eva-transaction.html?type=contract" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-info">CONTRACT</span>
+          <div class="recent-info">
+            <div class="recent-name">Contract interaction</div>
+            <div class="text-muted">Normal contract call (NFT transfer)</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=transfer" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-success">TRANSFER</span>
+          <div class="recent-info">
+            <div class="recent-name">ETH transfer</div>
+            <div class="text-muted">Simple value transfer between accounts</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=deploy" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-info">DEPLOY</span>
+          <div class="recent-info">
+            <div class="recent-name">Contract deployment</div>
+            <div class="text-muted">New contract creation transaction</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=message" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-neutral">MESSAGE</span>
+          <div class="recent-info">
+            <div class="recent-name">Love letter (0 ETH + message)</div>
+            <div class="text-muted">Zero-value transaction with calldata message</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=contract&replayable=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">REPLAYABLE</span>
+          <div class="recent-info">
+            <div class="recent-name">No EIP-155 (replay attack possible)</div>
+            <div class="text-muted">Transaction can be replayed on other networks</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=contract&failed=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">FAILED</span>
+          <div class="recent-info">
+            <div class="recent-name">Reverted transaction</div>
+            <div class="text-muted">Transaction that failed/reverted</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=contract&sandwich=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-warning">SANDWICH</span>
+          <div class="recent-info">
+            <div class="recent-name">Sandwiched transaction</div>
+            <div class="text-muted">Victim of MEV sandwich attack</div>
+          </div>
+        </a>
+        
+        <a href="hash4eva-transaction.html?type=transfer&replayable=true&sandwich=true" class="recent-item" style="text-decoration: none;">
+          <span class="badge badge-danger">MULTIPLE</span>
+          <div class="recent-info">
+            <div class="recent-name">Multiple warnings</div>
+            <div class="text-muted">Replayable AND sandwiched</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Design notes -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">🎨 Design notes</span>
+      </div>
+      
+      <h4 style="margin-bottom: 12px;">Retro 90s graffiti theme elements</h4>
+      <ul style="margin-left: 24px; margin-bottom: 24px;">
+        <li>Neon color palette: pink, cyan, green, yellow, orange</li>
+        <li>Bangers font for headers (graffiti style)</li>
+        <li>VT323 for body text (retro terminal)</li>
+        <li>Press Start 2P for buttons and labels (pixel art)</li>
+        <li>Dark background with subtle radial gradients</li>
+        <li>Glowing borders and hover effects</li>
+        <li>Paint drip decorative borders</li>
+      </ul>
+
+      <h4 style="margin-bottom: 12px;">Color meanings</h4>
+      <div style="display: grid; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="badge badge-safe">GREEN</span>
+          <span>Safe, verified, good status</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="badge badge-info">CYAN</span>
+          <span>Informational, neutral good</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="badge badge-warning">YELLOW</span>
+          <span>Proceed with caution</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="badge badge-danger">RED</span>
+          <span>Danger, high risk, failed</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="badge badge-neutral">GRAY</span>
+          <span>Unknown, neutral</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech stack -->
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">🔧 Technical notes</span>
+      </div>
+      <ul style="margin-left: 24px;">
+        <li>Pure HTML/CSS/JS — no build step required</li>
+        <li>All data is mocked/static for demo purposes</li>
+        <li>URL parameters control page state for different scenarios</li>
+        <li>Config panel (⚙️) allows dynamic switching without editing URLs</li>
+        <li>Responsive design works on mobile</li>
+        <li>Identicons generated via DiceBear API</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

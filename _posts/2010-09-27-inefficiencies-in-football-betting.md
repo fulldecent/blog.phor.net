@@ -66,7 +66,7 @@ And to be more devious, will there be a bias on A beating B if recently A beat C
 Now we're getting interesting results! Using some more data points: after A beat C by Y more points than B beat C, what is your expected payout Y betting on A beating B (within 14 days of those two games)?
 
 > **IMAGE:**  
-> [Transitives.png](https://1.bp.blogspot.com/_rG3Oup-CHJE/TKD-B6i8PfI/AAAAAAAAA-I/5V5_DQZttc8/s1600/Transitives.png)
+> ![Football betting transitive chart](/assets/images/2010-09-27-inefficiencies-in-football-betting-transitives.webp)
 
 If you want to make money on the "A beat C by more points than B beat C" strategy, you're going to have to perform a regression on the graph above. Any guess on the R-square for that?
 

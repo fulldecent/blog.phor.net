@@ -114,7 +114,7 @@ Don't worry, I will show you every correct answer and copy/paste you need here.
 
     > Card number XXXXXX Sent to email address XXXXXX. I am XXXXXX, that recipient. In the email it identifies order number XXXXXX.
     >
-    > ![ [Entriken, William Response.pdf](../../../Desktop/Entriken, William Response.pdf) ](../../../Desktop/2024-02-20-howto-spend-amex-gift-card-amazon-banner.png)
+    > I included the response letter and the Amazon error screenshot in the complaint materials.
 
 11. Your contact information. *This is where they will send the check*.
 

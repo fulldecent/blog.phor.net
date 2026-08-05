@@ -3,6 +3,11 @@ subtitle: Analysis of all
 description: Essays by William Entriken
 url: https://blog.phor.net
 
+collections:
+  pages:
+    output: true
+    permalink: /:path:output_ext
+
 defaults:
   - scope:
       path: ""

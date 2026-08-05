@@ -1,0 +1,353 @@
+---
+render_with_liquid: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incidents - hash4eva</title>
+  <link rel="stylesheet" href="/assets/hash4eva.css">
+  <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
+</head>
+<body>
+  <div class="demo-banner">
+    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <a href="hash4eva.html" class="logo">
+        <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
+      </a>
+      <nav class="main-nav">
+        <a href="hash4eva-incidents.html">Incidents</a>
+        <a href="hash4eva-ads.html">Weekly market</a>
+        <a href="hash4eva-following.html">Followed accounts (2)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1 class="section-title">🔥 Security incidents</h1>
+    <p class="text-muted" style="margin-bottom: 32px;">
+      Documented hacks, exploits, and security events with disclosure timelines.
+    </p>
+
+    <!-- Filters -->
+    <div class="card" style="margin-bottom: 24px;">
+      <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: center;">
+        <div>
+          <label class="form-label">Status</label>
+          <select class="form-input" style="width: auto;">
+            <option>All</option>
+            <option>Ongoing</option>
+            <option>Resolved</option>
+            <option>Under investigation</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Type</label>
+          <select class="form-input" style="width: auto;">
+            <option>All</option>
+            <option>Flash loan attack</option>
+            <option>Reentrancy</option>
+            <option>Private key leak</option>
+            <option>Rugpull</option>
+            <option>Oracle manipulation</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Year</label>
+          <select class="form-input" style="width: auto;">
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>All time</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Network</label>
+          <select class="form-input" style="width: auto;">
+            <option>All networks</option>
+            <option>Ethereum</option>
+            <option>Polygon</option>
+            <option>Arbitrum</option>
+            <option>Base</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured incident -->
+    <div class="card" style="border: 2px solid var(--hot-red);">
+      <div class="card-header">
+        <div>
+          <span class="badge badge-danger" style="margin-right: 8px;">ONGOING</span>
+          <span class="card-title" style="color: var(--hot-red);">🚨 DeFiProtocol exploit</span>
+        </div>
+        <span style="color: var(--text-muted);">Feb 28, 2024</span>
+      </div>
+
+      <div class="two-column" style="margin-bottom: 24px;">
+        <div>
+          <h3 style="margin-bottom: 16px;">Summary</h3>
+          <p style="margin-bottom: 16px;">
+            Attacker exploited a <span data-tooltip="Source: Post-mortem analysis\nReentrant call in stake() before\nbalance update — classic check-effects-\ninteractions violation">reentrancy vulnerability</span> in the staking contract to drain approximately 
+            <strong style="color: var(--hot-red);" data-tooltip="Source: Sum of Transfer events\nfrom staking contract to attacker\nacross 3 chains × token prices\n(CoinGecko, block timestamp)">$47 million</strong> worth of assets across three chains.
+          </p>
+          <p class="text-muted">
+            The vulnerability was introduced in <a href="hash4eva-transaction.html?type=contract" style="color:var(--neon-cyan)" data-tooltip="Source: Upgraded event log\nBlock 19,100,000 on Ethereum\nClick to view upgrade transaction">contract upgrade v2.1.0</a> deployed 45 days ago.
+            The attacker used <span data-tooltip="Source: Transaction trace\nFlash loan from Aave V3\n$15M USDC borrowed and returned\nin same transaction">flash loans</span> to amplify the attack.
+          </p>
+        </div>
+        <div>
+          <h3 style="margin-bottom: 16px;">Quick facts</h3>
+          <div style="display: grid; gap: 8px;">
+            <div style="display: flex; justify-content: space-between;">
+              <span class="text-muted">Total lost:</span>
+              <span style="color: var(--hot-red);" data-tooltip="Source: Sum of all drain transactions\nETH: $23,100,000 (Block 19,245,123)\nArbitrum: $14,200,000 (Block 18,900,000)\nPolygon: $9,934,891 (Block 54,100,000)\nPrices at time of exploit">$47,234,891</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span class="text-muted">Recovered:</span>
+              <span style="color: var(--neon-green);" data-tooltip="Source: No recovery transactions\nfound from attacker address\nor associated wallets">$0</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span class="text-muted">Attack type:</span>
+              <span data-tooltip="Source: Post-mortem analysis\nReentrancy: re-enters stake() before\nbalance update\nFlash loan: borrows $15M USDC from\nAave to amplify position">Reentrancy + Flash loan</span>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span class="text-muted">Unique name:</span>
+              <span style="color: var(--neon-cyan);">"February Flash Fury"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom: 16px;">Affected</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px;">
+        <div style="display: flex; gap: 8px;">
+          <span class="text-muted">Networks:</span>
+          <span class="network-badge ethereum">Ethereum</span>
+          <span class="network-badge arbitrum">Arbitrum</span>
+          <span class="network-badge polygon">Polygon</span>
+        </div>
+      </div>
+
+      <h3 style="margin-bottom: 16px;">Affected accounts</h3>
+      <div style="display: grid; gap: 8px; margin-bottom: 24px;">
+        <a href="hash4eva-contract.html?address=0xVICTIM&ownership=unknown&rugpullable=true" class="recent-item" style="text-decoration: none;">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=victim" alt="" class="recent-avatar">
+          <div class="recent-info">
+            <div class="recent-name">DeFiProtocol Staking</div>
+            <div class="text-muted"><span data-tooltip="Source: Post-mortem report\nThis contract's stake() function\nwas exploited via reentrancy\nClick to view contract">Exploited contract</span></div>
+          </div>
+          <span class="badge badge-danger tt-clean" data-tooltip="Source: Contract ETH balance\nwent from $47M to ~$0\nAll ERC-20 tokens transferred out">DRAINED</span>
+        </a>
+        <a href="hash4eva-account.html?address=0xATTACKER&status=unknown" class="recent-item" style="text-decoration: none;">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=attacker" alt="" class="recent-avatar">
+          <div class="recent-info">
+            <div class="recent-name">0xAtt4ck3r...1337</div>
+            <div class="text-muted"><span data-tooltip="Source: Transaction traces\nThis address initiated the exploit\ntransactions and received drained funds\nClick to view account">Attacker address</span></div>
+          </div>
+          <span class="badge badge-danger tt-clean" data-tooltip="Source: On-chain trace analysis\nThis address deployed the malicious\ncontract and called exploit functions">ATTACKER</span>
+        </a>
+        <a href="hash4eva-account.html?address=0xFUNDED&status=first-degree" class="recent-item" style="text-decoration: none;">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=funded" alt="" class="recent-avatar">
+          <div class="recent-info">
+            <div class="recent-name">Tornado Cash deposit</div>
+            <div class="text-muted"><span data-tooltip="Source: Attacker's first inbound ETH\ncame from Tornado Cash withdrawal\nTx: 0xabc...  Block 19,244,000\nClick to view">Attacker funding source</span></div>
+          </div>
+          <span class="badge badge-warning tt-clean" data-tooltip="Source: block explorer labeled address\nTornado Cash Router contract\nOFAC sanctioned">MIXER</span>
+        </a>
+      </div>
+
+      <h3 style="margin-bottom: 16px;">📋 Disclosure timeline</h3>
+      <div style="position: relative; padding-left: 24px; border-left: 2px solid var(--neon-pink);">
+        <div style="margin-bottom: 24px; position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--hot-red); border-radius: 50%;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;"><a href="hash4eva-transaction.html?type=contract" style="color:inherit" data-tooltip="Source: First exploit transaction\nBlock 19,245,100 on Ethereum\nClick to view transaction">Feb 28, 2024 - 14:23 UTC</a></div>
+          <div style="font-weight: bold; margin: 4px 0;">Attack begins</div>
+          <p class="text-muted">Attacker <a href="hash4eva-transaction.html?type=deploy" style="color:var(--neon-cyan)" data-tooltip="Source: Contract creation tx\nBlock 19,245,098\nClick to view deployment">deploys malicious contract</a> and initiates flash loan on Ethereum.</p>
+        </div>
+        
+        <div style="margin-bottom: 24px; position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--neon-orange); border-radius: 50%;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;"><a href="hash4eva-transaction.html?type=contract" style="color:inherit" data-tooltip="Source: Last drain transaction on\nEthereum mainnet\nBlock 19,245,123\nClick to view">Feb 28, 2024 - 14:27 UTC</a></div>
+          <div style="font-weight: bold; margin: 4px 0;">First drain complete</div>
+          <p class="text-muted"><span data-tooltip="Source: Sum of Transfer events\nfrom staking contract to attacker\n9,625 ETH at $2,400 = $23.1M">$23M drained</span> from Ethereum mainnet staking pool.</p>
+        </div>
+        
+        <div style="margin-bottom: 24px; position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--neon-orange); border-radius: 50%;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">Feb 28, 2024 - 14:35 UTC</div>
+          <div style="font-weight: bold; margin: 4px 0;">Attack spreads to L2s</div>
+          <p class="text-muted">Attacker bridges to Arbitrum and Polygon, drains additional $24M.</p>
+        </div>
+        
+        <div style="margin-bottom: 24px; position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--neon-yellow); border-radius: 50%;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">Feb 28, 2024 - 14:42 UTC</div>
+          <div style="font-weight: bold; margin: 4px 0;">Community alerts</div>
+          <p class="text-muted">X user @SecurityResearcher posts warning thread.</p>
+        </div>
+        
+        <div style="margin-bottom: 24px; position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--neon-cyan); border-radius: 50%;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">Feb 28, 2024 - 15:00 UTC</div>
+          <div style="font-weight: bold; margin: 4px 0;">Protocol response</div>
+          <p class="text-muted">DeFiProtocol team acknowledges incident, pauses remaining contracts.</p>
+        </div>
+        
+        <div style="position: relative;">
+          <div style="position: absolute; left: -31px; width: 16px; height: 16px; background: var(--neon-pink); border-radius: 50%; animation: pulse 2s infinite;"></div>
+          <div style="color: var(--text-muted); font-size: 0.875rem;">Ongoing</div>
+          <div style="font-weight: bold; margin: 4px 0;">Investigation in progress</div>
+          <p class="text-muted">Team working with security firms and law enforcement.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 24px; display: flex; gap: 8px; flex-wrap: wrap;">
+        <button class="btn btn-primary">🔔 Get updates</button>
+        <button class="btn btn-secondary">📋 View all transactions</button>
+        <button class="btn btn-secondary">🐦 Share on X</button>
+      </div>
+    </div>
+
+    <!-- Other incidents list -->
+    <h2 class="section-title" style="margin-top: 48px;">Recent incidents</h2>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="badge badge-warning">IN PROGRESS</span>
+          <span class="card-title" style="margin-left: 8px;">🔑 Project Alpha deployer key leak</span>
+        </div>
+        <span style="color: var(--text-muted);">Feb 25, 2024</span>
+      </div>
+      <p class="text-muted" style="margin-bottom: 16px;">
+        Private key for Project Alpha's deployer wallet was accidentally committed to a public GitHub repo.
+        Contract admin access is at risk. White hat researchers are attempting rescue.
+      </p>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+        <span class="network-badge ethereum">Ethereum</span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Potential loss: <strong style="color: var(--neon-yellow);">$2.1M</strong></span>
+      </div>
+      <a href="#" class="btn btn-warning">View details →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="badge badge-safe">RESOLVED</span>
+          <span class="card-title" style="margin-left: 8px;">✅ NFT marketplace white hat rescue</span>
+        </div>
+        <span style="color: var(--text-muted);">Feb 20, 2024</span>
+      </div>
+      <p class="text-muted" style="margin-bottom: 16px;">
+        Security researcher discovered critical vulnerability in marketplace contract.
+        Funds rescued via white hat operation. Bounty of $250K paid.
+      </p>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+        <span class="network-badge base">Base</span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>At risk: <strong style="color: var(--neon-green);">$5M (saved)</strong></span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Bounty: <strong>$250K</strong></span>
+      </div>
+      <a href="#" class="btn btn-success">View details →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="badge badge-danger">RUGPULL</span>
+          <span class="card-title" style="margin-left: 8px;">💀 MoonRocket token exit scam</span>
+        </div>
+        <span style="color: var(--text-muted);">Feb 15, 2024</span>
+      </div>
+      <p class="text-muted" style="margin-bottom: 16px;">
+        Anonymous team behind MoonRocket token drained liquidity pool after 3 months of operation.
+        Multiple warning signs were present from launch.
+      </p>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+        <span class="network-badge ethereum">Ethereum</span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Lost: <strong style="color: var(--hot-red);">$890K</strong></span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Victims: <strong>2,341</strong></span>
+      </div>
+      <a href="#" class="btn btn-danger">View details →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="badge badge-safe">RESOLVED</span>
+          <span class="card-title" style="margin-left: 8px;">✅ Oracle manipulation on LendingDAO</span>
+        </div>
+        <span style="color: var(--text-muted);">Feb 10, 2024</span>
+      </div>
+      <p class="text-muted" style="margin-bottom: 16px;">
+        Attacker manipulated on-chain oracle to perform undercollateralized borrows.
+        Protocol treasury covered losses. Oracle upgraded to Chainlink.
+      </p>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
+        <span class="network-badge polygon">Polygon</span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Lost: <strong style="color: var(--hot-red);">$1.2M</strong></span>
+        <span style="color: var(--text-muted);">|</span>
+        <span>Covered by: <strong>Treasury</strong></span>
+      </div>
+      <a href="#" class="btn btn-success">View details →</a>
+    </div>
+
+    <!-- Stats -->
+    <div class="card" style="margin-top: 48px;">
+      <h2 class="section-title">📊 2024 statistics</h2>
+      <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+        <div class="stat-item" data-tooltip="Source: Sum of all confirmed\nhack/exploit losses in 2024\nFrom rekt.news, DeFi Llama hacks,\nand on-chain analysis" class="tt-clean">
+          <div class="stat-value" style="color: var(--hot-red);">$847M</div>
+          <div class="stat-label">Total lost</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Confirmed fund returns\nfrom attacker addresses or\nprotocol treasury coverage" class="tt-clean">
+          <div class="stat-value" style="color: var(--neon-green);">$234M</div>
+          <div class="stat-label">Recovered</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: hash4eva incident database\nIncludes hacks, exploits,\nrug pulls, and key leaks" class="tt-clean">
+          <div class="stat-value">47</div>
+          <div class="stat-label">Incidents</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Incidents tagged as rugpull\nTeam-initiated liquidity removal\nor fund misappropriation" class="tt-clean">
+          <div class="stat-value">12</div>
+          <div class="stat-label">Rugpulls</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Incidents using flash loan\namplification to exploit vulnerabilities" class="tt-clean">
+          <div class="stat-value">8</div>
+          <div class="stat-label">Flash loan attacks</div>
+        </div>
+        <div class="stat-item" data-tooltip="Source: Sum of confirmed bounty\npayments from Immunefi, bug bounty\nprograms, and white hat rewards" class="tt-clean">
+          <div class="stat-value">$2.1M</div>
+          <div class="stat-label">Bounties paid</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <a href="hash4eva.html">Home</a>
+        <a href="hash4eva-incidents.html">Incidents</a>
+      </div>
+      <div class="footer-section">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="hash4eva-demos.html">Demo scenarios</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
