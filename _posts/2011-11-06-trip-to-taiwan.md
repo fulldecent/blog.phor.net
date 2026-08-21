@@ -6,27 +6,27 @@ old-link: https://fulldecent.blogspot.com/2011/11/trip-to-taiwan.html
 
 So we got to Taiwan, which is a total of 22 hours of travel from Philadelphia.
 
-![Arrive in Taiwan](/assets/images/2011-11-06-trip-to-taiwan.webp)
+![Arrive in Taiwan](/assets/images/trip-to-taiwan.webp)
 
 There's a few things you apparently notice in Taiwan right away, so let's discuss those first:
 
-![Truck in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-2.webp)
+![Truck in Taiwan](/assets/images/trip-to-taiwan-2.webp)
 
 There's only one model of truck available for sale on the island, and it only comes in blue. Everyone drives only this truck... and it's smaller than most American cars.
 
-![Baseball in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-3.webp)
+![Baseball in Taiwan](/assets/images/trip-to-taiwan-3.webp)
 
 You watch live baseball at 9am, and Japanese advertisements are superimposed over the field.
 
-![Asian Models in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-4.webp)
+![Asian Models in Taiwan](/assets/images/trip-to-taiwan-4.webp)
 
 There's nothing Asian models fear more... that looking Asian. SPF 100 cream makes them look like white people.
 
-![Ice Cream Drinks in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-5.webp)
+![Ice Cream Drinks in Taiwan](/assets/images/trip-to-taiwan-5.webp)
 
 ALL drinks are available with ice cream... cola, Sprite, tea, beer.
 
-![Cemetery in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-6.webp)
+![Cemetery in Taiwan](/assets/images/trip-to-taiwan-6.webp)
 
 In the first week we saw a cemetery, basically this is like a filing cabinet for people.
 
@@ -42,6 +42,6 @@ Bras
 
 This bra has four layers of customizable padding. If American bras are Saran wrap, this is like wearing a space suit.
 
-![Bra in Taiwan](/assets/images/2011-11-06-trip-to-taiwan-7.webp)
+![Bra in Taiwan](/assets/images/trip-to-taiwan-7.webp)
 
 See all the photos on FD Camera Life [2011-11 Taiwan](https://camera.phor.net/2011-11%20Taiwan).

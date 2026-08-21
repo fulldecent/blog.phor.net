@@ -15,11 +15,23 @@ if [ "$#" -ne 2 ]; then
   exit 1
 fi
 
+sed_in_place() {
+  expression="$1"
+  file="$2"
+  if sed --version >/dev/null 2>&1; then
+    sed -i "$expression" "$file"
+  else
+    sed -i '' "$expression" "$file"
+  fi
+}
+
 # Get names
 old_base_name="$1"
 new_base_name="$2"
 old_post="_posts/${old_base_name}.md"
 new_post="_posts/${new_base_name}.md"
+old_slug=$(echo "$old_base_name" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//')
+new_slug=$(echo "$new_base_name" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//')
 
 # Check if the old post exists
 if [ ! -f "$old_post" ]; then
@@ -37,10 +49,12 @@ fi
 mv "$old_post" "$new_post"
 
 # Rename images
-for old_image in assets/images/"${old_base_name}"*; do
-  new_image=$(echo "$old_image" | sed "s/${old_base_name}/${new_base_name}/")
+for old_image in assets/images/"${old_slug}"*; do
+  [ -f "$old_image" ] || continue
+  new_image=$(echo "$old_image" | sed "s/${old_slug}/${new_slug}/")
   mv "$old_image" "$new_image"
 done
 
 # Replace references in the post
-sed -i '' "s/${old_base_name}/${new_base_name}/g" "$new_post"
+sed_in_place "s/${old_base_name}/${new_base_name}/g" "$new_post"
+sed_in_place "s/${old_slug}/${new_slug}/g" "$new_post"

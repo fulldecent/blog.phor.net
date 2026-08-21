@@ -49,4 +49,4 @@ javascript:(function(){a=document.getElementsByTagName("iframe")[0].contentWindo
 
 Basically, save that as a bookmark open iCloud to your calendar and then run that bookmark.
 
-![Hide calendars](/assets/images/2011-12-01-stop-using-google-tasks-switch-to-apple.webp)
+![Hide calendars](/assets/images/stop-using-google-tasks-switch-to-apple.webp)

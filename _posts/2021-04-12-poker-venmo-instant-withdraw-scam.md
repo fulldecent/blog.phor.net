@@ -8,7 +8,7 @@ old-link: https://privacylog.blogspot.com/2021/04/poker-players-getting-scammed-
 
 ## What do you see first?
 
-![Identity code](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam.webp)
+![Identity code](/assets/images/poker-venmo-instant-withdraw-scam.webp)
 
 First you see a login identity code that you did not request. I’m not exactly sure yet if this indicates the attacker actually has your password. But I hear this attack is being used against passwords that have not been reused on other websites. (The most common source of password theft is trying known passwords on new sites.)
 
@@ -33,9 +33,9 @@ graph TD
 
 Here is where you know the damage is coming quickly…
 
-![Primary email addressed changed](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-2.webp)
+![Primary email addressed changed](/assets/images/poker-venmo-instant-withdraw-scam-2.webp)
 
-![Primary email addressed changed 2](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-3.webp)
+![Primary email addressed changed 2](/assets/images/poker-venmo-instant-withdraw-scam-3.webp)
 
 ## And it’s gone
 
@@ -43,11 +43,11 @@ Here are the email notifications you are NOT getting because at this point your 
 
 The attack proceeds as first a small test transaction. Then several transactions proceed. I am assuming that $2,999 is a special number chosen to be just below some $3,000 limit. (This probably represents “structuring” which is a crime under US Federal jurisdiction, 31 U.S. Code § 5324.) Finally, another small transaction is made to get the total balance to a targeted amount.
 
-![Transfers 1](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-4.webp)
+![Transfers 1](/assets/images/poker-venmo-instant-withdraw-scam-4.webp)
 
-![Transfers 2](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-5.webp)
+![Transfers 2](/assets/images/poker-venmo-instant-withdraw-scam-5.webp)
 
-![Transfers 3](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-6.webp)
+![Transfers 3](/assets/images/poker-venmo-instant-withdraw-scam-6.webp)
 
 It is not useful for me to say what the account balance was or the small  amounts, so this is redacted. But I can tell you that the total amount  taken was clearly chosen as a way to be less than $10,000. This is a  special number in the United States, because transferring that amount of money triggers the required reporting of a [currency transaction report](https://en.wikipedia.org/wiki/Currency_transaction_report) with FinCEN.
 
@@ -79,7 +79,7 @@ Send an email to [security-alerts@venmo.com](mailto:security-alerts@venmo.com) s
 
 > That was not me. Please freeze my account.
 
-![You can freeze your account](/assets/images/2021-04-12-poker-venmo-instant-withdraw-scam-7.webp)
+![You can freeze your account](/assets/images/poker-venmo-instant-withdraw-scam-7.webp)
 
 This should result in an automatic response and freezing your account. 👍 this part looks like it is working well. I understand that humans will also then follow up with you in <24 hours to regain access to your account.
 

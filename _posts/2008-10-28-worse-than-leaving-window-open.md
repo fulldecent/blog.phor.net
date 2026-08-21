@@ -9,4 +9,4 @@ Q: What's worse than leaving your car window open on a rainy day?
 
 A: Leaving your door open.
 
-![Car window](/assets/images/2008-10-28-worse-than-leaving-window-open.webp)
+![Car window](/assets/images/worse-than-leaving-window-open.webp)

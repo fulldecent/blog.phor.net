@@ -7,7 +7,7 @@ tags: machine learning, finance, trading
 
 The main point is <mark>that this domain is a very good place to learn how modern data systems, backtesting discipline, and operational engineering actually work together</mark>. And now is a unique time to get started, because the entire history of Polymarket trading data is still small enough to fit on your laptop. Soon, this dataset, and the analysis will no longer be feasible on basic hardware most people have.
 
-![Polymarket on a laptop](/assets/images/2026-08-02-polymarket-quant-desk.webp)
+![Polymarket on a laptop](/assets/images/polymarket-quant-desk.webp)
 
 Thank you to [AI Philly](https://www.aiphilly.tech/events) ([Meetup](https://www.meetup.com/ai-philly/)) for setting up this event!
 
@@ -47,7 +47,7 @@ Each market order ends up touching one of these YES/NO tokens. Let's trace that 
 
 An order starts as an intention. You want to bet on something, say a World Cup match, and that intention has to travel all the way onto a public blockchain before it counts. Let's see each step that happens: when the decision is made, when it clears, and when it becomes permanent.
 
-![Market model and order structure](/assets/images/2026-08-02-polymarket-quant-desk-2.webp)
+![Market model and order structure](/assets/images/polymarket-quant-desk-2.webp)
 
 {: .margin-note}
 Knowing precisely how trade data lives on the blockchain was even the subject of a lawsuit involving a friend of the show. Show up IRL to ask for details.
@@ -74,7 +74,7 @@ Even in an "atomic match", the trade that closed *last* sets the final price, no
 
 When you later read the tape you just see prints at 302, 301, 300. But which side initiated, in which direction, and in what sequence is the information that actually matters, and all of it later becomes features for the model.
 
-![CLOB structure and order flow](/assets/images/2026-08-02-polymarket-quant-desk-3.webp)
+![CLOB structure and order flow](/assets/images/polymarket-quant-desk-3.webp)
 
 ## Get the data from the chain, not the API
 
@@ -95,7 +95,7 @@ These are the same techniques you would use against a real exchange like NASDAQ,
 
 My first instinct was to reach for SQL and that is exactly what the project did at first: a single terabyte-sized SQLite file on disk. It worked, but it was the wrong tool. SQLite, MySQL, and Oracle are tuned for looking up one row at a time. E.g. a user logs in, fetch their name, record one action. Our questions are the opposite shape: *look at every trade an account ever made across two years and summarize how far its prices sat from the market.* Every query scans and transforms the full dataset.
 
-![Storage architecture with Parquet and DuckDB](/assets/images/2026-08-02-polymarket-quant-desk-4.webp)
+![Storage architecture with Parquet and DuckDB](/assets/images/polymarket-quant-desk-4.webp)
 
 That is a columnar, analytical workload, and it is what DuckDB is built for. DuckDB is the database, Parquet is the file format, essentially compressed CSV with some magic inside. You do not even need a server, DuckDB rips straight through Parquet files on disk and uses every core it can find.
 
@@ -117,7 +117,7 @@ That discipline is called **provenance**. When a derived feature looks wrong, yo
 
 If you can't do that you are not a real quant.
 
-![Raw and derived data](/assets/images/2026-08-02-polymarket-quant-desk-5.webp)
+![Raw and derived data](/assets/images/polymarket-quant-desk-5.webp)
 
 ## Feature engineering and trading theses
 
@@ -144,7 +144,7 @@ After you have created a hypothesis and have optimized some features, do a full 
 
 The reason to backtest is simple: a robot cannot YOLO. A human can gamble on instinct, but an automated strategy has to be tested against as much history as you can throw at it. In this dataset that is a luxury, you can run a hypothesis against 100% of every trade ever made and get an answer in seconds. On NASDAQ you would be forced to sample a sliver of a few days out of petabytes.
 
-![Feature engineering pipeline](/assets/images/2026-08-02-polymarket-quant-desk-6.webp)
+![Feature engineering pipeline](/assets/images/polymarket-quant-desk-6.webp)
 
 The single most dangerous mistake is a **time leak**. If you cannot timestamp a piece of information, get out.
 
@@ -157,7 +157,7 @@ Anything you can timestamp can be fed in directly. If you cannot get the exact t
 
 In production, a strategy is a state machine driven by triggers. It sits in a ready state collecting data, and nothing happens until several conditions line up at once: an external report drops, a price crosses a band, a watched account moves, an N-sigma event fires. Only when every required trigger is satisfied does it place a trade, and then it logs everything, what it believed, why it acted, and when the order cleared.
 
-![Backtesting workflow](/assets/images/2026-08-02-polymarket-quant-desk-7.webp)
+![Backtesting workflow](/assets/images/polymarket-quant-desk-7.webp)
 
 The first account strategy you should ever build is the boring one: *sell everything I have*. Being able to dump your whole position back to cash lets you reset risk and be ready to start the next trading round clean.
 
@@ -169,7 +169,7 @@ You may use LLM to help with your programming. I have collected some notes about
 
 You don't need to understand all of this discipline. But if you bark these buzzwords at your "junior assistant" then it will have a solid foundation for doing its work.
 
-![Trade operations and execution](/assets/images/2026-08-02-polymarket-quant-desk-8.webp)
+![Trade operations and execution](/assets/images/polymarket-quant-desk-8.webp)
 
 The first is the **brain dump**. Do not just tell the model "trade on rosters," explain *why* you think rosters carry an edge, who will react to them, and which other markets they might move. Five minutes of talking through your reasoning is the most valuable five minutes in the project, because without it the model cannot actually help you.
 
@@ -197,4 +197,4 @@ If you care about these topics and are hiring... then you might want good candid
 
 I connect people and look forward to inviting you next time to a similar event, which always includes networking and mixers at the end!
 
-![AI-assisted engineering and risk controls](/assets/images/2026-08-02-polymarket-quant-desk-9.webp)
+![AI-assisted engineering and risk controls](/assets/images/polymarket-quant-desk-9.webp)

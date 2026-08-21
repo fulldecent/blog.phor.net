@@ -10,19 +10,19 @@ This is made possible by the huge speech corpus that Google has. But here is ano
 
 [Google Docs](https://drive.google.com/) has this built in and you can see context-sensitive corrections like the following:
 
-![Correction](/assets/images/2014-02-06-google-spell-master.webp)
+![Correction](/assets/images/google-spell-master.webp)
 
 Not impressed? How about this, it knows the correct abbreviation of European when used in the context of a works cited page:
 
-![European](/assets/images/2014-02-06-google-spell-master-2.webp)
+![European](/assets/images/google-spell-master-2.webp)
 
 No? How about this, it knows which Glycoprotein inhibitors you should use for treating unstable angina:
 
-![Angina](/assets/images/2014-02-06-google-spell-master-3.webp)
+![Angina](/assets/images/google-spell-master-3.webp)
 
 It knows the correct authors of publications in obscure medical journals:
 
-![Authors](/assets/images/2014-02-06-google-spell-master-4.webp)
+![Authors](/assets/images/google-spell-master-4.webp)
 
 It is very difficult for a small startup or research group to improve on what is possible by small incremental programs working with huge data sets.
 

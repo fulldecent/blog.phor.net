@@ -9,7 +9,7 @@ comments:
 
 Introducing RainbowMask, login to any Web3 website without making an account
 
-![RainbowMask mood image](/assets/images/2023-07-11-rainbowmask-random-web3-accounts.webp)
+![RainbowMask mood image](/assets/images/rainbowmask-random-web3-accounts.webp)
 
 Some websites require you to login using your MetaMask account. This is a waste if you don't about Ethereum and you just want to see what's on that website.
 

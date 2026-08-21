@@ -10,7 +10,7 @@ A hash tree, or a Merkle tree, is a data structure that allows you to take a lot
 
 Here is a typical Merkle-tree implementation:
 
-![Tree](/assets/images/2018-11-15-merkle-tree-arbitrary-length-data.webp)
+![Tree](/assets/images/merkle-tree-arbitrary-length-data.webp)
 
 Arrows represent inclusion in a hash. For example, `A = hash(B, C)`. And `hash()` customarily uses SHA-256.
 
@@ -18,7 +18,7 @@ You will publish root node, the *hash root*. And this is proof to the world that
 
 Here is how that proof looks:
 
-![Tree proof](/assets/images/2018-11-15-merkle-tree-arbitrary-length-data-2.webp)
+![Tree proof](/assets/images/merkle-tree-arbitrary-length-data-2.webp)
 
 ## A simple proof
 
@@ -48,7 +48,7 @@ It is the total length of the array! Let us consider an application where it is 
 
 Following is an approach to store arbitrary-length ordered data into a Merkle tree in a way that does not expose the full length of the tree.
 
-![Arbitrary length tree](/assets/images/2018-11-15-merkle-tree-arbitrary-length-data-3.webp)
+![Arbitrary length tree](/assets/images/merkle-tree-arbitrary-length-data-3.webp)
 
 In this encoding scheme, there are several roots, starting with root0. Each successive root goes on the right and each subtree goes on the left. The first subtree is a single element. Trees increase one level each time. The facts are stored in the subtrees leaves.
 
@@ -62,7 +62,7 @@ What data do you put into Root3 and the unused fact spaces? You put random data.
 
 In the scenarios above, if the facts represent actual usable data then your application may require you to keep that data secret. For example, at the top, providing F4 may be unacceptable if F4 should be a private fact. The way you handle this is to add a random nonce for every fact in the tree. The nonces are different for each fact. This adds one to the length of all proofs.
 
-![Random nonces](/assets/images/2018-11-15-merkle-tree-arbitrary-length-data-4.webp)
+![Random nonces](/assets/images/merkle-tree-arbitrary-length-data-4.webp)
 
 When you use this approach, disclosing F4 does not reveal the fact because the nonce is not known to the skeptic. If your nonce is predictable then a brute force attack can be done against Fact1 to corroborate F1.
 

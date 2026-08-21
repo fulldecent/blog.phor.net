@@ -14,7 +14,7 @@ It is enabled by default on your computer, a quick experiment shows how you are 
 
 First connect your computer and phone to some internet connection, maybe you have already done this step. On your phone, go to internet search and search "what is my ip address" and open the first few results. Look for the longer IPv6 address.
 
-![Your IP address](/assets/images/2019-09-27-ipv6-privacy-failure.webp)
+![Your IP address](/assets/images/ipv6-privacy-failure.webp)
 
 Now do the same thing on your phone. It has a different number. This is a huge problem and it demonstrates a failure of the IPv6 protocol design and/or implementations.
 
@@ -22,7 +22,7 @@ It is now [public knowledge](https://en.wikipedia.org/wiki/Room_641A) that gover
 
 So this is what those governments, and every website you visit sees:
 
-![What they see](/assets/images/2019-09-27-ipv6-privacy-failure-2.webp)
+![What they see](/assets/images/ipv6-privacy-failure-2.webp)
 
 They see your computer connected Wikipedia learning about those classified programs above. And your neighbor's phone (on the same Wi-Fi) reading Facebook.
 
@@ -32,7 +32,7 @@ The different colors represent different IP addresses.
 
 IPv6 adoption rises constantly and worldwide is [at about 33% now](https://www.google.com/intl/en/ipv6/statistics.html). When you are using the IPv4 (the other option) the internet still works just as good for you, but all the devices in your house share the same publicly-visible address. (Try the same experiment above but check the IPv4 addresses!)
 
-![What they see 2](/assets/images/2019-09-27-ipv6-privacy-failure-3.webp)
+![What they see 2](/assets/images/ipv6-privacy-failure-3.webp)
 
 The individual connections cannot easily be corroborated. We don't know if the evil anti-war person visiting Wikipedia is the same person with Twitter account @fulldecent or if they are the person logged in as John Example on Facebook.
 
@@ -54,7 +54,7 @@ networksetup -setv6off Ethernet &&  networksetup -setv6off Wi-Fi
 
 Or do it under System Preferences
 
-![Turn off IPv6 Mac](/assets/images/2019-09-27-ipv6-privacy-failure-4.webp)
+![Turn off IPv6 Mac](/assets/images/ipv6-privacy-failure-4.webp)
 
 Tweet me if you have instructions for other systems.
 

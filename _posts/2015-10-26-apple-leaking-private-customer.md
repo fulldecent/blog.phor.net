@@ -11,15 +11,15 @@ UPDATE 2017-09-06: Added timeline. Also I want to clarify that "leaking" means "
 
 On the Apple Store website, customer details are leaked over insecure HTTP. Following is a screenshot showing that the customer's complete address is displayed on the page. A ZIP+4 is usually enough to translate to a full address.
 
-![Leak example](/assets/images/2015-10-26-apple-leaking-private-customer.webp)
+![Leak example](/assets/images/apple-leaking-private-customer.webp)
 
 Here is the same page loaded without cookies, the address is not shown.
 
-![No cookies example](/assets/images/2015-10-26-apple-leaking-private-customer-2.webp)
+![No cookies example](/assets/images/apple-leaking-private-customer-2.webp)
 
 Please compare this to Apple's account login page which also provides account addresses. However this page is delivered over HTTPS.
 
-![HTTP example](/assets/images/2015-10-26-apple-leaking-private-customer-3.webp)
+![HTTP example](/assets/images/apple-leaking-private-customer-3.webp)
 
 The attack: a potential way that this vulnerability could be abused would be a free Wi-Fi connection that redirects to the apple.com product page on your device. This rogue Wi-Fi network would then learn your personal shipping address.
 

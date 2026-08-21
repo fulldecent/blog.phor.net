@@ -26,6 +26,6 @@ I will refactor these numbers as follows:
 
 Supporting documentation follows
 
-![RTKL 1](/assets/images/2018-08-01-pennsylvania-collects-newborn-dna.webp)
+![RTKL 1](/assets/images/pennsylvania-collects-newborn-dna.webp)
 
-![RTKL 2](/assets/images/2018-08-01-pennsylvania-collects-newborn-dna-2.webp)
+![RTKL 2](/assets/images/pennsylvania-collects-newborn-dna-2.webp)

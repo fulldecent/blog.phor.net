@@ -20,7 +20,7 @@ You can browse the demo pages here:
 - [Hash4eva followed accounts page](/hash4eva-following.html)
 - [Hash4eva demo scenarios](/hash4eva-demos.html)
 
-![Hash4eva home screen](/assets/images/2026-08-04-hash4eva-blockchain-explorer.webp)
+![Hash4eva home screen](/assets/images/hash4eva-blockchain-explorer.webp)
 
 ## The core premise
 
@@ -39,7 +39,7 @@ The homepage should reduce noise and focus on the things users actually care abo
 
 The demo homepage emphasizes a compact, high-signal experience. It gives users quick access to recent addresses, incident coverage, and a search experience that can route to accounts, contracts, and applications.
 
-![Hash4eva homepage calls to action](/assets/images/2026-08-04-hash4eva-blockchain-explorer-home-calls-to-action.webp)
+![Hash4eva homepage calls to action](/assets/images/hash4eva-blockchain-explorer-home-calls-to-action.webp)
 
 ## Account pages should become identity stories
 
@@ -56,31 +56,31 @@ That means showing:
 
 The design goal is to transform an address into a story about who controls it, what it has done, and what is worth paying attention to.
 
-![Hash4eva account signatures](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-signatures-ecrecover.webp)
+![Hash4eva account signatures](/assets/images/hash4eva-blockchain-explorer-account-signatures-ecrecover.webp)
 
-![Hash4eva account actions view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-actions-combined.webp)
+![Hash4eva account actions view](/assets/images/hash4eva-blockchain-explorer-account-actions-combined.webp)
 
-![Hash4eva account love notes](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-love-letters.webp)
+![Hash4eva account love notes](/assets/images/hash4eva-blockchain-explorer-account-love-letters.webp)
 
-![Hash4eva account ENS edit context](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-ens-edit.webp)
+![Hash4eva account ENS edit context](/assets/images/hash4eva-blockchain-explorer-account-ens-edit.webp)
 
-![Hash4eva account identity and subpoena context](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-identity-subpoena.webp)
+![Hash4eva account identity and subpoena context](/assets/images/hash4eva-blockchain-explorer-account-identity-subpoena.webp)
 
-![Hash4eva account KYC evidence](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-kyc-evidence.webp)
+![Hash4eva account KYC evidence](/assets/images/hash4eva-blockchain-explorer-account-kyc-evidence.webp)
 
-![Hash4eva account KYC law enforcement guide](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-kyc-law-enforcement.webp)
+![Hash4eva account KYC law enforcement guide](/assets/images/hash4eva-blockchain-explorer-account-kyc-law-enforcement.webp)
 
-![Hash4eva account MEV detection](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-mev-detection.webp)
+![Hash4eva account MEV detection](/assets/images/hash4eva-blockchain-explorer-account-mev-detection.webp)
 
-![Hash4eva account vulnerable approvals](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-vulnerable-approvals.webp)
+![Hash4eva account vulnerable approvals](/assets/images/hash4eva-blockchain-explorer-account-vulnerable-approvals.webp)
 
-![Hash4eva account EOA evidence](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-eoa-evidence.webp)
+![Hash4eva account EOA evidence](/assets/images/hash4eva-blockchain-explorer-account-eoa-evidence.webp)
 
-![Hash4eva account recovery and MEV transaction flow](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-recover-tokens-mev.webp)
+![Hash4eva account recovery and MEV transaction flow](/assets/images/hash4eva-blockchain-explorer-account-recover-tokens-mev.webp)
 
-![Hash4eva account multisig access](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-multisig-access.webp)
+![Hash4eva account multisig access](/assets/images/hash4eva-blockchain-explorer-account-multisig-access.webp)
 
-![Hash4eva account token tax and liquidation view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-account-token-tax-liquidate.webp)
+![Hash4eva account token tax and liquidation view](/assets/images/hash4eva-blockchain-explorer-account-token-tax-liquidate.webp)
 
 ## Contract pages should explain power and risk
 
@@ -97,19 +97,19 @@ The demo contract page includes views for:
 - audit submission and review workflows
 - download and dapp-style export options
 
-![Hash4eva contract audit submission](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-submit-audit.webp)
+![Hash4eva contract audit submission](/assets/images/hash4eva-blockchain-explorer-contract-submit-audit.webp)
 
-![Hash4eva contract storage reverse-hash view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-storage-reverse-hashes.webp)
+![Hash4eva contract storage reverse-hash view](/assets/images/hash4eva-blockchain-explorer-contract-storage-reverse-hashes.webp)
 
-![Hash4eva contract dapp download view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-dapp-download.webp)
+![Hash4eva contract dapp download view](/assets/images/hash4eva-blockchain-explorer-contract-dapp-download.webp)
 
-![Hash4eva contract protocol conformance](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-protocol-conformances.webp)
+![Hash4eva contract protocol conformance](/assets/images/hash4eva-blockchain-explorer-contract-protocol-conformances.webp)
 
-![Hash4eva contract actions and calls](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-actions-combined.webp)
+![Hash4eva contract actions and calls](/assets/images/hash4eva-blockchain-explorer-contract-actions-combined.webp)
 
-![Hash4eva contract ownership and KYC view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-ownership-kyc.webp)
+![Hash4eva contract ownership and KYC view](/assets/images/hash4eva-blockchain-explorer-contract-ownership-kyc.webp)
 
-![Hash4eva contract owner KYC status](/assets/images/2026-08-04-hash4eva-blockchain-explorer-contract-owner-kyc.webp)
+![Hash4eva contract owner KYC status](/assets/images/hash4eva-blockchain-explorer-contract-owner-kyc.webp)
 
 ## Transaction pages should explain impact
 
@@ -117,11 +117,11 @@ A transaction page should not just show a gas fee and a status marker. It should
 
 The design should make the user feel that the transaction is legible. That means surfacing side effects, value movement, storage changes, and event logs in a single, understandable view.
 
-![Hash4eva transaction sandwich evidence](/assets/images/2026-08-04-hash4eva-blockchain-explorer-transaction-sandwich-evidence.webp)
+![Hash4eva transaction sandwich evidence](/assets/images/hash4eva-blockchain-explorer-transaction-sandwich-evidence.webp)
 
-![Hash4eva transaction full impact view](/assets/images/2026-08-04-hash4eva-blockchain-explorer-transaction-full-impact.webp)
+![Hash4eva transaction full impact view](/assets/images/hash4eva-blockchain-explorer-transaction-full-impact.webp)
 
-![Hash4eva transaction replayable transactions](/assets/images/2026-08-04-hash4eva-blockchain-explorer-transaction-replayable.webp)
+![Hash4eva transaction replayable transactions](/assets/images/hash4eva-blockchain-explorer-transaction-replayable.webp)
 
 ## Security audits and liquidate buttons
 
@@ -139,7 +139,7 @@ Incidents are a strong use case for an explorer because they naturally combine a
 
 The demo incidents page shows a more narrative, timeline-driven approach to presenting security events instead of burying them in a feed.
 
-![Hash4eva incidents overview](/assets/images/2026-08-04-hash4eva-blockchain-explorer-incidents-overview.webp)
+![Hash4eva incidents overview](/assets/images/hash4eva-blockchain-explorer-incidents-overview.webp)
 
 ## The takeaway
 

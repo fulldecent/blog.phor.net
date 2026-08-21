@@ -14,8 +14,8 @@ Sean Connery then and now:
 
 From 1998:
 
-![Sean Connery 1998](/assets/images/2011-11-03-sean-connery-steve-jobs-and-louis.webp)
+![Sean Connery 1998](/assets/images/sean-connery-steve-jobs-and-louis.webp)
 
 From 2011:
 
-![Sean Connery 2011](/assets/images/2011-11-03-sean-connery-steve-jobs-and-louis-2.webp)
+![Sean Connery 2011](/assets/images/sean-connery-steve-jobs-and-louis-2.webp)

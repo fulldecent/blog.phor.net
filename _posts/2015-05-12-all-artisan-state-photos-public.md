@@ -11,7 +11,7 @@ old-link: https://privacylog.blogspot.com/2015/05/all-artisan-state-user-uploade
 
 Artisan State is a photo printing service that specializes in flush mount books and other photo books. They are managed from San Francisco with fulfillment in Hong Kong and Houston and manufacturing in Shanghai. They have a pretty website and reputation seems somewhere between iPhone-level travel books and professionally-bound books you would get with an in-person event photographer. I was preparing a book for one of my clients and as I am uploading the photos, which are personal, the first thought was... "should I really be uploading these photos to this website, we just met?"
 
-![Photos](/assets/images/2015-05-12-all-artisan-state-photos-public.webp)
+![Photos](/assets/images/all-artisan-state-photos-public.webp)
 
 ## Just a hint
 
@@ -23,7 +23,7 @@ Exactly, right? Following is the result of this URL:
 
 > <https://www.artisanstate.com/photo-books/photobook-edit.html?projectGUID=413311>
 
-![Other photos](/assets/images/2015-05-12-all-artisan-state-photos-public-2.webp)
+![Other photos](/assets/images/all-artisan-state-photos-public-2.webp)
 
 Naturally, this couple probably did not expect that their wedding photos would be online like this. *(Note: that URL does not work any more)
 
@@ -65,7 +65,7 @@ Artisan State has about 8,000,000 photos uploaded on this system. (That's how th
 
 Here are 64 random photos. To respect privacy, faces are blurred. The goal here isn't to dox anyone.
 
-![Faces blurred](/assets/images/2015-05-12-all-artisan-state-photos-public-3.webp)
+![Faces blurred](/assets/images/all-artisan-state-photos-public-3.webp)
 
 In general, a majority of photos are wedding-themed. And because this article is being posted to Reddit (where Artisan State is often discussed), I'll answer a few certain questions. No, that girl in the first row is not naked. No, that baby is not CP, nor does anything else seem illegal. Of a random sample of 200,000 photos a *reasonable* person would not find anything fappable.
 

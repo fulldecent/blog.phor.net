@@ -92,7 +92,7 @@ Subject: Hire
 >
 > We have a project, it is at the stage of development for about 2 years. It is a innovative and futuristic crypto gaming project that specializes in creating expansive meta universes created on the UE5 engine with a total budget of $900,000 as of 2023. We have 6 investors, some of them are well known: 4 companies, 2 legal entities. Our project has two legal licenses in the UK, as well as Dubai, to trade assets and software development (game studio). We also have a license from Apple to put our game in their AppStore, as well as support for almost all platforms that exist today, ranging from Windows, to Linux and Oculus. We have Microsoft certificates, which allow us to confirm our development without any problems and put it into Microsoft Store. We also have 1 audit one by DappRadar, a detailed RoadMap / WhitePaper, a team of 28 people from different parts of the world, and we already have 4 patents on AI developments, which are already built into our worlds. You can also check out our trailer:
 >
-> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors.webp)
+> ![Trailer](/assets/images/spearphishing-crypto-advisors.webp)
 
 > From: William Entriken
 >
@@ -106,7 +106,7 @@ Subject: Hire
 >
 > Yes, our team has meticulously examined your portfolio, and rest assured, I am fully aware of your expertise and wouldn't reach out otherwise. At the moment, our project is in the midst of an extensive rebranding process. I'd be happy to share with you a few promotional videos to give you a glimpse of the anticipated new look. Additionally, I would like to propose to you the role of the lead advisor in the project, a position that I believe aligns well with your skills and experience.
 >
-> ![Trailer](/assets/images/2024-05-05-spearphishing-crypto-advisors2.webp)
+> ![Trailer](/assets/images/spearphishing-crypto-advisors2.webp)
 
 > From: William Entriken
 >

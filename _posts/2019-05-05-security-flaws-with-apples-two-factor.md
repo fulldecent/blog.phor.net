@@ -20,9 +20,9 @@ As part of the process to enable two-factor authentication for iCloud, the Apple
 
 When this happens, the account holder is shown a prompt and it is explained that this password must be entered into another device to login to iCloud.
 
-![Two factor](/assets/images/2019-05-05-security-flaws-with-apples-two-factor.webp)
+![Two factor](/assets/images/security-flaws-with-apples-two-factor.webp)
 
-![Two factor 2](/assets/images/2019-05-05-security-flaws-with-apples-two-factor-2.webp)
+![Two factor 2](/assets/images/security-flaws-with-apples-two-factor-2.webp)
 
 ## Analysis
 
@@ -45,7 +45,7 @@ Apple->>Mac: Access granted
 
 Apple published [detailed documentation](https://support.apple.com/en-us/HT204915) for two-factor authentication, however this documentation wholly excludes any mention of the steps where you are required to enter your iPhone password or Mac administration password, which is ostensibly sent to Apple. Following is a screenshot of the current version of this webpage for posterity.
 
-![Register](/assets/images/2019-05-05-security-flaws-with-apples-two-factor-4.webp)
+![Register](/assets/images/security-flaws-with-apples-two-factor-4.webp)
 
 Zero explanation of this security feature is available so I cannot evaluate if the system is designed properly. I can imagine several possible poor implementations of the systems meeting all the advertised system features while also making my local hard drive encryption (File Vault 2) password at risk for Apple or an agent of Apple to brute force it.
 

@@ -29,23 +29,23 @@ In all the magazines we looked at, *people in GQ magazine never have a beard wit
 
 No discussion of style in the 70's would be complete without groovy looking girls and the iconic lettering (left and right). In the middle is the original Maxell ad. If you paste the image that I scanned from a 1971 magazine, Google Images immediately finds the corresponding video of that commercial. Scary.
 
-![Groovy 1](/assets/images/2012-04-25-beards-recession-indicator.webp)
-![Groovy 2](/assets/images/2012-04-25-beards-recession-indicator-2.webp)
-![Groovy 3](/assets/images/2012-04-25-beards-recession-indicator-3.webp)
+![Groovy 1](/assets/images/beards-recession-indicator.webp)
+![Groovy 2](/assets/images/beards-recession-indicator-2.webp)
+![Groovy 3](/assets/images/beards-recession-indicator-3.webp)
 
 ## The 80s
 
 There's Chuck Norris workout instructions back from when it was mustache only. No surprise, leg stretches are an important prerequisite... stretching to about the height of another person's head. Also, an article on facial hair in history.
 
-![Chuck Norris](/assets/images/2012-04-25-beards-recession-indicator-4.webp)
-![Facial Hair in History](/assets/images/2012-04-25-beards-recession-indicator-5.webp)
+![Chuck Norris](/assets/images/beards-recession-indicator-4.webp)
+![Facial Hair in History](/assets/images/beards-recession-indicator-5.webp)
 
 ## Stubble
 
 From 1950 through 1999 nobody in the GQ magazines we observed had any stubble / scruff / five o'clock shadows. EVERYONE was clean shaven or had an honest beard/mustache. This is despite [George Michael's alleged popularization of stubble in the 1980s](https://en.wikipedia.org/wiki/Stubble). Now, in my generation I always thought it was Justin Timberlake who brought stubble into style (with Like I Love You, 2002). However, GQ suddenly featured many men with stubble starting in 2000 until even today. Timberlake shows up on the scene as 2009's most stylish man in America... with the same stubble from 7 years ago.
 
-![Justin Timberlake](/assets/images/2012-04-25-beards-recession-indicator-6.webp)
-![Justin Timberlake 2](/assets/images/2012-04-25-beards-recession-indicator-7.webp)
+![Justin Timberlake](/assets/images/beards-recession-indicator-6.webp)
+![Justin Timberlake 2](/assets/images/beards-recession-indicator-7.webp)
 
 ## Results
 
@@ -56,7 +56,7 @@ Following are the results.
 - US unemployment rate
 - Recessions (grey bars)
 
-![Beards over time](/assets/images/2012-04-25-beards-recession-indicator-8.webp)
+![Beards over time](/assets/images/beards-recession-indicator-8.webp)
 
 ## Conclusions
 

@@ -41,18 +41,18 @@ This syntax is explained at <https://kramdown.gettalong.org/quickref.html>
 
 For raster images hard limit is 1600 px max size for high detail. For editorial, use max 800 px.
 
-1. Make a featured image with the same basename as the post and put it in `/assets/images`. Include it like:
+1. Make a featured image with the same post slug as the post filename (without the `YYYY-MM-DD-` prefix) and put it in `/assets/images`. Include it like:
 
    ```markdown
-   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops.webp)
+   ![Fair random immediate decentralized](/assets/images/randomization-strategies-for-nft-drops.webp)
    ```
 
 2. For other images, name sequentiall, with suffixes or a folder:
 
    ```markdown
-   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops-2.svg)
-   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops-some-feature.svg)
-   ![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-for-nft-drops/some-feature.svg)
+   ![Fair random immediate decentralized](/assets/images/randomization-strategies-for-nft-drops-2.svg)
+   ![Fair random immediate decentralized](/assets/images/randomization-strategies-for-nft-drops-some-feature.svg)
+   ![Fair random immediate decentralized](/assets/images/randomization-strategies-for-nft-drops/some-feature.svg)
    ```
 
 Here is how to convert one image to webp format, with a maximum width of 800 pixels:

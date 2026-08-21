@@ -12,11 +12,11 @@ William Entriken and Internet Marketing Ninjas worked together the week of Decem
 
 Following is the dashboard which IMN clients can use to see information related to their account.
 
-![Dashboard](/assets/images/2016-02-11-internet-marketing-ninjas-client-report.webp)
+![Dashboard](/assets/images/internet-marketing-ninjas-client-report.webp)
 
 Additionally there is a view where clients may see the results of linkbuilding efforts by the company.
 
-![Dashboard](/assets/images/2016-02-11-internet-marketing-ninjas-client-report-2.webp)
+![Dashboard](/assets/images/internet-marketing-ninjas-client-report-2.webp)
 
 This website uses AJAX heavily to refresh and deliver reporting content to the user. It is possible to recreate these requests using a command line interface. (Although this may be a violation of IMN terms of service, so don't do it without their permission!)
 

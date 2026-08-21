@@ -18,7 +18,11 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   {%- assign page_basename = page.path | remove: ".md" | remove: ".html" | remove: "_posts/" -%}
-  {%- assign related_heros = site.static_files | where: "basename", page_basename -%}
+  {%- assign page_slug = page_basename -%}
+  {%- if page.collection == "posts" -%}
+  {%- assign page_slug = page_basename | slice: 11, 999 -%}
+  {%- endif -%}
+  {%- assign related_heros = site.static_files | where: "basename", page_slug -%}
   {%- for static_file in related_heros -%}
   <meta property="og:image" content="{{ static_file.path | absolute_url }}">
   <meta name="twitter:card" content="summary_large_image">

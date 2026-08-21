@@ -6,4 +6,4 @@ old-link: https://fulldecent.blogspot.com/2010/07/revenues-down.html
 
 One of the top grossing iPhone apps is free. Hmmm
 
-![App listing](/assets/images/2010-07-11-app-revenues-down.webp)
+![App listing](/assets/images/app-revenues-down.webp)

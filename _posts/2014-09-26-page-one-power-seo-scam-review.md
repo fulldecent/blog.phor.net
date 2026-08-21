@@ -32,7 +32,7 @@ Since you are paying by the hour, results are glossed over. You can quickly see 
 
 P1P has implemented several other campaign types during our work together. Wikipedia links which are quickly reverted (for anti-spam policy) are still reported for credit. Lastly, a badging campaign ("You are one of our top 10 favorite websites, link to me!") took several months to execute and produced less results than we achieved in-house last time using interns. On our website we will post links to our chosen sites and hope they link to us. P1P has provided me with text to publish which was already published elsewhere on the internet (big no-no!) and also this ridiculous piece below:
 
-![Already published](/assets/images/2014-09-26-page-one-power-seo-scam-review.webp)
+![Already published](/assets/images/page-one-power-seo-scam-review.webp)
 
 ## The worst part
 

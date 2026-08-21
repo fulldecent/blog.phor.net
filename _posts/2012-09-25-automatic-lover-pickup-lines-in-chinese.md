@@ -8,7 +8,7 @@ From Jiayuan, the number one dating website in China (and maybe the world). When
 
 [来自佳缘，中国第一互联网（有可能是全球第一互联网）。你第一次跟一个人打招呼可以自己写个信或那个网站可以帮你自动写。以下是前100见面语]
 
-![Automatic lover](/assets/images/2012-09-25-automatic-lover-pickup-lines-in-chinese.webp)
+![Automatic lover](/assets/images/automatic-lover-pickup-lines-in-chinese.webp)
 
 - 轻轻的一声招呼带来我的问候，我希望自己不只是一个过客。
 - 很多女性不愿意处理婆媳关系，关于这点你有什么想法？

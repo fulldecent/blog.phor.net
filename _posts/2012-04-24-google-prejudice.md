@@ -25,4 +25,4 @@ All of this data was produced 100% automatically by Google Suggest on [this Goog
 
 Update 2012-04-24
 
-![Table](/assets/images/2012-04-24-google-prejudice.webp)
+![Table](/assets/images/google-prejudice.webp)

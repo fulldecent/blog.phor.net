@@ -8,4 +8,4 @@ old-link: https://fulldecent.blogspot.com/2008/09/emergency.html
 
 How do you get out?
 
-![Exit sign](/assets/images/2008-09-08-emergency.webp)
+![Exit sign](/assets/images/emergency.webp)

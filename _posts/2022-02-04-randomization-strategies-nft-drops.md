@@ -15,7 +15,7 @@ This article reviews different approaches to randomization I have seen in the wi
 
 Of course product designers will ask for the holy grail, but... <mark>Fair, random and immediate sales are not possible on decentralized ledgers. ("No FRID".)</mark> Many creative solutions have been tried to trade between these features.
 
-![Fair random immediate decentralized](/assets/images/2022-02-04-randomization-strategies-nft-drops.svg)
+![Fair random immediate decentralized](/assets/images/randomization-strategies-nft-drops.svg)
 
 Below are summaries and examples of randomization strategies. Please note that the summary describes a best possible implementation of the randomization strategy and does not represent [a William Entriken audit](https://phor.net/advisory) of each mentioned contract.
 

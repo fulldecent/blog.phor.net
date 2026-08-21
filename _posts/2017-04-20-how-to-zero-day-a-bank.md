@@ -52,9 +52,9 @@ If you have made any transaction with ZECCO / TradeKing / Penson between 2005 an
 
 My dad was on the original call (to everyone's knowledge) and he recognized the threat that apparently the FBI would be coming to our house if I disclosed this. So I signed the NDA on 2008-10-27. In direct violation of the NDA I am also posting it publicly now in the public interest.
 
-![NDA 1](/assets/images/2017-04-20-how-to-zero-day-a-bank.webp)
+![NDA 1](/assets/images/how-to-zero-day-a-bank.webp)
 
-![NDA 2](/assets/images/2017-04-20-how-to-zero-day-a-bank-2.webp)
+![NDA 2](/assets/images/how-to-zero-day-a-bank-2.webp)
 
 ## Further reading
 

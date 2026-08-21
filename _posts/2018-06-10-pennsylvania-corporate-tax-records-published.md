@@ -12,11 +12,11 @@ I work for a company where we recently applied for a grant through the Pennsylva
 
 First, let's show off the actual exploit. DCED includes a centralized application process for programs and grants that all applicants must follow. Here is the vulnerable step in the application process:
 
-![Registration](/assets/images/2018-06-10-pennsylvania-corporate-tax-records-published.webp)
+![Registration](/assets/images/pennsylvania-corporate-tax-records-published.webp)
 
 So here is the key part zoomed in:
 
-![Registration zoomed](/assets/images/2018-06-10-pennsylvania-corporate-tax-records-published-2.webp
+![Registration zoomed](/assets/images/pennsylvania-corporate-tax-records-published-2.webp
 
 And if you click it you can verify the file you uploaded. Here's the URL for the tax records I just uploaded:
 
@@ -88,9 +88,9 @@ A polite way to entice cooperation is to remind them that you may have more thin
 
 Anyway, after months of unreturned emails, I filed a PA Right To Know request. This gave me access to Brian's email inbox and let me see who my email was forwarded to, and who was aware of what when. Actually, there were multiple RTKs and some back-and-forth there too. Thank you to the RTK administrators, always super helpful.
 
-![RTKL 1](/assets/images/2018-06-10-pennsylvania-corporate-tax-records-published-3.webp)
+![RTKL 1](/assets/images/pennsylvania-corporate-tax-records-published-3.webp)
 
-![RTKL 2](/assets/images/2018-06-10-pennsylvania-corporate-tax-records-published-4.webp)
+![RTKL 2](/assets/images/pennsylvania-corporate-tax-records-published-4.webp)
 
 I made reference to these Right To Know requests in the final email above. Then I got a phone call from John MacMillan, Deputy Secretary, PA Office of Administration.
 
@@ -107,7 +107,7 @@ I asked if PA would consider to publish details of this incident so that affecte
 
 John understands that I publish stories like this and hope to inform the public on my blog. And he was kind enough to offer a letter which I recently received.
 
-![John letter](/assets/images/2018-06-10-pennsylvania-corporate-tax-records-published-5.webp)
+![John letter](/assets/images/pennsylvania-corporate-tax-records-published-5.webp)
 
 ## Conclusion<
 

@@ -10,6 +10,6 @@ Banking information is another story. Bank eStatements are sent like the Slashdo
 
 So it is very surprising to see the following email from Amazon / Chase Visa with a notice to use an updated card they have sent. In an unprecedented and insecure move, they have merged this email with a list of past merchants and purchase dates of places I have done business. Also included is the last four digits of my credit card. This is precisely enough information for someone to [call you on the phone posing as a bank](https://privacylog.blogspot.com/2010/08/why-is-financial-fraud-so-easy-in.html) and then get your full account number and mother's maiden name ("for your security").
 
-![Email](/assets/images/2015-06-12-chase-credit-card-privacy-fail-email.webp)
+![Email](/assets/images/chase-credit-card-privacy-fail-email.webp)
 
 Private financial banking information should only be sent to customers over an insecure medium like email if the users have explicitly requested this and have [provided an encryption certificate to the bank just for this purpose](how-to-implement-paperless).

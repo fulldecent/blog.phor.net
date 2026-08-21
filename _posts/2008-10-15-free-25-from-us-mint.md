@@ -40,6 +40,6 @@ This is an update from the free money from the mint blog post. You are still abl
 
 Now I am attaching the photo that discourages this from their site:
 
-![Mint notes](/assets/images/2008-10-15-free-25-from-us-mint.webp)
+![Mint notes](/assets/images/free-25-from-us-mint.webp)
 
 Actually, there is another purpose here. If you can plan your cash needs in advance, this completely alleviates any need for you to use an ATM machine. Depositing checks is done via USPS mail to ING Direct, HSBC or other banks that support it. Withdrawing cash is done via this. Depositing cash is not supported. If you are cash flow positive in life, please consider choosing a profession other than selling drugs as your occupation.

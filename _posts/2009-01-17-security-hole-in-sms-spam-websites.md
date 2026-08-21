@@ -39,7 +39,7 @@ Examples of SMS spam websites include:
 - [iqlovetestv0.iqlovetest.com](https://iqlovetestv0.iqlovetest.com/)
 - [thankyoupath.com/landing_pages/quiz_dating](https://www.thankyoupath.com/landing_pages/quiz_dating/)
 
-![Screenshot](/assets/images/2009-01-17-security-hole-in-sms-spam-websites.webp)
+![Screenshot](/assets/images/security-hole-in-sms-spam-websites.webp)
 
 ### Exploit Example
 
