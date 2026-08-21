@@ -12,13 +12,13 @@ The price oracle documentation specifies how price anchors are set. However the 
 
 ## Specification
 
-Source: <https://github.com/compound-finance/compound-oracle/blob/master/docs/Oracle-Specification.pdf>
+Source (mirror): <https://github.com/fulldecent/compound-oracle/blob/4be2fad1644f056252a7347476d19e4b6db371e0/docs/Oracle-Specification.md>
 
 > At the beginning of every hour, the price is stored as a new anchor price, and every price for the rest of the hour must be within 10% of that price.
 
 ## Implementation
 
-Source: <https://github.com/compound-finance/compound-oracle/blob/master/contracts/PriceOracle.sol#L301>
+Source (mirror): <https://github.com/fulldecent/compound-oracle/blob/4be2fad1644f056252a7347476d19e4b6db371e0/contracts/PriceOracle.sol#L301>
 
 ```solidity
 localVars.currentPeriod = (block.number / numBlocksPerPeriod) + 1;
@@ -56,7 +56,7 @@ The advertised specification is not possible. I recommend the following new spec
 
 ### Update the implementation
 
-Remove `uint period` from <https://github.com/compound-finance/compound-oracle/blob/master/contracts/PriceOracle.sol#L301>.
+Remove `uint period` from <https://github.com/fulldecent/compound-oracle/blob/4be2fad1644f056252a7347476d19e4b6db371e0/contracts/PriceOracle.sol#L301>.
 
 Add `uint block` to record the anchor block.
 

@@ -101,7 +101,7 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - shopify.com — Contact IT for help.
 - shopify.com — <it@shopify.com>
 - shopify.com — <https://shopify.slack.com/messages/it>
-- shopify.com — <https://github.com/Shopify/it>
+- shopify.com — `https://github.com/Shopify/it`
 - shutterstock.com — If you require assistance with Google Apps, please contact <it@shutterstock.com>
 - soundcloud.com — Please contact <techsupport@soundcloud.com>
 - spotify.com — <it-support@spotify.com>
