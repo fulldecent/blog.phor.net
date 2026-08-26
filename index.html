@@ -5,7 +5,8 @@ title: William Entriken Blog — Analysis of all
 {%- assign all_posts = site.posts | sort: "date" | reverse | slice: 0, 20 -%}
 {%- for post in all_posts -%}
 {%- assign page_basename = post.path | remove: ".md" | remove: ".html" | remove: "_posts/" -%}
-{%- assign related_heros = site.static_files | where: "basename", page_basename -%}
+{%- assign post_slug = page_basename | slice: 11, 999 -%}
+{%- assign related_heros = site.static_files | where: "basename", post_slug -%}
 {%- for static_file in related_heros -%}
 <p class="margin-note">
   <img alt="{{ post.title | escape }} hero image" src="{{ static_file.path }}" style="max-height: 8rem">

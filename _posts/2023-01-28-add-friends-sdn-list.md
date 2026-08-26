@@ -37,7 +37,7 @@ A dapp that uses a contract interaction can add a value amount of 1000000000 Wei
 
 ## Supporting material/references
 
-![Transaction confirmation box](/assets/images/2023-01-28-add-friends-sdn-list.webp)
+![Transaction confirmation box](/assets/images/add-friends-sdn-list.webp)
 
 ## Impact
 

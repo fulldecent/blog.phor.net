@@ -9,7 +9,7 @@ Google does many good things for privacy of its customers, including leading a f
 
 One flaw in privacy is shown below.
 
-![Google misappropriating use of social security numbers](/assets/images/2014-04-21-google-misappropriates-ssn.webp)
+![Google misappropriating use of social security numbers](/assets/images/google-misappropriates-ssn.webp)
 
 Here, personally-identifiable information is collected from users including social security numbers and government-issued identification under the pretense that it will be used exclusively to "confirm your identity". However another page also notes that this will be used to "verify the identity of the individual" but also adds an extended scope of "We may also use this stored information for security purposes, for example, to ensure that someone trying to access the service is really the registered user.
 

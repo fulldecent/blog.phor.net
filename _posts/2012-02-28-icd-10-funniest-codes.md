@@ -18,7 +18,7 @@ comments:
 
 Situation: You've been involved in a water-skiing accident where your skis have caught fire and now you are being rushed to the emergency room.
 
-![Water skiing accident](/assets/images/2012-02-28-icd-10-funniest-codes.webp)
+![Water skiing accident](/assets/images/icd-10-funniest-codes.webp)
 
 The good news: There a code for that. ICD-10-CM ("we have to pass the bill so that you can find out what is in it") has anticipated this and your hospital will have no problem billing insurance for your treatment.
 

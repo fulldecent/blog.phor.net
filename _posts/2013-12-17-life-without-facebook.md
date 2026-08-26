@@ -16,7 +16,7 @@ Top 10 reasons to delete Facebook in 2013:
 
 4. You are the product, and the personal information collection is getting extreme (you are being targeted not just based on clicking "I am married" but based on patterns of things you do on the internet that they see which indicate you are married)
 
-   ![Facebook data collection](/assets/images/2013-12-17-life-without-facebook.webp)
+   ![Facebook data collection](/assets/images/life-without-facebook.webp)
 
 5. Facebook <a href="https://www.facebook.com/help/385569904840341" target="_blank">asking for government ID</a> to use your accounts
 6. I miss talking to people on the phone

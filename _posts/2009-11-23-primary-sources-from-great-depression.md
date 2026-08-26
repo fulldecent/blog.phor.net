@@ -31,9 +31,9 @@ October 30th, 1929
 >
 > - New York Times, October 30th, 1929, p. 2
 
-![Oct 30, 1929](/assets/images/2009-11-23-primary-sources-from-great-depression-19291030p1.webp)
+![Oct 30, 1929](/assets/images/primary-sources-from-great-depression-19291030p1.webp)
 
-![alt text](/assets/images/2009-11-23-primary-sources-from-great-depression-19291030p2.webp)
+![alt text](/assets/images/primary-sources-from-great-depression-19291030p2.webp)
 
 > Insurance Heads Urged to Buy Stocks
 >
@@ -44,7 +44,7 @@ October 30th, 1929
 19291030p1
 To properly read this quote, a person from the modern days must realize that in the past banks and insurance companies were separate entities. Please read these pages to see other cases of optimism and take in a feel of which parties are saying what, then compare to the DJIA during the period. The date of that article is highlighted. Of course, the [S&P 500 would have been a better index](https://fulldecent.blogspot.com/2008/09/where-do-you-get-your-finance-news-why.html), but it didn't exist back then.
 
-![DJIA](/assets/images/2009-11-23-primary-sources-from-great-depression-djia19201940s.webp)
+![DJIA](/assets/images/primary-sources-from-great-depression-djia19201940s.webp)
 
 June 30th, 1930
 
@@ -56,7 +56,7 @@ June 30th, 1930
 
 Globalization is a much more delicate issue today and "us versus them" taxes would be presented and received in a different light than yesteryear.
 
-![Jun 30, 1930](/assets/images/2009-11-23-primary-sources-from-great-depression-19310630p33.webp)
+![Jun 30, 1930](/assets/images/primary-sources-from-great-depression-19310630p33.webp)
 
 April 6, 1933
 
@@ -78,7 +78,7 @@ The main headline of the day was "Beer Is Legal At Midnight; Brewers To Ban 'Car
 
 Also on page one is a smaller story, which is continued on page seven, titled "President Invokes Gold Hoarder Law". This is also known as [Executive Order 6102](https://en.wikipedia.org/wiki/Executive_Order_6102).
 
-![Apr 6, 1933](/assets/images/2009-11-23-primary-sources-from-great-depression-19330406p1.webp)
+![Apr 6, 1933](/assets/images/primary-sources-from-great-depression-19330406p1.webp)
 
 June 17th, 1933
 
@@ -88,9 +88,9 @@ The main headline was "President Starts Recovery Program, Signs Bank, Rail and I
 >
 > - New York Times, June 17th, 1933 p. 1
 
-![Jun 17, 1933](/assets/images/2009-11-23-primary-sources-from-great-depression-19330617p1.webp)
+![Jun 17, 1933](/assets/images/primary-sources-from-great-depression-19330617p1.webp)
 
-![alt text](/assets/images/2009-11-23-primary-sources-from-great-depression-19330406p2.webp)
+![alt text](/assets/images/primary-sources-from-great-depression-19330406p2.webp)
 
 To put this into context, here is an overview of unemployment by Linda Levine submitted to the US Congress in June 2009, "The Labor Market during the Great Depression and the Current Recession":
 

@@ -31,7 +31,7 @@ When you first setup you iPhone, [iCloud is enabled by default](https://www.yout
 
 More importantly, iCloud is stored in a way that by default Apple has [access to every photo you take](https://support.apple.com/en-us/102651).
 
-![Upgrade to iCloud](/assets/images/2026-05-11-apple-antitrust-case.webp)
+![Upgrade to iCloud](/assets/images/apple-antitrust-case.webp)
 
 As your iPhone fills up, you can't use features until you address this issue. iPhone shows you an upgrade path to pay monthly for iCloud. This is the exact moment of maximum user pain — and only Apple gets to appear there. Third-party apps are not allowed know this moment of pain, or to show up in this upgrade path.
 

@@ -11,7 +11,7 @@ Did you ever quickly sign a message and not know what it was?
 
 For example, here is a message for logging into Rarible.
 
-![Message signature request for logging into Rarible](/assets/images/2023-08-13-what-if-i-sign-a-bad-message.webp)
+![Message signature request for logging into Rarible](/assets/images/what-if-i-sign-a-bad-message.webp)
 
 This article explains the worst thing that could happen if you sign a message you didn't understand. And it explains an ongoing issue with major Ethereum wallet applications that implement message signing.
 

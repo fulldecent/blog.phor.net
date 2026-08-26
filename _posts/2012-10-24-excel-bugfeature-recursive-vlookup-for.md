@@ -10,7 +10,7 @@ There's lots of Q&A websites out there talking about Excel bugs that are actuall
 
 Why should I care? Here's one type of problem you can solve with this "feature". Suppose we have an organizational chart and want to find how many levels deep each person is. Similar to [this problem posted on MrExcel](https://www.mrexcel.com/forum/excel-questions/455301-recursive-hierarchy-problem.html).
 
-![Org chart template](/assets/images/2012-10-24-excel-bugfeature-recursive-vlookup-for.webp)
+![Org chart template](/assets/images/excel-bugfeature-recursive-vlookup-for.webp)
 
 ```mermaid
 graph LR;
@@ -72,6 +72,6 @@ Now... what if you enter a value that is a legitimate circular reference?
 
 In 2007 and 2010 calculation is halted without an error. In Excel 2011, this throws an error correctly.
 
-![Letter 2 try](/assets/images/2012-10-24-excel-bugfeature-recursive-vlookup-for-2.webp)
+![Letter 2 try](/assets/images/excel-bugfeature-recursive-vlookup-for-2.webp)
 
 So in conclusion, Excel will allow you to evaluate true recursive problems with `VLOOKUP` without resorting to iterative calculation, which nobody wants to use. The engine just works and produces the correct answer if it is mathematically possible.

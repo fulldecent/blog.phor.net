@@ -9,7 +9,7 @@ Question: Does the US government spend money on causes that the population suppo
 
 Answer:
 
-![!Part 1](/assets/images/2011-02-27-us-government-spending.webp)
+![!Part 1](/assets/images/us-government-spending.webp)
 
 Sources:
 

@@ -18,7 +18,7 @@ For those that are new here, the profile riddle started in 2002. The rankings ar
 {: .margin-note}
 From The Muppet Movie, 1979, which I expect is out of copyright by now.
 
-![Muppets and beakers](/assets/images/2005-10-18-riddle-beakers.webp)
+![Muppets and beakers](/assets/images/riddle-beakers.webp)
 
 ## More riddle woes
 

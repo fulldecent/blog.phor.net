@@ -9,4 +9,4 @@ comments:
     text: I want to let her know when she grow up
 ---
 
-![Too spicy](/assets/images/2008-05-10-dont-like-wasabi-peas.webp)
+![Too spicy](/assets/images/dont-like-wasabi-peas.webp)

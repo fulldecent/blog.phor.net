@@ -13,7 +13,7 @@ comments:
 
 *Posting for a friend without a blog*
 
-![American jobs](/assets/images/2010-09-24-mexicans-are-taking-all-our-jobs-kick.webp)
+![American jobs](/assets/images/mexicans-are-taking-all-our-jobs-kick.webp)
 
 Here's the argument, I'm sure you heard it before:
 

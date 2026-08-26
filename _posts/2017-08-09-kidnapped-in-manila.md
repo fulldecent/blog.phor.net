@@ -42,22 +42,22 @@ The Jeepney stops after about 10 minutes and The Guy tells me we're early so I s
 {: .margin-note}
 The Jeepney and taxi ride
 
-![Jeepney taxi](/assets/images/2017-08-09-kidnapped-in-manila.webp)
+![Jeepney taxi](/assets/images/kidnapped-in-manila.webp)
 
 {: .margin-note}
 Jeepneys are fun, but I can barely fit inside
 
-![Jeepneys inside](/assets/images/2017-08-09-kidnapped-in-manila-2.webp)
+![Jeepneys inside](/assets/images/kidnapped-in-manila-2.webp)
 
 {: .margin-note}
 My captor hailing a taxi
 
-![Hailing a taxi](/assets/images/2017-08-09-kidnapped-in-manila-3.webp)
+![Hailing a taxi](/assets/images/kidnapped-in-manila-3.webp)
 
 {: .margin-note}
 Other Guy didn't let me take a selfie with him, but I took this one inadvertently
 
-![Other Guy in organ museum](/assets/images/2017-08-09-kidnapped-in-manila-4.webp)
+![Other Guy in organ museum](/assets/images/kidnapped-in-manila-4.webp)
 
 The taxi stops in Zapote, Las Piñas City exactly at [a Jeepney stop](https://goo.gl/maps/ZLy9Jiognso). We're here and we're a total party of 8 people now including Mina a 30-year-old girl that was The Guy's student in school, Mina's brother, Old Lady who is probably exactly 69 years old and talks constantly about how she loves sex, and *Quiet Attractive Late 30s Girl*.
 
@@ -70,7 +70,7 @@ So I sing a few songs with Mina and Mina's brother. Mina loves 90's loves songs.
 {: .margin-note}
 Little do they know I'm a karaoke veteran
 
-![Coin-op KTV](/assets/images/2017-08-09-kidnapped-in-manila-5.webp)
+![Coin-op KTV](/assets/images/kidnapped-in-manila-5.webp)
 
 Something wasn't right, if we're having a good time why wont anyone let me take their photo. Then I pull out my phone and ask if I can get a photo of the table. NO NO! *Pregnant Lady* is Pregnant, if you take a photo it will mess up the baby. Ok. I didn't really think about it. This is the downside of seeing lots of things, this totally wasn't weird to hear. Then the bitch lights up a cigarette.
 
@@ -105,7 +105,7 @@ Two of the officers transport me to the Makati Central Police Station. We're cha
 {: .margin-note}
 Police report in Makati
 
-![Police report](/assets/images/2017-08-09-kidnapped-in-manila-6.webp)
+![Police report](/assets/images/kidnapped-in-manila-6.webp)
 
 After getting back to the USA, I contact the FBI (not interested), DHS (no jurisdiction), the embassy (form letter response), and the Philippine National Police Anti-Kidnapping Group (no response), and the investigator written on the above statement (no response).
 
@@ -118,7 +118,7 @@ Since my request, another incident has happened in Manila which President Donald
 {: .margin-note}
 Department of State is worthless to me
 
-![Department of State is worthless](/assets/images/2017-08-09-kidnapped-in-manila-7.webp)
+![Department of State is worthless](/assets/images/kidnapped-in-manila-7.webp)
 
 ## Conclusion
 
@@ -188,12 +188,12 @@ Later, with the help of Upwork and my personal contacts, I was able to identify 
 {: .margin-note}
 A photo from the restaurant by Helper A
 
-![Restaurant photo](/assets/images/2017-08-09-kidnapped-in-manila-8.webp)
+![Restaurant photo](/assets/images/kidnapped-in-manila-8.webp)
 
 {: .margin-note}
 A photo from the restaurant by Helper B
 
-![Restaurant photo](/assets/images/2017-08-09-kidnapped-in-manila-9.webp)
+![Restaurant photo](/assets/images/kidnapped-in-manila-9.webp)
 
 Both helpers identified the restaurant as NENENG EATERY & VIDEOKE in Zapote, Las Pinas City. I asked them to take photos of specific parts of the restaurant and I can confirm that it is a match.
 

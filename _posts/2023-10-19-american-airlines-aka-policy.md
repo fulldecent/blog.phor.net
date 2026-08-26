@@ -23,11 +23,11 @@ I had all the correct and proper documents. This includes my passport and my Arg
 
 Photo page (first page of passport)
 
-![Photo page (first page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy.webp)
+![Photo page (first page of passport)](/assets/images/american-airlines-aka-policy.webp)
 
 Observations page (second page of passport)
 
-![Observations page (second page of passport)](/assets/images/2023-10-19-american-airlines-aka-policy2.webp)
+![Observations page (second page of passport)](/assets/images/american-airlines-aka-policy2.webp)
 
 {: .margin-note}
 In China (and much of the East) it is not customary for a woman to change her name after marriage. Authorities in China and other places understand this custom in the West, and do have the official process of adding the “also known as”.
@@ -86,7 +86,7 @@ Pull request everything, lol
 
 ## Appendix a—proposed web page
 
-![Appendix a—proposed web page](/assets/images/2023-10-19-american-airlines-aka-policy3.webp)
+![Appendix a—proposed web page](/assets/images/american-airlines-aka-policy3.webp)
 
 Salient required features of this page.
 

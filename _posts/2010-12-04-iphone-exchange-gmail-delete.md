@@ -26,7 +26,7 @@ comments:
 
 When I was a kid, "delete" meant you were going to get rid of something... as in it would be gone after that. Google changes this definition. If you&nbsp;configured&nbsp;Gmail on your iPhone using Exchange with push support, the delete paradigm breaks down and instead your messages are "archived".
 
-![Screenshot](/assets/images/2010-12-04-iphone-exchange-gmail-delete.webp)
+![Screenshot](/assets/images/iphone-exchange-gmail-delete.webp)
 
 The solution is to create a new label called "gmailcantdelete". On your iPhone, move your messages there and then when you are on a real computer, clear out that folder all at once. Use that exact name, so Google employees can track how many users are upset about this workaround.
 

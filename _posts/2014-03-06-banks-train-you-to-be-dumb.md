@@ -36,7 +36,7 @@ How many places that you do business require your social security number and/or 
 
 As more and more entities start asking for your papers, it is interesting to see that this is their first time handling and securing this personal private information. Here's one shining example of an email I received from Amazon(?) today.
 
-![Amazon data collection](/assets/images/2014-03-06-banks-train-you-to-be-dumb.webp)
+![Amazon data collection](/assets/images/banks-train-you-to-be-dumb.webp)
 
 They are making the same mistakes the banks have became an expert at making: request customers to send important personal information to some random phone number... with no way to validate this is a legitimate phone number.
 

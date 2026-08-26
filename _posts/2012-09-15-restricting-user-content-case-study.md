@@ -8,23 +8,23 @@ Today we are looking at 世纪佳缘 (jiayuan.com), the largest friend match mak
 
 In the last week I have 30 new messages, here's the inbox.
 
-![Inbox](/assets/images/2012-09-15-restricting-user-content-case-study.webp)
+![Inbox](/assets/images/restricting-user-content-case-study.webp)
 
 And here is the first letter, you can see for free:
 
 > (#1) <https://msg.jiayuan.com/showmsg.php?msg_id=Sdji0-eh7VXFAMvpIuY5h8m5oco2sN9U9UJBcWmhrHVdmNF7fw8dZhtW1GYQP-uV&amp;box_type=inbox>
 
-![Letter 1](/assets/images/2012-09-15-restricting-user-content-case-study-2.webp)
+![Letter 1](/assets/images/restricting-user-content-case-study-2.webp)
 
 But when you try to click on the second one...
 
-![Letter 2](/assets/images/2012-09-15-restricting-user-content-case-study-3.webp)
+![Letter 2](/assets/images/restricting-user-content-case-study-3.webp)
 
 Blocked, you need to pay to see this. Lots of messages and you can't see them... is this a scam or are there real people on the other side of the line? Let's poke around. Actually, this is just an iframe, so lets load it separately.
 
 > (#2) <https://msg.jiayuan.com/shownewmsg.php?kanxin=0&amp;putong=0&amp;msg_id=IT6dG258ylJdfW6w5-qTN95jfPNZt16MxTfBIbI%2AJQb8y0nHsrO9PDsul1sGiQdt>
 
-![Letter 2 iframe](/assets/images/2012-09-15-restricting-user-content-case-study-4.webp)
+![Letter 2 iframe](/assets/images/restricting-user-content-case-study-4.webp)
 
 Basically the whole game here is you want to compare the URLs to see what is different so you can take the one that works (#1) and get a working URL with the content you want (#2).
 
@@ -35,13 +35,13 @@ So let's try this:
 
 > <https://msg.jiayuan.com/><span style="background-color: #b6d7a8;">showmsg</span>.php?kanxin=0&amp;putong=0&amp;msg_id=IT6dG258ylJdfW6w5-qTN95jfPNZt16MxTfBIbI%2AJQb8y0nHsrO9PDsul1sGiQdt<span style="background-color: #b6d7a8;">&amp;box_type=inbox</span>
 
-![Letter 2 try](/assets/images/2012-09-15-restricting-user-content-case-study-5.webp)
+![Letter 2 try](/assets/images/restricting-user-content-case-study-5.webp)
 
 Fail, OK, let's try removing that other part all together...
 
 > <https://msg.jiayuan.com/><span style="background-color: #b6d7a8;">showmsg</span>.php?kanxin=0&amp;putong=0&amp;msg_id=IT6dG258ylJdfW6w5-qTN95jfPNZt16MxTfBIbI%2AJQb8y0nHsrO9PDsul1sGiQdt
 
-![Letter 2 try 2](/assets/images/2012-09-15-restricting-user-content-case-study-6.webp)
+![Letter 2 try 2](/assets/images/restricting-user-content-case-study-6.webp)
 
 This fails too... but there's a clue:
 
@@ -52,13 +52,13 @@ Ok... let's try the outbox:
 
 > <https://msg.jiayuan.com/><span style="background-color: #b6d7a8;">showmsg</span>.php?kanxin=0&amp;putong=0&amp;msg_id=IT6dG258ylJdfW6w5-qTN95jfPNZt16MxTfBIbI%2AJQb8y0nHsrO9PDsul1sGiQdt<span style="background-color: #b6d7a8;">&amp;box_type=outbox</span>
 
-![Letter 2 try 3](/assets/images/2012-09-15-restricting-user-content-case-study-7.webp)
+![Letter 2 try 3](/assets/images/restricting-user-content-case-study-7.webp)
 
 Same error. Going on a limb here... let's try the "sent" box:
 
 > <https://msg.jiayuan.com/><span style="background-color: #b6d7a8;">showmsg</span>.php?kanxin=0&amp;putong=0&amp;msg_id=IT6dG258ylJdfW6w5-qTN95jfPNZt16MxTfBIbI%2AJQb8y0nHsrO9PDsul1sGiQdt<span style="background-color: #b6d7a8;">&amp;box_type=sent</span>
 
-![Letter 2 try 4](/assets/images/2012-09-15-restricting-user-content-case-study-8.webp)
+![Letter 2 try 4](/assets/images/restricting-user-content-case-study-8.webp)
 
 Bingo! I can see the letter, but it shows the page as if I had sent the letter to her. This letter is in English and she sent:
 

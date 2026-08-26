@@ -16,7 +16,7 @@ https://www.nps.gov/hdp/scripts/pannellum/pannellum.htm?config=/\/cdn.wsscript.c
 
 Your browser address bar will show `www.nps.gov/defi/tensor-solana-nft`. The page content will be an article titled "Tensor Solana Nft" with a video player, SEO markup, and crypto marketing text. None of this content has anything to do with the National Park Service.
 
-![Crypto spam served under the nps.gov domain](/assets/images/2026-02-13-schools-and-governments-recommend-crypto-scams.webp)
+![Crypto spam served under the nps.gov domain](/assets/images/schools-and-governments-recommend-crypto-scams.webp)
 
 This URL was also distributed through Google News RSS, using the redirect at:
 
@@ -40,7 +40,7 @@ https://www.nps.gov/hdp/scripts/pannellum/pannellum.htm
 
 This is a legitimate tool used for 360° panorama images of historic sites. Pannellum is designed to accept a `config` query parameter containing the URL of a JSON configuration file. The viewer fetches this JSON via XMLHttpRequest and uses it to set up the panorama display.
 
-![Pannellum displaying a panorama of a historic site on nps.gov](/assets/images/2026-02-13-schools-and-governments-recommend-crypto-scams-2.webp)
+![Pannellum displaying a panorama of a historic site on nps.gov](/assets/images/schools-and-governments-recommend-crypto-scams-2.webp)
 
 Here is what this widget is supposed to look like when it is working. It is beautiful.
 

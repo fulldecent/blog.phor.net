@@ -84,23 +84,23 @@ So... I was talking to a bot. Anyway, LinkedIn DOES collect more information tha
 
 Here is my own profile page to start:
 
-![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data.webp)
+![Profile](/assets/images/linkedin-steals-private-address-data.webp)
 
 Here is me creating a Gmail account and adding some personal information:
 
-![Gmail](/assets/images/2008-12-23-linkedin-steals-private-address-data-2.webp)
+![Gmail](/assets/images/linkedin-steals-private-address-data-2.webp)
 
 Here is me importing my webmail account:
 
-![Import](/assets/images/2008-12-23-linkedin-steals-private-address-data-3.webp)
+![Import](/assets/images/linkedin-steals-private-address-data-3.webp)
 
 Here is my profile page with the new information:
 
-![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data-4.webp)
+![Profile](/assets/images/linkedin-steals-private-address-data-4.webp)
 
 ... and closer up:
 
-![Profile](/assets/images/2008-12-23-linkedin-steals-private-address-data-5.webp)
+![Profile](/assets/images/linkedin-steals-private-address-data-5.webp)
 
 ## Results
 

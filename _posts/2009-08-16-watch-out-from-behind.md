@@ -14,4 +14,4 @@ comments:
 
 Also, an English lesson: butt is usually singular.
 
-![Butts](/assets/images/2009-08-16-watch-out-from-behind.webp)
+![Butts](/assets/images/watch-out-from-behind.webp)

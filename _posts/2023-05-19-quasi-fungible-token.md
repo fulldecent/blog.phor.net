@@ -15,7 +15,7 @@ This week, Europe passed [legislation regulating markets for crypto tokens](http
 
 Today we've got our truck driving glasses on.
 
-![Man driving truck with sunglasses, courtesy World Sikh Organization of Canada @ Pexels #14797994](/assets/images/2023-05-19-quasi-fungible-token.webp)
+![Man driving truck with sunglasses, courtesy World Sikh Organization of Canada @ Pexels #14797994](/assets/images/quasi-fungible-token.webp)
 
 ## What's out of scope?
 

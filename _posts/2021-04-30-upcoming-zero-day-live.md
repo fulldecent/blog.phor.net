@@ -11,7 +11,7 @@ Zero Day Live
 
 Join our interactive hacking Twitch. Get in 30 popular websites. With a zero day. Live. With audience participation and help. Also writing the blog post. And notifying the affected people. About 90 minutes.
 
-![ZDL](/assets/images/2021-04-30-upcoming-zero-day-live.webp)
-![ZDL](/assets/images/2021-04-30-upcoming-zero-day-live-2.webp)
-![ZDL](/assets/images/2021-04-30-upcoming-zero-day-live-3.webp)
-![ZDL](/assets/images/2021-04-30-upcoming-zero-day-live-4.webp)
+![ZDL](/assets/images/upcoming-zero-day-live.webp)
+![ZDL](/assets/images/upcoming-zero-day-live-2.webp)
+![ZDL](/assets/images/upcoming-zero-day-live-3.webp)
+![ZDL](/assets/images/upcoming-zero-day-live-4.webp)

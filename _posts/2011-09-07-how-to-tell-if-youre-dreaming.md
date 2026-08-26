@@ -16,15 +16,15 @@ What do these 5 high budget movies have in common:
 
 They are based on a character with a misconception about reality -- lucid dreaming,&nbsp;schizophrenia, etc. which are pretty much the same category of brain damage.
 
-![Dreaming](/assets/images/2011-09-07-how-to-tell-if-youre-dreaming.webp)
+![Dreaming](/assets/images/how-to-tell-if-youre-dreaming.webp)
 
-![Dreaming](/assets/images/2011-09-07-how-to-tell-if-youre-dreaming-2.webp)
+![Dreaming](/assets/images/how-to-tell-if-youre-dreaming-2.webp)
 
-![Dreaming](/assets/images/2011-09-07-how-to-tell-if-youre-dreaming-3.webp)
+![Dreaming](/assets/images/how-to-tell-if-youre-dreaming-3.webp)
 
-![Dreaming](/assets/images/2011-09-07-how-to-tell-if-youre-dreaming-4.webp)
+![Dreaming](/assets/images/how-to-tell-if-youre-dreaming-4.webp)
 
-![Dreaming](/assets/images/2011-09-07-how-to-tell-if-youre-dreaming-5.webp)
+![Dreaming](/assets/images/how-to-tell-if-youre-dreaming-5.webp)
 
 BUT LUCKILY YOU CAN PREVENT THIS FROM HAPPENING TO YOU. READ ON.
 

@@ -25,7 +25,7 @@ ProDPI uses several systems for sales, client interaction, and order processing:
 - <https://www.prodpiroes.com> backend server for ROES
 - <https://199.127.202.18:81> backend server for ROES
 
-![Systems](/assets/images/2015-07-04-prodpi-customer-information-leak.webp)
+![Systems](/assets/images/prodpi-customer-information-leak.webp)
 
 ## The vulnerability
 
@@ -33,7 +33,7 @@ When accessing the <https://www.prodpiconnect.com/> website to review an order, 
 
 - <https://www.prodpiconnect.com/invoice_prodpi.asp?InvoiceID=1126629>
 
-![Access](/assets/images/2015-07-04-prodpi-customer-information-leak.webp)
+![Access](/assets/images/prodpi-customer-information-leak.webp)
 
 However, you are able to modify the number in the URL to access the invoice from a user account which is not yours.
 

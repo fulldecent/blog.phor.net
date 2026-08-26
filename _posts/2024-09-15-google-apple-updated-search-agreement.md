@@ -62,7 +62,7 @@ So if Google bids 3¢ per query and wants to buy all of them, but DuckDuckGo bid
 
 This allows Apple to maximize revenue. It allows DuckDuckGo to purchase some traffic. And it allows Apple to build a search engine if they want to.
 
-![Contract changes](/assets/images/2024-09-15-google-apple-updated-search-agreement.webp)
+![Contract changes](/assets/images/google-apple-updated-search-agreement.webp)
 
 ## How it effects you
 

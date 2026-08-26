@@ -9,12 +9,12 @@ A PIN number is used with your debit card so that if someone else gets access to
 
 **FACT: 99% of Chinese people use their birthday as their PIN number**
 
-![PIN number](/assets/images/2011-08-27-east-west-pin-numbers.webp)
+![PIN number](/assets/images/east-west-pin-numbers.webp)
 
 **Chinese People PIN numbers:**
 
-![PIN number 2](/assets/images/2011-08-27-east-west-pin-numbers-2.webp)
+![PIN number 2](/assets/images/east-west-pin-numbers-2.webp)
 
 **American people PIN numbers:**
 
-![PIN number 3](/assets/images/2011-08-27-east-west-pin-numbers-3.webp)
+![PIN number 3](/assets/images/east-west-pin-numbers-3.webp)

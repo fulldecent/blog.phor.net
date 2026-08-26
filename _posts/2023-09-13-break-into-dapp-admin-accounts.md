@@ -50,7 +50,7 @@ And if you don't want to allow other random websites to man-in-the-middle your c
 
 I have reviewed several projects to see if they implement this correctly:
 
-![dApp login implementations](/assets/images/2023-09-13-break-into-dapp-admin-accounts.webp)
+![dApp login implementations](/assets/images/break-into-dapp-admin-accounts.webp)
 
 - azuki.com ❌ does not include nonce
 - boredapeyachtclub.com ✅ includes nonce

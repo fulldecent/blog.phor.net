@@ -12,4 +12,4 @@ I don't want to get involved in censoring, however I'm having trouble finding an
 <br>
 Thanks!<br>
 Dan</blockquote>
-![Preston and Steve handguns](/assets/images/2007-10-13-preston-steve-handguns.webp)
+![Preston and Steve handguns](/assets/images/preston-steve-handguns.webp)

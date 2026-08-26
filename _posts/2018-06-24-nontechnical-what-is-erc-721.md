@@ -21,7 +21,7 @@ But first, let's think about something you use every day:
 
 Most of your time on computers/phones/technology is spent essentially with a web browser accessing a web page. Most of the screens you see out in the world that display information are essentially using a web page to show it, but they just hide the URL bar.
 
-![Flight board](/assets/images/2018-06-24-nontechnical-what-is-erc-721.webp)
+![Flight board](/assets/images/nontechnical-what-is-erc-721.webp)
 
 *The flight arrivals screen—it's just a web page.*
 
@@ -45,7 +45,7 @@ The blockchain is a set a computers that are connected together. And each of the
 
 Some smart people believe that the blockchain is very tamper-resistant and censorship-resistant. That's why technology people are excited to use it. The way you will access the blockchain is still using a web browser. But there is an extension that has a special feature to connect you to the blockchain in addition to web servers.
 
-![Browser](/assets/images/2018-06-24-nontechnical-what-is-erc-721-2.webp)
+![Browser](/assets/images/nontechnical-what-is-erc-721-2.webp)
 
 *A browser extension connects you to the blockchain.*
 
@@ -59,7 +59,7 @@ Ethereum is the leading technology stack for applications on the blockchain. [ER
 
 **This gets more interesting if an entity you trust endorses that application.** If you go to an office-supply store and buy a roll of ADMIT ONE tickets and you look at ticket #755100 that is not very interesting. But if you are at a charity event and the host says "whoever has ticket #755100 wins this painting," then the ticket you got at the charity is much more interesting, at least for whoever has that ticket. For the avoidance of doubt: at the charity ball, the reason this is interesting is because you have a credible belief that the host will redeem your ticket for the painting.
 
-![Ticket](/assets/images/2018-06-24-nontechnical-what-is-erc-721-3.webp)
+![Ticket](/assets/images/nontechnical-what-is-erc-721-3.webp)
 
 *Think about when you might be excited to have this ticket.*
 

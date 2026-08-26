@@ -14,7 +14,7 @@ In an embarrassing echo of "politically correct" language from the 1990's, a sci
 
 The faux pas here suggests that black people (even "people of African descent") have a higher sensitivity to sodium (Rosalind, 2000) but only while located in America but not, for example, Mexico. A literal intepretation of this American Health Association article could be that they are recommending to export the blacks from America to reduce their negative impact of sodium!
 
-![America](/assets/images/2014-06-20-black-vs-african-american-medical.webp)
+![America](/assets/images/black-vs-african-american-medical.webp)
 
 Here is the work cited for this AHA article:
 

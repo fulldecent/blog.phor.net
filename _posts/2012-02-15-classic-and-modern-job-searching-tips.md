@@ -75,7 +75,7 @@ Engineers use Monster, Business People use CareerBuilder, IT people use Dice. Ge
 
 If you do it right, it should look like this after a few weeks:
 
-![Resume on Monster](/assets/images/2012-02-15-classic-and-modern-job-searching-tips.webp)
+![Resume on Monster](/assets/images/classic-and-modern-job-searching-tips.webp)
 
 **Take unfair advantages (a Will bonus section)**
 

@@ -16,7 +16,7 @@ source: About.com, a site for business forms
 
 url: <https://jobsearch.about.com/od/sampleresumes/l/blresumehrmgmt.htm>
 
-![Resume USA](/assets/images/2011-08-27-resumes-in-east-and-west.webp)
+![Resume USA](/assets/images/resumes-in-east-and-west.webp)
 
 ## Sample resume in China
 
@@ -24,4 +24,4 @@ source: The first result on Baidu.com
 
 url: <https://www.58.com/jianli/gerenjianlifanwen/20110809/20548.html>
 
-![Resume CN](/assets/images/2011-08-27-resumes-in-east-and-west-2.webp)
+![Resume CN](/assets/images/resumes-in-east-and-west-2.webp)

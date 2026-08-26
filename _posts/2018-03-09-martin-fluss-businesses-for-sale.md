@@ -52,7 +52,7 @@ This address matches the description Martin provided to us on the phone. Martinâ
 
 Possible photo of Fluss ([source](https://www.realscam.com/attachments/f16/6375d1384963154-multi-million-dollar-opportunities-martin-fluss-scam-great-opportunity-capture.jpg)):
 
-![Martin photo](/assets/images/2018-03-09-martin-fluss-businesses-for-sale.webp)
+![Martin photo](/assets/images/martin-fluss-businesses-for-sale.webp)
 
 ## Other businesses Martin Fluss operates
 

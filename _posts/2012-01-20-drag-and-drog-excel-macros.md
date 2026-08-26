@@ -6,7 +6,7 @@ old-link: https://fulldecent.blogspot.com/2012/01/run-excel-macro-on-any-file-us
 
 Create an Excel macro, put that macro in a .BAS file and then use this script to apply that macro to any Excel file.
 
-![RunMacro](/assets/images/2012-01-20-drag-and-drog-excel-macros.webp)
+![RunMacro](/assets/images/drag-and-drog-excel-macros.webp)
 
 Here is the VBS file, written in WSCRIPT:
 

@@ -82,7 +82,7 @@ Okay, now let's move on to tokens. Basically for this, Bitcoin and blockchain to
 
 So let's look at how they work.
 
-![What is an ERC-20 token?](/assets/images/2023-05-15-what-is-money.svg)
+![What is an ERC-20 token?](/assets/images/what-is-money.svg)
 
 I drag out this slide as three different slides. But bear with me, I'll type it out.
 

@@ -24,7 +24,7 @@ Here is a record of my recent trip to China, traveling alone. FYI, 7元 is about
 
 汉庭快捷酒店 上海黄浦区中山南路433号
 
-![Hanting](/assets/images/2009-10-30-memoirs-of-trip-to-china.webp)
+![Hanting](/assets/images/memoirs-of-trip-to-china.webp)
 
 2009-09-27 I took a ride from a stranger to get from the airport to the train station. After that, I was amazed by how little people on the street could help me. If I couldn't speak the language, this trip could have really sucked. I rushed to my hotel and checked in to relax.
 
@@ -40,13 +40,13 @@ Went to  南京路 for shopping and food. Many people tried to  sell me things, 
 
  I went to 工商银行 to trade some money, the teller used an abacus to do the math.
 
-![Abacus at bank](/assets/images/2009-10-30-memoirs-of-trip-to-china-2.webp)
+![Abacus at bank](/assets/images/memoirs-of-trip-to-china-2.webp)
 
 Later, I ate dinner at an unassuming shop on 四川路 which doubled as that person's house. Afterwards, I played a card game, 斗地主, with some strangers till midnight.
 
 2009-09-29 Went to a park 豫园. This was the first of many parks that will eventually look the same. At night, I traded gifts with the employees at 汉庭 hotel, who are awesome, and got ready to leave.
 
-![Hanting staff](/assets/images/2009-10-30-memoirs-of-trip-to-china-3.webp)
+![Hanting staff](/assets/images/memoirs-of-trip-to-china-3.webp)
 
 2009-09-30 Met my cousin Rob east of the river to check out the financial district. Also, getting a cab in East Shanghai is not easy if you are foreign.
 
@@ -56,10 +56,10 @@ Later, I ate dinner at an unassuming shop on 四川路 which doubled as that per
 
 My time at Jiaxing included the national holiday, and Bolomi set up a vending stand in the middle of a closed off street market.
 
-![Jiaxing](/assets/images/2009-10-30-memoirs-of-trip-to-china-4.webp)
-![Jiaxing](/assets/images/2009-10-30-memoirs-of-trip-to-china-5.webp)
-![Jiaxing](/assets/images/2009-10-30-memoirs-of-trip-to-china-6.webp)
-![Jiaxing](/assets/images/2009-10-30-memoirs-of-trip-to-china-7.webp)
+![Jiaxing](/assets/images/memoirs-of-trip-to-china-4.webp)
+![Jiaxing](/assets/images/memoirs-of-trip-to-china-5.webp)
+![Jiaxing](/assets/images/memoirs-of-trip-to-china-6.webp)
+![Jiaxing](/assets/images/memoirs-of-trip-to-china-7.webp)
 
 2009-09-30 I traveled to Jiaxing to meet Wenyen's parents. My itinerary was shuffled around and I stayed for 3 days at the Bolomi Bakery factory 波羅蜜. Day one was full of embarrassment.
 
@@ -72,10 +72,10 @@ At dinner, I almost died in a chopsticks accident, dropping a hot pepper in my e
 
 2009-10-03 We drove to 江苏 along the bay and I was on my way.
 
-![Zhejiang](/assets/images/2009-10-30-memoirs-of-trip-to-china-8.webp)
-![Zhejiang](/assets/images/2009-10-30-memoirs-of-trip-to-china-9.webp)
-![Zhejiang](/assets/images/2009-10-30-memoirs-of-trip-to-china-10.webp)
-![Zhejiang](/assets/images/2009-10-30-memoirs-of-trip-to-china-11.webp)
+![Zhejiang](/assets/images/memoirs-of-trip-to-china-8.webp)
+![Zhejiang](/assets/images/memoirs-of-trip-to-china-9.webp)
+![Zhejiang](/assets/images/memoirs-of-trip-to-china-10.webp)
+![Zhejiang](/assets/images/memoirs-of-trip-to-china-11.webp)
 
 ## Suzhou, Jiangsu province
 
@@ -83,14 +83,14 @@ At dinner, I almost died in a chopsticks accident, dropping a hot pepper in my e
 
 2009-10-04 There's a few pretty parks in Suzhou, I saw 狮子林 (OK) and 拙政园 (way better). At the end of the day, I met 蒋琴 who owns a KTV venue. A few beers later, we were having a great time singing and dancing. Me and 筑梦 went out to a club in the area which wasn't bad and we had great food afterwards.
 
-![Suzhou](/assets/images/2009-10-30-memoirs-of-trip-to-china-12.webp)
-![Suzhou](/assets/images/2009-10-30-memoirs-of-trip-to-china-13.webp)
+![Suzhou](/assets/images/memoirs-of-trip-to-china-12.webp)
+![Suzhou](/assets/images/memoirs-of-trip-to-china-13.webp)
 
 2009-10-05 Took a bus trip to 周庄古镇 for scenery and fun. I met 冯慧平 and 冯英骄, who were a handful of fun.
 
-![周庄古镇](/assets/images/2009-10-30-memoirs-of-trip-to-china-14.webp)
-![周庄古镇](/assets/images/2009-10-30-memoirs-of-trip-to-china-15.webp)
-![周庄古镇](/assets/images/2009-10-30-memoirs-of-trip-to-china-16.webp)
+![周庄古镇](/assets/images/memoirs-of-trip-to-china-14.webp)
+![周庄古镇](/assets/images/memoirs-of-trip-to-china-15.webp)
+![周庄古镇](/assets/images/memoirs-of-trip-to-china-16.webp)
 
 ## Yellow Mountain, Anhui province
 
@@ -98,16 +98,16 @@ At dinner, I almost died in a chopsticks accident, dropping a hot pepper in my e
 
 2009-10-06 I climbed from 汤口 up to 慈光阁. There were many steep roads and roads are boring, so I started climbing rocks and trying to get lost. This was a bad idea and this is a tree I made *really* good friends with while climbing.
 
-![Yellow Mountain](/assets/images/2009-10-30-memoirs-of-trip-to-china-17.webp)
+![Yellow Mountain](/assets/images/memoirs-of-trip-to-china-17.webp)
 
 2009-10-07 Woke up at 4am to climb to 天都峰. The ticket office gave me two options: take the cable car and arrive in 4 hours or climb by myself and go in 5 hours.
 
-![Yellow Mountain](/assets/images/2009-10-30-memoirs-of-trip-to-china-18.webp)
-![Yellow Mountain](/assets/images/2009-10-30-memoirs-of-trip-to-china-19.webp)
+![Yellow Mountain](/assets/images/memoirs-of-trip-to-china-18.webp)
+![Yellow Mountain](/assets/images/memoirs-of-trip-to-china-19.webp)
 
 Please compare the climbing abilities:
 
-| ![Rocky](/assets/images/2009-10-30-memoirs-of-trip-to-china-20.webp) | ![Will](/assets/images/2009-10-30-memoirs-of-trip-to-china-21.webp) |
+| ![Rocky](/assets/images/memoirs-of-trip-to-china-20.webp) | ![Will](/assets/images/memoirs-of-trip-to-china-21.webp) |
 |:---:|:---:|
 | **Rocky Balboa**<br>Amateur | **William Entriken**<br>Hero |
 
@@ -117,7 +117,7 @@ After that, I climbed back down and went to bed by 11 and slept until 9am. Besid
 
 2009-10-08 I met Su's parents and we had a fun day. We had dinner, saw the 明教古刹 temple and went to the park. I think Chinese people are very active after large meals. On the way to the park, I took a nap in the car and they thought I was exhausted, and reserved a daytime hotel for me to check in. After we got to the park, we found the ultimate child confinement machine:
 
-![Hefei](/assets/images/2009-10-30-memoirs-of-trip-to-china-22.webp)
+![Hefei](/assets/images/memoirs-of-trip-to-china-22.webp)
 
 ## Xi'an, Shaanxi province
 
@@ -125,7 +125,7 @@ After that, I climbed back down and went to bed by 11 and slept until 9am. Besid
 
 2009-10-09 & —10 I spent two days at the bank due to a mix up. These banks do not have company phones. All inter-bank commerce is done with personal cell phones. But in the meantime I ate interesting food.
 
-![Xi'an](/assets/images/2009-10-30-memoirs-of-trip-to-china-23.webp)
+![Xi'an](/assets/images/memoirs-of-trip-to-china-23.webp)
 
 7 Days hotel staff is great. I met 樊志新, 徐嫒, and one more (but my notes are too sloppy!)
 
@@ -150,18 +150,18 @@ Afterwards I walked down some alleys, 钱市胡同, 大栅栏. That's where I me
 
 2009-10-15 This is when I started missing my home, going to work, email, the stock market, and pizza. But I still didn't miss Bon Jovi music, so maybe I could have held out... Then I went to the Great Wall (eh).
 
-![Great Wall](/assets/images/2009-10-30-memoirs-of-trip-to-china-24.webp)
+![Great Wall](/assets/images/memoirs-of-trip-to-china-24.webp)
 
 On the way back I met some deaf people and found out they were using 北京话聋人语 to sign. Then I got a haircut (60元). Here is my hair washer. Then the salon choose the most able stylist to handle me, since none of them have cut a foreigner's hair before. He used thinning shears for all of my hair and then clippers to touch up. After that I went dancing. When I tell you dancing in Beijing is lame on a Thursday night, I mean dancing in Beijing is lame on a Thursday night!
 
-![Beijing hair](/assets/images/2009-10-30-memoirs-of-trip-to-china-25.webp)
+![Beijing hair](/assets/images/memoirs-of-trip-to-china-25.webp)
 
 2009-10-16 Nothing was planned, so I went to the super market for some quick eats. Here's some notes:
 
 * Their market had multiple floors and a cart escalator
 * The marketing departments for dairy farmers are working overtime
 
-![Beijing supermarket](/assets/images/2009-10-30-memoirs-of-trip-to-china-26.webp)
+![Beijing supermarket](/assets/images/memoirs-of-trip-to-china-26.webp)
 
 On the street, I found a man on a bike buying used boxes for recycling.  He paid 18元 for 3 kg. Then I saw the prices to rent in the 东城区 section  of Beijing... holy shit! At last, I went 三里屯 for dancing. Almost all  of the music was from 1990-1996 American dance and some Europop. The  first two songs I heard were *Coolio - Gangster's Paradise and *Wu Tang Clan - C.R.E.A.M.*.
 
