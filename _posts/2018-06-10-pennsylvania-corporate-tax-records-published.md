@@ -16,7 +16,7 @@ First, let's show off the actual exploit. DCED includes a centralized applicatio
 
 So here is the key part zoomed in:
 
-![Registration zoomed](/assets/images/pennsylvania-corporate-tax-records-published-2.webp
+![Registration zoomed](/assets/images/pennsylvania-corporate-tax-records-published-2.webp)
 
 And if you click it you can verify the file you uploaded. Here's the URL for the tax records I just uploaded:
 

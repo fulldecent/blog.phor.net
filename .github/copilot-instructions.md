@@ -15,7 +15,7 @@ Hero images are matched by filename convention: a static file in `/assets/images
    # paste mermaid code here
    EOF
    ```
-3. Render to SVG using Mermaid CLI, naming it to match the post basename:
+3. Render to SVG using Mermaid CLI, naming it to match the post slug:
    ```bash
    mmdc -i /tmp/diagram.mmd -o /path/to/blog/assets/images/post-slug.svg -b transparent
    ```

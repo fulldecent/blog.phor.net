@@ -15,7 +15,7 @@ Just an update, here are the latest goals:
 
 ## 2008 updates
 
-![Goals](assets/goals-update-mid-2008.webp)
+![Goals](/assets/images/goals-update-mid-2008.webp)
 
 You can listen to the [audio proof here](assets/2008-07-01-baluobo.mp3), where I read the book out loud (with the pinyin covered).
 
