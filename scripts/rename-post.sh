@@ -2,10 +2,10 @@
 
 # Usage: rename-post.sh <old-base-name> <new-base-name>
 #
-# Rename a post in _posts and associated images/references.
+# Rename a post in source/_posts and associated images/references.
 #
-# 1. Rename post in _posts
-# 2. Rename images (if any) in assets/images
+# 1. Rename post in source/_posts
+# 2. Rename images (if any) in source/assets/images
 # 3. Fix references in post to those images (if any)
 # 4. (TODO) find and fix references to the post in other posts and in the redirects collection
 
@@ -36,8 +36,8 @@ escape_sed_replacement() {
 # Get names
 old_base_name="$1"
 new_base_name="$2"
-old_post="_posts/${old_base_name}.md"
-new_post="_posts/${new_base_name}.md"
+old_post="source/_posts/${old_base_name}.md"
+new_post="source/_posts/${new_base_name}.md"
 old_slug=$(echo "$old_base_name" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//')
 new_slug=$(echo "$new_base_name" | sed 's/^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-//')
 old_base_name_pattern=$(escape_sed_pattern "$old_base_name")
@@ -61,11 +61,11 @@ fi
 mv "$old_post" "$new_post"
 
 # Rename images
-for old_image in assets/images/"${old_slug}"*; do
+for old_image in source/assets/images/"${old_slug}"*; do
   [ -f "$old_image" ] || continue
-  old_image_name=${old_image#assets/images/}
+  old_image_name=${old_image#source/assets/images/}
   image_suffix=${old_image_name#"$old_slug"}
-  new_image="assets/images/${new_slug}${image_suffix}"
+  new_image="source/assets/images/${new_slug}${image_suffix}"
   mv "$old_image" "$new_image"
 done
 

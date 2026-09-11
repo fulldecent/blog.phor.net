@@ -1,0 +1,61 @@
+<svg width="362" height="362" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    rect#main {
+      background-color: white;
+    }
+    rect {
+      stroke: black;
+      fill: none;
+    }
+    text {
+      fill: black;
+      font-family: Arial;
+      font-size: 36px;
+      dominant-baseline: middle;
+      text-anchor: middle;
+    }
+    @media (prefers-color-scheme: dark) {
+      rect#main {
+        background-color: black;
+        fill: black;
+      }
+      rect {
+        stroke: white;
+      }
+      text {
+        fill: white;
+      }
+    }
+  </style>
+  <rect id="main" x="1" y="1" width="360" height="360" stroke-width="2" />
+  <!-- Hidden, bg is green -->
+  <rect x="1" y="81" width="360" height="280" style="fill: gray" />
+  <!-- Major grid -->
+  <rect x="120" y="1" width="120" height="360" stroke-width="2" />
+  <rect x="1" y="120" width="360" height="120" stroke-width="2" />
+  <!-- Minor grid -->
+  <rect x="40" y="1" width="40" height="360" stroke-width="1" />
+  <rect x="160 " y="1" width="40" height="360" stroke-width="1" />
+  <rect x="280" y="1" width="40" height="360" stroke-width="1" />
+  <rect x="1" y="40" width="360" height="40" stroke-width="1" />
+  <rect x="1" y="160" width="360" height="40" stroke-width="1" />
+  <rect x="1" y="280" width="360" height="40" stroke-width="1" />
+  <!-- Numbers -->
+  <!-- this sudoku puzzle:
+12...6789
+67..89123
+  -->
+  <text x="21" y="21">1</text>
+  <text x="61" y="21">2</text>
+  <text x="220" y="21">6</text>
+  <text x="260" y="21">7</text>
+  <text x="301" y="21">8</text>
+  <text x="341" y="21">9</text>
+  <text x="21" y="61">6</text>
+  <text x="61" y="61">7</text>
+  <text x="180" y="61">8</text>
+  <text x="220" y="61">9</text>
+  <text x="260" y="61">1</text>
+  <text x="301" y="61">2</text>
+  <text x="341" y="61">3</text>
+</svg>

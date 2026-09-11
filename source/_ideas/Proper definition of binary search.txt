@@ -1,0 +1,76 @@
+# CHAT DRIVEL BELOW
+
+Function binarySearch: Element?
+collection
+assertedPrecondition(Collection): bool
+obviousResult(Collection): Element??
+decimator(Collection): Collection
+
+- Sorted array search 
+- unsorted search (undefined behavior)
+- line length word wrap (cite leet code)
+- vlookup 
+- real valued things
+- first matching a predicate
+- searching an unbalanced binary tree is NOT a binary search
+
+A generic definition of binary search. 
+
+This should apply to finding the index of a desired value in assorted array. That is the classic example. But it should also apply to every other search process that guarantees at worst logarithmic performance to search a collection. 
+
+
+
+Computer science I’ve often seen definitions of pottery search. 
+
+NOT ABOHT ME
+
+But actually, these have only been specific instances of binary search. I’ve never seen a general definition.
+
+When we speak of binary search needs to apply to such situations as looking at it sorted array to find the index where the element of that index matches a specific value
+
+Or finding the first such value, if there are multiple of that value in this sorted array
+
+Or finding the last
+
+Or finding the range of all the ones that match
+
+Or V look up as it applies in excel
+
+ make a Venn diagram of functions search functions and binary search functions
+
+The underline thing you were searching does not need to be countable. It can also work on infinite spaces. If you’re pointing a telescope in the sky, and you need to orient it to maximize the signal strength is this a binary search? To answer this, we must look at the word binary. If you were only orienting the telescope in one dimension, then each time you orient it, you may be removing half of the possible space you are searching that is binary. Really? What if you were orienting in two dimensions we must consider this definition also applies. Orienting a telescope probably does not work because there’s no predicate and when you find the median, you don’t know if the searches on the left or right side of the median hopefully there’s some other physical type of search using real values that does not suffer from this problem which we can use an example of binary search. 
+
+Something something and let’s apply this to things other than searching a binary right and things were searching real values
+
+We will develop the definition of dysfunction while deciding if the implementation we see are fundamental concept of binary research or specific implementation details of that specific kind of search. 
+
+A binary search function is necessarily a function. Here is the widest definition of a function: Starting point: func (parameters) -> output
+
+Does not always apply to an array or indices of an array. 
+
+The binary search function is necessarily a search function. Here’s the widest definition of a search function . 
+
+Fundamental concept one: a binary search is a recursive function. It is applied to something that we call a Search space. And either it returns some element or (has to be contiguous??) subset of the search base, it returns a not-found value, or it applies itself the recursive function resolving to one of those outcomes. 
+
+This concept is true, but is insufficient to define binary search. A counter example is that searching assorted array from one to end by starting at the first index and proceeding one by one Meets that definition. But we would not call such a search a binary search. What makes a search binary?
+
+Is it necessarily to true that a binary search function is a recursive functionis. 
+
+
+
+Something something. The search space, an exit condition to decide if the search space is degenerate and will return a specific value of range of values or need to be bifurcated, A function must select the pivot that bifurcates the search space. Bifurcation means that all of the content of the search base is either the bifurcation the left of the bifurcation or the right of the bifurcation. And the cardinality of the left and the right much each should be strictly less than half of the original cardinality of the search space. 
+
+Now we have to decide if a specific exit condition a fundamental part of of binary search or does it need to be parameterized. By the one asking for the search. It needs to be parameterized because some binary search will end when if specific values found, and another will end, including a range of values these are fundamentally different types of exit conditions  which are both binary searches, and therefore the requester of the search must specify this exit condition
+
+Actually, finding a well defined median of a search space unnecessary. Actually, I take that back. Keep in mind the binary search to find text wrapping. The outcome of one duration of that search is that it may return less than half of the search space. This is one implementation of a binary search that also is considered a binary search. 
+
+—-
+
+The custom and condition is necessary to terminate a search for continuous inputs because you are looking closer and closer inside, and there will be some type of a limit where you should not be searching any deeper. And our definition of binary search should include that reaching this limit needs to get closer and closer each time you bifurcate. 
+
+—-
+
+It is not necessary for the binary search function to be a re cursive function
+
+
+

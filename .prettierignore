@@ -1,0 +1,13 @@
+# Prettier struggles with the kramdown extensions
+*.md
+
+# Historical content and generated output
+source/_posts
+source/_drafts
+source/_ideas
+source/assets
+source/_pages/hash4eva*.html
+_site
+build
+vendor
+cache
