@@ -4,7 +4,7 @@
 
 When a post does not have an associated hero image but contains a Mermaid diagram, you can render the diagram as an SVG to use as the article's hero/social sharing image.
 
-Hero images are matched by filename convention: a static file in `/assets/images/` with the same post slug (post basename without the `YYYY-MM-DD-` prefix) will be used as the hero image. For example, a post at `_posts/2025-12-20-one-core-finance-function.md` will use an image at `assets/images/one-core-finance-function.svg`.
+Hero images are matched by filename convention: a static file in `source/assets/images/` with the same post slug (post basename without the `YYYY-MM-DD-` prefix) will be used as the hero image. For example, a post at `source/_posts/2025-12-20-one-core-finance-function.md` will use an image at `source/assets/images/one-core-finance-function.svg`.
 
 ### Process
 
@@ -17,7 +17,7 @@ Hero images are matched by filename convention: a static file in `/assets/images
    ```
 3. Render to SVG using Mermaid CLI, naming it to match the post slug:
    ```bash
-   mmdc -i /tmp/diagram.mmd -o /path/to/blog/assets/images/post-slug.svg -b transparent
+   mmdc -i /tmp/diagram.mmd -o /path/to/blog/source/assets/images/post-slug.svg -b transparent
    ```
 
 ### Finding posts that need images
@@ -28,11 +28,11 @@ Use this shell script to find posts that have embedded images or Mermaid diagram
 cd /path/to/blog
 
 # First, build a list of posts that already have hero images
-(ls assets/images/*.webp 2>/dev/null; ls assets/images/*.svg 2>/dev/null) | \
+(ls source/assets/images/*.webp 2>/dev/null; ls source/assets/images/*.svg 2>/dev/null) | \
   xargs -I {} basename {} | sed 's/\.[^.]*$//' | sort -u > /tmp/hero_basenames.txt
 
 # Then find posts with content but no hero
-for f in _posts/*.md; do
+for f in source/_posts/*.md; do
   bn=$(basename "$f" .md)
   slug=$(echo "$bn" | sed 's/^[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}-//')
   if ! grep -q "^${slug}$" /tmp/hero_basenames.txt; then
@@ -61,7 +61,7 @@ npm install -g @mermaid-js/mermaid-cli
 
 - Use `-b transparent` for a transparent background
 - The image filename must match the post's slug exactly (e.g., `one-core-finance-function.svg`)
-- Images go in `assets/images/`, not `assets/`
+- Images go in `source/assets/images/`, not `source/assets/`
 - No frontmatter `image:` is needed - the match is automatic by filename
 
 ## Auditing post-to-image naming consistency
@@ -70,7 +70,7 @@ When posts are renamed, their associated images may not be updated, breaking the
 
 ```bash
 cd /path/to/blog
-for f in _posts/*.md; do
+for f in source/_posts/*.md; do
   bn=$(basename "$f" .md)
   imgs=$(grep -oE '/assets/images/[^)]+' "$f" 2>/dev/null)
   if [ -n "$imgs" ]; then
@@ -105,8 +105,8 @@ When you find a mismatch, you need to:
 2. Update the image references in the post markdown file
 
 For example, if `2013-08-05-hotpot-only.md` references `/assets/images/stay-focused.webp`:
-1. `mv assets/images/stay-focused.webp assets/images/hotpot-only.webp`
-2. Update the post: `sed -i '' 's/stay-focused/hotpot-only/g' _posts/2013-08-05-hotpot-only.md`
+1. `mv source/assets/images/stay-focused.webp source/assets/images/hotpot-only.webp`
+2. Update the post: `sed -i '' 's/stay-focused/hotpot-only/g' source/_posts/2013-08-05-hotpot-only.md`
 
 ## Proactively and periodically checking for typos and formatting issues
 

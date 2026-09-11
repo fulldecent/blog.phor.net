@@ -1,7 +1,10 @@
 title: William Entriken Blog
 subtitle: Analysis of all
 description: Essays by William Entriken
+lang: en-US
 url: https://blog.phor.net
+source: source
+destination: build
 
 collections:
   pages:
@@ -13,6 +16,7 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: post
       # title: ~ # No default, must be explicitly set each time
       # tags: [] # No default, must be explicitly set each time
       updates: ~ # Array of date/changes objects
@@ -26,16 +30,9 @@ defaults:
     values:
       layout: redirect
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - scripts
-  - README.md
-  - CNAME
-
 include:
   - _redirects
+  - CNAME
 
 # Cause a build to fail if there is a YAML syntax error in a page's front matter.
 strict_front_matter: true

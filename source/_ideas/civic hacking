@@ -1,0 +1,38 @@
+STUFF
+http://technical.ly/philly/2014/07/11/traffic-court-data-expensive-william-entriken/
+
+http://phor.net/apps/septa/
+
+http://technical.ly/philly/2014/01/09/septa-regional-rail-late-app/?utm_source=twitterfeed&utm_medium=twitter&utm_campaign=Feed%3A+TechnicallyPhilly+%28Technically+Philly%29
+
+
+COPY SOME NOTES FROM THIS:
+
+
+When did you first create the app?
+October 2008.
+
+What spurred you to create it? Was there an event that happened to you?
+I was taking the West Trenton (R3) to work every day and was amazed by the constant tardiness of the train I was taking (the 330). It was literally late every day and usually by 15 minutes or more. I wanted to write a write a complaint to SEPTA but a recommendation seemed more effective. I wanted to write a letter saying "your train has been late every day for the past month, please update the schedule and just move it back 15 minutes". While collecting data for the letter, I realized it was just as easy to collect data on all trains at the same time. That's how this started.
+
+Tell us how the app works.
+It collects published data from SEPTA on the location of trains. It collects this data every minute since 2008 for every train. Then it finds trains which are rarely, if ever, on time and recommends that the schedule be changed for that train. The reports can be used as a recommendation for SEPTA to update their timetable and it can also be used by passengers as a more realistic schedule of when the train will get there. In other words, if you were going to tell your friend to take the 330 train, you would say "the train is scheduled for 8am, but you don't need to show up until 8:12".
+
+Have you found trends?
+Yes, many trains are consistently late. SEPTA measures performance by whether the train reaches its destination within 6 minutes of schedule, but I measure performance for every stop (because not every passenger runs to the last stop). The individual stops are where the biggest problems are.
+
+How often have you found the trains to be late? Which lines are the worst? Are there worse times?
+Before 2009, SEPTA was failing to meet its official goal of 90% on-time performance ("OTP"). Since then, they are usually meeting the goal (80+% of the time). It helps that they have in invested in new Silverliner cars! However, compared with New York and LA we are still lagging in OTP performance. Actually, after collecting the data, I found out that the 330 West Trenton train was the latest train in all of SEPTA! There are many specific trains and stops which continue to be a problem. For example, trains that go to Airport E/F are punctual only a few times a year (regardless of time of day). They should to leave a little more time from the previous stop, Airport C/D. Another example, right now the 9:22am (from Suburban Station) to Wilmington is the worst train in the system.
+
+You propose a fix to each one, explain what that fix is and how it might help.
+I propose a fix to many trains, simply delaying the timetable by a few minutes where there is a problem. You don't even need to tell the conductors, they can keep driving the trains as they do today. The only difference is the passengers, who will get a better idea of when to show up for their train. It's only a few minutes here and there, but in one year it adds up to a whole human life's worth of time saved from waiting at the station.
+
+Have you spoken to SEPTA about the app? If so, what have they said?
+Yes, I have sent my latest report to Ronald Hopkins, Assistant General Manager of Operations; and Michael Zaleski, Director Emerging and Specialty Technology. I have been sending reports since 2009 with recommendations. Many of the recommendations have been implemented. Since I started, SEPTA has embraced opening up its data for other to create apps that helps Philly stay innovative. They have even hosted "developer days" where people can come in to talk to SEPTA staff about the projects they are working on. There's lots of success with these projects and it is right in line with the goals of Mayor Nutter's Open Data Executive Order of 2012.
+
+What have people said about the apps?
+There has been great reception and I'm glad to have so much positive feedback from users, SEPTA, and other developers making their own apps based on SEPTA and other Philly data.
+Technically Philly said: "It’s one of the first civic apps we’ve seen that offers a solution to a problem found by crunching open data."
+Mike Zaleski told me: the latest news and report are "spreading like wildfire" at SEPTA headquarters.
+Otherwise, there's a bunch of comments on social media about people solving debates over who's train is the latest.
+

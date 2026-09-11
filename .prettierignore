@@ -1,0 +1,12 @@
+# Prettier struggles with the kramdown extensions
+*.md
+
+# Historical content and generated output
+source/_posts
+source/_drafts
+source/_ideas
+source/assets
+_site
+build
+vendor
+cache

@@ -2,7 +2,7 @@
 #
 # Usage: validate-posts.sh
 #
-# Validate all posts in _posts against the JSON schema
+# Validate a post in source/_posts against the JSON schema
 #
 # Requirements:
 #

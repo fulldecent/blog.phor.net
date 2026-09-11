@@ -1,0 +1,25 @@
+Have you ever seen this type of comment?
+
+    XYZ file editor needs to have a close button when multiple files are open. 
+
+    This should be a relatively simple feature to implement.
+
+and then the inevitable follow up comment days/months/years later:
+
+    I can't believe this hasn't been implemented yet, this product is really broken without this feature. I rely on XYZ every day and I need to have multiple windows open. If this isn't fixed then I'll have no choice but to switch to ABC file editor.
+
+    Developers can you set an expected fix date???
+
+----
+
+If you are using/writing/patching or otherwise contributing to open source projects then you hope your contributions (including unprompted product feedback) will be helpful and maybe even result in a specific action you are promoting.
+
+... THE STAGES OF A SUCCESSFUL FEATURE REQUEST
+
+... EXAMPLES
+
+--- PLEASE SEND LINKS IF YOU HAVE SEEN GOOD OR BAD EXAMPLES
+
+<https://github.com/sequelpro/sequelpro/issues/63#issuecomment-386136161>
+Twitter
+Hacker news

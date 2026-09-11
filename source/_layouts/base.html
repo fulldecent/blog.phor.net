@@ -1,0 +1,168 @@
+{%- assign time_estimated = content | number_of_words | divided_by: 200 | plus: 1 | append: ' minutes' -%}
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <title>{{ page.title | escape }}</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha256-pdY4ejLKO67E0CM2tbPtq1DJ3VGDVVdqAR6j3ZwdiE4="
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="/assets/article.css" />
+    {%- if content contains 'highlight' -%}
+      <link rel="stylesheet" href="/assets/rougify-style-github.css" />
+    {%- endif -%}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    {%- assign page_basename = page.path | remove: '.md' | remove: '.html' | remove: '_posts/' -%}
+    {%- assign page_slug = page_basename -%}
+    {%- if page.path contains '_posts/' -%}
+      {%- assign page_slug = page_basename | slice: 11, 999 -%}
+    {%- endif -%}
+    {%- assign related_heros = site.static_files | where: 'basename', page_slug -%}
+    {%- for static_file in related_heros -%}
+      <meta property="og:image" content="{{ static_file.path | absolute_url }}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="{{ static_file.path | absolute_url }}">
+    {%- endfor -%}
+  </head>
+
+  <body>
+    <header id="site-header">
+      <section class="container-fluid">
+        <nav class="pt-2 pb-3 pt-md-4 gap-3 d-flex flex-column flex-lg-row align-items-lg-center">
+          <div class="me-auto">
+            <a class="text-decoration-none" href="/">{{ site.title | escape }}</a>
+            <span class="serif text-muted">&mdash;</span>
+            <span class="serif text-muted">{{ site.subtitle | escape }}</span>
+          </div>
+          <form
+            action="https://phor.us9.list-manage.com/subscribe/post?u=8b49e10ddf197497c02ff4eae&amp;id=e3fcfddf94&amp;MERGE1=blog.phor.net"
+            method="post"
+          >
+            <div class="input-group">
+              <input type="email" name="EMAIL" class="form-control" placeholder="Email address" required>
+              <button type="submit" class="btn btn-primary ms-2 rounded-pill">
+                <i class="bi bi-bell-fill"></i> Monthly<span
+                  class="d-none d-lg-inline"
+                >
+                  email</span
+                >
+              </button>
+            </div>
+          </form>
+          <div class="vr d-none d-lg-block"></div>
+          <a class="text-decoration-none text-nowrap" href="/feed.xml"><i class="bi-rss"></i> RSS</a>
+        </nav>
+      </section>
+    </header>
+    {{ content }}
+
+    <aside class="mt-5 pt-5 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md">
+            <form
+              action="https://phor.us9.list-manage.com/subscribe/post?u=8b49e10ddf197497c02ff4eae&amp;id=e3fcfddf94&amp;MERGE1=blog.phor.net"
+              method="post"
+            >
+              <div class="input-group">
+                <input type="email" name="EMAIL" class="form-control" placeholder="Type your email&hellip;" required>
+                <button type="submit" class="btn btn-primary ms-2 rounded-pill">
+                  <i class="bi bi-bell-fill"></i> Monthly<span class="d-none d-lg-inline"> email</span>
+                </button>
+              </div>
+              <p>
+                <small>
+                  By subscribing, you will receive new posts from this blog, about <code>0.6</code> emails per month.
+                </small>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="mt-5 pt-5 pb-3">
+      <div class="container-fluid">
+        <p>&copy; 2004&ndash;{{ 'now' | date: '%Y' }} authors as noted.</p>
+        <p>No cookies. No analytics.</p>
+        <p><a href="/mission">Mission</a></p>
+        <p><a href="/ethics">Ethics statement</a></p>
+        <p><a href="https://phor.net">William Entriken's homepage</a></p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"
+      integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Don't hurt people's eyes
+      const matchPrefersLight = window.matchMedia('(prefers-color-scheme:light)');
+      if (matchPrefersLight.matches) {
+        document.documentElement.setAttribute('data-bs-theme', 'light');
+      }
+      matchPrefersLight.addEventListener('change', (event) => {
+        document.documentElement.setAttribute('data-bs-theme', event.matches ? 'light' : 'dark');
+      });
+      // Add anchors on DOMContentLoaded
+      document.addEventListener('DOMContentLoaded', function (event) {
+        anchors.add();
+      });
+    </script>
+    {%- if content contains 'mermaid' -%}
+      {%- comment -%}
+        This matches a Markdown code fence in the Mermaid language (i.e. "```mermaid").
+        TODO: fix that string literal above https://github.com/mermaid-js/mermaid/issues/772#issuecomment-1030639383
+      {%- endcomment -%}
+      <script
+        src="https://cdn.jsdelivr.net/npm/mermaid@11.9.0/dist/mermaid.min.js"
+        integrity="sha256-Cz7UN0EXNjgV2u/a38wg/3BNfdRRO1XtgDq93L2GqJg="
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        // Mermaid setup
+        const setMermaidTheme = () => {
+          const theme = document.documentElement.getAttribute('data-bs-theme') === 'light' ? 'default' : 'dark';
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: theme,
+            ///TODO: use the article font here, how to do it? https://mermaid-js.github.io/mermaid/#/./usage
+            themeCSS: "* {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif}",
+            flowchart: {
+              useMaxWideth: false,
+              htmlLabels: true,
+            },
+            fontFamily: 'Gill Sans',
+          });
+          mermaid.run({ nodes: document.querySelectorAll('.language-mermaid') });
+        };
+        setMermaidTheme(); // Set theme on load
+        matchPrefersLight.addEventListener('change', setMermaidTheme); // Update on theme change
+
+        // Re-render Mermaid diagrams when details are opened
+        document.querySelectorAll('details').forEach((details) => {
+          details.addEventListener('toggle', () => {
+            if (details.open) {
+              mermaid.run({
+                nodes: details.querySelectorAll('.language-mermaid'),
+              });
+            }
+          });
+        });
+      </script>
+    {%- endif -%}
+  </body>
+</html>
