@@ -17,6 +17,7 @@ defaults:
       type: posts
     values:
       layout: post
+      permalink: /:categories/:title
       # title: ~ # No default, must be explicitly set each time
       # tags: [] # No default, must be explicitly set each time
       updates: ~ # Array of date/changes objects
@@ -42,5 +43,3 @@ liquid:
   error_mode: strict
   strict_variables: true
   strict_filters: true
-
-permalink: /:categories/:title
