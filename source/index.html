@@ -13,22 +13,17 @@ title: William Entriken Blog — Analysis of all
     </p>
   {%- endfor -%}
   <div>
-  <h2 class="col fw-bold fs-4 fs-sm-2">
-    <a class="text-decoration-none" href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h2>
-  <p>
-    {{ post.excerpt | strip_html | escape }}&hellip;
-  </p>
-  <p>
-    <!--<i class="bi-calendar"></i>--> <span class="me-2">{{ post.date | date: "%Y-%m-%d" }}
+    <h2 class="col fw-bold fs-4 fs-sm-2">
+      <a class="text-decoration-none" href="{{ post.url }}">{{ post.title | escape }}</a>
+    </h2>
+    <p>{{ post.excerpt | strip_html | escape }}&hellip;</p>
+    <p>
+      <span class="me-2">{{ post.date | date: '%Y-%m-%d' }}</span>
       {%- for tag in post.tags -%}
-      <a class="mx-2" href="/posts-by-tag#{{ tag | slugify }}">#{{ tag | downcase | escape }}</a>
+        <a class="mx-2" href="/posts-by-tag#{{ tag | slugify }}">#{{ tag | downcase | escape }}</a>
       {%- endfor -%}
-  </p>
-</div>
-
-
-
+    </p>
+  </div>
 {%- endfor -%}
 
 <p><a href="posts-by-date">All posts</a></p>

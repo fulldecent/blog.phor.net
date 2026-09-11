@@ -67,7 +67,7 @@ yarn format source/index.html README.md
 ```
 
 **Notes:**
-- Prettier caching is enabled using the `cache/` folder to speed up formatting checks. The cache is only written during `--write` operations (not `--check`), so CI environments should not expect cache benefits on lint-only operations.
+- Prettier caching is used only for `yarn format` (`cache/` folder). `yarn lint` does not read that cache, so local and CI see the same files.
 - Markdown files (`.md`) are formatted by markdownlint, not Prettier (see `.prettierignore`).
 - When you pass specific files, only `.md` files are processed by markdownlint; other file types are silently skipped.
 

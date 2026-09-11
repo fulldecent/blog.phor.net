@@ -46,7 +46,7 @@
   },
   "scripts": {
     "lint": "sh -c 'yarn lint:prettier \"$@\" && yarn lint:markdown \"$@\"' --",
-    "lint:prettier": "sh -c 'yarn prettier --cache --cache-location=cache/.prettiercache --check ${@:-\".\"}' --",
+    "lint:prettier": "sh -c 'yarn prettier --check ${@:-\".\"}' --",
     "lint:markdown": "sh -c 'if [ $# -eq 0 ]; then yarn markdownlint-cli2 \"**/*.md\"; else for file in \"$@\"; do case \"$file\" in *.md) yarn markdownlint-cli2 \"$file\";; esac; done; fi' --",
     "format": "sh -c 'yarn format:prettier \"$@\" && yarn format:markdown \"$@\"' --",
     "format:prettier": "sh -c 'yarn prettier --cache --cache-location=cache/.prettiercache --write ${@:-\".\"}' --",
