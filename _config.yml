@@ -9,7 +9,8 @@ destination: build
 collections:
   pages:
     output: true
-    permalink: /:path:output_ext
+    # Extensionless, matching posts and allowed-links (no .html destinations).
+    permalink: /:path
 
 defaults:
   - scope:

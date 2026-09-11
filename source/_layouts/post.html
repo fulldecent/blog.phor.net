@@ -68,7 +68,7 @@ layout: base
   {%- if page.comments -%}
     {%- for comment in page.comments %}
       <blockquote>
-        <p>{{ comment.text | newline_to_br }}</p>
+        <p>{{ comment.text | replace: '<', '&lt;' | newline_to_br }}</p>
         <cite class="d-block blockquote-footer"
           ><a href="{{ comment.link | escape }}">{{ comment.name | escape }}</a></cite
         >

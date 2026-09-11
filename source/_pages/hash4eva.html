@@ -7,25 +7,25 @@ render_with_liquid: false
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hash4eva - blockchain explorer for the streets</title>
-    <link rel="canonical" href="https://blog.phor.net/hash4eva.html">
+    <link rel="canonical" href="https://blog.phor.net/hash4eva">
     <link rel="stylesheet" href="/assets/hash4eva.css">
     <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
   </head>
 
   <body>
     <div class="demo-banner">
-      🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+      🎨 DEMO MODE - All data is fictional | <a href="/hash4eva-demos" style="color: inherit;">View all demos</a>
     </div>
 
     <header class="site-header">
       <div class="header-content">
-        <a href="hash4eva.html" class="logo">
+        <a href="/hash4eva" class="logo">
           <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
         </a>
         <nav class="main-nav">
-          <a href="hash4eva-incidents.html">Incidents</a>
-          <a href="hash4eva-ads.html">Weekly market</a>
-          <a href="hash4eva-following.html">Followed accounts (2)</a>
+          <a href="/hash4eva-incidents">Incidents</a>
+          <a href="/hash4eva-ads">Weekly market</a>
+          <a href="/hash4eva-following">Followed accounts (2)</a>
         </nav>
       </div>
     </header>
@@ -33,8 +33,8 @@ render_with_liquid: false
     <main class="main-content">
       <!-- Hero search section -->
       <section class="hero-section text-center mb-lg" style="padding: 60px 0;">
-        <img src="/assets/hash4eva/brickscape.webp" alt="" class="hero-bg-bricks">
-        <img src="/assets/hash4eva/graffiti.webp" alt="" class="hero-bg-graffiti">
+        <img src="/assets/hash4eva/brickscape.webp" alt="Brick wall background" class="hero-bg-bricks">
+        <img src="/assets/hash4eva/graffiti.webp" alt="Street graffiti overlay" class="hero-bg-graffiti">
         <h1 style="font-family: 'Bangers', cursive; font-size: 3.5rem; letter-spacing: 4px; margin-bottom: 16px;">
           <span style="color: var(--neon-pink);">Explore</span>
           <span style="color: var(--neon-cyan);">Your</span>
@@ -57,28 +57,28 @@ render_with_liquid: false
           >
           <div class="search-autocomplete" id="searchAutocomplete">
             <a
-              href="hash4eva-account.html?address=0xd859d7d8603D2dAb768D679eEEC25930C8FC59C1"
+              href="/hash4eva-account?address=0xd859d7d8603D2dAb768D679eEEC25930C8FC59C1"
               class="autocomplete-item"
             >
               <span class="autocomplete-type address">ADDRESS</span>
               <span>0xd859d7d8603D2dAb768D679eEEC25930C8FC59C1</span>
             </a>
             <a
-              href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d"
+              href="/hash4eva-contract?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d"
               class="autocomplete-item"
             >
               <span class="autocomplete-type app">APP</span>
               <span>CryptoKitties</span>
             </a>
             <a
-              href="hash4eva-account.html?address=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+              href="/hash4eva-account?address=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
               class="autocomplete-item"
             >
               <span class="autocomplete-type token">TOKEN</span>
               <span>Wrapped Ether (WETH)</span>
             </a>
             <a
-              href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
+              href="/hash4eva-account?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
               class="autocomplete-item"
             >
               <span class="autocomplete-type address">ADDRESS</span>
@@ -94,18 +94,18 @@ render_with_liquid: false
           <h2 class="section-title">Recently viewed</h2>
           <div id="recentAddresses">
             <a
-              href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
+              href="/hash4eva-account?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked"
               class="recent-item"
             >
-              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=vitalik" alt="" class="recent-avatar">
+              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=vitalik" alt="Identicon for vitalik.eth" class="recent-avatar">
               <div class="recent-info">
                 <div class="recent-name">vitalik.eth</div>
                 <div class="recent-update">↗ 3 new transactions</div>
               </div>
               <span class="badge badge-info">ENS</span>
             </a>
-            <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" class="recent-item">
-              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=cryptokitties" alt="" class="recent-avatar">
+            <a href="/hash4eva-contract?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" class="recent-item">
+              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=cryptokitties" alt="Identicon for CryptoKitties" class="recent-avatar">
               <div class="recent-info">
                 <div class="recent-name">CryptoKitties</div>
                 <div class="recent-update">↗ 127 new events</div>
@@ -113,10 +113,10 @@ render_with_liquid: false
               <span class="badge badge-neutral">CONTRACT</span>
             </a>
             <a
-              href="hash4eva-account.html?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree"
+              href="/hash4eva-account?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree"
               class="recent-item"
             >
-              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=binance" alt="" class="recent-avatar">
+              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=binance" alt="Identicon for Binance Hot Wallet" class="recent-avatar">
               <div class="recent-info">
                 <div class="recent-name">Binance Hot Wallet</div>
                 <div class="recent-update">↗ 2,341 new transactions</div>
@@ -124,10 +124,10 @@ render_with_liquid: false
               <span class="badge badge-warning">HOT WALLET</span>
             </a>
             <a
-              href="hash4eva-account.html?address=0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B&status=unknown"
+              href="/hash4eva-account?address=0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B&status=unknown"
               class="recent-item"
             >
-              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=unknown1" alt="" class="recent-avatar">
+              <img src="https://api.dicebear.com/7.x/identicon/svg?seed=unknown1" alt="Identicon for 0xAb58...eC9B" class="recent-avatar">
               <div class="recent-info">
                 <div class="recent-name">0xAb58...eC9B</div>
                 <div class="recent-update">No new activity</div>
@@ -189,7 +189,7 @@ render_with_liquid: false
               <span class="network-badge arbitrum">Arbitrum</span>
               <span class="network-badge polygon">Polygon</span>
             </div>
-            <a href="hash4eva-incidents.html" class="btn btn-danger">View timeline →</a>
+            <a href="/hash4eva-incidents" class="btn btn-danger">View timeline →</a>
           </div>
 
           <div class="card">
@@ -204,7 +204,7 @@ render_with_liquid: false
             <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
               <span class="network-badge ethereum">Ethereum</span>
             </div>
-            <a href="hash4eva-incidents.html" class="btn btn-warning">View timeline →</a>
+            <a href="/hash4eva-incidents" class="btn btn-warning">View timeline →</a>
           </div>
 
           <div class="card">
@@ -219,7 +219,7 @@ render_with_liquid: false
             <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px;">
               <span class="network-badge base">Base</span>
             </div>
-            <a href="hash4eva-incidents.html" class="btn btn-success">View timeline →</a>
+            <a href="/hash4eva-incidents" class="btn btn-success">View timeline →</a>
           </div>
         </div>
       </section>
@@ -229,8 +229,8 @@ render_with_liquid: false
       <div class="footer-content">
         <div class="footer-section">
           <h4>Explore</h4>
-          <a href="hash4eva.html">Home</a>
-          <a href="hash4eva-incidents.html">Incidents</a>
+          <a href="/hash4eva">Home</a>
+          <a href="/hash4eva-incidents">Incidents</a>
           <a href="#">Top tokens</a>
           <a href="#">Top contracts</a>
         </div>
@@ -253,7 +253,7 @@ render_with_liquid: false
           <a href="#">About us</a>
           <a href="#">Privacy policy</a>
           <a href="#">Terms of service</a>
-          <a href="hash4eva-demos.html">Demo scenarios</a>
+          <a href="/hash4eva-demos">Demo scenarios</a>
         </div>
       </div>
       <div class="text-center text-muted" style="margin-top: 32px;">

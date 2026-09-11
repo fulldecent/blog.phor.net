@@ -3,7 +3,7 @@ title: Reconstructing the core finance function in DeFi
 tags: ["blockchain", "defi"]
 comments: []
 ---
-In [the previous article](2025-12-20-one-core-finance-function.md), we established a first-principles definition of finance as the trifecta of asset supply, lending, and liquidation. This core function contributes to an economy by allowing assets to be temporarily transferred with built-in mechanisms for repayment and recourse on default. We examined examples like bank deposits and repos, as well as non-examples like equity purchases and basic insurance, to illustrate the boundaries of this definition.
+In [the previous article](/one-core-finance-function), we established a first-principles definition of finance as the trifecta of asset supply, lending, and liquidation. This core function contributes to an economy by allowing assets to be temporarily transferred with built-in mechanisms for repayment and recourse on default. We examined examples like bank deposits and repos, as well as non-examples like equity purchases and basic insurance, to illustrate the boundaries of this definition.
 
 At the end of that article, we naively considered a two-party lending scenario on blockchain. But quickly we found that it doesn't work as-is, because in a decentralized, permissionless environment, when you transfer an asset to a borrower, they can simply disappear without repaying the loan. You have no recourse. And therefore that is not finance.
 
@@ -107,4 +107,4 @@ Blockchain tokens that cover ownership in a enterprise will be a major blockchai
 
 ## Next steps
 
-In [the next article](2026-01-04-defi-primatives-for-rwa.md), we examine DeFi primitives specifically for real world assets (RWA), including custodial considerations and unique primitives for profit-generating enterprises and crowdsales.
+In [the next article](/defi-primatives-for-rwa), we examine DeFi primitives specifically for real world assets (RWA), including custodial considerations and unique primitives for profit-generating enterprises and crowdsales.

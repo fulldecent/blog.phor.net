@@ -17,4 +17,4 @@ When I was looking into the Collatz conjecture, I ran into this sequence:
 
 Please let me know if you can find a general way to predict numbers in that sequence.
 
-Update: This is now published on the Online Encyclopedia of Integer Sequences&#xA0;<a href="http://oeis.org/A119733">http://oeis.org/A119733</a>
+Update: This is now published on the Online Encyclopedia of Integer Sequences&#xA0;<a href="https://oeis.org/A119733">https://oeis.org/A119733</a>

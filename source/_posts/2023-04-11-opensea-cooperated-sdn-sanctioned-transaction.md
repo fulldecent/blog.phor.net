@@ -9,7 +9,7 @@ comments:
 
 *This article is a review of facts and is not an allegation of any crime.*
 
-Below we build on our previous article showing that OpenSea Stared Storefront [has (or had) a backdoor](/2022/11/04/Does-OpenSea-Shared-Storefront-have-a-backdoor.html) that allowed administrators to take any token. To date [about 4 millions transfers](https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e) have happened on this system.
+Below we build on our previous article showing that OpenSea Stared Storefront [has (or had) a backdoor](/opensea-shared-storefront-backdoor) that allowed administrators to take any token. To date [about 4 millions transfers](https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e) have happened on this system.
 
 1. OpenSea, a US entity, had (or has) an undisclosed backdoor which allows it to freeze/take assets created on its system ("Open Store").
 2. After the OFAC SDN//CYBER2 registration of Chatex, they did transfer an asset on this system which OpenSea did not block.
@@ -54,7 +54,7 @@ That's a common view for people building "DeFi"<sup>[citation needed]</sup>. But
 
 No!
 
-OpenSea has (or had) undocumented backdoor access which allows them to block or take any asset. This is signing authority and is documented in our [other article](/2022/11/04/Does-OpenSea-Shared-Storefront-have-a-backdoor.html).
+OpenSea has (or had) undocumented backdoor access which allows them to block or take any asset. This is signing authority and is documented in our [other article](/opensea-shared-storefront-backdoor).
 
 Since OpenSea has signing authority over this asset, they can have block, deny access to, or seize it at any time.
 

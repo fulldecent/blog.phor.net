@@ -7,20 +7,20 @@ render_with_liquid: false
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo scenarios - hash4eva</title>
-    <link rel="canonical" href="https://blog.phor.net/hash4eva-demos.html">
+    <link rel="canonical" href="https://blog.phor.net/hash4eva-demos">
     <link rel="stylesheet" href="/assets/hash4eva.css">
     <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
   </head>
   <body>
     <header class="site-header">
       <div class="header-content">
-        <a href="hash4eva.html" class="logo">
+        <a href="/hash4eva" class="logo">
           <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
         </a>
         <nav class="main-nav">
-          <a href="hash4eva-incidents.html">Incidents</a>
-          <a href="hash4eva-ads.html">Weekly market</a>
-          <a href="hash4eva-following.html">Followed accounts (2)</a>
+          <a href="/hash4eva-incidents">Incidents</a>
+          <a href="/hash4eva-ads">Weekly market</a>
+          <a href="/hash4eva-following">Followed accounts (2)</a>
         </nav>
       </div>
     </header>
@@ -38,31 +38,31 @@ render_with_liquid: false
           <span class="card-title">📄 Available pages</span>
         </div>
         <div style="display: grid; gap: 12px;">
-          <a href="hash4eva.html" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva" class="recent-item" style="text-decoration: none;">
             <div class="recent-info">
               <div class="recent-name">🏠 Homepage</div>
               <div class="text-muted">Search, recently viewed, email signup, incidents preview</div>
             </div>
           </a>
-          <a href="hash4eva-account.html" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-account" class="recent-item" style="text-decoration: none;">
             <div class="recent-info">
               <div class="recent-name">👤 Account page</div>
               <div class="text-muted">EOA profiles with identity, KYC status, transactions, tokens</div>
             </div>
           </a>
-          <a href="hash4eva-contract.html" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-contract" class="recent-item" style="text-decoration: none;">
             <div class="recent-info">
               <div class="recent-name">📜 Contract page</div>
               <div class="text-muted">Smart contract analysis, ownership, code, security</div>
             </div>
           </a>
-          <a href="hash4eva-transaction.html" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-transaction" class="recent-item" style="text-decoration: none;">
             <div class="recent-info">
               <div class="recent-name">📝 Transaction page</div>
               <div class="text-muted">Transaction details, side effects, replay warnings</div>
             </div>
           </a>
-          <a href="hash4eva-incidents.html" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-incidents" class="recent-item" style="text-decoration: none;">
             <div class="recent-info">
               <div class="recent-name">🔥 Incidents page</div>
               <div class="text-muted">Security incidents, hacks, disclosure timelines</div>
@@ -79,7 +79,7 @@ render_with_liquid: false
 
         <h4 style="margin-bottom: 12px;">URL parameters</h4>
         <div class="code-block" style="margin-bottom: 24px;">
-          account.html? address=0x... <span class="comment">// The account address</span> status=kyc-linked
+          /hash4eva-account? address=0x... <span class="comment">// The account address</span> status=kyc-linked
           <span class="comment">// kyc-linked | first-degree | second-degree | third-degree | unknown</span> hasENS=true
           <span class="comment">// true | false</span> leaked=false
           <span class="comment">// true | false - Private key leaked</span> sandwicher=false
@@ -91,7 +91,7 @@ render_with_liquid: false
         <h4 style="margin-bottom: 12px;">Demo links</h4>
         <div style="display: grid; gap: 8px;">
           <a
-            href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked&hasENS=true"
+            href="/hash4eva-account?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked&hasENS=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -103,7 +103,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree&hasENS=false"
+            href="/hash4eva-account?address=0x94A84433101A10aEda762968f6995c574D1bF154&status=first-degree&hasENS=false"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -115,7 +115,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x1111111111111111111111111111111111111111&status=second-degree&hasENS=false"
+            href="/hash4eva-account?address=0x1111111111111111111111111111111111111111&status=second-degree&hasENS=false"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -127,7 +127,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x2222222222222222222222222222222222222222&status=third-degree&hasENS=false"
+            href="/hash4eva-account?address=0x2222222222222222222222222222222222222222&status=third-degree&hasENS=false"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -139,7 +139,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x3333333333333333333333333333333333333333&status=unknown&hasENS=false&kycTransfer=false"
+            href="/hash4eva-account?address=0x3333333333333333333333333333333333333333&status=unknown&hasENS=false&kycTransfer=false"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -151,7 +151,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x4444444444444444444444444444444444444444&status=unknown&leaked=true"
+            href="/hash4eva-account?address=0x4444444444444444444444444444444444444444&status=unknown&leaked=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -163,7 +163,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x5555555555555555555555555555555555555555&status=unknown&sandwicher=true"
+            href="/hash4eva-account?address=0x5555555555555555555555555555555555555555&status=unknown&sandwicher=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -175,7 +175,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-account.html?address=0x6666666666666666666666666666666666666666&status=kyc-linked&vulnApprovals=true"
+            href="/hash4eva-account?address=0x6666666666666666666666666666666666666666&status=kyc-linked&vulnApprovals=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -196,7 +196,7 @@ render_with_liquid: false
 
         <h4 style="margin-bottom: 12px;">URL parameters</h4>
         <div class="code-block" style="margin-bottom: 24px;">
-          contract.html? address=0x... <span class="comment">// The contract address</span> ownership=kyc-linked
+          /hash4eva-contract? address=0x... <span class="comment">// The contract address</span> ownership=kyc-linked
           <span class="comment">// kyc-linked | multisig | unknown | none</span> upgradeable=false
           <span class="comment">// true | false</span> selfdestruct=false
           <span class="comment">// true | false</span> rugpullable=false
@@ -207,7 +207,7 @@ render_with_liquid: false
         <h4 style="margin-bottom: 12px;">Demo links</h4>
         <div style="display: grid; gap: 8px;">
           <a
-            href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d&ownership=kyc-linked&verified=true"
+            href="/hash4eva-contract?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d&ownership=kyc-linked&verified=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -219,7 +219,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&ownership=multisig"
+            href="/hash4eva-contract?address=0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&ownership=multisig"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -231,7 +231,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB&ownership=none"
+            href="/hash4eva-contract?address=0xBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB&ownership=none"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -243,7 +243,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC&ownership=unknown&verified=false"
+            href="/hash4eva-contract?address=0xCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC&ownership=unknown&verified=false"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -255,7 +255,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD&ownership=unknown&upgradeable=true"
+            href="/hash4eva-contract?address=0xDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD&ownership=unknown&upgradeable=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -267,7 +267,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE&ownership=unknown&selfdestruct=true"
+            href="/hash4eva-contract?address=0xEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE&ownership=unknown&selfdestruct=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -279,7 +279,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-contract.html?address=0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF&ownership=unknown&rugpullable=true&upgradeable=true"
+            href="/hash4eva-contract?address=0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF&ownership=unknown&rugpullable=true&upgradeable=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -300,7 +300,7 @@ render_with_liquid: false
 
         <h4 style="margin-bottom: 12px;">URL parameters</h4>
         <div class="code-block" style="margin-bottom: 24px;">
-          transaction.html? type=contract
+          /hash4eva-transaction? type=contract
           <span class="comment">// transfer | contract | deploy | message</span> replayable=false
           <span class="comment">// true | false - No EIP-155 signature</span> failed=false
           <span class="comment">// true | false - Transaction reverted</span> sandwich=false
@@ -309,7 +309,7 @@ render_with_liquid: false
 
         <h4 style="margin-bottom: 12px;">Demo links</h4>
         <div style="display: grid; gap: 8px;">
-          <a href="hash4eva-transaction.html?type=contract" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-transaction?type=contract" class="recent-item" style="text-decoration: none;">
             <span class="badge badge-info">CONTRACT</span>
             <div class="recent-info">
               <div class="recent-name">Contract interaction</div>
@@ -317,7 +317,7 @@ render_with_liquid: false
             </div>
           </a>
 
-          <a href="hash4eva-transaction.html?type=transfer" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-transaction?type=transfer" class="recent-item" style="text-decoration: none;">
             <span class="badge badge-success">TRANSFER</span>
             <div class="recent-info">
               <div class="recent-name">ETH transfer</div>
@@ -325,7 +325,7 @@ render_with_liquid: false
             </div>
           </a>
 
-          <a href="hash4eva-transaction.html?type=deploy" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-transaction?type=deploy" class="recent-item" style="text-decoration: none;">
             <span class="badge badge-info">DEPLOY</span>
             <div class="recent-info">
               <div class="recent-name">Contract deployment</div>
@@ -333,7 +333,7 @@ render_with_liquid: false
             </div>
           </a>
 
-          <a href="hash4eva-transaction.html?type=message" class="recent-item" style="text-decoration: none;">
+          <a href="/hash4eva-transaction?type=message" class="recent-item" style="text-decoration: none;">
             <span class="badge badge-neutral">MESSAGE</span>
             <div class="recent-info">
               <div class="recent-name">Love letter (0 ETH + message)</div>
@@ -342,7 +342,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-transaction.html?type=contract&replayable=true"
+            href="/hash4eva-transaction?type=contract&replayable=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -354,7 +354,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-transaction.html?type=contract&failed=true"
+            href="/hash4eva-transaction?type=contract&failed=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -366,7 +366,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-transaction.html?type=contract&sandwich=true"
+            href="/hash4eva-transaction?type=contract&sandwich=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -378,7 +378,7 @@ render_with_liquid: false
           </a>
 
           <a
-            href="hash4eva-transaction.html?type=transfer&replayable=true&sandwich=true"
+            href="/hash4eva-transaction?type=transfer&replayable=true&sandwich=true"
             class="recent-item"
             style="text-decoration: none;"
           >
@@ -453,13 +453,13 @@ render_with_liquid: false
       <div class="footer-content">
         <div class="footer-section">
           <h4>Explore</h4>
-          <a href="hash4eva.html">Home</a>
-          <a href="hash4eva-incidents.html">Incidents</a>
+          <a href="/hash4eva">Home</a>
+          <a href="/hash4eva-incidents">Incidents</a>
         </div>
         <div class="footer-section">
           <h4>About</h4>
           <a href="#">About us</a>
-          <a href="hash4eva-demos.html">Demo scenarios</a>
+          <a href="/hash4eva-demos">Demo scenarios</a>
         </div>
       </div>
     </footer>

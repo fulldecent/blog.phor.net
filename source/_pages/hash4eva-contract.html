@@ -7,25 +7,25 @@ render_with_liquid: false
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contract - hash4eva</title>
-    <link rel="canonical" href="https://blog.phor.net/hash4eva-contract.html">
+    <link rel="canonical" href="https://blog.phor.net/hash4eva-contract">
     <link rel="stylesheet" href="/assets/hash4eva.css">
     <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
   </head>
 
   <body>
     <div class="demo-banner">
-      🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+      🎨 DEMO MODE - All data is fictional | <a href="/hash4eva-demos" style="color: inherit;">View all demos</a>
     </div>
 
     <header class="site-header">
       <div class="header-content">
-        <a href="hash4eva.html" class="logo">
+        <a href="/hash4eva" class="logo">
           <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
         </a>
         <nav class="main-nav">
-          <a href="hash4eva-incidents.html">Incidents</a>
-          <a href="hash4eva-ads.html">Weekly market</a>
-          <a href="hash4eva-following.html">Followed accounts (2)</a>
+          <a href="/hash4eva-incidents">Incidents</a>
+          <a href="/hash4eva-ads">Weekly market</a>
+          <a href="/hash4eva-following">Followed accounts (2)</a>
         </nav>
       </div>
     </header>
@@ -114,7 +114,7 @@ render_with_liquid: false
                 <div style="margin-bottom: 12px; padding: 8px; background: rgba(0,0,0,0.3); border-radius: 4px;">
                   <div style="margin-bottom: 4px;">
                     <a
-                      href="hash4eva-account.html?address=0xabcd&status=kyc-linked"
+                      href="/hash4eva-account?address=0xabcd&status=kyc-linked"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       >0xabcd...ef01</a
@@ -123,7 +123,7 @@ render_with_liquid: false
                   </div>
                   <div style="margin-bottom: 4px;">
                     <a
-                      href="hash4eva-account.html?address=0x2222&status=kyc-linked"
+                      href="/hash4eva-account?address=0x2222&status=kyc-linked"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       >0x2222...3333</a
@@ -132,7 +132,7 @@ render_with_liquid: false
                   </div>
                   <div>
                     <a
-                      href="hash4eva-account.html?address=0x4444&status=unknown"
+                      href="/hash4eva-account?address=0x4444&status=unknown"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       >0x4444...5555</a
@@ -252,7 +252,7 @@ render_with_liquid: false
             <div class="stat-label">Standard</div>
           </div>
           <a
-            href="hash4eva-transaction.html?type=deploy"
+            href="/hash4eva-transaction?type=deploy"
             class="stat-item"
             style="text-decoration:none; color:inherit;"
             data-tooltip="Source: Contract creation transaction\nBlock 4,605,167\nTx: 0x...\nClick to view deployment tx"
@@ -262,7 +262,7 @@ render_with_liquid: false
             <div class="stat-label">Deployed</div>
           </a>
           <a
-            href="hash4eva-transaction.html"
+            href="/hash4eva-transaction"
             class="stat-item"
             style="text-decoration:none; color:inherit;"
             data-tooltip="Source: Most recent Upgraded event\nBlock 19,100,000 — Jan 15, 2024\nClick to view upgrade tx"
@@ -307,7 +307,7 @@ render_with_liquid: false
                     >:</span
                   >
                   <a
-                    href="hash4eva-account.html?address=0x1234&status=kyc-linked"
+                    href="/hash4eva-account?address=0x1234&status=kyc-linked"
                     class="address-short"
                     style="color: var(--neon-cyan);"
                     data-tooltip="Click to view Safe wallet\nGnosis Safe at 0x1234...5678"
@@ -330,7 +330,7 @@ render_with_liquid: false
                 <div style="margin-left: 24px; margin-top: 8px;">
                   <div style="margin-bottom: 4px;">
                     <a
-                      href="hash4eva-account.html?address=0xabcd&status=kyc-linked"
+                      href="/hash4eva-account?address=0xabcd&status=kyc-linked"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       data-tooltip="Click to view account"
@@ -350,7 +350,7 @@ render_with_liquid: false
                   </div>
                   <div style="margin-bottom: 4px;">
                     <a
-                      href="hash4eva-account.html?address=0x2222&status=kyc-linked"
+                      href="/hash4eva-account?address=0x2222&status=kyc-linked"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       data-tooltip="Click to view account"
@@ -370,7 +370,7 @@ render_with_liquid: false
                   </div>
                   <div>
                     <a
-                      href="hash4eva-account.html?address=0x4444&status=unknown"
+                      href="/hash4eva-account?address=0x4444&status=unknown"
                       class="address-short"
                       style="color: var(--neon-cyan);"
                       data-tooltip="Click to view account"
@@ -402,7 +402,7 @@ render_with_liquid: false
                 <h4 style="margin-bottom: 12px;">Owner address</h4>
                 <div style="display: flex; align-items: center; gap: 8px;">
                   <a
-                    href="hash4eva-account.html?address=0xDEAD&status=unknown"
+                    href="/hash4eva-account?address=0xDEAD&status=unknown"
                     class="address-short"
                     style="color: var(--neon-cyan);"
                     >0xDEAD...BEEF</a
@@ -576,8 +576,8 @@ render_with_liquid: false
             </div>
             <div style="display: flex; align-items: center; gap: 12px;">
               <img
-                src="https://api.dicebear.com/7.x/shgraffiti/svg?seed=cryptokitties"
-                alt=""
+                src="https://api.dicebear.com/7.x/identicon/svg?seed=cryptokitties"
+                alt="cryptokitties.co identicon"
                 style="width: 48px; height: 48px; border-radius: 8px;"
               >
               <div>
@@ -676,7 +676,7 @@ render_with_liquid: false
               <span class="card-title">🔄 Upgrade history</span>
             </div>
             <a
-              href="hash4eva-transaction.html?type=contract"
+              href="/hash4eva-transaction?type=contract"
               class="tx-item"
               style="padding-left: 0; text-decoration:none; color:inherit;"
             >
@@ -697,7 +697,7 @@ render_with_liquid: false
               </div>
             </a>
             <a
-              href="hash4eva-transaction.html?type=contract"
+              href="/hash4eva-transaction?type=contract"
               class="tx-item"
               style="padding-left: 0; text-decoration:none; color:inherit;"
             >
@@ -718,7 +718,7 @@ render_with_liquid: false
               </div>
             </a>
             <a
-              href="hash4eva-transaction.html?type=deploy"
+              href="/hash4eva-transaction?type=deploy"
               class="tx-item"
               style="padding-left: 0; text-decoration:none; color:inherit;"
             >
@@ -1022,13 +1022,13 @@ render_with_liquid: false
       <div class="footer-content">
         <div class="footer-section">
           <h4>Explore</h4>
-          <a href="hash4eva.html">Home</a>
-          <a href="hash4eva-incidents.html">Incidents</a>
+          <a href="/hash4eva">Home</a>
+          <a href="/hash4eva-incidents">Incidents</a>
         </div>
         <div class="footer-section">
           <h4>About</h4>
           <a href="#">About us</a>
-          <a href="hash4eva-demos.html">Demo scenarios</a>
+          <a href="/hash4eva-demos">Demo scenarios</a>
         </div>
       </div>
     </footer>

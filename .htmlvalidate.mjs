@@ -12,10 +12,12 @@ export default defineConfig({
           exclude: ["\\\\?utm_source=chatgpt.com"],
         },
         allowRelative: {
-          exclude: [".htm[l]?$"],
+          // Literal ".htm"/".html" only. An unescaped "." also matches slugs
+          // that end in "-html" (e.g. /convert-fen-strings-to-html).
+          exclude: ["\\.html?$"],
         },
         allowAbsolute: {
-          exclude: [".htm[l]?$"],
+          exclude: ["\\.html?$"],
         },
       },
     ],

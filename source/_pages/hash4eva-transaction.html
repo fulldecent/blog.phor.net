@@ -7,24 +7,24 @@ render_with_liquid: false
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Transaction - hash4eva</title>
-  <link rel="canonical" href="https://blog.phor.net/hash4eva-transaction.html">
+  <link rel="canonical" href="https://blog.phor.net/hash4eva-transaction">
   <link rel="stylesheet" href="/assets/hash4eva.css">
   <link rel="icon" href="/assets/hash4eva/logo.webp" type="image/webp">
 </head>
 <body>
   <div class="demo-banner">
-    🎨 DEMO MODE - All data is fictional | <a href="hash4eva-demos.html" style="color: inherit;">View all demos</a>
+    🎨 DEMO MODE - All data is fictional | <a href="/hash4eva-demos" style="color: inherit;">View all demos</a>
   </div>
 
   <header class="site-header">
     <div class="header-content">
-      <a href="hash4eva.html" class="logo">
+      <a href="/hash4eva" class="logo">
         <img src="/assets/hash4eva/logo-text.webp" alt="hash4eva" class="logo-text">
       </a>
       <nav class="main-nav">
-        <a href="hash4eva-incidents.html">Incidents</a>
-        <a href="hash4eva-ads.html">Weekly market</a>
-        <a href="hash4eva-following.html">Followed accounts (2)</a>
+        <a href="/hash4eva-incidents">Incidents</a>
+        <a href="/hash4eva-ads">Weekly market</a>
+        <a href="/hash4eva-following">Followed accounts (2)</a>
       </nav>
     </div>
   </header>
@@ -157,10 +157,10 @@ render_with_liquid: false
           <span class="card-title">📤 From</span>
         </div>
         <div style="display: flex; align-items: center; gap: 16px;">
-          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=sender" alt="" class="avatar">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=sender" alt="Identicon for vitalik.eth" class="avatar">
           <div>
             <div style="margin-bottom: 4px;">
-              <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'from' field\nRecovered via ECRECOVER from\nthe ECDSA signature (v,r,s)\nClick to view account">vitalik.eth</a>
+              <a href="/hash4eva-account?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'from' field\nRecovered via ECRECOVER from\nthe ECDSA signature (v,r,s)\nClick to view account">vitalik.eth</a>
               <span class="badge badge-safe tt-clean" style="margin-left: 8px;" data-tooltip="Source: Transfer events from KYC exchanges\n(Coinbase, Kraken) to this address">🏦 KYC-LINKED</span>
             </div>
             <div class="address-short" style="color: var(--text-muted);" data-tooltip="Source: ECRECOVER(hash, v, r, s)\nFull: 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045">0xd8dA...6045</div>
@@ -177,10 +177,10 @@ render_with_liquid: false
           <span class="card-title">📥 To</span>
         </div>
         <div style="display: flex; align-items: center; gap: 16px;">
-          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=receiver" alt="" class="avatar">
+          <img src="https://api.dicebear.com/7.x/identicon/svg?seed=receiver" alt="Identicon for CryptoKitties" class="avatar">
           <div>
             <div style="margin-bottom: 4px;">
-              <a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'to' field\neth_getCode() returns bytecode\n→ Smart contract\nClick to view contract">CryptoKitties</a>
+              <a href="/hash4eva-contract?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color: var(--neon-cyan);" data-tooltip="Source: Transaction 'to' field\neth_getCode() returns bytecode\n→ Smart contract\nClick to view contract">CryptoKitties</a>
               <span class="badge badge-neutral tt-clean" style="margin-left: 8px;" data-tooltip="Source: eth_getCode(address)\nReturns non-empty bytecode\n→ This is a smart contract">CONTRACT</span>
             </div>
             <div class="address-short" style="color: var(--text-muted);" data-tooltip="Source: Transaction 'to' field\nFull: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d">0x0601...266d</div>
@@ -255,7 +255,7 @@ render_with_liquid: false
           <span style="font-size: 1.5rem;">🖼️</span>
           <div style="flex-grow: 1;">
             <div><span data-tooltip="Source: Transfer(from, to, tokenId) event\nSignature: 0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\nEmitted by CryptoKitties contract">NFT Transfer</span></div>
-            <div class="text-muted"><a href="hash4eva-contract.html?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color:var(--neon-cyan)" data-tooltip="Click to view this NFT\non CryptoKitties contract page">CryptoKitty #1847</a> transferred to <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Click to view recipient account">0x1234</a></div>
+            <div class="text-muted"><a href="/hash4eva-contract?address=0x06012c8cf97BEaD5deAe237070F9587f8E7A266d" style="color:var(--neon-cyan)" data-tooltip="Click to view this NFT\non CryptoKitties contract page">CryptoKitty #1847</a> transferred to <a href="/hash4eva-account?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Click to view recipient account">0x1234</a></div>
           </div>
           <span class="badge badge-info tt-clean" data-tooltip="Source: ERC-165 supportsInterface()\non emitting contract\n0x80ac58cd → ERC-721">ERC-721</span>
         </div>
@@ -315,7 +315,7 @@ render_with_liquid: false
         <div style="margin-top: 16px; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 4px;">
           <h4 style="margin-bottom: 8px;">Decoded parameters:</h4>
           <div style="display: grid; gap: 8px;">
-            <div><span class="text-muted">to:</span> <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Source: Bytes 4-36 of input data\n(left-padded 20-byte address)\nClick to view account">0x1234...5678</a></div>
+            <div><span class="text-muted">to:</span> <a href="/hash4eva-account?address=0x1234" class="address-short" style="color:var(--neon-cyan)" data-tooltip="Source: Bytes 4-36 of input data\n(left-padded 20-byte address)\nClick to view account">0x1234...5678</a></div>
             <div><span class="text-muted">tokenId:</span> <span style="color: var(--neon-green);" data-tooltip="Source: Bytes 36-68 of input data\n(uint256 big-endian)\n0x737 = 1847 decimal">1847</span></div>
           </div>
         </div>
@@ -329,8 +329,8 @@ render_with_liquid: false
           </div>
           <div><strong>Transfer</strong>(address indexed from, address indexed to, uint256 indexed tokenId)</div>
           <div style="margin-top: 8px; font-size: 0.875rem;">
-            <div><span data-tooltip="Source: Log indexed topic[1]\naddress type, left-padded">from: <a href="hash4eva-account.html?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" class="address-short" style="color:var(--neon-cyan)">0xd8dA...6045</a></span></div>
-            <div><span data-tooltip="Source: Log indexed topic[2]\naddress type, left-padded">to: <a href="hash4eva-account.html?address=0x1234" class="address-short" style="color:var(--neon-cyan)">0x1234...5678</a></span></div>
+            <div><span data-tooltip="Source: Log indexed topic[1]\naddress type, left-padded">from: <a href="/hash4eva-account?address=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045&status=kyc-linked" class="address-short" style="color:var(--neon-cyan)">0xd8dA...6045</a></span></div>
+            <div><span data-tooltip="Source: Log indexed topic[2]\naddress type, left-padded">to: <a href="/hash4eva-account?address=0x1234" class="address-short" style="color:var(--neon-cyan)">0x1234...5678</a></span></div>
             <div><span data-tooltip="Source: Log indexed topic[3]\nuint256 type">tokenId: <span style="color: var(--neon-green);">1847</span></span></div>
           </div>
         </div>
@@ -386,13 +386,13 @@ CALL CryptoKitties.transfer(0x1234..., 1847)
   <div class="footer-content">
     <div class="footer-section">
       <h4>Explore</h4>
-      <a href="hash4eva.html">Home</a>
-      <a href="hash4eva-incidents.html">Incidents</a>
+      <a href="/hash4eva">Home</a>
+      <a href="/hash4eva-incidents">Incidents</a>
     </div>
     <div class="footer-section">
       <h4>About</h4>
       <a href="#">About us</a>
-      <a href="hash4eva-demos.html">Demo scenarios</a>
+      <a href="/hash4eva-demos">Demo scenarios</a>
     </div>
   </div>
 </footer>
@@ -488,10 +488,10 @@ CALL CryptoKitties.transfer(0x1234..., 1847)
             <span class="card-title">📥 Created contract</span>
           </div>
           <div style="display: flex; align-items: center; gap: 16px;">
-            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=newcontract" alt="" class="avatar">
+            <img src="https://api.dicebear.com/7.x/identicon/svg?seed=newcontract" alt="Identicon for newly created contract" class="avatar">
             <div>
               <div style="margin-bottom: 4px;">
-                <a href="hash4eva-contract.html?address=0xNEW" style="color: var(--neon-cyan);">New Contract</a>
+                <a href="/hash4eva-contract?address=0xNEW" style="color: var(--neon-cyan);">New Contract</a>
                 <span class="badge badge-info" style="margin-left: 8px;">CREATED</span>
               </div>
               <div class="address-short" style="color: var(--text-muted);">0x7a82...c3f1</div>
