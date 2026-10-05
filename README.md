@@ -135,16 +135,22 @@ How to choose good URLs that will be permanent?
 
 ## Asides
 
-Article text usually displays in the left two-thirds of the page.
-
-Use the right third for some side notes like this:
+Article text usually displays in the left two-thirds of the page. Use the right third for a side note.
 
 ```markdown
 {: .margin-note}
 Some margin note paragraph text
+
+The paragraph this note annotates.
 ```
 
-This syntax is explained at <https://kramdown.gettalong.org/quickref.html>
+Put the note in the source **before** the block it annotates. `.margin-note` is `float: right` with `clear: right` in `source/assets/article.css`. A right float starts where it appears in the document and sits beside what follows. A note written after its subject lines up with the next block instead.
+
+Kramdown attaches `{: .margin-note}` to the following block. Leave a blank line before that marker. Below the `md` breakpoint (768px) the note is not floated. It stays in this same source order, prefixed with `➟`, so "before the subject" is also the right order on a phone.
+
+Do not put a margin note ahead of the opening paragraph. The homepage excerpt is that first paragraph.
+
+Block attribute syntax: <https://kramdown.gettalong.org/quickref.html#block-attributes>
 
 ## Article images
 
