@@ -10,6 +10,10 @@ body > footer {
   background: var(--fd-header);
 }
 
+article {
+  overflow-wrap: anywhere;
+}
+
 h1 {
   font-weight: bolder !important; /* fw-bolder */
 }
