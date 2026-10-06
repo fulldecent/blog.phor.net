@@ -125,7 +125,7 @@ sequenceDiagram
     JSONRPC host ->> Client: Return value
 ```
 
-The parameters to [`estimateGas`](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_estimategas) are equivalent to making a normal transaction except that you do not need to sign it and it returns the amount of gas used. (It is also possible to have a false/failed test result if all gas is used). In simple terms, `estimateGas` does everything exactly the same as making a transaction, but instead of committing the transaction it tells us how much the transaction would cost us.
+The parameters to [`estimateGas`](https://ethereum.org/developers/docs/apis/json-rpc/#eth-estimategas) are equivalent to making a normal transaction except that you do not need to sign it and it returns the amount of gas used. (It is also possible to have a false/failed test result if all gas is used). In simple terms, `estimateGas` does everything exactly the same as making a transaction, but instead of committing the transaction it tells us how much the transaction would cost us.
 
 You should also note that in the case of running `estimateGas` on a transaction that reverts (fails), the returned gas amount will be equal to the total gas available in a block.
 

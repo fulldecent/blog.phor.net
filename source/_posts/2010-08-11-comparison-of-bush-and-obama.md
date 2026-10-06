@@ -28,7 +28,7 @@ Total
 
 Used the terrorist threats to call a national state of emergency
 
-<https://www.commondreams.org/view/2009/10/16-2>
+<https://web.archive.org/web/20091020224707/http://www.commondreams.org/view/2009/10/16-2>
 
 Also, you can jump in on a live discussion here and bring up your own points and counterpoints (no site registration required)
 

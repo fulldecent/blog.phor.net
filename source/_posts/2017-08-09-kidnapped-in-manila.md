@@ -113,7 +113,7 @@ So basicaly: <mark>If you're not dead, the FBI isn't answering your phone call.<
 
 I try very hard to inform the US Department of State of my experience so they can issue a travel advisory. No response. I filed a freedom of information act request to find who is even in charge of travel advisories. No useful response. Now I am appealing their useless response to my request for responsible person contact information.
 
-Since my request, another incident has happened in Manila which President Donald Trump has called a [terrorist attack](https://www.whitehouse.gov/the-press-office/2017/06/01/statement-president-trump-paris-climate-accord).
+Since my request, another incident has happened in Manila which President Donald Trump has called a [terrorist attack](https://trumpwhitehouse.archives.gov/briefings-statements/statement-president-trump-paris-climate-accord/).
 
 {: .margin-note}
 Department of State is worthless to me

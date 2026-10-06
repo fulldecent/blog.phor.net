@@ -7,7 +7,7 @@ old-link: https://fulldecent.blogspot.com/2018/03/the-blockchain-and-know-your-c
 Right now Web 3.0, "the blockchain", the decentralized web, etc. are making a lot of people rich. People will seemingly do anything to get a few Ether so they can spend it on [pictures of kitties](https://www.cryptokitties.co). Here is the current best practice of how you can get Ether:
 
 - Send [Western Union payment to somebody](https://localbitcoins.com) recommended by a company that is not in your legal jurisdiction to get Bitcoin, then use an exchange also not in your jurisdiction
-- Create an account in the United States which requires your social security number, [your bank account website usernames/passwords](https://x.com/fulldecent/status/978370905490501632) (not a typo), and uncontrolled access to your computer's webcam
+- Create an account in the United States which requires your social security number, your bank account website usernames/passwords (not a typo), and uncontrolled access to your computer's webcam
 
 In other words, this is shady AF.
 
@@ -17,13 +17,13 @@ The reason why is because banks are subject to "anti money laundering" and "know
 
 Enter [micro identity](https://cryptoeconomics.blog/2018/03/27/erc-721-extension-for-kyc-micro-identities/), thanks Bill Weber.
 
-The recently posted ERC-721 was [explored in Dallas](https://explore721.com) and provides a standardized mechanism for a custodian to associate ownership of an asset to an entity on the Ethereum blockchain.
+The recently posted ERC-721 was [explored in Dallas](https://web.archive.org/web/20180818215754/https://explore721.com/) and provides a standardized mechanism for a custodian to associate ownership of an asset to an entity on the Ethereum blockchain.
 
 Lining up this implementation, we see that Coinbase (custodian) can hold KYC-compliant identities of real people (assets) and connection to your wallet address (entity). There is even be a way that Coinbase could charge money to other entities for this service. For more on custodial relationships in blockchain systems, see [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md).
 
 Would this mechanism be sufficient for one US-based bitcoin exchange to legally do commerce with you without directly having access to your personal information?
 
-No. There is much to read to understand the laws of AML + KYC. But I'll just refer to the [FDIC notes on the Bank Secrecy Act](https://www.fdic.gov/regulations/examinations/bsa/ffiec_cip.pdf). And it states:
+No. There is much to read to understand the laws of AML + KYC. But I'll just refer to the [bank Customer Identification Program regulation](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220). And it states:
 
 > The [Customer Identification program] is intended to enable the bank to form a reasonable belief that it knows the true identity of each customer.
 

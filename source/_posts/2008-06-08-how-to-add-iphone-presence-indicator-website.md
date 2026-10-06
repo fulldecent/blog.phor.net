@@ -13,9 +13,7 @@ Procedure:
 2. Create a user on the system and set up your phone to access that mailbox
 3. Have your website poll a file that the mail server will touch (/var/lib/solid-pop3d/bulletins/)
 
-Example:
-
-<https://phor.net/personal>
+The original demo at phor.net/personal is no longer online.
 
 Notes:
 

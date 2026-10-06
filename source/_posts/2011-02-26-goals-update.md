@@ -11,7 +11,7 @@ comments:
 
 Just an update, here are the latest goals:
 
-![gears](https://phor.net/images/gears)
+![gears](https://web.archive.org/web/20120208102902id_/http://phor.net/images/gears)
 
 ## 2008 updates
 
@@ -27,7 +27,7 @@ This will be very funny to listen to, as I embarrass myself by mispronouncing al
 
 - Pass one CPA test
 
-![gears](https://phor.net/images/gears)
+![gears](https://web.archive.org/web/20120208102902id_/http://phor.net/images/gears)
 
 ## By end of 2014
 

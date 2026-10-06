@@ -65,7 +65,7 @@ Examples:
 Some people dispute whether Terra Nullius is an NFT.
 
 * [Su Squares](https://tenthousandsu.com) ([smart contract](https://etherscan.io/address/0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F)) is a numbered sale where the location (x-y grid) is public ahead of time and graphics metadata is added by token holders.
-* [CryptoPunks](https://www.larvalabs.com/cryptopunks) ([smart contract](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)) is a numbered sale where the images [were published](https://github.com/larvalabs/cryptopunks/blob/master/punks.png) before the contract went live.
+* [CryptoPunks](https://www.cryptopunks.app/) ([smart contract](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)) is a numbered sale where the images [were published](https://github.com/larvalabs/cryptopunks/blob/master/punks.png) before the contract went live.
 
 ## Next-for-grabs
 

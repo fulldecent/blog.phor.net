@@ -27,6 +27,6 @@ This game works exceptionally well on the iPhone.
 
 ## Related resources
 
-- [The algorithm used by 20q](https://www.google.com/patents/about?id=W5iZAAAAEBAJ&dq=Artificial+neural+network+guessing+method+and+game)
+- [The algorithm used by 20q](https://patents.google.com/patent/US20060230008A1/en)
 - [The algorithm used by 19 Questions](https://apps.phor.net/19q/)
 - [Mathematical analysis of the entropy function](https://fulldecent.blogspot.com/2009/12/interesting-properties-of-entropy.html) - foundational to this effort.
