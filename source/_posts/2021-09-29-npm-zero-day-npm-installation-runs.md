@@ -32,7 +32,7 @@ The `npm install` action (i.e. npm-install) runs scripts  with shell access that
 
 ## Expected outcome
 
-The expected outcome is documented at <https://docs.npmjs.com/cli/v7/commands/npm-install> under the appropriate bullet “npm install (in a package directory, no arguments):”
+The expected outcome is documented at <https://docs.npmjs.com/cli/v7/commands/npm-install/> under the appropriate bullet “npm install (in a package directory, no arguments):”
 
 According to specification, this should only install dependencies (of which there are none) and no script is specified to run.
 

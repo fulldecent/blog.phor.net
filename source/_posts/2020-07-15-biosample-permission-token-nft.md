@@ -246,7 +246,7 @@ The permission problem space
 
 A basic biosample permission platform
 
-- [NYCDOT-1] New York City Department of Transportation. *Infrastructure: Bridges*. <https://www1.nyc.gov/html/dot/html/infrastructure/bridges.shtml>. Accessed July 4, 2020.
+- [NYCDOT-1] New York City Department of Transportation. *Infrastructure: Bridges*. <https://www.nyc.gov/html/dot/html/infrastructure/bridges.shtml>. Accessed July 4, 2020.
 
 Using non-fungible tokens to create and look up permits
 

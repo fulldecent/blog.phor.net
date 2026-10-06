@@ -10,7 +10,7 @@ Following are some apps that you use as a companion to apps running on a laptop/
 
 Desktop app: [Coda by Panic, Mac](https://panic.com/coda/)
 
-iOS editor: [Diet Coda](https://panic.com/dietcoda/)
+iOS editor: [Diet Coda](https://blog.panic.com/announcing-coda-2-and-introducing-diet-coda/)
 
 While you are editing code in Coda, this allows you to immediately see the changes in a dedicated preview window on the iPad.
 
@@ -20,7 +20,7 @@ While you are editing code in Coda, this allows you to immediately see the chang
 
 Desktop app: (any Mac or PC)
 
-iOS app: [Air Display](https://avatron.com/apps/air-display)
+iOS app: [Air Display](https://web.archive.org/web/20140328112127/http://www.avatron.com/apps/air-display/)
 
 This extends your screen by putting the spillover onto an iPad.
 
@@ -30,7 +30,7 @@ This extends your screen by putting the spillover onto an iPad.
 
 Desktop app: [Photoshop by Adobe](https://www.adobe.com/products/photoshop.html)
 
-iOS app: [Adobe Nav](https://www.photoshop.com/products/mobile/nav)
+iOS app: [Adobe Nav](https://web.archive.org/web/20130728184756/http://www.photoshop.com/products/mobile/nav)
 
 This allows you to select and configure tools while using Photoshop.
 
@@ -38,9 +38,9 @@ This allows you to select and configure tools while using Photoshop.
 
 ## VirtualDJ Remote
 
-Desktop app: [VirtualDJ by Atomix](https://www.virtualdj.com/products/iremote.html)
+Desktop app: [VirtualDJ by Atomix](https://virtualdj.com/download/)
 
-iOS app: [VirtualDJ Remote](https://www.virtualdj.com/products/iremote.html)
+iOS app: [VirtualDJ Remote](https://virtualdj.com/products/vdjremote.html)
 
 Basically just a copy of what's on the screen, little extra value.
 
@@ -50,7 +50,7 @@ Basically just a copy of what's on the screen, little extra value.
 
 Desktop app: Gimp, Traktor, Ableton, Logic Pro, Reaper, any other digital music app
 
-iOS app: [TouchOSC](https://hexler.net/software/touchosc)
+iOS app: [TouchOSC](https://hexler.net/touchosc)
 
 A generic controller app where you can design your own interface or download templates. The commands are sent to your desktop app as MIDI or OSC. Takes about 8 hours to set this up and run.
 

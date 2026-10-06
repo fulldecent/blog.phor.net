@@ -18,11 +18,11 @@ updates:
 
 Here are the items, add two each to your cart:
 
-- [product 14598](https://catalog.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14598)
-- [product 14590](https://catalog.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14590)
-- [product 14589](https://catalog.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14589)
-- [product 14588](https://catalog.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14588)
-- [product 14596](https://catalog.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14596)
+- [product 14598](https://www.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14598)
+- [product 14590](https://www.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14590)
+- [product 14589](https://www.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14589)
+- [product 14588](https://www.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14588)
+- [product 14596](https://www.usmint.gov/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10001&storeId=10001&productId=14596)
 
 Do this over and over, till you max out your card. I'm not joking. Also, you'll be building your credit, by making large, on time payments with your credit card.
 

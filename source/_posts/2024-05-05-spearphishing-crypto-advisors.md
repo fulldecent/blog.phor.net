@@ -307,7 +307,7 @@ Through the links they sent to me on email above, our meeting, and my own resear
 - Staff Handbook <https://docs.quantumverse.world/legal/staff-handbook>
 - Website Privacy Policy <https://docs.quantumverse.world/legal/website-privacy-policy>
 - Gala Games <https://app.gala.games/games/quantumverse>
-- $QUANT Bubblemaps <https://app.bubblemaps.io/eth/token/0x4e69365007ee6560d01d174b608bf9ac13d58f37>
+- $QUANT Bubblemaps <https://v2.bubblemaps.io/map?address=0x4e69365007ee6560d01d174b608bf9ac13d58f37&chain=eth>
 - Bluesky <https://bsky.app/profile/quantumstudio>
 - Entre <https://joinentre.com/profile/quantumstudio>
 

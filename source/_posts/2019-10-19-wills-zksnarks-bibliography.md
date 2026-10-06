@@ -34,7 +34,7 @@ old-link: https://fulldecent.blogspot.com/2019/10/wills-zksnarks-bibliography.ht
 
 - On the Size of Pairing-based Non-interactive Arguments⋆
 
-  - <https://eprint.iacr.org/2016/260.pdf>
+  - <https://eprint.iacr.org/2016/260>
 
 - Proving Knowledge of a Hash Pre-Image with ZoKrates
 
@@ -46,7 +46,7 @@ old-link: https://fulldecent.blogspot.com/2019/10/wills-zksnarks-bibliography.ht
   - Eventually, this will result in an end-to-end zero-knowledge proof for a toy problem, following the Pinocchio protocol and implemented in Python.
 
 - Explaining SNARKs Part I: Homomorphic Hidings - Zcash
-  - <https://z.cash/blog/snark-explain>
+  - <https://zodl.com/snark-explain>
   - Typo ,..,
 
 ## Hacks / issues

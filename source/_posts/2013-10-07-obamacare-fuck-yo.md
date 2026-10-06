@@ -8,7 +8,7 @@ Q: What's the best part about Obamacare?
 
 A: You still have 84 days until it happens.
 
-Here is the [homepage for Obamacare](https://healthcare.gov/) [parody] talking about the possible higher rates and risks of applying.
+Here is the [homepage for Obamacare](https://www.healthcare.gov/) [parody] talking about the possible higher rates and risks of applying.
 
 ![New homepage](/assets/images/obamacare-fuck-yo.webp)
 

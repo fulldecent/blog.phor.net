@@ -16,35 +16,35 @@ The answers are hidden in white text. Select the text with your mouse to reveal 
 **Question:** Which US state has the largest percent of households that do not speak English at home? And what is that percentage?  
 **Answer:** <span style="color: white;">California, with 43% - then NM @ 35%</span>  
 **Date:** 2009  
-**Source:** [census.gov](https://www.census.gov/prod/2010pubs/acsbr09-19.pdf)
+**Source:** [census.gov](https://web.archive.org/web/20170120232718/https://www.census.gov/prod/2010pubs/acsbr09-19.pdf)
 
 ---
 
 **Question:** What percent of gang members in Florida are Asian?  
 **Answer:** <span style="color: white;">1.8%</span>  
 **Date:** October 2007  
-**Source:** [myfloridalegal.com](https://myfloridalegal.com/webfiles.nsf/WF/JFAO-789KGG/$file/2007GangSurvey.pdf)
+**Source:** [myfloridalegal.com](https://web.archive.org/web/20210426102718/http://myfloridalegal.com/webfiles.nsf/WF/JFAO-789KGG/$file/2007GangSurvey.pdf)
 
 ---
 
 **Question:** What is the total property tax collected in the US from local and state governments?  
 **Answer:** <span style="color: white;">$107 billion</span>  
 **Date:** Q1 2010  
-**Source:** [census.gov](https://www.census.gov/prod/2010pubs/govsbr-q105.pdf)
+**Source:** [census.gov](https://web.archive.org/web/20210322043538/https://www.census.gov/prod/2010pubs/govsbr-q105.pdf)
 
 ---
 
 **Question:** Which five states have the largest market value of agricultural products produced?  
 **Answer:** <span style="color: white;">California, Texas, Iowa, Nebraska, Kansas</span>  
 **Date:** 1997  
-**Source:** [census.gov](https://www.census.gov/prod/ac97/ac97s-2.pdf)
+**Source:** [census.gov](https://web.archive.org/web/20120209000601id_/http://www.census.gov/prod/ac97/ac97s-2.pdf)
 
 ---
 
 **Question:** What is the total value of hazardous materials shipped in the US?  
 **Answer:** <span style="color: white;">$1.5 trillion</span>  
 **Date:** 2007  
-**Source:** [census.gov](https://www.census.gov/prod/2010pubs/ec07tcf-hm.pdf)
+**Source:** [census.gov](https://web.archive.org/web/20201107074456/https://www.census.gov/prod/2010pubs/ec07tcf-hm.pdf)
 
 ---
 
@@ -65,14 +65,14 @@ The answers are hidden in white text. Select the text with your mouse to reveal 
 **Question:** What percent of motorcycle owners are under 30 years of age?  
 **Answer:** <span style="color: white;">7%</span>  
 **Date:** 2004  
-**Source:** [hsrc.unc.edu](https://www.hsrc.unc.edu/safety_info/motorcyclists/2004_Motorcycling_in_North_Carolina_Survey_Results_2004-28-05.pdf)
+**Source:** [hsrc.unc.edu](https://web.archive.org/web/20130523191749/http://www.hsrc.unc.edu/safety_info/motorcyclists/2004_Motorcycling_in_North_Carolina_Survey_Results_2004-28-05.pdf)
 
 ---
 
 **Question:** What percent of office employees admit to an anonymous third party of use of Facebook during office hours?  
 **Answer:** <span style="color: white;">5%</span>  
 **Date:** 2009  
-**Source:** [deloitte.com](https://www.deloitte.com/assets/Dcom-UnitedStates/Local%20Assets/Documents/us_2009_ethics_workplace_survey_220509.pdf)
+**Source:** [deloitte.com](https://web.archive.org/web/20140620225228/http://www.deloitte.com/assets/Dcom-UnitedStates/Local%20Assets/Documents/us_2009_ethics_workplace_survey_220509.pdf)
 
 ---
 
@@ -86,25 +86,25 @@ The answers are hidden in white text. Select the text with your mouse to reveal 
 **Question:** What percent of US Federal, State, and Local accountability offices reported no problems in accessing data for financial audits of their respective subjects?  
 **Answer:** <span style="color: white;">29%</span>  
 **Date:** June 2006  
-**Source:** [justice.gov](https://www.justice.gov/oig/special/e0606/final.pdf)
+**Source:** [justice.gov](https://web.archive.org/web/20060621113406/http://www.justice.gov/oig/special/e0606/final.pdf)
 
 ---
 
 **Question:** What percent of US companies operating in China have noticed an increase in sales related to China's stimulus package?  
 **Answer:** <span style="color: white;">27%</span>  
 **Date:** October 2009  
-**Source:** [uschina.org](https://www.uschina.org/public/documents/2009/10/uscbc_member_survey.pdf)
+**Source:** [uschina.org](https://web.archive.org/web/20120531040746/https://www.uschina.org/public/documents/2009/10/uscbc_member_survey.pdf)
 
 ---
 
 **Question:** What percent of privately owned horses that are unwanted are so because of a divorce (of the owner)?  
 **Answer:** <span style="color: white;">7%, 80%+ is due to financial reasons</span>  
 **Date:** July 2009  
-**Source:** [unwantedhorsecoalition.org](https://www.unwantedhorsecoalition.org/resources/UHC_Survey_07Jul09b.pdf)
+**Source:** [unwantedhorsecoalition.org](https://web.archive.org/web/20150810163553/https://www.unwantedhorsecoalition.org/resources/UHC_Survey_07Jul09b.pdf)
 
 ---
 
 **Question:** What is the average years of experience of teachers in online high schools?  
 **Answer:** <span style="color: white;">15 years</span>  
 **Date:** ?  
-**Source:** [sandia.gov](https://www.sandia.gov/ciim/ASK/documents/Online%20High%20School%20Survey%20Results%20for%20distrib.pdf)
+**Source:** [sandia.gov](https://web.archive.org/web/20100527231402/http://www.sandia.gov/ciim/ASK/documents/Online%20High%20School%20Survey%20Results%20for%20distrib.pdf)

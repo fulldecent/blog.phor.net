@@ -62,4 +62,4 @@ int main()
 }
 ```
 
-I'm working on a better version, but my matrix math approach is getting complicated. Follow the questions on [Mathematics Stack Exchange](https://math.stackexchange.com/users/97728/full-decent).
+I'm working on a better version, but my matrix math approach is getting complicated. Follow the questions on [Mathematics Stack Exchange](https://math.stackexchange.com/users/97728/william-entriken).
