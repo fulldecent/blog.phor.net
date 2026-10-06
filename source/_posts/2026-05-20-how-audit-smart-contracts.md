@@ -95,7 +95,7 @@ Try use cases using a fork of the target blockchain or your own testing instrume
 
 This is only necessary for interactions including contracts where you do not see the source code. You will need to study the assemply. For example OpenSea Shared Storefront contract.
 
-For a case study on that reverse engineering and zerodays found [see here](https://blog.phor.net/opensea-shared-storefront-backdoor#how-do-decompile-and-study-smart-contracts).
+For a case study on that reverse engineering and zero-days found [see here](https://blog.phor.net/opensea-shared-storefront-backdoor#how-do-decompile-and-study-smart-contracts).
 
 - [ ] Disassemble the code.
 - [ ] Separate each code unit.
