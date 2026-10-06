@@ -15,8 +15,8 @@ Or if you do not want VS Code or the Docker setup, install your environment manu
 1. Install Ruby and gems to match GitHub Pages versions:
 
    ```sh
-   brew install rv # uses .ruby-version
-   rv ruby install
+   brew install rv
+   rv ruby install # uses .ruby-version
    rv run bundle install
    ```
 
