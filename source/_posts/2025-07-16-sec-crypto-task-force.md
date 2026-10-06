@@ -47,7 +47,7 @@ During years prior, I have done [policy roundtables and presentations](https://p
 2. NFTs are exempt from securities regulations in most of the world.
 3. China's [Shanghai](https://www.shanghai.gov.cn/hfbf2022/20220712/d3f5206dec5f4010a6065b4aa2c1ccce.html?eqid=9be3d5c80000cfcb00000006647d875f) and [national government](https://www.spp.gov.cn/spp/llyj/202305/t20230515_614042.shtml) included NFTs as a targeted investment and study area for their 14th Five-Year Plan (十四五).
 
-During the same time in the US, I was able to collaborate with NIST [on a paper](https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf) and meet with the [Philadelphia Federal Reserve Bank](https://www.philadelphiafed.org/). But when I tried to connect with the SEC and the CFTC (through LabCFTC, CFTC2.0), I got nothing. Internally, they were not clear on who regulated what.
+During the same time in the US, I was able to collaborate with NIST [on a paper](https://csrc.nist.gov/pubs/ir/8301/final) and meet with the [Philadelphia Federal Reserve Bank](https://www.philadelphiafed.org/). But when I tried to connect with the SEC and the CFTC (through LabCFTC, CFTC2.0), I got nothing. Internally, they were not clear on who regulated what.
 
 **US regulators under prior leadership treated crypto with outright hostility, stifling domestic growth.**
 

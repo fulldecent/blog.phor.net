@@ -8,9 +8,6 @@ updates:
   - date: 2020-05-05
     changes: Corrected other stuff
 comments:
-  - link: https://x.com/fulldecent/status/xxxx
-    name: '@fulldecent'
-    text: The official Twitter thread
   - link: https://0xcert.org/news/live-testing-smart-contracts-with-estimategas-william-entriken-tadej-vengust
     name: 0xcert
     text: "Live Testing Deployed Ethereum Contracts with estimateGas (original cross-post)"
@@ -276,9 +273,9 @@ This same test case can be run against any EVM network, such as Ethereum Mainnet
 
 ## Stubs and artifacts
 
-A stub is a specific, additional contract that is needed just to validate a test subject contract. For example, if you are validating an ERC-721 contract's ability to transfer tokens, you will need a contract that is able to receive tokens. You can see a fully developed [example at 0xcert](https://github.com/0xcert/erc721-validator/blob/096d04b01dec172576743fe6131df1fb45f33f24/contracts/validator.sol#L578).
+A stub is a specific, additional contract that is needed just to validate a test subject contract. For example, if you are validating an ERC-721 contract's ability to transfer tokens, you will need a contract that is able to receive tokens. You can see a fully developed [example at 0xcert](https://github.com/nibbstack/erc721-validator/blob/096d04b01dec172576743fe6131df1fb45f33f24/contracts/validator.sol#L578).
 
-Here is a basic example for an ERC-721 receiver stub. Note that this example assumes that the contract owns a token. You can achieve this in multiple ways that are described in the next section. The "giver" technique is also implemented in the 0xcert example linked [here](https://github.com/0xcert/erc721-validator/blob/096d04b01dec172576743fe6131df1fb45f33f24/contracts/validator.sol#L796).
+Here is a basic example for an ERC-721 receiver stub. Note that this example assumes that the contract owns a token. You can achieve this in multiple ways that are described in the next section. The "giver" technique is also implemented in the 0xcert example linked [here](https://github.com/nibbstack/erc721-validator/blob/096d04b01dec172576743fe6131df1fb45f33f24/contracts/validator.sol#L796).
 
 ```solidity
 pragma solidity 0.5.6;
@@ -339,7 +336,7 @@ In the same way that you can deploy stubs using the live testing technique, you 
 
 The presented technique brings a much-needed way of testing deployed contracts, but it is not without limitations. We would like to acknowledge the limitations and give solutions to some.
 
-Since smart contract [events](https://solidity.readthedocs.io/en/v0.4.24/contracts.html#events) are not accessible from within contracts, there is no way of testing them without actually performing a transaction. Therefore, testing whether an event is emitted is not possible with `estimateGas`.
+Since smart contract [events](https://docs.soliditylang.org/en/v0.4.24/contracts.html#events) are not accessible from within contracts, there is no way of testing them without actually performing a transaction. Therefore, testing whether an event is emitted is not possible with `estimateGas`.
 
 Now let's say you are testing something like transfer of tokens. To be able to transfer tokens you need to be the owner or an approved party. This is not a problem since `estimateGas` does not need to be signed by a private key and by such can be run from any address. That means you can run the transaction as the address that actually owns the tokens even though you do not have its private key.
 
@@ -350,7 +347,7 @@ In practice, it would work like so: find the token owner from token ID, now you 
 What about a case that involves multiple parties that would need to provide approval/ownership? Well, that is a limitation that cannot always be solved completely gas-free. But let us give you two examples of how you could do it:
 
 1. If you would like to test an ERC-721 asset that you don't own or that has not been minted yet, but the asset is for sale on [OpenSea](https://opensea.io/), your test case could run as the WETH account (which has 2 million Ether available), you could purchase the token on OpenSea, and then use that token as you please.
-2. Another way is the [giver contract](https://github.com/0xcert/erc721-validator/blob/master/contracts/validator.sol#L1060) approach. This workaround is not completely free but provides a way in which the token is completely safe. You can check the [ERC-721 Validator](https://erc721validator.org/) to see it in action.
+2. Another way is the [giver contract](https://github.com/nibbstack/erc721-validator/blob/master/contracts/validator.sol#L1060) approach. This workaround is not completely free but provides a way in which the token is completely safe. You can check the [ERC-721 Validator](https://erc721validator.org/) to see it in action.
 
 ## Conclusion
 

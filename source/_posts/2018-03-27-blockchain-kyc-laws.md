@@ -41,12 +41,12 @@ If you read that like an attacker:
 
 > For certain "reasonable" levels of product offerings and customers, CIP requirements can be minimized.
 
-What would a successful workaround for AML/KYC/CIP laws look like? It would look like Venmo. Here are the [account creation requirements for Venmo](https://help.venmo.com/hc/en-us/articles/209690188-Requirements):
+What would a successful workaround for AML/KYC/CIP laws look like? It would look like Venmo. Here are the [account creation requirements for Venmo](https://help.venmo.com/cs/articles/requirements-vhel170):
 
 - You must be physically located in the United States
 - You must have a U.S. cell phone that can send/receive text messages from short codes (please note that this phone number can not be on file with another Venmo account)
 
-Also, [they make very clear](https://help.venmo.com/hc/en-us/articles/217532197-Social-Security-Number) what the threshold is for further validation (collecting social security numbers):
+Also, [they make very clear](https://help.venmo.com/cs/articles/social-security-number-vhel289) what the threshold is for further validation (collecting social security numbers):
 
 - Send $300 or more in one week (rolling 7 day period)
 - Transfer $1000 or more to your bank in one week
@@ -54,7 +54,7 @@ Also, [they make very clear](https://help.venmo.com/hc/en-us/articles/217532197-
 
 With this quick exercise, we have identified a glorious business opportunity.
 
-- Create and register a [Money Services Business](https://www.fincen.gov/money-services-business-definition) seek licensure in one or more US states
+- Create and register a [Money Services Business](https://www.fincen.gov/resources/money-services-business-msb-registration) seek licensure in one or more US states
 - Create a lifetime account limit of $300 per customer
 - Use only name + phone number for account validation
 - Accept payment by debit card or bank transfer

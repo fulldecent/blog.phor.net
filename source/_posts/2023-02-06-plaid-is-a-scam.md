@@ -1,10 +1,6 @@
 ---
 title: Why Plaid is a scam
 tags: ["scam"]
-comments:
-  - link: https://x.com/fulldecent/status/xxx
-    name: '@fulldecent'
-    text: The official X thread
 ---
 
 Plaid.com is a company that collects bank account logins and passwords to "verify" your login to other quasi-banking institutions. They are a service provider to other companies, and here is what it looks like:

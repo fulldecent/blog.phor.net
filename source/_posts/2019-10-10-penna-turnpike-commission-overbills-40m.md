@@ -8,7 +8,7 @@ I have been sending Right To Know requests to the PA Turnpike to expose  how muc
 
 ## PA law states how much they can charge
 
-> In the event of a lost toll ticket, the patron shall pay the fare from the farthest point of entry on the  Turnpike to the actual point of exit. [67 Pa. Code § 601.12(d)](https://www.pacode.com/secure/data/067/chapter601/s601.12.html).
+> In the event of a lost toll ticket, the patron shall pay the fare from the farthest point of entry on the  Turnpike to the actual point of exit. [67 Pa. Code § 601.12(d)](https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/067/chapter601/s601.12.html).
 
 But instead they are ignoring your actual point of exit and charging based on greater of your point of exit or exit from the opposite direction. Assuming drivers are losing tickets traveling East as often as West, this means half of those tolls are overbilled.
 

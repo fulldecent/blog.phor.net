@@ -10,4 +10,4 @@ In the past when you called my voicemail, it would say:
 
 I did this using a Skype account to upload the outgoing message on my normal AT&amp;T voicemail account. The OGM updated every couple minutes with live information in the above format. Eventually I took it down because Skype audio quality is terrible.
 
-Now you can do this too if you want. The code is public at <https://code.google.com/p/voicemailremote/>
+Now you can do this too if you want. The code is public at <https://github.com/fulldecent/voicemail-remote>

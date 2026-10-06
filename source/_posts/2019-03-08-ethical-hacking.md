@@ -71,4 +71,4 @@ In other words, ethical hacking is different based on who you ask. Being involve
 ## Resources
 
 - [[US] Federal policy on technology, privacy, and cybersecurity, 2017-2020](https://ballotpedia.org/Federal_policy_on_technology,_privacy,_and_cybersecurity,_2017-2020) is a great collection by Ballotpedia.
-- [Google's Project Zero](https://googleprojectzero.blogspot.com/2014/07/announcing-project-zero.html) is an introduction explains a little about their views on ethics and hacking, representing both a vendor and researcher.
+- [Google's Project Zero](https://projectzero.google/2014/07/announcing-project-zero.html) is an introduction explains a little about their views on ethics and hacking, representing both a vendor and researcher.

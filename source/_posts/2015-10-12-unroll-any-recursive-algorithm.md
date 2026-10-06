@@ -16,7 +16,7 @@ Recursion uses a finite resource, stack space, and requires an assumption that t
 
 Here I will demonstrate a *generic* way to unroll any recursive algorithm. Of course, for your specific algorithm, you can surely do better.
 
-Our example is finding tree depth, [from Eric Lippert](<https://blogs.msdn.com/b/ericlippert/archive/2005/08/01/recursion-part-two-unrolling-a-recursive-function-with-an-explicit-stack.aspx> at Microsoft:
+Our example is finding tree depth, [from Eric Lippert](<https://devblogs.microsoft.com/ericlippert/recursion-part-two-unrolling-a-recursive-function-with-an-explicit-stack.aspx> at Microsoft:
 
 ```c
 int depth(node *tree) {

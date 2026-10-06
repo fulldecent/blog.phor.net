@@ -27,7 +27,7 @@ Enjoy!
 
 ## Additional notes 2009-06-01
 
-All of this data was collected from SEPTA [trainview](https://trainview.septa.org/). I created a script to query that page every minute, running since October 2008.
+All of this data was collected from SEPTA [trainview](https://realtime.septa.org/train/). I created a script to query that page every minute, running since October 2008.
 
 The recommended schedule changes are the new train schedules for each line which I think will cause the minimum inconvenience to passengers and the current scheduling engineers:
 

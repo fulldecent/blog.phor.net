@@ -10,7 +10,7 @@ I'm clearing off my list of cool computer projects to do. This was a good one, b
 
 TXT auto-responder for train lateness!
 
-Set up a Google Voice account with TXT message forwarding to connect to an email server you control. So when people send you a TXT message like "4336", it comes in as an email, and you can respond with something like "2 mins late, next stop West Trenton", which Google translates back to a TXT message. Data on train lateness is available at <https://trainview.septa.org/>.
+Set up a Google Voice account with TXT message forwarding to connect to an email server you control. So when people send you a TXT message like "4336", it comes in as an email, and you can respond with something like "2 mins late, next stop West Trenton", which Google translates back to a TXT message. Data on train lateness is available at <https://realtime.septa.org/train/>.
 
 Data on train schedules is available at <https://www2.septa.org/developer/>
 

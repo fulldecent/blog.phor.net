@@ -38,11 +38,11 @@ old-link: https://fulldecent.blogspot.com/2019/10/wills-zksnarks-bibliography.ht
 
 - Proving Knowledge of a Hash Pre-Image with ZoKrates
 
-  - <https://blog.decentriq.ch/proving-hash-pre-image-zksnarks-zokrates/>
+  - <https://docs.decentriq.com/articles/proving-hash-pre-image-zksnarks-zokrates>
 
 - Introduction to zk-SNARKs (Part 1)
 
-  - <https://blog.decentriq.ch/zk-snarks-primer-part-one/>
+  - <https://docs.decentriq.com/articles/zk-snarks-primer-part-one>
   - Eventually, this will result in an end-to-end zero-knowledge proof for a toy problem, following the Pinocchio protocol and implemented in Python.
 
 - Explaining SNARKs Part I: Homomorphic Hidings - Zcash

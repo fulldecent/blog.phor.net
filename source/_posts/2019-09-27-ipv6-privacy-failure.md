@@ -80,7 +80,7 @@ Here are knee-jerk responses from uninformed people I have heard when presenting
 
 ## Other notes related to IPv6, keep alive and energy usage
 
-Update: thank you @noIPv6 for this link <https://www.circleid.com/posts/81072_megawatts_keepalive_ipv6/>
+Update: thank you @noIPv6 for this link <https://circleid.com/index.php/posts/81072_megawatts_keepalive_ipv6/>
 
 Also related: <https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/OptimizeVoIP.html>
 
@@ -94,6 +94,6 @@ The solution is that every consumer access point to the internet should shuffle 
 
 Until then, we should recommend to the (consumer) public to turn off IPv6.
 
-The best work I have seen so far is [RFC 7721](https://www.ietf.org/rfc/rfc7721.txt). But still it seems nobody has considered providing this IPv4 level of privacy on top of IPv6.
+The best work I have seen so far is [RFC 7721](https://www.rfc-editor.org/rfc/rfc7721.txt). But still it seems nobody has considered providing this IPv4 level of privacy on top of IPv6.
 
 I would be happy to draft this into a formal proposal and am looking into it.

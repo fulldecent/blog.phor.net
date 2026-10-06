@@ -59,11 +59,11 @@ All transactions were an “instant transfer” Venmo transaction type to a Visa
 
 Below are details about what authority and regulations apply to this money transfer. Surprisingly, if you have ever been scammed, there is usually a key word in documents like this that explain how you can make recovery or how you can positively assign blame in a way that someone else is undeniably responsible for reimbursing you.
 
-Venmo defines [what is an instant transfer](https://help.venmo.com/hc/en-us/articles/115015844068-Instant-Transfers-FAQ).
+Venmo defines [what is an instant transfer](https://help.venmo.com/cs/articles/instant-bank-transfer-faq-vhel302).
 
-Venmo commits to review these transaction and [spells out their review process](https://help.venmo.com/hc/en-us/articles/115015446688-Reviews-of-Transfers-Out-of-Venmo).
+Venmo commits to review these transaction and [spells out their review process](https://help.venmo.com/cs/articles/reviews-of-transfers-into-and-out-of-venmo-vhel306).
 
-Venmo's license to transfer money is through PayPal as noted in their [terms of service, in footer](https://venmo.com/legal/terms/us-licenses/) (don’t follow that link, use the one below).
+Venmo's license to transfer money is through PayPal as noted in the licenses link in its footer.
 
 PayPal publishes its up-to-date [money transmitter licenses per state](https://www.paypal.com/us/webapps/mpp/licenses).
 
@@ -98,7 +98,7 @@ Following are recommendations to improve Venmo. Or in other words, documentation
 
 1. The “Venmo Security Code” email should not have been sent in the first place. Venmo clearly has an account phone number on file (see later text message), so requesting the phone number doesn’t make sense.
 2. When attempting to login, the out-of-band notification (the email, or the text message) should tell you the IP address and device that is attempting to login.
-3. For financial transactions, a 6-digit code is insufficient. 8 digits or more are needed. (Unfortunately, NIST may be promoting an insecure conflicting note in their [800-series recommendation](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf)).
+3. For financial transactions, a 6-digit code is insufficient. 8 digits or more are needed. (Unfortunately, NIST may be promoting an insecure conflicting note in their [800-series recommendation](https://pages.nist.gov/800-63-3/sp800-63b.html)).
 4. Adding a new payment output type (the new debit card) should trigger an email (we are not sure if this happened) and a multiple-day delay before payment can go to the new method.
 5. Adding a new payment output type where Visa cannot confirm that the name on the account matches the name on the Venmo account should flag the account for manual review and halt all transfers.
 6. Sending two transfers within the same day for an amount greater than $1,000 and having the tens and hundreds place digit of 9 should trigger an automated review of the account for possible fraud.

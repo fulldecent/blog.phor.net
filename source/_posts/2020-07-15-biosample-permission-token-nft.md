@@ -264,4 +264,4 @@ The role of permission platform, the role of blockchain
 
 Application to biometric data and genomics
 
-- [KPMG-1] Friend, Lauren; O’Neill, Jessica; Rivlin, Adrienne; Browne, Robert. *Direct-to-consumer genetic testing: Opportunities and risks in a rapidly evolving market*. 2018. <https://assets.kpmg/content/dam/kpmg/xx/pdf/2018/08/direct-to-consumer-genetic-testing.pdf>. Accessed July 10, 2020.
+- [KPMG-1] Friend, Lauren; O’Neill, Jessica; Rivlin, Adrienne; Browne, Robert. *Direct-to-consumer genetic testing: Opportunities and risks in a rapidly evolving market*. 2018. <https://assets.kpmg.com/content/dam/kpmg/xx/pdf/2018/08/direct-to-consumer-genetic-testing.pdf>. Accessed July 10, 2020.

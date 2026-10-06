@@ -23,7 +23,7 @@ In Pennsylvania, parking meters are regulated under agriculture law as weight an
 **Related links**
 
 - Philadelphia Parking Authority. *Online Violation Dispute*. [https://philapark.org/violations/](https://philapark.org/violations/)
-- Consumerist. *The Vast Majority Of Philadelphia Parking Tickets May Be Invalid.* March 9, 2008. [https://consumerist.com/2008/03/09/the-vast-majority-of-philadelphia-parking-tickets-may-be-invalid/](https://consumerist.com/2008/03/09/the-vast-majority-of-philadelphia-parking-tickets-may-be-invalid/)
+- Consumerist. *The Vast Majority Of Philadelphia Parking Tickets May Be Invalid.* March 9, 2008. [https://consumerist.com/2008/03/09/the-vast-majority-of-philadelphia-parking-tickets-may-be-invalid/](https://web.archive.org/web/20171102110652/https://consumerist.com/2008/03/09/the-vast-majority-of-philadelphia-parking-tickets-may-be-invalid/)
 - CSB. *Philadelphia Parking Meter Tests*. Mar 6, 2008. [https://static.cbslocal.com/station/wpsg/Parking_Meter_Tests.pdf](https://static.cbslocal.com/station/wpsg/Parking_Meter_Tests.pdf)
 - Dean F, Ely. PA Assoc. of Weights and Measures. *Parking Meter Primer*. Apr 21, 2005. [https://www.pawam.org/source/articles/ParkingMeterPrimer.doc](https://www.pawam.org/source/articles/ParkingMeterPrimer.doc)
 - Agriculture Code (3 PA.C.S.) - Omnibus Amendments. 1996 PA Acts 155. 18 December 1996. [https://www.palrb.us/pamphletlaws/19001999/1996/0/act/0155.pdf](https://www.palrb.us/pamphletlaws/19001999/1996/0/act/0155.pdf)
