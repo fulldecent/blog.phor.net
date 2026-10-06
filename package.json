@@ -37,12 +37,12 @@
   ],
   "license": "UNLICENSED",
   "devDependencies": {
-    "@fulldecent/nice-checkers-plugin": "^1.3.8",
-    "@shopify/prettier-plugin-liquid": "^1.11.0",
+    "@fulldecent/nice-checkers-plugin": "^1.3.11",
+    "@shopify/prettier-plugin-liquid": "^1.11.2",
     "glob": "^13.0.6",
-    "html-validate": "^11.15.0",
-    "markdownlint-cli2": "^0.23.2",
-    "prettier": "^3.9.6"
+    "html-validate": "^11.16.2",
+    "markdownlint-cli2": "^0.23.3",
+    "prettier": "^3.9.9"
   },
   "scripts": {
     "lint": "sh -c 'yarn lint:prettier \"$@\" && yarn lint:markdown \"$@\"' --",
@@ -60,5 +60,5 @@
     "test:unused-assets": "yarn node test/unused-assets.mjs",
     "postinstall": "yarn dlx @yarnpkg/sdks vscode"
   },
-  "packageManager": "yarn@4.18.0"
+  "packageManager": "yarn@4.18.1"
 }
