@@ -14,7 +14,7 @@ This whole process can take lots of time and would be really unfortunate if you 
 
 source: About.com, a site for business forms
 
-url: <https://jobsearch.about.com/od/sampleresumes/l/blresumehrmgmt.htm>
+url: <https://web.archive.org/web/20090627190918/http://jobsearch.about.com:80/od/sampleresumes/l/blresumehrmgmt.htm>
 
 ![Resume USA](/assets/images/resumes-in-east-and-west.webp)
 

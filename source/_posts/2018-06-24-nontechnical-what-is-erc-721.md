@@ -13,7 +13,7 @@ comments:
 
 This post explains how ERC-721 works and does not require any prior knowledge of Ethereum or blockchain.
 
-*[简体中文](https://www.sfgroup.hk/news_post/%E9%80%9A%E4%BF%97%E6%98%93%E6%87%82%E7%9A%84%E5%91%8A%E8%AF%89%E4%BD%A0%E4%BB%80%E4%B9%88%E6%98%AFerc-721/)（奇点财经翻译）
+*[简体中文](https://web.archive.org/web/20180710051151/http://www.sfgroup.hk:80/news_post/%E9%80%9A%E4%BF%97%E6%98%93%E6%87%82%E7%9A%84%E5%91%8A%E8%AF%89%E4%BD%A0%E4%BB%80%E4%B9%88%E6%98%AFerc-721/)（奇点财经翻译）
 
 But first, let's think about something you use every day:
 

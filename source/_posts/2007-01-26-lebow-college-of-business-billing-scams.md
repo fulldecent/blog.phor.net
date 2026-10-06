@@ -16,7 +16,7 @@ comments:
 
 You would not believe the effort Drexel will go through to increase their students tuition $40 per credit hour without them knowing about it.
 
-<https://www.lebow.drexel.edu/Prospects/Graduate/index.php>
+<https://www.lebow.drexel.edu/academics/graduate>
 
 I am enrolled in the "Two Year MBA". But it is not cohorted, so essentially, this is exactly like the "Professional MBA program". The former bills at a higher rate, but the latter is exactly what I am experiencing.
 

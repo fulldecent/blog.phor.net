@@ -8,4 +8,4 @@ This is the best explanation on the topic I've seen yet:
 
 > ID theft is called ID theft because back when it was fraud it was the <i>bank's</i> problem. Whereas now that it's "ID theft" it's the <i>customer's</i> problem.
 >
-> TheLink on slashdot / [permalink](https://slashdot.org/comments.pl?sid=3104189&cid=41278505).
+> TheLink on slashdot / [permalink](https://web.archive.org/web/20140630102255/http://slashdot.org/comments.pl?sid=3104189&cid=41278505).

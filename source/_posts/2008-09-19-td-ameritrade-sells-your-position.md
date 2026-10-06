@@ -33,7 +33,7 @@ I have demonstrated that TD Ameritrade is giving away information, not necessari
 
 Your name is not transmitted directly to BigCharts.com, however your IP address is. This can be traced back to you personally if you use that IP address to access any other website News Corp. has access to, for example, MySpace. Even if you don't use MySpace, that IP address may be tracable to you in many other ways.
 
-TD Ameritrade has also <a href="https://money.cnn.com/2005/04/19/technology/ameritrade/index.htm">"lost" account information in the past</a>, of course they never made specific details available.
+TD Ameritrade has also <a href="https://web.archive.org/web/20050421024120/http://money.cnn.com:80/2005/04/19/technology/ameritrade/index.htm">"lost" account information in the past</a>, of course they never made specific details available.
 
 ## Timeline
 

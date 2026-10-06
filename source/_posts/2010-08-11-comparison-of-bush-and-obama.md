@@ -32,4 +32,4 @@ Used the terrorist threats to call a national state of emergency
 
 Also, you can jump in on a live discussion here and bring up your own points and counterpoints (no site registration required)
 
-<https://yro.slashdot.org/comments.pl?sid=1750926&cid=33216426>
+<https://web.archive.org/web/20221031122424/https://yro.slashdot.org/comments.pl?sid=1750926&cid=33216426>

@@ -28,7 +28,7 @@ My mission in the blockchain world is simple:
 >
 > [phor.net](https://phor.net)
 
-This explains the grand strategy of how blockchain, and specifically NFTs, are leading to a world where consumers can lookup and research about things they buy. This is important to me, and I am very proud to have been on the teams that brought to the world: [brand verification for vaccines](https://www.ey.com/en_gl/news/2019/04/ey-ops-chain-industrializes-the-blockchain-at-scale-for-enterprises), [government authentication of COVID testing](https://potys.gob.mx/ahauinnova-mexico-fights-black-market-covid-tests-avalanche-blockchain), [private DNA testing](https://genobank.io), [weekly free classes on open source](https://phor.net/#speaking).
+This explains the grand strategy of how blockchain, and specifically NFTs, are leading to a world where consumers can lookup and research about things they buy. This is important to me, and I am very proud to have been on the teams that brought to the world: [brand verification for vaccines](https://web.archive.org/web/20190819140930/https://www.ey.com/en_gl/news/2019/04/ey-ops-chain-industrializes-the-blockchain-at-scale-for-enterprises), [government authentication of COVID testing](https://potys.gob.mx/ahauinnova-mexico-fights-black-market-covid-tests-avalanche-blockchain), [private DNA testing](https://genobank.io), [weekly free classes on open source](https://phor.net/#speaking).
 
 Here are are my ambitions which are affected by these ethics policies:
 

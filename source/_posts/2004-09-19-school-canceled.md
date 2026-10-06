@@ -5,7 +5,7 @@ comments:
   - link: https://x.com/fulldecent/status/1575908254693359616
     name: '@fulldecent'
     text: The official X thread
-  - link: http://pinknblack.blogspot.com/2004/04/villanova.html
+  - link: https://web.archive.org/web/20231125012842/https://pinknblack.blogspot.com/2004/04/villanova.html
     name: Villamova
     text: "Another Wildcat's analysis of this night"
   - link: https://villanovan.com/16784/uncategorized/hacker-attempts-class-cancellation-via-e-mail/

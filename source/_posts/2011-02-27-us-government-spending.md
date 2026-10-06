@@ -13,6 +13,6 @@ Answer:
 
 Sources:
 
-- <https://www.treasurydirect.gov/govt/reports/pd/gift/gift.htm>
+- <https://www.treasurydirect.gov/government/public-debt-reports/gifts/>
 - <https://www.google.com/publicdata?ds=uspopulation&amp;met=population&amp;tdim=true&amp;dl=en&amp;hl=en&amp;q=us+population>
-- <https://www.gpoaccess.gov/usbudget/fy10/pdf/fy10-newera.pdf>
+- <https://www.govinfo.gov/content/pkg/BUDGET-2010-BUD/pdf/BUDGET-2010-BUD.pdf>

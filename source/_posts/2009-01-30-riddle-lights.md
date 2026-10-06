@@ -62,7 +62,7 @@ Turn on lights 1, 2, 3 and turn off light 4. In two minutes, turn off light 2. A
 
 This answer was given just when the problem was being updated, so I took it (even thought is handles 4 lights). The best part is that since this answer is so different, it can be combined with my answer above to solve the 6 lights riddle.
 
-Duncan put up the following answer which did start with the "[three light riddle](https://users.ameritech.net/iamperfect/ridlightbulb.htm)":
+Duncan put up the following answer which did start with the "[three light riddle](https://web.archive.org/web/20050430132209/http://users.ameritech.net/iamperfect/ridlightbulb.htm)":
 
 You have 4 switches (A,B,C,D). Turn on switches A and B for about 5 minutes. Turn off switch B, turn on light D, and enter the room.
 

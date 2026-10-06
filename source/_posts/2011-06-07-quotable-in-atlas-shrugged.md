@@ -16,7 +16,7 @@ Just finished reading *Atlas Shrugged*—what a find! This is only the fifth fic
 
 > It is not advisable, James, to venture unsolicited opinions. You should spare yourself the embarrassing discovery of their exact value to your listener.
 
-**On press controlled by the government (think about this, then watch [60 Minutes Interview of Ben Bernanke](https://www.cbsnews.com/video/watch/?id=7120553n)):**
+**On press controlled by the government (think about this, then watch [60 Minutes Interview of Ben Bernanke](https://web.archive.org/web/20101206181039/http://www.cbsnews.com/video/watch/?id=7120553n)):**
 
 > The reporters who came to the press conference in the office of the John Galt Line were young men who had been trained to think that their job consisted of concealing from the world the nature of its events. It was their daily duty to serve as audience for some public- figure who made utterances about the public good, in phrases carefully chosen to convey no meaning. It was their daily job to sling words together in any combination they pleased, so long as the words did not fall into a sequence saying something specific. They could not understand the interview now being given to them.
 

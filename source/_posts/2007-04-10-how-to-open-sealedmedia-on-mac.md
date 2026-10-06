@@ -15,7 +15,7 @@ You will have to download Acrobat 7 for Mac first. Use this link: [ftp://ftp.ado
 
 Note that the installation will succeed with no indication that the process is complete.
 
-You will need to install SealedMedia unsealer first [https://download.sealedmedia.com/unsealer/index.asp](https://download.sealedmedia.com/unsealer/index.asp)
+You will need to install SealedMedia unsealer first [https://web.archive.org/web/20021016195218/http://download.sealedmedia.com:80/unsealer/index.asp](https://web.archive.org/web/20021016195218/http://download.sealedmedia.com:80/unsealer/index.asp)
 
 Unfortunately, you will need to provide root access to the DRM installer for this to work, and it will not work with a low-privilege test account.
 

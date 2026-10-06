@@ -11,7 +11,7 @@ I have heard that oil prices are affected by an election year. After some analys
 
 Methodology:
 
-- Collect oil spot prices from [https://tonto.eia.doe.gov/dnav/pet/hist/rwtcd.htm](https://tonto.eia.doe.gov/dnav/pet/hist/rwtcd.htm)
+- Collect oil spot prices from [https://www.eia.gov/dnav/pet/hist/rwtcd.htm](https://www.eia.gov/dnav/pet/hist/rwtcd.htm)
 - Divide each day's price by the previous day
 - Take the geometric average across combinations of months and election/non-election years
 - Visually see that the results are not statistically significant

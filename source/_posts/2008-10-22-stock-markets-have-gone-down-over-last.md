@@ -23,5 +23,5 @@ Some people have been using the DOW to refer to the stock market. [This is wrong
 
 Sites like these will have to be updated:
 
-- [https://www.mutualofamerica.com/articles/CapMan/October03/longtermreturns.asp](https://www.mutualofamerica.com/articles/CapMan/October03/longtermreturns.asp)
+- [https://web.archive.org/web/20031021100826/http://www.mutualofamerica.com:80/articles/CapMan/October03/longtermreturns.asp](https://web.archive.org/web/20031021100826/http://www.mutualofamerica.com:80/articles/CapMan/October03/longtermreturns.asp)
 - [https://www.iht.com/articles/2002/07/20/mglass20_ed3_.php](https://www.iht.com/articles/2002/07/20/mglass20_ed3_.php)

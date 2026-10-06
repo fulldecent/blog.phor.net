@@ -174,7 +174,7 @@ So how does a naive buyer upgrade to a MEV buyer? A buyer can rely on **rerolls*
 Examples:
 
 * [Meebits drop was hacked for millions](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) because it allowed buyers to know which ID they were getting while also accidentally revealing which IDs were valuable. The attacker used the "rerolls" technique.
-* [The Photon Project](https://thephotonprojectnft.com) (smart contract `0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F`) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
+* [The Photon Project](https://web.archive.org/web/20211003063122/https://thephotonprojectnft.com/) (smart contract `0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F`) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
 * [LazyArray data structure](https://github.com/fulldecent/solidity-template/blob/main/contracts/Data%20structures/LazyArray.sol) allows to efficiently implement sample without replacement.
 
 ## Iterative commit-reveal

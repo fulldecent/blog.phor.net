@@ -92,7 +92,7 @@ Other notes showing that One-of-a-Kind High School is not accredited:
 
 - [Accreditation statement](https://www.bizbuysell.com/Business-Opportunity/One-Of-A-Kind-High-School/1215150/)
 - Accreditation agency is National Accreditation Agency ([source](https://nationalaccreditationagency.com/))
-- Deborah Bryant represents National Accreditiation Agency ([source: Washington Post](https://www.washingtonpost.com/wp-dyn/content/article/2009/09/21/AR2009092103101.html))
+- Deborah Bryant represents National Accreditiation Agency ([source: Washington Post](https://web.archive.org/web/20180630051808/http://www.washingtonpost.com/wp-dyn/content/article/2009/09/21/AR2009092103101.html))
 - This entity is clearly a joke
 - Listed reason for sale: health problems ([source](https://www.bizquest.com/business-for-sale/one-of-a-kind-high-school/BW1395191/))
 - Further review: <https://answers.yahoo.com/question/index?qid=20101201110828AAuFE84>

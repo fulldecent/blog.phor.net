@@ -13,4 +13,4 @@ This cannot be stressed enough:
 >
 > The bit about the derivates is exactly the right thing to make a circle (look up the velocity of something in orbit). This means that it will keep the same magnitude all the time, so it's the unit circle. And it's velocity is 1, which means that it'll go all the way around when x is the circumference of the circle, which is 2 pi. So at pi, it's gone halfway around, and e^i pi = -1.
 >
-> - Source: Labervon <a href="https://forums.xkcd.com/viewtopic.php?f=7&amp;t=528">https://forums.xkcd.com/viewtopic.php?f=7&amp;t=528</a>
+> - Source: Labervon <a href="https://web.archive.org/web/20170630195557/http://forums.xkcd.com/viewtopic.php?f=7&amp;t=528">https://web.archive.org/web/20170630195557/http://forums.xkcd.com/viewtopic.php?f=7&amp;t=528</a>
