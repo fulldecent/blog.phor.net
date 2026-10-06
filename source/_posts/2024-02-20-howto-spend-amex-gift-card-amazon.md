@@ -32,7 +32,7 @@ I will walk you through how to get every penny out of your gift card and use it 
 {: .margin-note}
 Now and every time you click a link to "check your credit card" you must verify the URL is not a scam website.
 
-Visit the [AmexGiftCard.com](https://AmexGiftCard.com) website and click the CHECK BALANCE button. You will need to fill in the credit card number, expiration date and security code. Don't be a sucker, leave the email field blank.
+Visit the [AmexGiftCard.com](https://www.amexgiftcard.com/) website and click the CHECK BALANCE button. You will need to fill in the credit card number, expiration date and security code. Don't be a sucker, leave the email field blank.
 
 ![American Express gift card balance check](/assets/images/howto-spend-amex-gift-card-amazon-verify.webp)
 

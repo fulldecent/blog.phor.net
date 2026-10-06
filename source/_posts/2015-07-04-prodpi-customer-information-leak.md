@@ -90,7 +90,7 @@ Previously, "personal information" was defined as:
 
 As such by bring this breach to their attention, ProDPI has obliged itself to disclose this to its customers.
 
-Lastly, ProDPI mentions the [California Online Privacy Protection Act](https://oag.ca.gov/ecrime/databreach/list). The Act requires disclosure that data breaches such as this should result in notification to customers and posting on the COPPA website. COPPA defines personal information in CAL. CIV. CODE § 1798.80(e) as:
+Lastly, ProDPI mentions the [California Online Privacy Protection Act](https://oag.ca.gov/privacy/databreach/list). The Act requires disclosure that data breaches such as this should result in notification to customers and posting on the COPPA website. COPPA defines personal information in CAL. CIV. CODE § 1798.80(e) as:
 
 > "Personal information" means any information that identifies, relates to, describes, or is capable of being associated with, a particular individual, including, but not limited to, his or her name, signature, social security number, physical characteristics or description, address, telephone number, passport number, driver's license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. "Personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.
 

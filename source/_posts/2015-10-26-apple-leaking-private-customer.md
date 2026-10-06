@@ -54,4 +54,4 @@ Here is the credit citation:
 >
 > A server configuration issue was addressed. We would like to acknowledge William Entriken (@fulldecent) of phor.net for reporting this issue.
 >
-> <https://support.apple.com/en-us/HT201536>
+> <https://support.apple.com/en-us/102774>

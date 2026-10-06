@@ -16,4 +16,4 @@ EDIT: Additional humor listed below rather than the proper way of new posts.<br>
 
 ![Poop](/assets/images/contents-may-settle-during-packaging-4.webp)
 
-Two are crossposted to the [Funny Signs blog](https://chrisnolan.org/blog/)
+Two were crossposted to the Funny Signs blog (`https://chrisnolan.org/blog/`), which now returns 404.

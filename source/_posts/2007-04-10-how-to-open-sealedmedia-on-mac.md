@@ -40,7 +40,7 @@ Open your sealed files and print to this printer, and you will now have the PS f
 
 **Part three is to convert these PS to PDF**
 
-I did this step on Linux since that's where my dev tools are. Download the source for Ghostscript at [https://www.cs.wisc.edu/~ghost/doc/GPL/gpl856.htm](https://www.cs.wisc.edu/~ghost/doc/GPL/gpl856.htm) and edit the file libs/gs_pdfwr.ps and change
+I did this step on Linux since that's where my dev tools are. Download the source for Ghostscript at [https://pages.cs.wisc.edu/~ghost/doc/GPL/gpl856.htm](https://pages.cs.wisc.edu/~ghost/doc/GPL/gpl856.htm) and edit the file libs/gs_pdfwr.ps and change
 
 ```postscript
 currentdevice .devicename /pdfwrite eq {

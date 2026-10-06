@@ -29,6 +29,8 @@ export default defineConfig({
           "github\\.com/login",
         ],
         urlRewrites: [{ pattern: "^https://blog\\.phor\\.net", replacement: "./build" }],
+        // HEAD checks are blocked on some live pages. Rows are exact URLs a browser confirmed.
+        manuallyReviewedPath: "test/manually-reviewed-external-links.csv",
         alternativeExtensions: [".html"],
         indexFile: "index.html",
       },

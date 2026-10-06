@@ -28,4 +28,4 @@ So, at this point donations are not tax deductible.
 
 - <https://www.freechess.org/articles.html>
 - <https://www.freechess.org/>
-- <https://mblsportal.sos.state.mn.us/Business/SearchDetails?filingGuid=4a733f8c-9ed4-e011-a886-001ec94ffe7f>
+- <https://mblsportal.sos.mn.gov/Business/SearchDetails?filingGuid=4a733f8c-9ed4-e011-a886-001ec94ffe7f>

@@ -202,7 +202,7 @@ Subject: Hire
 
 > From: Timothy Smith
 >
-> You can choose a time on the calendar for a meeting with Alex: <https://calendly.com/woolanalex/30min>
+> You can choose a time on the calendar for a meeting with Alex: `https://calendly.com/woolanalex/30min`
 >
 > Have you already tried entering the metaverse? Join in before the conference starts by clicking the Play button on our launcher, and you'll join the lobby.
 
@@ -270,7 +270,7 @@ This thread is between me, Tim, and Alex <woolanalex@gmail.com>. This is the ema
 >
 > yes, that's actually true. His email got blocked due to suspicious activity as he told me. It might be because of sending documents too frequently.
 >
-> We are currently in the midst of a busy phase in our project, gradually transitioning into the final stage. By the way, are you planning to join us? I'll duplicate the access codes for you: You can find more information on our official website: <https://quantumverse.world/>. Access codes: Windows: MTRX-ADV1-JNS9 and MacOS: MTRX-ADV2-JNS9
+> We are currently in the midst of a busy phase in our project, gradually transitioning into the final stage. By the way, are you planning to join us? I'll duplicate the access codes for you: You can find more information on our official website: `https://quantumverse.world/`. Access codes: Windows: MTRX-ADV1-JNS9 and MacOS: MTRX-ADV2-JNS9
 
 > From: William Entriken
 >
@@ -296,20 +296,20 @@ Through the links they sent to me on email above, our meeting, and my own resear
 
 - X <https://x.com/QStudioX>
 - Discord <https://discord.com/invite/quantumstudio>
-- Discord web <https://discord.com/servers/quantum-quan-1071493704373764267>
+- Discord web `https://discord.com/servers/quantum-quan-1071493704373764267`
 - Medium <https://medium.com/@quantumstudio>
-- Mirror <https://mirror.xyz/quantumstudio.eth>
-- Whitepaper <https://docs.quantumverse.world/>
+- Mirror `https://mirror.xyz/quantumstudio.eth`
+- Whitepaper `https://docs.quantumverse.world/`
 - UK License <https://find-and-update.company-information.service.gov.uk/company/01592381>
 - US License <https://www.georgiacompanyregistry.com/companies/quantum-advantage-llc/>
-- Partners <https://docs.quantumverse.world/quantum-partners>
-- Investors <https://docs.quantumverse.world/quantum-investors>
-- Staff Handbook <https://docs.quantumverse.world/legal/staff-handbook>
-- Website Privacy Policy <https://docs.quantumverse.world/legal/website-privacy-policy>
+- Partners `https://docs.quantumverse.world/quantum-partners`
+- Investors `https://docs.quantumverse.world/quantum-investors`
+- Staff Handbook `https://docs.quantumverse.world/legal/staff-handbook`
+- Website Privacy Policy `https://docs.quantumverse.world/legal/website-privacy-policy`
 - Gala Games <https://app.gala.games/games/quantumverse>
 - $QUANT Bubblemaps <https://v2.bubblemaps.io/map?address=0x4e69365007ee6560d01d174b608bf9ac13d58f37&chain=eth>
-- Bluesky <https://bsky.app/profile/quantumstudio>
-- Entre <https://joinentre.com/profile/quantumstudio>
+- Bluesky `https://bsky.app/profile/quantumstudio`
+- Entre `https://joinentre.com/profile/quantumstudio`
 
 ## End result
 

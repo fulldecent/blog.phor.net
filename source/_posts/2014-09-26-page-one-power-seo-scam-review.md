@@ -26,7 +26,7 @@ Excuses are not necessary, only results matter, I have typed in `[new york news]
 
 ## Email linkbuilding
 
-Since you are paying by the hour, results are glossed over. You can quickly see this by viewing their [packages page](https://pageonepower.com/link-building-packages/) which states "We sell hourly packages because we can’t promise a certain number of links per month." They fail to mention typical customer results. Our results were 24 normal email-based outreach links created over 12 months. Several of these link existed (and are visible on the [Wayback Machine](https://archive.org/web/)) before the P1P engagement. In other words, they took credit for others' work.
+Since you are paying by the hour, results are glossed over. You can quickly see this by viewing their [packages page](https://pageonepower.com/link-building-packages/) which states "We sell hourly packages because we can’t promise a certain number of links per month." They fail to mention typical customer results. Our results were 24 normal email-based outreach links created over 12 months. Several of these link existed (and are visible on the [Wayback Machine](https://web.archive.org/)) before the P1P engagement. In other words, they took credit for others' work.
 
 ## Other campaigns
 

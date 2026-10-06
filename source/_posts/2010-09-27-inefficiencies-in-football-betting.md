@@ -74,4 +74,4 @@ You are welcome to take part in the research. All data files, code and results a
 
 Another thing you could try would be to estimate bettor volume per game (based on Nielsen ratings or data from Vegas) and dot product bettor sentiment (I won’t say how to get this) and then see if there is a positive value for bookies -- this may indicate a fixed game, but would be hard to exploit for profit since both of those will be harder to predict (and they may not be independent!).
 
-[Data files, source code and results are here.](https://code.google.com/p/footballbetting/)
+[Data files, source code and results are here.](https://github.com/fulldecent/footballbetting)

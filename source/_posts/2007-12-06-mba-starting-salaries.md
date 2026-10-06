@@ -17,4 +17,4 @@ Starting salaries for MBA's
 | 6+ yrs. | $100,887 | $17,521 | 34% |
 | Average | $92,360 | $17,603 | |
 
-Source: [GMAC Global MBA General Data Report 2006](https://www.gmac.com/NR/rdonlyres/4617742F-A7E7-4D21-ABBA-206B927D8EC2/0/GlobalMBAGeneralDataReport2006.pdf)
+Source: [GMAC Global MBA General Data Report 2006, as reprinted by CollegeJournal](https://web.archive.org/web/20070318005652/http://www.collegejournal.com/salarydata/mba/mbas.html)

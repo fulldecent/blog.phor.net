@@ -52,13 +52,13 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - booking.com — Please contact the Helpdesk on +44 2086128899 if external.  If on Cisco phone then 8899.
 - change.org — <it.support@change.org>
 - columbia.edu — LionMail is the main email system of Columbia University. For information write <askcuit@columbia.edu>.
-- cornell.edu — If you don&#39;t remember your password you may reset it via <https://netid.cornell.edu>
+- cornell.edu — If you don&#39;t remember your password you may reset it via <https://netid.cornell.edu/netidmanagement/>
 - cornell.edu — For other issues send email to <helpdesk@cornell.edu>.
 - deezer.com — <sos-it@deezer.com>
 - digg.com — If you are having a Google App issue, please contact <it@digg.com>
 - ea.com — For EA G-Suite support, please contact the IT Help Desk through...
 - ea.com — &gt; Slack: #it_google_drive_help
-- ea.com — &gt; Web: <https://helpdesk.ea.com>
+- ea.com — &gt; Web: `https://helpdesk.ea.com`
 - ea.com — &gt; Phone: x55555 or 1-877-232-4295
 - fb.com — <help@fb.com>
 - github.com — Please email  <it@github.com>  for technical support, or find us on Chat in the +IT Crowd room. Thanks, Hubot.
@@ -66,7 +66,7 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - greenpeace.org — Hello Rainbow Warrior!
 - greenpeace.org — This is your personal user hub. If you have any issues or questions please contact <global-it@greenpeace.org>
 - gutenberg.org — Please ask questions here:
-- gutenberg.org — <https://answers.ibiblio.org>
+- gutenberg.org — `https://answers.ibiblio.org`
 - harvard.edu — Please navigate to the following URL for information regarding obtaining support and changing your password:
 - harvard.edu — <https://sites.google.com/a/g.harvard.edu/password-change/>
 - hm.com — If you need help with your password or other support please contact your SEC responsible.
@@ -90,7 +90,7 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - noaa.gov — If you are having a problem logging in, please clear your browser  cache and restart your browser.  If you problem persists try resetting  your password using accounts.noaa.gov.  If you are still having issues  or trouble with - esetting your password please contact your local  support.
 - npr.org — Please e-mail <onlinetech@npr.org> for assistance.
 - nps.gov — Please contact your DOI, Bureau or Office, support desk or your local office Information Technology team for - ssistance.
-- nvidia.com — Please file a help request - <https://ithelp/>
+- nvidia.com — Please file a help request - `https://ithelp/`
 - oreilly.com — If you need help with your company-assigned account, please contact <solutions@oreilly.com>.
 - oup.com — Please contact the ITSD Service Desk for help.
 - pixabay.com — <https://support.canva.com/>

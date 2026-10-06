@@ -18,7 +18,7 @@ We reached out to Martin regarding a business that was for sale on BizBuySell. H
 
 We sent a message online and received an initial voicemail identifying himself only as “Martin”. We called back and Martin Fluss identified himself as Meir Martin ("but people just call me Martin"). Here are conclusions we have from facts we learned about Martin:
 
-- Meir Martin is married to Doina Martin and resides at 4106 NW 78th Terrace, Coral Springs, FL 33065 ([source](https://www.bcpa.net/RecInfo.asp?URL_Folio=484114011880))
+- Meir Martin is married to Doina Martin and resides at 4106 NW 78th Terrace, Coral Springs, FL 33065 ([source](https://bcpa.net/RecInfo.asp?URL_Folio=484114011880))
 - Meir Martin is an entrepreneur involved in photography, trips to Israel, and his daughter’s business, he is shown and visible on this site, ([source](https://petpeepee.com/about))
 - Records regarding Meir Martin’s name ([source](https://officialrecords.broward.org/AcclaimWeb/search/SearchTypeName), and you must search for MEIR,MARTIN and MARTIN,MEIR)
 

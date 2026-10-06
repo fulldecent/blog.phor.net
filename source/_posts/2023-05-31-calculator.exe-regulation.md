@@ -17,4 +17,4 @@ Even calculator.exe that comes with every Windows computer and Calculator.app on
 
 These applications would all be required to have backdoors which allow shutdown of the application and removal/safeguarding of data.
 
-Full episode addressing this is on published at <https://youtu.be/stPEVi5qivw>
+Full episode addressing this is on published at <https://www.youtube.com/watch?v=stPEVi5qivw>

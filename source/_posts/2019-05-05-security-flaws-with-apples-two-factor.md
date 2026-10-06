@@ -43,7 +43,7 @@ Mac->>Apple: Request to use Apple ID
 Apple->>Mac: Access granted
 ```
 
-Apple published [detailed documentation](https://support.apple.com/en-us/HT204915) for two-factor authentication, however this documentation wholly excludes any mention of the steps where you are required to enter your iPhone password or Mac administration password, which is ostensibly sent to Apple. Following is a screenshot of the current version of this webpage for posterity.
+Apple published [detailed documentation](https://support.apple.com/en-us/102660) for two-factor authentication, however this documentation wholly excludes any mention of the steps where you are required to enter your iPhone password or Mac administration password, which is ostensibly sent to Apple. Following is a screenshot of the current version of this webpage for posterity.
 
 ![Register](/assets/images/security-flaws-with-apples-two-factor-4.webp)
 

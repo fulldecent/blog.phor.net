@@ -4,7 +4,7 @@ tags: ["security", "best-practice"]
 old-link: https://privacylog.blogspot.com/2016/09/password-strength-meter.html
 ---
 
-This post is a reply to <https://x.com/18F/status/778637006075154432> it shows two great user interfaces you can use on your website to show the visitor how strong their password is.
+This post is a reply to an 18F post that is no longer on X (`https://x.com/18F/status/778637006075154432`). It shows two great user interfaces you can use on your website to show the visitor how strong their password is.
 
 ## Version 1
 

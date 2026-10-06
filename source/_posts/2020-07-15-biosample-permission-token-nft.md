@@ -251,7 +251,7 @@ A basic biosample permission platform
 Using non-fungible tokens to create and look up permits
 
 - [ERC-721]. Entriken, William; Shirley, Dieter; Evans, Jacob; Sachs, Nastassia. *ERC-721 Non-Fungible Token Standard.* Ethereum Improvement Proposals, no 721, created January, 14, 2018. [Online serial]. <https://eips.ethereum.org/EIPS/eip-721>
-- [0xcert-1] 0xcert. *ERC-721 Token: Reference Implementation*.  Updated June 29, 2020. <https://github.com/0xcert/ethereum-erc721>. Accessed July 4, 2020.
+- [0xcert-1] 0xcert. *ERC-721 Token: Reference Implementation*.  Updated June 29, 2020. <https://github.com/nibbstack/erc721>. Accessed July 4, 2020.
 - [ETHEREUM-1] Wood, Gavin. Ethereum: *A Secure Decentralized Generalised Transaction Ledger: Petersburg Version*. June 8, 2020. <https://ethereum.github.io/yellowpaper/paper.pdf>. Accessed July 4, 2020.
 - [EIP-735] Vogelsteller, Fabian. *ERC-735: Claim Holder [DRAFT]*. Ethereum Improvement Proposals, no 735, created October 9, 2018. [Online serial]. <https://github.com/ethereum/EIPs/issues/735>. Accessed July 4, 2020.
 - [EIP-780] Torstensson, Joel. *ERC-780: Ethereum Claims Registry [DRAFT]*. Ethereum Improvement Proposals, no 780, created November 29, 2017. [Online serial]. <https://github.com/ethereum/EIPs/issues/780>. Accessed July 4, 2020.

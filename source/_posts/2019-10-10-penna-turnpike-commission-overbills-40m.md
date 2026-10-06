@@ -20,6 +20,6 @@ Read the appeal docket here: <https://www.openrecords.pa.gov/Appeals/FinalDetRec
 
 **There is a golden nugget there though. Deep inside the docket you can publicly see how many such violation notices there are: approximately 2 million per year.**
 
-HOW MUCH PER VIOLATION: Most vehicles are exiting near Philadelphia or Pittsburgh and the toll to exit either from the long way is about $45 or the short way is about $6 a difference about $40. We are assuming all class-1 vehicles. Trucks would cost more. Source: <https://www.paturnpike.com/toll/tollmileage.aspx>
+HOW MUCH PER VIOLATION: Most vehicles are exiting near Philadelphia or Pittsburgh and the toll to exit either from the long way is about $45 or the short way is about $6 a difference about $40. We are assuming all class-1 vehicles. Trucks would cost more. Source: <https://www.paturnpike.com/toll-calculator>
 
 **Result: PTC is overbilling approximately $40M per year.**
