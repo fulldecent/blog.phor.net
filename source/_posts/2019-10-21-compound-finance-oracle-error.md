@@ -29,7 +29,7 @@ The period is set based on block number.
 
 # Details
 
-The implementation assumes 240 blocks per hour. This is incorrect, as admitted in the code. Actual block times are variable and skew is possible. See [actual times reported by Etherscan](https://etherscan.io/chart/blocktime).
+The implementation assumes 240 blocks per hour. This is incorrect, as admitted in the code. Actual block times are variable and skew is possible.
 
 ## Impact
 

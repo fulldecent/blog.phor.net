@@ -29,7 +29,7 @@ Here is the letter to The Ombudsman.
 > * Cost basis or capital gains information<br>
 > * A complete transaction history (so I can manually calculate gains)<br>
 >
-> As such, it is impossible to accurately file my taxes. Based on the number of ING Direct customers with mutual funds (published by ING at <https://tinyurl.com/ingreport>), I believe that this situation could prevent millions of ING Direct customers from properly filing their taxes.<br>
+> As such, it is impossible to accurately file my taxes. Based on the number of ING Direct customers with mutual funds (published by ING at `https://tinyurl.com/ingreport`), I believe that this situation could prevent millions of ING Direct customers from properly filing their taxes.<br>
 > <br>
 > Sincerely,<br>
 > <br>

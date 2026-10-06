@@ -64,8 +64,8 @@ Examples:
 
 Some people dispute whether Terra Nullius is an NFT.
 
-* [Su Squares](https://tenthousandsu.com) ([smart contract](https://etherscan.io/address/0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F)) is a numbered sale where the location (x-y grid) is public ahead of time and graphics metadata is added by token holders.
-* [CryptoPunks](https://www.cryptopunks.app/) ([smart contract](https://etherscan.io/tx/0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430)) is a numbered sale where the images [were published](https://github.com/larvalabs/cryptopunks/blob/master/punks.png) before the contract went live.
+* [Su Squares](https://tenthousandsu.com) (smart contract `0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F`) is a numbered sale where the location (x-y grid) is public ahead of time and graphics metadata is added by token holders.
+* [CryptoPunks](https://www.cryptopunks.app/) (creation transaction `0x0885b9e5184f497595e1ae2652d63dbdb2785de2e498af837d672f5765f28430`) is a numbered sale where the images [were published](https://github.com/larvalabs/cryptopunks/blob/master/punks.png) before the contract went live.
 
 ## Next-for-grabs
 
@@ -99,7 +99,7 @@ Examples:
 
 Some people dispute whether Terra Nullius is an NFT.
 
-* [Terra Nullius](https://fulldecent.blogspot.com/2021/09/there-are-no-nft-contracts-before-terra.html) ([smart contract](https://etherscan.io/address/0x6e38a457c722c6011b2dfa06d49240e797844d66)) is a next-for-grabs giveaway.
+* [Terra Nullius](https://fulldecent.blogspot.com/2021/09/there-are-no-nft-contracts-before-terra.html) (smart contract `0x6e38a457c722c6011b2dfa06d49240e797844d66`) is a next-for-grabs giveaway.
 
 ## Immediate reveal
 
@@ -174,7 +174,7 @@ So how does a naive buyer upgrade to a MEV buyer? A buyer can rely on **rerolls*
 Examples:
 
 * [Meebits drop was hacked for millions](https://cointelegraph.com/news/85-million-meebits-nft-project-exploited-attacker-nabs-700-000-collectible) because it allowed buyers to know which ID they were getting while also accidentally revealing which IDs were valuable. The attacker used the "rerolls" technique.
-* [The Photon Project](https://thephotonprojectnft.com) ([smart contract](https://etherscan.io/address/0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F#code)) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
+* [The Photon Project](https://thephotonprojectnft.com) (smart contract `0x0E30a504ED0497Aaf18C30bdf2Fe6a9046eCb85F`) uses a simple immediate reveal (`_getRandomNumber`) that any MEV participant could game.
 * [LazyArray data structure](https://github.com/fulldecent/solidity-template/blob/main/contracts/Data%20structures/LazyArray.sol) allows to efficiently implement sample without replacement.
 
 ## Iterative commit-reveal
@@ -212,8 +212,8 @@ There are ways for an MEV participant to manipulate the `BLOCKHASH`. But these t
 
 Examples:
 
-* [Area](https://area.world) ([smart contract](https://etherscan.io/address/0xf85c6320cc60DEC45Af1f7cE82B13dd24D539690#code)) uses a "commit train" so that each buyer is doing a commit as well as the reveal for the previous buyer.
-* [Non-Fungible Fungi](https://x.com/FungibleFungi) ([smart contract](https://etherscan.io/address/0x90ee3cf59fcde2fe11838b9075ea4681462362f1#code)) uses an VRF oracle to pick token indicies.
+* [Area](https://area.world) (smart contract `0xf85c6320cc60DEC45Af1f7cE82B13dd24D539690`) uses a "commit train" so that each buyer is doing a commit as well as the reveal for the previous buyer.
+* [Non-Fungible Fungi](https://x.com/FungibleFungi) (smart contract `0x90ee3cf59fcde2fe11838b9075ea4681462362f1`) uses an VRF oracle to pick token indicies.
 
 ## Metadata reveal at end
 

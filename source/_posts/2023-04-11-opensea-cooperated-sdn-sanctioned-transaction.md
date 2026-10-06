@@ -9,7 +9,7 @@ comments:
 
 *This article is a review of facts and is not an allegation of any crime.*
 
-Below we build on our previous article showing that OpenSea Stared Storefront [has (or had) a backdoor](/2022/11/04/Does-OpenSea-Shared-Storefront-have-a-backdoor.html) that allowed administrators to take any token. To date [about 4 millions transfers](https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e) have happened on this system.
+Below we build on our previous article showing that OpenSea Stared Storefront [has (or had) a backdoor](/2022/11/04/Does-OpenSea-Shared-Storefront-have-a-backdoor.html) that allowed administrators to take any token. To date about 4 million transfers have happened on this contract (`0x495f947276749ce646f68ac8c248420045cb7b5e`).
 
 1. OpenSea, a US entity, had (or has) an undisclosed backdoor which allows it to freeze/take assets created on its system ("Open Store").
 2. After the OFAC SDN//CYBER2 registration of Chatex, they did transfer an asset on this system which OpenSea did not block.
@@ -21,10 +21,10 @@ Below we build on our previous article showing that OpenSea Stared Storefront [h
 
 On-chain you can clearly study the story of one NFT purchased and moved, and one sanctioned entity and a related entity.
 
-* 2021-11-05 0x6aCDF... [purchases](https://etherscan.io/tx/0x467857ff832a8e61c4aac9ea65a88cbdb666b1a71399763275885aebbc7e54fc) an NFT for 11 ETH on OpenSea
+* 2021-11-05 0x6aCDF... purchases an NFT for 11 ETH on OpenSea (`0x467857ff832a8e61c4aac9ea65a88cbdb666b1a71399763275885aebbc7e54fc`)
 * 2021-11-08 The US Treasury [sanctions](https://home.treasury.gov/news/press-releases/jy0471) Chatex a/k/a 0x6aCDF...
-* 2021-11-21 0x6aCDF... [gave away](https://etherscan.io/tx/0x28166d387c2d789c722d5b4e27e3a011b091a010ed70da13a8e797b09d23b53b) away this NFT to 0x3e4d3...
-* 2021-12-29 0x3e4d3... [received](https://etherscan.io/tx/0x9f63a1415539c85e63617de30ed27bab83166b3d81852b3d99a161f259247942) inbound payment from Binance
+* 2021-11-21 0x6aCDF... gave this NFT away to 0x3e4d3... (`0x28166d387c2d789c722d5b4e27e3a011b091a010ed70da13a8e797b09d23b53b`)
+* 2021-12-29 0x3e4d3... received an inbound payment from Binance (`0x9f63a1415539c85e63617de30ed27bab83166b3d81852b3d99a161f259247942`)
 
 ## What is the Specially Designated Nationals (SDN) list?
 

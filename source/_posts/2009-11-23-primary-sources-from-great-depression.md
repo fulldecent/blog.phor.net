@@ -6,7 +6,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2009/11/look-at-primary-sources-from-great.html
 ---
 
-Many people have forgotten about [the Great Depression](https://en.wikipedia.org/wiki/Great_Depression). This is unfortunate because the lost arts of modesty, saving and skepticism have passed with the last generation. A time has gone in America since great strides have been made. Now, since 2001, there is question of when America will again make progress. Please consider the [Tytler Cycle](https://www.google.com/search?client=safari&rls=en&q=tytler&ie=UTF-8&oe=UTF-8):
+Many people have forgotten about [the Great Depression](https://en.wikipedia.org/wiki/Great_Depression). This is unfortunate because the lost arts of modesty, saving and skepticism have passed with the last generation. A time has gone in America since great strides have been made. Now, since 2001, there is question of when America will again make progress. Please consider the Tytler Cycle:
 
 ```mermaid
 graph TD

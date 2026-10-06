@@ -14,7 +14,7 @@ Original quote:
 
 Other assumptions:
 
-- "City driving" is at 20 miles per hour. ([source](https://bit.ly/NCITq))
+- "City driving" is at 20 miles per hour.
 - The Volt is as powerful as the smallest lawnmowers: [John Deere Tractor Reference List](https://www.deere.com/en_US/docs/parts/tractor_reference_list.pdf)
 
 Math:

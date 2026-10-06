@@ -66,7 +66,7 @@ Of course, it is also possible to deploy your stubs to Mainnet. However, this ma
 
 ## Testing with a deployed contract
 
-The live testing technique could be performed by deploying a smart contract written explicitly for testing to Mainnet and then calling that contract. Our first example will test whether or not Su Squares (an ERC-721 contract) has a total supply of 10,000 tokens. ([Su Squares](https://etherscan.io/address/0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F#code) was deployed with, and is intended to always have, precisely 10,000 non-fungible tokens).
+The live testing technique could be performed by deploying a smart contract written explicitly for testing to Mainnet and then calling that contract. Our first example will test whether or not Su Squares (an ERC-721 contract) has a total supply of 10,000 tokens. (Su Squares, `0xE9e3F9cfc1A64DFca53614a0182CFAD56c10624F`, was deployed with, and is intended to always have, precisely 10,000 non-fungible tokens).
 
 Please note that the 10,000 tokens supply test was chosen for its simplicity to demonstrate the technique. The same technique can be used on much more complex tests.
 
@@ -102,7 +102,7 @@ contract SuSquaresTests
 }
 ```
 
-This contract is already deployed on Mainnet, and you can play with it at [0x37d3bffed6f784d2cb5542bb9d9007c16e5938df](https://etherscan.io/address/0x37d3bffed6f784d2cb5542bb9d9007c16e5938df).
+This contract is already deployed on Mainnet, and you can play with it at `0x37d3bffed6f784d2cb5542bb9d9007c16e5938df`.
 
 For some good reason, this test performs actions which require changing Mainnet state. Therefore, this test is expensive to deploy and costly to run. Also, it takes time to execute (due to one-block confirmation). Next, we will remove one of these expenses.
 
@@ -346,7 +346,7 @@ In practice, it would work like so: find the token owner from token ID, now you 
 
 What about a case that involves multiple parties that would need to provide approval/ownership? Well, that is a limitation that cannot always be solved completely gas-free. But let us give you two examples of how you could do it:
 
-1. If you would like to test an ERC-721 asset that you don't own or that has not been minted yet, but the asset is for sale on [OpenSea](https://opensea.io/), your test case could run as the WETH account (which has 2 million Ether available), you could purchase the token on OpenSea, and then use that token as you please.
+1. If you would like to test an ERC-721 asset that you don't own or that has not been minted yet, but the asset is for sale on OpenSea, your test case could run as the WETH account (which has 2 million Ether available), you could purchase the token on OpenSea, and then use that token as you please.
 2. Another way is the [giver contract](https://github.com/nibbstack/erc721-validator/blob/master/contracts/validator.sol#L1060) approach. This workaround is not completely free but provides a way in which the token is completely safe. You can check the [ERC-721 Validator](https://erc721validator.org/) to see it in action.
 
 ## Conclusion

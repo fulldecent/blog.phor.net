@@ -25,7 +25,7 @@ OpenSea Shared Storefront is the ERC-1155 contract deployed on Ethereum Mainnet.
 
 At time of writing, this contract holds NFTs "owned" by 600k+ accounts.
 
-There [are about 1 million transactions](https://etherscan.io/txs?a=0x495f947276749ce646f68ac8c248420045cb7b5e) against this contract.
+There are about 1 million transactions against this contract (`0x495f947276749ce646f68ac8c248420045cb7b5e`).
 
 OpenSea administrators maintain control over this contract such that they can take, or freeze, anybody's NFT at any time. The contract's source code is not published and this control ability is not disclosed anywhere in OpenSea's terms of service or documentation.
 
@@ -59,7 +59,7 @@ Because OpenSea did not publish the source code for this contract, it was necess
 
 Here are some notes about how to effectively decompile and study smart contracts, read the Matrix. I recommend doing this on paper with color pencils/highlighters. You might have to take a lot of notes and this helps.
 
-1. Use [Online Solidity Decompiler](https://ethervm.io/decompile).
+1. Use an online Solidity decompiler.
 1. Remove top-level `contract`, reduce indent, paste into MS Word or similar
 
 Since OpenSea general produces intentional code, I was only looking for backdoors, code paths that results in a `SSTORE`.
@@ -76,7 +76,7 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
 
 ## Acknowledgements
 
-- Contract decompilation (easier than reading straight bytecode) provided by [https://ethervm.io/decompile](https://ethervm.io/decompile)
+- Contract decompilation (easier than reading straight bytecode) from an online Solidity decompiler
 - Tracing each `SLOAD` and `STATICCALL` while playing with contracts provided by [@sohamzemse](https://x.com/sohamzemse) in [hardhat-tracer](https://github.com/zemse/hardhat-tracer), running on [@HardhatHQ](https://x.com/HardhatHQ) [Hardhat](https://hardhat.org/).
 
 ## Reading circle questions
@@ -101,5 +101,5 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
   - [x] <https://x.com/fulldecent/status/1582140475208699904>
 - [x] Post to <https://news.ycombinator.com/item?id=33507819>
 - [x] Post to <https://www.reddit.com/r/opensea/comments/yorv3l/why_does_the_main_opensea_smart_contract_no/>
-- [x] Post audit to <https://etherscan.io/token/0x495f947276749ce646f68ac8c248420045cb7b5e#comments>
+- [x] Post audit to the contract's public comment thread (`0x495f947276749ce646f68ac8c248420045cb7b5e`)
 {%- endcomment -%}
