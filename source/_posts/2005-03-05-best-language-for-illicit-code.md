@@ -46,4 +46,4 @@ So public safety comes into my room last night while I'm sleeping with a fanfare
 > <span style="color:blue">NSG:</span> OK... I guess that's it<br>
 (Exeunt fanfare stage left)<br>
 
-So the moral of the story is, if you're doing anything cool on a computer that someone else might think is illicit, make sure you use short, simple, easy to understand code. because if I wrote the host lookup in <a href="http://www.muppetlabs.com/~breadbox/bf/">brainf***</a>, that would have taken some time to explain.
+So the moral of the story is, if you're doing anything cool on a computer that someone else might think is illicit, make sure you use short, simple, easy to understand code. because if I wrote the host lookup in <a href="https://www.muppetlabs.com/~breadbox/bf/">brainf***</a>, that would have taken some time to explain.

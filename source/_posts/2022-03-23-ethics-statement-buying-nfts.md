@@ -63,7 +63,7 @@ But better than a policy for me, I'm looking for a policy everybody can use.
 {: .margin-note}
 You never lose money with art if you are buying things you want.
 
-There is nothing inherently wrong about buying cute pictures. And there is nothing inherently wrong about buying coins/tokens in a project, whatever your expectations are for them. It is a little ridiculous that I [design NFT drop](/2022/02/04/Randomization-strategies-for-NFT-drops.html) systems but I've never actually been on the other side of any of them.
+There is nothing inherently wrong about buying cute pictures. And there is nothing inherently wrong about buying coins/tokens in a project, whatever your expectations are for them. It is a little ridiculous that I [design NFT drop](/randomization-strategies-nft-drops) systems but I've never actually been on the other side of any of them.
 
 So here is my policy going forward:
 

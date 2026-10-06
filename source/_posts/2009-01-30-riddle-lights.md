@@ -112,7 +112,7 @@ I was prepared to give points for this if nobody produced a "real" answer. So do
 | flyingelmo2004              | 0    | 1      |
 | dirteharry503               | 0    | 1      |
 | yodude38                    | 0    | 1*     |
-| <vvanbelle.t@gmail.com>       | 0    | 1*     |
+| `vvanbelle.t@gmail.com`       | 0    | 1*     |
 | nacnud1983                  | 2    | 2      |
 | lehighace06                 | 0    | 2      |
 | llgirl714                   | 1    | 3      |

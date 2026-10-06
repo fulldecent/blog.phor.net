@@ -66,7 +66,7 @@ The most dangerous part about messages is that they can be used against you at a
 
 It is possible to make a message that drains all your blue chip NFTs and wrapped ETH. Even if you don't have any today, if you unwittingly signed that message, somebody else much later can claim it and take everything you have.
 
-*It is likely that the old signed, executable messages OpenSea has in its database are worth more than the entire rest of the company. Therefore, an arbitrage opportunity exists: buy the OpenSea company (or exert influence over any of its administrators), sandwich/frontrun all the stale transactions, retire. While there, you can also execute any [other backdoors](/2022/11/04/Does-OpenSea-Shared-Storefront-have-a-backdoor.html) that are known.*
+*It is likely that the old signed, executable messages OpenSea has in its database are worth more than the entire rest of the company. Therefore, an arbitrage opportunity exists: buy the OpenSea company (or exert influence over any of its administrators), sandwich/frontrun all the stale transactions, retire. While there, you can also execute any [other backdoors](/opensea-shared-storefront-backdoor) that are known.*
 
 For websites which do not properly implement website logins, like Foundation, signing a login message can allow other people to login to your account forever anytime into the future.
 

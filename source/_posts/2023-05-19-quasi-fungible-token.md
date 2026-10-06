@@ -39,7 +39,7 @@ The regulation right there clearly recognizes your token's utility and its uniqu
 
 ## A demo
 
-Here is a demonstration of a non-fungible token (check) but that also allows you to trade several of them at a time. This makes the token compatible with DeFi and other obviously financial markets (check). For more on how tokens integrate with DeFi, see our article on [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md).
+Here is a demonstration of a non-fungible token (check) but that also allows you to trade several of them at a time. This makes the token compatible with DeFi and other obviously financial markets (check). For more on how tokens integrate with DeFi, see our article on [DeFi primitives for real world assets](/defi-primatives-for-rwa).
 
 And of course this may totally go against the spirit of the regulation.
 

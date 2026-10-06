@@ -9,7 +9,7 @@ comments:
     text: uhm ... ettrich? he didn't touch that thing for close to 10 years ...
   - link: https://fulldecent.blogspot.com/2010/08/technical-notes-about-kde-ksmserver.html#comment-6551060087545286741
     name: William Entriken
-    text: Thank you. Post updated to reflect a "<10 years" definition of "currently maintained by".
+    text: "Thank you. Post updated to reflect a \"&lt;10 years\" definition of \"currently maintained by\"."
 ---
 
 Hello all, here are some notes from working on KDE bugs [60894](https://bugs.kde.org/show_bug.cgi?id=60894) and [62157](https://bugs.kde.org/show_bug.cgi?id=62157) on contract with Google. ksmserver is an important part of KDE software currently maintained by Lubos Lunak and that made it difficult for me as an outsider to make large changes. I am including here notes regarding code I wrote in [branches/work/kdebase_appgroups](https://websvn.kde.org/branches/work/kdebase_appgroups/) and [branches/work/soc_ksm/](https://websvn.kde.org/branches/work/soc_ksm/) while working under Lubos.

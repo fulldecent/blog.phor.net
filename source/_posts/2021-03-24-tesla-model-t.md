@@ -45,7 +45,7 @@ Buying a Model 3 today with Bitcoin has basically the same carbon footprint as g
 
 ## References
 
-- Where, geographically, are Bitcoin mined? <https://cbeci.org/mining_map/> [:warning: cookie spam].
+- Where, geographically, are Bitcoin mined? <https://ccaf.io/cbnsi/cbeci/mining_map> [:warning: cookie spam].
 - How much of China electricity is from coal?  <https://www.cec.org.cn/detail/index.html?3-292822> (see coal “原煤”  compared to total “能源消费总量”).8¢/kWh I don’t have an authoritative source for this one, help me.
 - Pounds of carbon per coal kWh <https://www.eia.gov/tools/faqs/faq.php?id=74&t=11.Tesla>
 - Model 3 price <https://www.tesla.com/model3/design#payment.EPA>

@@ -9,7 +9,7 @@ destination: build
 collections:
   pages:
     output: true
-    permalink: /:path:output_ext
+    permalink: /:path
 
 defaults:
   - scope:

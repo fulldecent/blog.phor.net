@@ -37,7 +37,7 @@ Chinese characters are written a specific way, the order of the strokes is speci
 
 Animal part: 犭 dog: 狗 cat: 猫 pig: 猪
 
-Find someone on [Craigslist](https://craigslist.org/), [Live Mocha](https://www.livemocha.com/) or a [local college](https://maps.google.com/maps?q=colleges+near+me&um=1&ie=UTF-8&hl=en&sa=N&tab=wl) who can show these basic concepts to you. Meanwhile, you teach them English. This is called a "language exchange". Maximum two months to learn character construction.
+Find someone on Craigslist, LiveMocha, or a [local college](https://maps.google.com/maps?q=colleges+near+me&um=1&ie=UTF-8&hl=en&sa=N&tab=wl) who can show these basic concepts to you. Meanwhile, you teach them English. This is called a "language exchange". Maximum two months to learn character construction.
 
 ## Step four: get books
 

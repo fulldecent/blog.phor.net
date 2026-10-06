@@ -108,4 +108,4 @@ Using that significantly increased the number of phone calls and emails I got (3
 Update 2012-02-15, thanks to Grandmom who made her world debut with [Grandmom bakes virus bread](grandmom-bakes-virus-bread):
 &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.forbes.com/sites/susanadams/2012/02/07/how-to-ace-a-job-interview-on-the-phone/">How To Ace A Job Interview On The Phone</a>&nbsp;(forbes.com)<br>
 
-Update 2014-02-26, for resume tips, find one target jobs you would like to apply for, send $30 PayPal to <paypal.com@phor.net> and I will get you comparable resumes in your neighborhood that will give you a GREAT idea of how to present yourself!
+Update 2014-02-26, for resume tips, find one target jobs you would like to apply for, send $30 PayPal to `paypal.com@phor.net` and I will get you comparable resumes in your neighborhood that will give you a GREAT idea of how to present yourself!

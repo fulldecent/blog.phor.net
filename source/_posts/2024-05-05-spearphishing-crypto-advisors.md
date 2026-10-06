@@ -222,7 +222,7 @@ Subject: Hire
 
 ## Email thread 2 / "Quantum advisory"
 
-This thread is between me, Tim, and Alex <woolanalex@gmail.com>. This is the email address that our meeting (in Google Meet) was with.
+This thread is between me, Tim, and Alex `woolanalex@gmail.com`. This is the email address that our meeting (in Google Meet) was with.
 
 > From: William Entriken
 >
@@ -250,7 +250,7 @@ This thread is between me, Tim, and Alex <woolanalex@gmail.com>. This is the ema
 >
 > We are targeting a start date for next week, and I can turn this paperwork around quickly today.
 
-... emails <woolanalex@gmail.com> are now bouncing.
+... emails `woolanalex@gmail.com` are now bouncing.
 
 > From: Timothy Smith
 >

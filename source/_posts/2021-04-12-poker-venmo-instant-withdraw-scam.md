@@ -75,7 +75,7 @@ I don’t have any further legal analysis here, but I’m guessing that PayPal b
 
 ## Next steps
 
-Send an email to [security-alerts@venmo.com](mailto:security-alerts@venmo.com) stating:
+Send an email to [security-alerts@venmo.com](mailto:security-alerts@venmo.com?subject=Freeze%20my%20account&body=That%20was%20not%20me.%20Please%20freeze%20my%20account.) stating:
 
 > That was not me. Please freeze my account.
 
@@ -112,7 +112,7 @@ Following are recommendations to improve Venmo. Or in other words, documentation
 - 15:21 Received email changed notification by email
 - 15:24 Received text to reset password
 - 15:35 (Found out later) this is when first outbound transfer executed
-- 15:35 Victim sent an email to [security-alerts@venmo.com](mailto:security-alerts@venmo.com) (by chance, at the same time as the transactions)
+- 15:35 Victim sent an email to `security-alerts@venmo.com` (by chance, at the same time as the transactions)
 - 15:36 (Found out later) this is when last outbound transfer executed
 - Soon after: customer support email and chat
 

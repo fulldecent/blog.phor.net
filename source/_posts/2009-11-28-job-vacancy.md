@@ -5,7 +5,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2009/11/job-vacancy.html
 ---
 
-I recently came across this [job posting for the DHS](https://jobview.usajobs.gov/getjob.aspx?JobID=82254712):
+I recently came across this job posting for the DHS (`https://jobview.usajobs.gov/getjob.aspx?JobID=82254712`, since removed):
 
 > Title: ADVISOR, CYBER CRIME AND CYBER DEFENSE<br>
 > Salary Range: 73,100.00 - 227,300.00 USD / year<br>

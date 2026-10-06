@@ -12,10 +12,10 @@ export default defineConfig({
           exclude: ["\\\\?utm_source=chatgpt.com"],
         },
         allowRelative: {
-          exclude: [".htm[l]?$"],
+          exclude: ["\\.html?$"],
         },
         allowAbsolute: {
-          exclude: [".htm[l]?$"],
+          exclude: ["\\.html?$"],
         },
       },
     ],

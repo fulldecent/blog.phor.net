@@ -18,4 +18,4 @@ Hello all, I am seeking a book recommendation in support (from an American's per
 
 I will read your recommendation as a contrast to my previous book, [The Israel Lobby and U.S. Foreign Policy](https://www.amazon.com/exec/obidos/ASIN/0374177724/phornetandrel-20) by John J. Mearsheimer and Stephen M. Walt, which I have reviewed [on my reading list](https://phor.net/booklist).
 
-This blog post is being copied to <membership@aipac.org>, <jololog@gmail.com>, and <info@kh-uia.org.il>, no replies.
+This blog post is being copied to `membership@aipac.org`, `jololog@gmail.com`, and `info@kh-uia.org.il`, no replies.

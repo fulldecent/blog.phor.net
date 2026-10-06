@@ -32,6 +32,6 @@ September 2019
 
 - 2018-04-01: Discovery
 - 2019-09-13: Verified discovery still valid
-- 2019-09-14: Notified vendor by email at&nbsp;<support@zno.com> with 7-day release schedule
+- 2019-09-14: Notified vendor by email at&nbsp;`support@zno.com` with 7-day release schedule
 - 2019-09-21: Disclosed publicly on Privacy Log
 - 2020-07-10: Confirmed vulnerability still active

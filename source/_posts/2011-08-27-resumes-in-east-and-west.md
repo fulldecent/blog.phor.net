@@ -22,6 +22,6 @@ url: <https://jobsearch.about.com/od/sampleresumes/l/blresumehrmgmt.htm>
 
 source: The first result on Baidu.com
 
-url: <https://www.58.com/jianli/gerenjianlifanwen/20110809/20548.html>
+url: `https://www.58.com/jianli/gerenjianlifanwen/20110809/20548.html`
 
 ![Resume CN](/assets/images/resumes-in-east-and-west-2.webp)

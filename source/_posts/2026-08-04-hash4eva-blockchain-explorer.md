@@ -11,14 +11,14 @@ I built a prototype for that idea and called it Hash4eva. The demo is intentiona
 
 You can browse the demo pages here:
 
-- [Hash4eva home](/hash4eva.html)
-- [Hash4eva account page](/hash4eva-account.html)
-- [Hash4eva contract page](/hash4eva-contract.html)
-- [Hash4eva transaction page](/hash4eva-transaction.html)
-- [Hash4eva incidents page](/hash4eva-incidents.html)
-- [Hash4eva weekly market page](/hash4eva-ads.html)
-- [Hash4eva followed accounts page](/hash4eva-following.html)
-- [Hash4eva demo scenarios](/hash4eva-demos.html)
+- [Hash4eva home](/hash4eva)
+- [Hash4eva account page](/hash4eva-account)
+- [Hash4eva contract page](/hash4eva-contract)
+- [Hash4eva transaction page](/hash4eva-transaction)
+- [Hash4eva incidents page](/hash4eva-incidents)
+- [Hash4eva weekly market page](/hash4eva-ads)
+- [Hash4eva followed accounts page](/hash4eva-following)
+- [Hash4eva demo scenarios](/hash4eva-demos)
 
 ![Hash4eva home screen](/assets/images/hash4eva-blockchain-explorer.webp)
 

@@ -48,7 +48,7 @@ This address matches the description Martin provided to us on the phone. Martinâ
 **MARTIN FLUSS**
 9510 EQUUS CIR, BOYNTON BEACH, FL 33472
 +1 305-546-3745
-<MRMARTIN7@OUTLOOK.COM>
+`MRMARTIN7@OUTLOOK.COM`
 
 Possible photo of Fluss ([source](https://www.realscam.com/attachments/f16/6375d1384963154-multi-million-dollar-opportunities-martin-fluss-scam-great-opportunity-capture.jpg)):
 

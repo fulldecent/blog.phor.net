@@ -88,7 +88,7 @@ You have completed the easy steps. Go to bed and do the rest steps with full bra
 
 ## See also
 
-- [DeFi primitives for real world assets](2026-01-04-defi-primatives-for-rwa.md) discusses custodial relationships and how they affect asset ownership on blockchain
+- [DeFi primitives for real world assets](/defi-primatives-for-rwa) discusses custodial relationships and how they affect asset ownership on blockchain
 
 {%- comment -%}
 

@@ -47,7 +47,7 @@ In the middle of the night, I learned about a mysterious and FAKE message cancel
 (Update 2009-08-29) Then a little bit later, a second email from the school president went out:
 
 > From: Edmund Dobbin<br />
-> To: <students@villanova.edu><br />
+> To: `students@villanova.edu`<br />
 > Subject:<br />
 > Sent: April 20, 2004 2:40 am<br />
 > <br />

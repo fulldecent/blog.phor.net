@@ -88,7 +88,7 @@ Don't worry, I will show you every correct answer and copy/paste you need here.
 
    > I received an Amex eGift Card. This includes an email "You have received an
    >
-   > American Express® eGift Card" from <Delivery@orders.amexgiftcard.com>. And on
+   > American Express® eGift Card" from `Delivery@orders.amexgiftcard.com`. And on
    >
    > there I clicked the link to validate and print the card, which loads on
    >

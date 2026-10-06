@@ -23,7 +23,7 @@ Because of the URL you see above, and the basic mechanism of how webpages work, 
 
 The correct way to implement this type of image display is as follows: the client logs into the TD website, TD requests the chart from News Corp without including any of your identifying information, TD sends the resulting chart to you. (With an Apache web server this is done with one line of code and is called a "reverse proxy").
 
-I have been in contact with the president's office of TD and they have no interest in implementing this approach, stating that the privacy policy justifies sending your portfolio information and personal identifying information to News Corp. Nowhere in the <a href="https://www.tdameritrade.com/privacy.html">privacy policy</a> (<a href="https://web.archive.org/web/20080124182511/www.tdameritrade.com/privacy.html">permalink</a>) does it say "we will give away your financial information to third parties for no reason at all". In fact, that policy doesn't even get in to financial information. So I assume this is a fairly straightforward demonstration of them breaking the policy.
+I have been in contact with the president's office of TD and they have no interest in implementing this approach, stating that the privacy policy justifies sending your portfolio information and personal identifying information to News Corp. Nowhere in the <a href="https://web.archive.org/web/20080124182511/www.tdameritrade.com/privacy.html">privacy policy</a> (January 2008) does it say "we will give away your financial information to third parties for no reason at all". In fact, that policy doesn't even get in to financial information. So I assume this is a fairly straightforward demonstration of them breaking the policy.
 
 ---
 

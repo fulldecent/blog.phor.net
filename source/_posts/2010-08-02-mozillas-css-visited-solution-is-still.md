@@ -6,7 +6,7 @@ old-link: https://privacylog.blogspot.com/2010/08/mozillas-css-visited-solution-
 comments:
   - link: https://privacylog.blogspot.com/2010/08/mozillas-css-visited-solution-is-still.html#comment-5877805008057028986
     name: Alberto Armandi
-    text: "is there any way to exploit this directly ? i tried to post your blog link on Hacker News ( read <https://news.ycombinator.com> ) but seems people mostly ignored it. Mr Baron and Mozilla&#39;s Team should be informed."
+    text: "is there any way to exploit this directly ? i tried to post your blog link on Hacker News ( read &lt;https://news.ycombinator.com&gt; ) but seems people mostly ignored it. Mr Baron and Mozilla&#39;s Team should be informed."
   - link: https://privacylog.blogspot.com/2010/08/mozillas-css-visited-solution-is-still.html#comment-1024628167405991906
     name: Anonymous
     text: "This is totally crazy."

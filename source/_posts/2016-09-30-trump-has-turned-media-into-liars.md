@@ -8,7 +8,7 @@ This is just one example of the continual stream of poor journalism related to U
 
 ## Exhibit one
 
-This is the only [US government "comment"](https://www.reuters.com/article/us-usa-election-russia-fbi-idUSKCN1051TD) on the theft of documents from the Democratic National Convention in 2016:
+This is the only US government "comment" on the theft of documents from the Democratic National Convention in 2016. Reuters published it at `https://www.reuters.com/article/us-usa-election-russia-fbi-idUSKCN1051TD`, which now redirects to the Reuters homepage:
 
 > A U.S. official involved in the investigation said that the classified information collected on the hack so far "indicated beyond a reasonable doubt that it originated in Russia."
 

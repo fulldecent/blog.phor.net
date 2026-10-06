@@ -5,7 +5,7 @@ tags:
 old-link: https://privacylog.blogspot.com/2008/04/clarity-in-communications-do-it.html
 ---
 
-On Tue, Apr 8, 2008 at 10:21 AM, ING DIRECT <saver@ingdirect.com> wrote:
+On Tue, Apr 8, 2008 at 10:21 AM, ING DIRECT `saver@ingdirect.com` wrote:
 
 > Dear William, Customer Number: XXXXXXXXXX
 >

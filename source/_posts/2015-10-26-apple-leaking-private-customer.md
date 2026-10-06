@@ -27,7 +27,7 @@ The attack: a potential way that this vulnerability could be abused would be a f
 
 This is a simple problem reported here but you can be sure that the solution is not always so simple. Also, in addition to the simple solution, verification is a long process. It took much longer than I expected and I needed to stay very involved to see through to the resolution here. I am sharing this timeline so that it may be helpful for other security analysts. Your takeaways should be that A) Apple does follow on their promise to take your report seriously B) Apple does provide credit, it's not money like other vendors, but hey take what you can get C) be persistent.
 
-* 2015-10-26: I sent this article to Apple at&nbsp;<product-security@apple.com>
+* 2015-10-26: I sent this article to Apple at&nbsp;`product-security@apple.com`
 * 2015-10-29: Brandon at Apple Product Security replied to confirms article was read and requests that no disclosure be made "while we investigate it further"
 * 2015-11-28: I request a status update
 * 2015-11-30: Brandon replies to request no disclosure be made "until our investigation is complete and any necessary updates are available"

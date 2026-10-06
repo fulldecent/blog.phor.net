@@ -21,7 +21,7 @@ Other potential titles:
 
 ## It started Easter weekend
 
-This story starts at Noon Tuesday April 18th, 2017 on Makati Avenue. I just finished a meeting with the Philippines Board of Investments to discuss how my company can expand our business in Manila. (Also saw the [QBO Innovation Hub](https://qbo.com.ph/), it was awesome.) I had plenty of time to kill and some emails to catch up on, so it’s time for some brain food!
+This story starts at Noon Tuesday April 18th, 2017 on Makati Avenue. I just finished a meeting with the Philippines Board of Investments to discuss how my company can expand our business in Manila. (Also saw the [QBO Innovation Hub](https://www.qboinnovation.com/), it was awesome.) I had plenty of time to kill and some emails to catch up on, so it’s time for some brain food!
 
 I walked right to the hottest part of town, [Makati Ave. and Jupiter Ave.](https://www.google.com/maps/@14.56208,121.02809,19z), surely there will be something good to eat. And then suddenly, *The Guy* approaches me, I'm marked.
 
