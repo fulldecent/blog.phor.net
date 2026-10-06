@@ -47,4 +47,4 @@ With the authentication process completed using your computer, your Roku device 
 
 Now you can TV and chill.
 
-These instructions are confirmed for [the Roku 4K version](https://amzn.to/475rBFm).
+These instructions are confirmed for [the Roku 4K version](https://www.amazon.com/stores/page/2E834561-AD18-49ED-92A1-140A0A8B1919?linkCode=sl2&tag=phornetandrel-20&linkId=e2c9e86217c0d5debd1c5ee765769249&language=en_US&ref_=as_li_ss_tl).

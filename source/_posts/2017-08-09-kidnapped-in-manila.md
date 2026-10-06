@@ -29,7 +29,7 @@ I walked right to the hottest part of town, [Makati Ave. and Jupiter Ave.](https
 
 Jazz is about a 12 minute walk to here, and I did not walk towards Makati Ave. from that direction since I just came from the meeting. I can be guarded with information and pay attention to stuff like that. There's about 20 other places I could have been staying. So I assume I did see him at Jazz.
 
-I told him I was thinking about lunch [at Inisal](https://goo.gl/maps/FKNU4cQ8Tw82) and he told me about how great that place was, so I go. And he asks if I'm going to the Easter parade and fireworks afterwards. He gave me a few details and said it's about ten minutes away by Jeepney.
+I told him I was thinking about lunch [at Inisal](https://www.google.com/maps/place/Mang+Inasal/@14.5610542,121.0248518,16z/data=!4m21!1m15!4m14!1m6!1m2!1s0x3397c9a7fea87bbd:0x7de2bf3e1ae62589!2sJazz+Residences,+Nicanor+Garcia,+Makati,+NCR,+Philippines!2m2!1d121.0217525!2d14.5641748!1m6!1m2!1s0x3397c900a91093fb:0xff0360aaba46f36d!2sMang+Inasal,+Jupiter,+Makati,+Metro+Manila,+Philippines!2m2!1d121.0282729!2d14.5621457!3m4!1s0x3397c900a91093fb:0xff0360aaba46f36d!8m2!3d14.5621457!4d121.0282729?shorturl=1) and he told me about how great that place was, so I go. And he asks if I'm going to the Easter parade and fireworks afterwards. He gave me a few details and said it's about ten minutes away by Jeepney.
 
 *Quick note if you're not filippino: it is totally believable that they might have a parade TWO DAYS AFTER Easter. They take Easter VERY seriously. Like it's the Second Coming of Jesus Christ each year. Everyone is singing outside, and it goes on for days.*
 
@@ -59,7 +59,7 @@ Other Guy didn't let me take a selfie with him, but I took this one inadvertentl
 
 ![Other Guy in organ museum](/assets/images/kidnapped-in-manila-4.webp)
 
-The taxi stops in Zapote, Las Piñas City exactly at [a Jeepney stop](https://goo.gl/maps/ZLy9Jiognso). We're here and we're a total party of 8 people now including Mina a 30-year-old girl that was The Guy's student in school, Mina's brother, Old Lady who is probably exactly 69 years old and talks constantly about how she loves sex, and *Quiet Attractive Late 30s Girl*.
+The taxi stops in Zapote, Las Piñas City exactly at [a Jeepney stop](https://www.google.com/maps/@14.4658632,120.9682141,3a,75y,124.96h,78.12t/data=!3m6!1e1!3m4!1sMmZapDFd7AOZoXVLgnImgQ!2e0!7i13312!8i6656?shorturl=1). We're here and we're a total party of 8 people now including Mina a 30-year-old girl that was The Guy's student in school, Mina's brother, Old Lady who is probably exactly 69 years old and talks constantly about how she loves sex, and *Quiet Attractive Late 30s Girl*.
 
 Everybody wants to eat, but I'm not hungry. So we go into the restaurant/bar/hole in the wall. I have no problem talking to these people and they're all friendly so let's do it. This place has a video KTV machine, apparently this is called videoke or a carinderia.
 
