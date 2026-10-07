@@ -5,7 +5,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2009/06/pennsylvania-use-tax-do-you-pay-all.html
 ---
 
-From the [Pennsylvania Department of Revenue](https://www.revenue.pa.gov/TaxTypes/SUT/UseTax/Pages/default.aspx):
+From the [Pennsylvania Department of Revenue](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax/use-tax):
 
 > The following are illustrations of transactions that give rise to Use Tax liability. All examples presume no Sales Tax was paid at the time of purchase, and the item will be used within Pennsylvania.
 

@@ -207,7 +207,7 @@ Both helpers identified the restaurant as NENENG EATERY & VIDEOKE in Zapote, Las
 | 2017-04-21 | 603.07 | SM SUPERMARKET SM LIP     |
 | 2017-04-21 | 616.12 | SM SUPERMARKET SM LIP     |
 
-HSA Bank specifically [has a policy that foreign transactions will be blocked](https://hsabank.com/~/media/files/fraud-protection). But they failed to implement this policy.
+HSA Bank specifically [has a policy that foreign transactions will be blocked](https://web.archive.org/web/20211025061606/https://www.hsabank.com/~/media/files/fraud-protection). But they failed to implement this policy.
 
 #### Capital One MasterCard
 

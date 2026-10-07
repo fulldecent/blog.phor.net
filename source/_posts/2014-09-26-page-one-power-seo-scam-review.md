@@ -14,7 +14,7 @@ My company has contracted with Page One Power for SEO services including email-b
 
 ## Their guest blogging approach
 
-One the [P1P blog](https://pageonepower.com/shop-talk/), in the few posts where they discuss strategy, guest blogging is a major component of their thinking. Of course Google's Matt Cutts discusses the fall of guest blogging as an SEO strategy in [his blog](https://www.mattcutts.com/blog/guest-blogging/). But since this is a low-cost, low-quality, high-visibility link, P1P project managers defended the practice with (emphasis mine):
+One the P1P blog (`https://pageonepower.com/shop-talk/`), in the few posts where they discuss strategy, guest blogging is a major component of their thinking. Of course Google's Matt Cutts discusses the fall of guest blogging as an SEO strategy in [his blog](https://www.mattcutts.com/blog/guest-blogging/). But since this is a low-cost, low-quality, high-visibility link, P1P project managers defended the practice with (emphasis mine):
 
 > Yeah Will we have seen this. It’s nothing new, Matt has been talking like this for a year. If you look at it very close, especially his added notes at the end and his replies to peoples comments you will see that “guest posting” is not going away. This to us, seems to be more of strong threat to say, “<mark>stop doing spammy stuff</mark>” which we all agree. To me this gives me all the more confidence in what we do. We do real outreach with real people contacting relevant sites, writing real articles that make sense for both parties.
 
@@ -26,7 +26,7 @@ Excuses are not necessary, only results matter, I have typed in `[new york news]
 
 ## Email linkbuilding
 
-Since you are paying by the hour, results are glossed over. You can quickly see this by viewing their [packages page](https://pageonepower.com/link-building-packages/) which states "We sell hourly packages because we can’t promise a certain number of links per month." They fail to mention typical customer results. Our results were 24 normal email-based outreach links created over 12 months. Several of these link existed (and are visible on the [Wayback Machine](https://web.archive.org/)) before the P1P engagement. In other words, they took credit for others' work.
+Since you are paying by the hour, results are glossed over. You can quickly see this by viewing their packages page (`https://pageonepower.com/link-building-packages/`) which states "We sell hourly packages because we can’t promise a certain number of links per month." They fail to mention typical customer results. Our results were 24 normal email-based outreach links created over 12 months. Several of these link existed (and are visible on the [Wayback Machine](https://web.archive.org/)) before the P1P engagement. In other words, they took credit for others' work.
 
 ## Other campaigns
 

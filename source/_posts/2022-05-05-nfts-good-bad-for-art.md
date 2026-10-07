@@ -87,7 +87,7 @@ The NFT art market has doubled in size approximately every 3 months. [kitties]
 
 {: .margin-note}
 
-See [Rarity Tools](https://rarity.tools), scroll down, click ESTIMATED MARKET CAP; the top ten of ten are profile photos.
+See Rarity Tools (`https://rarity.tools`), scroll down, click ESTIMATED MARKET CAP; the top ten of ten are profile photos.
 
 So far this past year we have seen success with "profile photos'' for sale. This is the largest category of NFTs and includes anything that could be set as your avatar on Twitter or similar platforms. Typically that is a still, two-dimensional image with an aspect ratio of one-to-one and which looks good if clipped into a circle.
 

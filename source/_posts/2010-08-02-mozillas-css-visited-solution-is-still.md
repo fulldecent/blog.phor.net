@@ -68,7 +68,8 @@ But this issue is too big to settle for a "solution" that breaks the API, does s
 <a href="https://purple.com/" id="showvisit" style="text-decoration: none;">Click for free wallpapers </a>&nbsp;<a href="javascript:alert('you visited purple.com before')">here</a> (you visited purple.com before)</div>
 
 <div style="border: 1em solid #ccc; margin: 0 2em; padding: 1em;">
-<a href="https://trading.zecco.com/zecco/genericRequest.nexa?stylesheet=zcoSiteTemplate" id="shownotvisit" style="text-decoration: none;">Click for free wallpapers </a>&nbsp;<a href="javascript:alert('you did not visit zecco.com before')">here</a> (you didn't visit zecco.com before)<br>
-<a href="https://trading.zecco.com/zecco/genericRequest.nexa?stylesheet=zcoSiteTemplate" id="showvisit" style="text-decoration: none;">Click for free wallpapers </a>&nbsp;<a href="javascript:alert('you visited zecco.com before')">here</a> (you visited zecco.com before)</div>
+<a href="#" id="shownotvisit" style="text-decoration: none;">Click for free wallpapers </a>&nbsp;<a href="javascript:alert('you did not visit zecco.com before')">here</a> (you didn't visit zecco.com before)<br>
+<a href="#" id="showvisit" style="text-decoration: none;">Click for free wallpapers </a>&nbsp;<a href="javascript:alert('you visited zecco.com before')">here</a> (you visited zecco.com before)</div>
+`https://trading.zecco.com/zecco/genericRequest.nexa?stylesheet=zcoSiteTemplate`
 
 You could probably do a better job than me of styling these elements, but either way, the attack vector still exists.

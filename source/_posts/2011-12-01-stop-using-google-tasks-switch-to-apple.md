@@ -35,7 +35,7 @@ The result is clear: Apple releases a new product with one sexy new feature and 
 |--------------|-----------------|
 | Can input tasks, due dates, reminders | Can input tasks, due dates, reminders, and location based reminders |
 | Switching task lists requires two clicks (Google Calendar & iPhone web page) | Can view all task lists at once (iCal) or swipe to switch lists (iPhone) |
-| Can view tasks online at <https://mail.google.com/tasks/canvas> (looks better than Apple) | Can view tasks online at <https://www.icloud.com/#calendar> (interface sucks) |
+| Can view tasks online at `https://mail.google.com/tasks/canvas` (looks better than Apple) | Can view tasks online at <https://www.icloud.com/#calendar> (interface sucks) |
 | Viewable on iPhone through slow website | Viewable on iPhone with fast app |
 | Integrates with Gmail and Google Calendar | Integrates with iCal |
 | Printing looks retarded, one page per list (can print from link above) | Printing looks semi-retarded, but you can print all lists at once using iCal |

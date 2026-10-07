@@ -8,7 +8,7 @@ This is the first part in a series about analyzing your customer data.
 
 ## Gender
 
-Find the gender of your customer base after the fact. This is straightforward and can be done based on the first name of your customer list. First get a names database, for example [nam_dict.txt.bz2 from PHP](https://svn.php.net/viewvc/pecl/gender/trunk/data/nam_dict.txt.bz2?revision=275820&view=co) then connect the data using Excel or your command line:
+Find the gender of your customer base after the fact. This is straightforward and can be done based on the first name of your customer list. First get a names database, for example nam_dict.txt.bz2 from PHP (`https://svn.php.net/viewvc/pecl/gender/trunk/data/nam_dict.txt.bz2?revision=275820&view=co`) then connect the data using Excel or your command line:
 
 ```sh
 # save your customer first names to ./customernames (lowercase, no writespace)

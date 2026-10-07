@@ -9,7 +9,7 @@ I saw the Super Bowl this weekend and I know some people tape the game so they c
 
 * The Colts—scored a bunch of points
 * The Ravens—scored a few points
-* Combos - <a href="https://www.man-mom.com/Video.aspx">won the game</a>
+* Combos - <a href="https://web.archive.org/web/20061210075114/http://www.man-mom.com:80/Video.aspx">won the game</a>
 
 Actually I don't even know if the Ravens were playing this game. Actually I don't even know if the Ravens are a football team.
 

@@ -21,7 +21,7 @@ Unfortunately, you will need to provide root access to the DRM installer for thi
 
 **The second part is to get these files into postscript format:**
 
-To do this, I installed a virtual printer driver for Mac OS X. [https://www.codepoetry.net/projects/cups-pdf-for-mosx](https://www.codepoetry.net/projects/cups-pdf-for-mosx)
+To do this, I installed a virtual printer driver for Mac OS X. [https://www.codepoetry.net/projects/cups-pdf-for-mosx](https://web.archive.org/web/20051228054140/http://www.codepoetry.net:80/projects/cups-pdf-for-mosx)
 
 What this program will do is let a program save raw printer postscript to a file, and then it tries to convert this postscript to a PDF file. But that would be too easy. Unfortunately, the PS files can't be converted to PDF that easily, so we need some modifications.
 

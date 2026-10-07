@@ -28,4 +28,4 @@ Any [advisory client](https://phor.net/advisory) can send me to events. I don't 
 
 These are the best ways to have me as a part of your event, which can include speeches, workshops, panels, builder events/training, one-on-one reviews and more.
 
-If this is your first event, great! The first event I personally ran was [Chain 76](https://chain76.org) and I've ran keynotes on the first year for many new NFT events that are now successful recurring sensations. It's been a blessing to be part of these and I'm so glad you are able to keep building these communities and connecting/informing everyone.
+If this is your first event, great! The first event I personally ran was [Chain 76](https://web.archive.org/web/20190717183844/https://chain76.org/) and I've ran keynotes on the first year for many new NFT events that are now successful recurring sensations. It's been a blessing to be part of these and I'm so glad you are able to keep building these communities and connecting/informing everyone.

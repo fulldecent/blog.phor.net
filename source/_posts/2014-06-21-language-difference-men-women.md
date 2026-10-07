@@ -87,4 +87,4 @@ grid at some time, though none since the ’90s.
 > - didapper [1, Maleska, ‘88]
 >
 > By the way, if you’d like to participate in the Ghent study, you can do that
-here: <https://vocabulary.ugent.be/wordtest/start>
+here: <https://web.archive.org/web/20140301131546/http://vocabulary.ugent.be:80/wordtest/start>

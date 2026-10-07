@@ -14,5 +14,5 @@ Answer:
 Sources:
 
 - <https://www.treasurydirect.gov/government/public-debt-reports/gifts/>
-- <https://www.google.com/publicdata?ds=uspopulation&amp;met=population&amp;tdim=true&amp;dl=en&amp;hl=en&amp;q=us+population>
+- `https://www.google.com/publicdata?ds=uspopulation&met=population&tdim=true&dl=en&hl=en&q=us+population`
 - <https://www.govinfo.gov/content/pkg/BUDGET-2010-BUD/pdf/BUDGET-2010-BUD.pdf>

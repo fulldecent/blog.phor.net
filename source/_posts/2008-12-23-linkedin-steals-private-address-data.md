@@ -58,11 +58,11 @@ IF you give LinkedIn access to your Gmail account in order to find contacts on t
 
 The site, and its representatives claim that the information collected includes only names and emails addresses. However, it collection a lot more information. Due to the irrevocability of data, I have permanently lost control of and my and my contact's personal information. Most notably is all of our mobile phone numbers, which I would never give to any website.
 
-The [Import webmail contacts](https://www.linkedin.com/secure/uploadContacts?displayWebMail=) page states:
+The Import webmail contacts page (`https://www.linkedin.com/secure/uploadContacts?displayWebMail=`) states:
 
 > Find out which of your webmail contacts are already on LinkedIn.
 
-and it links to the [Privacy Policy](https://www.linkedin.com/static?key=privacy_policy). Neither of which imply that information other than Name and Email address are collected from your webmail account. Also, the privacy fails to include this imported information in its set of data that "will be secured with industry standard protocols and technology".
+and it links to the [Privacy Policy](https://www.linkedin.com/legal/privacy-policy). Neither of which imply that information other than Name and Email address are collected from your webmail account. Also, the privacy fails to include this imported information in its set of data that "will be secured with industry standard protocols and technology".
 
 Furthermore here is my conversation with customer service:
 
@@ -106,7 +106,7 @@ Here is my profile page with the new information:
 
 LinkedIn has a little work to do to bring this site up to my standards:
 
-- Edit the [Import webmail contacts](https://www.linkedin.com/secure/uploadContacts?displayWebMail=) page to include an option allowing "collect extended contact information", preferably defaulting off
+- Edit the Import webmail contacts page (`https://www.linkedin.com/secure/uploadContacts?displayWebMail=`) to include an option allowing "collect extended contact information", preferably defaulting off
 - Allow an option to remove all "Your private info about..." from all your contacts
 - (Optional) When viewing "Your private info about..." on one of your contact's pages, include a note explaining where that information came from
 - Update the knowledge base to reflect the actual process

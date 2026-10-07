@@ -17,6 +17,6 @@ Step three: park like a champ
 
 But actually, you can also practice on the computer, the mechanics are all actually the same
 
-- <https://www.gamemew.com/Game_Topic/Car_Parking_Games_3972.html>
-- <https://www.gamemew.com/Racing_Games/Car_Park_Challenge_3652.html>
-- <https://www.gamemew.com/Skill_Games/Drivers_Ed>
+- <https://web.archive.org/web/20080607082633/http://www.gamemew.com:80/Game_Topic/Car_Parking_Games_3972.html>
+- <https://web.archive.org/web/20080327202929/http://www.gamemew.com:80/Racing_Games/Car_Park_Challenge_3652.html>
+- `https://www.gamemew.com/Skill_Games/Drivers_Ed`

@@ -17,11 +17,11 @@ Artisan State is a photo printing service that specializes in flush mount books 
 
 If you are reading this blog, then you are probably at least a little bit interested in web security. Here is the URL for this page. Now you tell me: what the first thing you would check?
 
-> <https://www.artisanstate.com/photo-books/photobook-edit.html?projectGUID=413312>
+> `https://www.artisanstate.com/photo-books/photobook-edit.html?projectGUID=413312`
 
 Exactly, right? Following is the result of this URL:
 
-> <https://www.artisanstate.com/photo-books/photobook-edit.html?projectGUID=413311>
+> `https://www.artisanstate.com/photo-books/photobook-edit.html?projectGUID=413311`
 
 ![Other photos](/assets/images/all-artisan-state-photos-public-2.webp)
 
@@ -43,7 +43,7 @@ There are many attack vectors on this website. The URL scheme above is the most 
 
 Here is the URL of one of my photos:
 
-> <https://upload.artisanstate.com/upload/UploadServer/GetRenderImage?imageID=21470800>
+> `https://upload.artisanstate.com/upload/UploadServer/GetRenderImage?imageID=21470800`
 
 If you are not logged in as me then you have no business accessing that photo. But alas... you can. There is nothing special about that URL, in fact you can access every photo this way. The following command confirms that you have access to a random photo without actually downloading it.
 

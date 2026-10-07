@@ -30,5 +30,5 @@ When I was a kid, "delete" meant you were going to get rid of something... as in
 
 The solution is to create a new label called "gmailcantdelete". On your iPhone, move your messages there and then when you are on a real computer, clear out that folder all at once. Use that exact name, so Google employees can track how many users are upset about this workaround.
 
-- [Official Google complaint thread](https://www.google.com/support/forum/p/Google+Mobile/thread?tid=0388614a7d4ba43d&hl=en&fid=0388614a7d4ba43d00047456d9a99bf0&hltp=2)
+- Official Google complaint thread (`https://www.google.com/support/forum/p/Google+Mobile/thread?tid=0388614a7d4ba43d&hl=en&fid=0388614a7d4ba43d00047456d9a99bf0&hltp=2`)
 - [SuperUser thread](https://superuser.com/questions/196773/gmail-in-iphone-how-to-delete-on-swipe)

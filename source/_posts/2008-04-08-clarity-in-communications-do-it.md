@@ -13,7 +13,7 @@ On Tue, Apr 8, 2008 at 10:21 AM, ING DIRECT `saver@ingdirect.com` wrote:
 >
 > Your confirmation number is 0110000XXXXXXXX.
 >
-> To view your account balance, login to [ingdirect.com](https://www.ingdirect.com/).
+> To view your account balance, login to `https://www.ingdirect.com/`.
 
 On Tue, Apr 8, 2008 at 5:03 PM, William Entriken
 

@@ -23,7 +23,7 @@ old-link: https://fulldecent.blogspot.com/2019/10/wills-zksnarks-bibliography.ht
 
   - Christian Lundkvist
   - Example to prove transfer of funds, publish the hashes, ERC-20
-  - <https://media.consensys.net/introduction-to-zksnarks-with-examples-3283b554fc3b>
+  - `https://media.consensys.net/introduction-to-zksnarks-with-examples-3283b554fc3b`
   - ⚠️ The sending and receiving function can be combined. Just make it a hashed adding function.
   - Example: <https://github.com/Consensys/zero-knowledge-proofs/tree/master?files=1>
   - ⚠️ Typo greater than or equal to

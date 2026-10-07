@@ -11,19 +11,19 @@ tags:
   - youhearditherefirst
 old-link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html
 comments:
-  - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html#comment-5666518525526171656
+  - link: https://web.archive.org/web/20110128183641/http://fulldecent.blogspot.com:80/2010/10/classic-and-modern-job-searching-tips.html#comment-5666518525526171656
     name: William Entriken
     text: "Two people asked, and yes I did tell my Mom to STFU when she said &quot;it&#39;s OK, the average time to find a new job nowadays is XXX&quot;. But we&#39;re cool now."
-  - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html.html#comment-4221087274860336930
+  - link: https://web.archive.org/web/20110128183641/http://fulldecent.blogspot.com:80/2010/10/classic-and-modern-job-searching-tips.html#comment-4221087274860336930
     name: Micheal
     text: "This isn&#39;t guaranteed, but I found avoiding passive voice greater improves you writing style and people pay attention to your writing more even though they may not know why. Adding certainty also helps out. For example in the sample cover letter:  My ten years of bank experience IS OF interest to a rapidly growing bank like yours.  I AM relocating to Phoenix in May and KNOW I can contribute to your growth and profit. I AM arriving in Phoenix the week of April 3 and would appreciate the opportunity to show you how I can help you bank meet its goals."
-  - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html#comment-4783602569423196117
+  - link: https://web.archive.org/web/20110128183641/http://fulldecent.blogspot.com:80/2010/10/classic-and-modern-job-searching-tips.html#comment-4783602569423196117
     name: Anonymous
     text: "Micheal you&#39;re so funny! The original is not in the passive voice, it&#39;s the periphrastic future tense. Seriously, you don&#39;t even know what the passive is. Thanks for your clueless grammar advice, hopefully nobody reads the comments. Hilarious."
-  - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html#comment-5026640518296289269
+  - link: https://web.archive.org/web/20110128183641/http://fulldecent.blogspot.com:80/2010/10/classic-and-modern-job-searching-tips.html#comment-5026640518296289269
     name: William Entriken
     text: "Note to self: be wary of posting blog links to Slashdot, especially posts written in English."
-  - link: https://fulldecent.blogspot.com/2010/10/classic-and-modern-job-searching-tips.html#comment-2750375465691336864
+  - link: https://web.archive.org/web/20110128183641/http://fulldecent.blogspot.com:80/2010/10/classic-and-modern-job-searching-tips.html#comment-2750375465691336864
     name: Anonymous
     text: "Will, I know your Mom and she is VERY nice. You should never talk to your Mom like that (no this is not her). I&#39;m glad you listened to Uncle Jim. Smart man."
 affiliate-link: true
@@ -44,7 +44,7 @@ This advice direct from Jim Knocke, my great-uncle and 1987 winner of the Jeffer
 
 **Fix your silly-ass resume**
 
-For a sample two-page resume, [see mine](https://phor.net/resume.pdf). I much prefer the one-page format and that is the one that actually landed me this position.
+For a sample two-page resume, [see mine](https://web.archive.org/web/20220809062733/https://phor.net/resume.pdf). I much prefer the one-page format and that is the one that actually landed me this position.
 
 If you have trouble choosing what to put in/leave out and getting everything into a good format, do this: open Notepad and just type stories describing things you have accomplished. Then get your friends to help you choose what sounds the best and turn it into headlines. This is the only important part of the process.
 

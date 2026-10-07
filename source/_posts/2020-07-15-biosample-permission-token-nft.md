@@ -240,8 +240,8 @@ Some items discussed in this paper are areas for future research:
 
 The permission problem space
 
-- [EA-1] Electronic Arts, Inc. *EA & FIFA: Licensing Agreement Extended Until 2022*. May 8, 2013. <https://www.ea.com/games/fifa/news/ea-sports-and-fifa-extend-licensing-agreement-until-2022>. Accessed July 4, 2020.
-- [EA-2] Electronic Arts, Inc. *FIFA 20 Exclusive Licenses: All Leagues and Clubs*. <https://www.ea.com/games/fifa/fifa-20/leagues-and-clubs-authenticity>. Accessed July 4, 2020.
+- [EA-1] Electronic Arts, Inc. *EA & FIFA: Licensing Agreement Extended Until 2022*. May 8, 2013. `https://www.ea.com/games/fifa/news/ea-sports-and-fifa-extend-licensing-agreement-until-2022`. Accessed July 4, 2020.
+- [EA-2] Electronic Arts, Inc. *FIFA 20 Exclusive Licenses: All Leagues and Clubs*. `https://www.ea.com/games/fifa/fifa-20/leagues-and-clubs-authenticity`. Accessed July 4, 2020.
 - [FIFA-1] FIFA. FIFA Club World Cup: Regulations. December 15, 2018. <https://resources.fifa.com/image/upload/fifa-club-world-cup-2018-regulations.pdf?cloudid=tk5uj1eczwwsxas2zjsy>. Accessed July 4, 2020.
 
 A basic biosample permission platform

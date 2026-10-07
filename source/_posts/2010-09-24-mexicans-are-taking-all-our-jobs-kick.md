@@ -23,11 +23,11 @@ But the fact is: jobs exist in America if you want to work for them. You can sup
 
 First, the jobs exist. Here are five jobs in the Philadelphia area for unskilled labor:
 
-- [https://philadelphia.craigslist.org/lab/1935583290.html](https://philadelphia.craigslist.org/lab/1935583290.html)
-- [https://philadelphia.craigslist.org/lab/1928817616.html](https://philadelphia.craigslist.org/lab/1928817616.html)
-- [https://philadelphia.craigslist.org/lab/1922547233.html](https://philadelphia.craigslist.org/lab/1922547233.html)
-- [https://philadelphia.craigslist.org/lab/1951960047.html](https://philadelphia.craigslist.org/lab/1951960047.html)
-- [https://allentown.craigslist.org/lab/1967112281.html](https://allentown.craigslist.org/lab/1967112281.html)
+- `https://philadelphia.craigslist.org/lab/1935583290.html`
+- `https://philadelphia.craigslist.org/lab/1928817616.html`
+- `https://philadelphia.craigslist.org/lab/1922547233.html`
+- `https://philadelphia.craigslist.org/lab/1951960047.html`
+- `https://allentown.craigslist.org/lab/1967112281.html`
 
 All of these pay at least $12 per hour and include health benefits.
 
@@ -35,21 +35,21 @@ What can $12 per hour buy you? Well assume you work 30 hours a week and 4 weeks 
 
 Rooms in the Philadelphia area, all fully furnished, in good neighborhoods, and all utilities included:
 
-- [https://philadelphia.craigslist.org/roo/1972133902.html](https://philadelphia.craigslist.org/roo/1972133902.html)
-- [https://philadelphia.craigslist.org/roo/1970902803.html](https://philadelphia.craigslist.org/roo/1970902803.html)
-- [https://philadelphia.craigslist.org/roo/1970815065.html](https://philadelphia.craigslist.org/roo/1970815065.html)
-- [https://philadelphia.craigslist.org/roo/1969962518.html](https://philadelphia.craigslist.org/roo/1969962518.html)
-- [https://philadelphia.craigslist.org/roo/1968344720.html](https://philadelphia.craigslist.org/roo/1968344720.html)
+- `https://philadelphia.craigslist.org/roo/1972133902.html`
+- `https://philadelphia.craigslist.org/roo/1970902803.html`
+- `https://philadelphia.craigslist.org/roo/1970815065.html`
+- `https://philadelphia.craigslist.org/roo/1969962518.html`
+- `https://philadelphia.craigslist.org/roo/1968344720.html`
 
 And they're all under $500 a month.
 
 Here are five listings for home food delivery services that will deliver you 3 home-cooked meals a day:
 
-- [https://philadelphia.craigslist.org/hss/1964180822.html](https://philadelphia.craigslist.org/hss/1964180822.html)
-- [https://southjersey.craigslist.org/evs/1963313367.html](https://southjersey.craigslist.org/evs/1963313367.html)
-- [https://philadelphia.craigslist.org/hss/1950508127.html](https://philadelphia.craigslist.org/hss/1950508127.html)
-- [https://southjersey.craigslist.org/hss/1900997566.html](https://southjersey.craigslist.org/hss/1900997566.html)
-- [https://philadelphia.craigslist.org/hss/1926958966.html](https://philadelphia.craigslist.org/hss/1926958966.html)
+- `https://philadelphia.craigslist.org/hss/1964180822.html`
+- `https://southjersey.craigslist.org/evs/1963313367.html`
+- `https://philadelphia.craigslist.org/hss/1950508127.html`
+- `https://southjersey.craigslist.org/hss/1900997566.html`
+- `https://philadelphia.craigslist.org/hss/1926958966.html`
 
 Some of these can be had at 3 meals a day for $15, even ignoring quantity discount/deals.
 

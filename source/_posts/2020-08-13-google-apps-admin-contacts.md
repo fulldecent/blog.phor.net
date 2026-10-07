@@ -17,7 +17,7 @@ You can look up the public contact information for any G Suite  account. This in
 
 ## Introduction
 
-This information is at, for example: <https://www.google.com/a/arstechnica.com/DomainContact>
+This information is at, for example: `https://www.google.com/a/arstechnica.com/DomainContact`
 
 I have looked at the [Moz Top 500](https://moz.com/top500) list and found which websites publish their administrator information.
 
@@ -43,9 +43,9 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - arstechnica.com — Email `civis@arstechnica.com`
 - avast.com — Contact it crowd at `itcrowd@avast.com`.
 - bbc.co.uk — If you have further questions about this setting please click this link&nbsp;below:
-- bbc.co.uk — <https://drive.google.com/drive/folders/0AKDMkhQ3AbyZUk9PVA>
+- bbc.co.uk — `https://drive.google.com/drive/folders/0AKDMkhQ3AbyZUk9PVA`
 - bbc.com — If you have further questions about this setting please click this link&nbsp;below:
-- bbc.com — <https://drive.google.com/drive/folders/0AKDMkhQ3AbyZUk9PVA>
+- bbc.com — `https://drive.google.com/drive/folders/0AKDMkhQ3AbyZUk9PVA`
 - bloglovin.com — `support@bloglovin.com`
 - bloomberg.com — For questions about this service contact Raj Naghee Reddy or Enda McGee:
 - booking.com — You cannot login with your existing booking.com account.
@@ -68,7 +68,7 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - gutenberg.org — Please ask questions here:
 - gutenberg.org — `https://answers.ibiblio.org`
 - harvard.edu — Please navigate to the following URL for information regarding obtaining support and changing your password:
-- harvard.edu — <https://sites.google.com/a/g.harvard.edu/password-change/>
+- harvard.edu — `https://sites.google.com/a/g.harvard.edu/password-change/`
 - hm.com — If you need help with your password or other support please contact your SEC responsible.
 - hollywoodreporter.com — Do you need help signing in to your account?
 - hollywoodreporter.com — Email us at:
@@ -100,7 +100,7 @@ Here is the full text list of helpdesk employees and password reset  instruction
 - scribd.com — For help please contact `helpdesk@scribd.com`
 - shopify.com — Contact IT for help.
 - shopify.com — `it@shopify.com`
-- shopify.com — <https://shopify.slack.com/messages/it>
+- shopify.com — `https://shopify.slack.com/messages/it`
 - shopify.com — `https://github.com/Shopify/it`
 - shutterstock.com — If you require assistance with Google Apps, please contact `it@shutterstock.com`
 - soundcloud.com — Please contact `techsupport@soundcloud.com`

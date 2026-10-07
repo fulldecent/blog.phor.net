@@ -68,7 +68,7 @@ The president has access to mail all students/faculty/staff at once.
 
 It turns out that the Villanova email system required you to login to access your emails. But no password was required to *send* emails (IP-address based SMTP authentication) from certain physical locations. That means anybody could send emails as anybody, including the university president.
 
-I presented a post-mortem of this to my cryptography class, the slides are still at <https://docs.google.com/presentation/d/1qND8ihiCSufuqDTC__EobFzJ_h3RpxrdzDPcqgSVZE8>
+I presented a post-mortem of this to my cryptography class, the slides are still at `https://docs.google.com/presentation/d/1qND8ihiCSufuqDTC__EobFzJ_h3RpxrdzDPcqgSVZE8`
 
 I found out that the original, malicious email was sent by somebody using guest login at Falvey Library who set up an email account using Thunderbird, setting the "from" address as the president... which of course has send access to the "all students" email list. The second email was sent using a more crude telnet session to the SMTP server, which obviously did not support spell check!
 

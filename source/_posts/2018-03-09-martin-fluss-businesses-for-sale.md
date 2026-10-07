@@ -41,7 +41,7 @@ In 2015 Martin Fluss operated a website to sell the same business as get rich qu
 - Owner of this site is Martin Fluss ([source](https://search.sunbiz.org/Inquiry/CorporationSearch/ByName), and search MULTI MILLION DOLLAR BUSINESS OPPORTUNITIES)
 - Martin Fluss signed this page which offers the import-export business as a franchise, not an actual business ([source](https://web.archive.org/web/20141217165106/https://importexportsuccess.net/))
 
-Martin owns the website [Handicap USA 1](https://www.handicapusa1.com/) which matches the description of the “A Charity Business” from EC Business Brokers, above. And thus Martin’s actual address is revealed ([source](https://www.whois.com/whois/handicapusa1.com)).
+Martin owns the website [Handicap USA 1](https://web.archive.org/web/20180804154940/http://handicapusa1.com/) which matches the description of the “A Charity Business” from EC Business Brokers, above. And thus Martin’s actual address is revealed ([source](https://www.whois.com/whois/handicapusa1.com)).
 
 This address matches the description Martin provided to us on the phone. Martin’s actual identity and address:
 
@@ -58,7 +58,7 @@ Possible photo of Fluss ([source](https://www.realscam.com/attachments/f16/6375d
 
 As per our review.
 
-- <https://fastlegalimmigrationusa.com>
+- `https://fastlegalimmigrationusa.com`
 - Flat-tire-emergency-helper1.com
 - Penningtonshighschool1.com
 - Inventionsubmitauthority1.com
@@ -71,19 +71,19 @@ Source: WHOIS search and [Sun Biz search](https://search.sunbiz.org/inquiry/corp
 
 ## Are these businesses legitimate?
 
-Martin was successfully sued for $85,000, ([source](https://www2.miami-dadeclerk.com/ocs/Search.aspx)), search local case number 2010-023010-CA-01)).
+Martin was successfully sued for $85,000, ([source](https://web.archive.org/web/20081211050757/http://www2.miami-dadeclerk.com:80/ocs/Search.aspx?)), search local case number 2010-023010-CA-01)).
 
 - Martin was found guilty of fraudulent inducement for selling a business on false pretenses which included providing false IRS records, source: judgement 29392:2969
 - Fluss made representations that the business was developed but it “plainly” was not, source: judgement 29392:2969
 - Martin pleaded to court that he did not have access to funds to pay the XXX judgement, additionally he was investigated for failing to disclose funds he did have access to, source: motion 04/26/2016 / FOR ENTRY OF ORDER TO SHOW CAUSE shows
 - The findings in the judgement would easily meet the definition of mail fraud if such documents were provided over USPS mail
 
-The State of Oklahoma, Department of Securities officially complained to Fluss for soliciting its residents to purchase businesses but not following proper disclosure laws ([source](https://www.securities.ok.gov/commission/Reports/2013/May-Jun%202013/Enforcement_May-Jun_2013.pdf)).
+The State of Oklahoma, Department of Securities officially complained to Fluss for soliciting its residents to purchase businesses but not following proper disclosure laws ([source](https://web.archive.org/web/20130809062444/http://www.securities.ok.gov/Commission/Reports/2013/May-Jun%202013/Enforcement_May-Jun_2013.pdf)).
 
 Other people that purchased his business publicly posted that it was a scam:
 
 - <https://www.smallbg.com/button/hb/201507/a_What_is_Multi_Million_Dollar_Business_Opportunities_and_who_is_Martin_Fluss_.html>
-- <https://answers.yahoo.com/question/index?qid=20140917155815AARcfaf>
+- `https://answers.yahoo.com/question/index?qid=20140917155815AARcfaf`
 - <https://www.realscam.com/f16/multi-million-dollar-opportunities-martin-fluss-scam-great-opportunity-2766/>
 - <https://www.youtube.com/watch?v=5V9Py56Ldwo>
 - <https://www.yelp.com/biz/penningtons-national-high-school-fort-lauderdale>
@@ -91,11 +91,11 @@ Other people that purchased his business publicly posted that it was a scam:
 Other notes showing that One-of-a-Kind High School is not accredited:
 
 - [Accreditation statement](https://www.bizbuysell.com/Business-Opportunity/One-Of-A-Kind-High-School/1215150/)
-- Accreditation agency is National Accreditation Agency ([source](https://nationalaccreditationagency.com/))
+- Accreditation agency is National Accreditation Agency ([source](https://web.archive.org/web/20050526142311/http://www.nationalaccreditationagency.com:80/))
 - Deborah Bryant represents National Accreditiation Agency ([source: Washington Post](https://web.archive.org/web/20180630051808/http://www.washingtonpost.com/wp-dyn/content/article/2009/09/21/AR2009092103101.html))
 - This entity is clearly a joke
 - Listed reason for sale: health problems ([source](https://www.bizquest.com/business-for-sale/one-of-a-kind-high-school/BW1395191/))
-- Further review: <https://answers.yahoo.com/question/index?qid=20101201110828AAuFE84>
+- Further review: `https://answers.yahoo.com/question/index?qid=20101201110828AAuFE84`
 
 ## Summary
 

@@ -36,8 +36,8 @@ The problem with the new model is that the database is now another source of ent
 Examples of SMS spam websites include:
 
 - [triviaspace.net/US1](https://www.triviaspace.net/US1/)
-- [iqlovetestv0.iqlovetest.com](https://iqlovetestv0.iqlovetest.com/)
-- [thankyoupath.com/landing_pages/quiz_dating](https://www.thankyoupath.com/landing_pages/quiz_dating/)
+- [iqlovetestv0.iqlovetest.com](https://web.archive.org/web/20090118230649/http://iqlovetestv0.iqlovetest.com:80/?)
+- [thankyoupath.com/landing_pages/quiz_dating](https://web.archive.org/web/20081030012717/http://www.thankyoupath.com:80/landing_pages/quiz_dating/)
 
 ![Screenshot](/assets/images/security-hole-in-sms-spam-websites.webp)
 

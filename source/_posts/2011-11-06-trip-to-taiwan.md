@@ -44,4 +44,4 @@ This bra has four layers of customizable padding. If American bras are Saran wra
 
 ![Bra in Taiwan](/assets/images/trip-to-taiwan-7.webp)
 
-See all the photos on FD Camera Life [2011-11 Taiwan](https://camera.phor.net/2011-11%20Taiwan).
+See all the photos on FD Camera Life 2011-11 Taiwan (`https://camera.phor.net/2011-11%20Taiwan`).

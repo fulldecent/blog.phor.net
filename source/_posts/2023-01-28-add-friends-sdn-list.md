@@ -8,9 +8,9 @@ comments:
   - link: https://github.com/MetaMask/metamask-extension/issues/11147
     name: '@fulldecent'
     text: Bug report
-  - link: https://hackerone.com/reports/1664280
+  - link: https://github.com/MetaMask/metamask-extension/issues/11147
     name: '@fulldecent'
-    text: HackerOne report
+    text: HackerOne report (https://hackerone.com/reports/1664280)
 ---
 
 *There is humor in this article title, you do not want to add your friends to the Specially Designated Nationals (SDN) list. This list is published by the US Department of the Treasury's Office of Foreign Assets Control (OFAC) and is used to enforce economic sanctions and other financial restrictions imposed by the United States government.*

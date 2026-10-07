@@ -7,7 +7,7 @@ old-link: https://privacylog.blogspot.com/2015/07/prodpi-ordering-system-leaking
 UPDATES
 
 - First draft 2015-07-01: Reviewed with ProDPI COO&nbsp;Jeffrey Lazo.
-- Update 2015-07-04: ProDPI has made a blog post at <https://www.prodpi.com/security-warning/> which reasonably notifies customers of the vulnerability. Updated text to reflect this.
+- Update 2015-07-04: ProDPI has made a blog post at `https://www.prodpi.com/security-warning/` which reasonably notifies customers of the vulnerability. Updated text to reflect this.
 - Update 2016-07-08: The website is now vulnerable again in nearly the same exact way.
 
 ## Background
@@ -19,19 +19,19 @@ ProDPI is a photo lab which is marketed to professional photographers, specifica
 ProDPI uses several systems for sales, client interaction, and order processing:
 
 - <https://www.prodpi.com/> main sales website
-- <https://www.prodpiconnect.com/> order tracking and account management
+- <https://web.archive.org/web/20110202120452/https://www.prodpiconnect.com/> order tracking and account management
 - ProDPI ROES downloadable Java "Remote Order Entry System" system for uploading
 - <https://www.roeslaunch.com> backend server for ROES
-- <https://www.prodpiroes.com> backend server for ROES
-- <https://199.127.202.18:81> backend server for ROES
+- `https://www.prodpiroes.com` backend server for ROES
+- `https://199.127.202.18:81` backend server for ROES
 
 ![Systems](/assets/images/prodpi-customer-information-leak.webp)
 
 ## The vulnerability
 
-When accessing the <https://www.prodpiconnect.com/> website to review an order, you must be logged in to access any data. However, once logged in, you are able to access billing data from another user's account. A URL for accessing my invoice it at:
+When accessing the <https://web.archive.org/web/20110202120452/https://www.prodpiconnect.com/> website to review an order, you must be logged in to access any data. However, once logged in, you are able to access billing data from another user's account. A URL for accessing my invoice it at:
 
-- <https://www.prodpiconnect.com/invoice_prodpi.asp?InvoiceID=1126629>
+- `https://www.prodpiconnect.com/invoice_prodpi.asp?InvoiceID=1126629`
 
 ![Access](/assets/images/prodpi-customer-information-leak.webp)
 
@@ -49,7 +49,7 @@ I wrote in with the following letter to announce this vulnerability to the vendo
 >
 > These can be found by logging in then accessing the URL below and then changing the number at the end to all possible order numbers (which are sequential).
 >
-> <https://www.prodpiconnect.com/workorder_prodpi.asp?ACTION=WorkOrder&amp;Workorder=1031060>
+> `https://www.prodpiconnect.com/workorder_prodpi.asp?ACTION=WorkOrder&Workorder=1031060`
 >
 > This may sound like a tedious task, however, someone with the right expertise would be able to download all such orders with no more than 5 minutes of effort. (I have not done so. Although others may have already done this.)
 >
@@ -76,7 +76,7 @@ From email quotes, I can see Caitlin Lazo, the CEO, forwarded the message to Jef
 
 Jeffrey replied 39 minutes after my original message to note that the issue has been fixed by temporarily disabling access to invoices. He said it would be secured and brought back online soon. I can confirm this has been done.
 
-ProDPI has made <a href="https://www.prodpi.com/security-warning/">a blog post on its website</a> regarding the potential breach to inform customers that some data may have been compromised.
+ProDPI has made a blog post on its website (`https://www.prodpi.com/security-warning/`) regarding the potential breach to inform customers that some data may have been compromised.
 
 ## The privacy policy
 

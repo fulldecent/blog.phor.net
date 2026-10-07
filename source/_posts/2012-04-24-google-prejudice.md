@@ -5,7 +5,7 @@ tags:
 old-link: https://fulldecent.blogspot.com/2009/11/google-prejudice.html
 ---
 
-All of this data was produced 100% automatically by Google Suggest on [this Google Docs spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AlbVoMWpVpO8dDVqYTlkN2JOZERVN2dnczlLT2RUSFE), which you can edit to make your own funny blog posts.
+All of this data was produced 100% automatically by Google Suggest on this Google Docs spreadsheet (`https://docs.google.com/spreadsheet/ccc?key=0AlbVoMWpVpO8dDVqYTlkN2JOZERVN2dnczlLT2RUSFE`), which you can edit to make your own funny blog posts.
 
 | X | Black people | Jewish people | Indian people | Chinese people |
 |--------------|---------------|---------------|----------------|

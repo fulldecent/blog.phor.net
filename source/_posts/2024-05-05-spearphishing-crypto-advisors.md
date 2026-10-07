@@ -122,7 +122,7 @@ Subject: Hire
 >
 > Regarding your role as a technical advisor, it is very valuable to us. The technical aspect of games and applications within the Web3 concept plays a key role, and your expert opinion and advice can greatly contribute to the development of our project.
 >
-> I can add you to our gaming playground system, to our room. Also, I think there will be an opportunity to chat with the project founder. You can join our Discord here: <https://discord.gg/quantumstudio>
+> I can add you to our gaming playground system, to our room. Also, I think there will be an opportunity to chat with the project founder. You can join our Discord here: <https://discord.com/invite/quantumstudio>
 
 > From: William Entriken
 >
@@ -306,7 +306,7 @@ Through the links they sent to me on email above, our meeting, and my own resear
 - Investors `https://docs.quantumverse.world/quantum-investors`
 - Staff Handbook `https://docs.quantumverse.world/legal/staff-handbook`
 - Website Privacy Policy `https://docs.quantumverse.world/legal/website-privacy-policy`
-- Gala Games <https://app.gala.games/games/quantumverse>
+- Gala Games `https://app.gala.games/games/quantumverse`
 - $QUANT Bubblemaps `https://v2.bubblemaps.io/map?address=0x4e69365007ee6560d01d174b608bf9ac13d58f37&chain=eth`
 - Bluesky `https://bsky.app/profile/quantumstudio`
 - Entre `https://joinentre.com/profile/quantumstudio`

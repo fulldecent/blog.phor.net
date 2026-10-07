@@ -10,7 +10,7 @@ comments:
 ---
 
 > **Download the puzzle:**  
-> [Download PDF](https://hosting2.phor.net/~phor/beta/Anasquare%202011-05-11%20Sheet1.pdf)
+> Download PDF (`https://hosting2.phor.net/~phor/beta/Anasquare%202011-05-11%20Sheet1.pdf`)
 
 Anasquare puzzle
 

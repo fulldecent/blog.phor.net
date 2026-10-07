@@ -20,7 +20,7 @@ So here is the key part zoomed in:
 
 And if you click it you can verify the file you uploaded. Here's the URL for the tax records I just uploaded:
 
-> <https://www.esa.dced.state.pa.us/AddendaStream.aspx?SurveyUploadUid=104097>
+> `https://www.esa.dced.state.pa.us/AddendaStream.aspx?SurveyUploadUid=104097`
 
 So I read out the URL to my coworker sitting next to me, or maybe I typed it in on another computer, honestly I forget. **And don't you know, somebody else's application or tax records or something came up.** What?
 
@@ -54,7 +54,7 @@ I'm not concerned about this. Because the people that interpret the laws, a jury
 
 Here is how I got the information to the responsible party:
 
-- 2017-09-14: Emailed `ra-dcedcs@pa.gov` with "Hello, I have found a serious security issue with your website <https://www.esa.dced.state.pa.us> that is making information public that should not be. Could you please advise me who I may properly disclose my finding to?"
+- 2017-09-14: Emailed `ra-dcedcs@pa.gov` with "Hello, I have found a serious security issue with your website `https://www.esa.dced.state.pa.us` that is making information public that should not be. Could you please advise me who I may properly disclose my finding to?"
 - 2017-09-14: Received an immediate reply from Sarah, Customer Service Representative, PA Department of Community &amp; Economic Development. We engaged and she directed me to the next contact.
 - *There were some phone calls in between here, sorry I don't have access to my phone records right now.*
 - 2017-10-12: Sent complete details of vulnerability to Brian, Application Developer Administrator, PA Office of Administration

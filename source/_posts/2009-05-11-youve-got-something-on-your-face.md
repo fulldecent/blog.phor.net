@@ -39,4 +39,4 @@ Do you have something on:
 
 Please help me demonstrate that the "correct" answer is B by performing this experiment on your friends from various countries of origin!
 
-Also, Chris notes that while B is the socially accepted answer and that it is the most effective way of communicating with other people and that it is difficult and unintuitive to persuade others to change, Americans are stupid and we should learn to tell our lefts from our rights. However, Chris's decisions can be safely ignored, as he uses the [underhand toilet paper method](https://www.tribalwar.com/forums/archive/t-396161.html).
+Also, Chris notes that while B is the socially accepted answer and that it is the most effective way of communicating with other people and that it is difficult and unintuitive to persuade others to change, Americans are stupid and we should learn to tell our lefts from our rights. However, Chris's decisions can be safely ignored, as he uses the underhand toilet paper method (`https://www.tribalwar.com/forums/archive/t-396161.html`).
