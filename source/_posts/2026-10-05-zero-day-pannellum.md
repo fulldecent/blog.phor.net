@@ -6,6 +6,8 @@ comments: []
 
 The US National Park Service runs nps.gov, a trusted .gov domain on the internet. Through October 2026, a special link made the browser address bar show nps.gov while the page showed crypto spam about Solana NFTs. The page was indexed in Google News. Here is how the entire attack works, step by step.
 
+We talked through this live on Community Service Hour [Pannellum Zero Day (ep. 143)](https://hour.gg/episodes/2026-10-05-episode-143).
+
 ![Crypto spam displayed on nps.gov](/assets/images/zero-day-pannellum.webp)
 
 ## Walkthrough
