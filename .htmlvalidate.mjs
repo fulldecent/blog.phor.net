@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [NiceCheckersPlugin],
   extends: ["html-validate:prettier", "nice-checkers-plugin:recommended"],
   rules: {
+    "nice-checkers/latest-packages": "error",
     "allowed-links": [
       "error",
       {
